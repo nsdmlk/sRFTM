@@ -98,3 +98,405 @@
 {"input": "sqrt(a^2 + b^2)", "output": "\\sqrt{a^{2} + b^{2}}"}
 {"input": "log(x*y) = log(x) + log(y)", "output": "\\log(xy) = \\log(x) + \\log(y)"}
 {"input": "lim n->inf (1 + 1/n)^n = e", "output": "\\lim_{n \\to \\infty} (1 + \\frac{1}{n})^{n} = e"}
+{"input": "предел x->0 sin(x)/x", "output": "\\lim_{x \\to 0} \\frac{\\sin(x)}{x}"}
+{"input": "lim x->2 (x^2-4)/(x-2)", "output": "\\lim_{x \\to 2} \\frac{x^{2}-4}{x-2}"}
+{"input": "предел n к бесконечности (1+1/n)^n", "output": "\\lim_{n \\to \\infty} (1+\\frac{1}{n})^{n}"}
+{"input": "lim y->0 (e^y-1)/y", "output": "\\lim_{y \\to 0} \\frac{e^{y}-1}{y}"}
+{"input": "предел x стремится к a f(x)", "output": "\\lim_{x \\to a} f(x)"}
+{"input": "lim k->inf 1/k", "output": "\\lim_{k \\to \\infty} \\frac{1}{k}"}
+{"input": "предел x->-inf e^x", "output": "\\lim_{x \\to -\\infty} e^{x}"}
+{"input": "lim x->0 (cos(x)-1)/x", "output": "\\lim_{x \\to 0} \\frac{\\cos(x)-1}{x}"}
+{"input": "предел h->0 (f(x+h)-f(x))/h", "output": "\\lim_{h \\to 0} \\frac{f(x+h)-f(x)}{h}"}
+{"input": "lim z->1 (z^3-1)/(z-1)", "output": "\\lim_{z \\to 1} \\frac{z^{3}-1}{z-1}"}
+{"input": "предел x->0 tg(x)/x", "output": "\\lim_{x \\to 0} \\frac{\\tan(x)}{x}"}
+{"input": "lim i->inf (1+2/i)^i", "output": "\\lim_{i \\to \\infty} (1+\\frac{2}{i})^{i}"}
+{"input": "предел x->+inf x^n", "output": "\\lim_{x \\to +\\infty} x^{n}"}
+{"input": "lim x->0 ln(1+x)/x", "output": "\\lim_{x \\to 0} \\frac{\\ln(1+x)}{x}"}
+{"input": "предел x->3 (x^2-9)/(x-3)", "output": "\\lim_{x \\to 3} \\frac{x^{2}-9}{x-3}"}
+{"input": "lim n->inf n^(1/n)", "output": "\\lim_{n \\to \\infty} n^{1/n}"}
+{"input": "предел x->0 (sqrt(1+x)-1)/x", "output": "\\lim_{x \\to 0} \\frac{\\sqrt{1+x}-1}{x}"}
+{"input": "lim a->0 sin(a)/a", "output": "\\lim_{a \\to 0} \\frac{\\sin(a)}{a}"}
+{"input": "предел x->inf (3x^2+2)/(x^2-1)", "output": "\\lim_{x \\to \\infty} \\frac{3x^{2}+2}{x^{2}-1}"}
+{"input": "lim y->2 (y^2-4)/(y-2)", "output": "\\lim_{y \\to 2} \\frac{y^{2}-4}{y-2}"}
+{"input": "предел x->0 (1-cos(x))/x^2", "output": "\\lim_{x \\to 0} \\frac{1-\\cos(x)}{x^{2}}"}
+{"input": "lim b->inf (1+a/b)^b", "output": "\\lim_{b \\to \\infty} (1+\\frac{a}{b})^{b}"}
+{"input": "предел x->1 ln(x)/(x-1)", "output": "\\lim_{x \\to 1} \\frac{\\ln(x)}{x-1}"}
+{"input": "lim x->0 (a^x-1)/x", "output": "\\lim_{x \\to 0} \\frac{a^{x}-1}{x}"}
+{"input": "предел n->inf (n+1)/n", "output": "\\lim_{n \\to \\infty} \\frac{n+1}{n}"}
+{"input": "lim x->-2 (x^2-4)/(x+2)", "output": "\\lim_{x \\to -2} \\frac{x^{2}-4}{x+2}"}
+{"input": "предел x->0 (e^(2x)-1)/x", "output": "\\lim_{x \\to 0} \\frac{e^{2x}-1}{x}"}
+{"input": "lim t->0 sin(3t)/t", "output": "\\lim_{t \\to 0} \\frac{\\sin(3t)}{t}"}
+{"input": "предел x->inf (x+1)/(x-1)", "output": "\\lim_{x \\to \\infty} \\frac{x+1}{x-1}"}
+{"input": "lim x->0 (1+x)^(1/x)", "output": "\\lim_{x \\to 0} (1+x)^{1/x}"}
+{"input": "предел k->inf (1+1/k)^(k+1)", "output": "\\lim_{k \\to \\infty} (1+\\frac{1}{k})^{k+1}"}
+{"input": "lim x->4 (x^2-16)/(x-4)", "output": "\\lim_{x \\to 4} \\frac{x^{2}-16}{x-4}"}
+{"input": "предел x->0 (tan(x)-sin(x))/x^3", "output": "\\lim_{x \\to 0} \\frac{\\tan(x)-\\sin(x)}{x^{3}}"}
+{"input": "lim n->inf (2n^2+3n)/(n^2+1)", "output": "\\lim_{n \\to \\infty} \\frac{2n^{2}+3n}{n^{2}+1}"}
+{"input": "предел x->0 (sqrt(x+4)-2)/x", "output": "\\lim_{x \\to 0} \\frac{\\sqrt{x+4}-2}{x}"}
+{"input": "lim x->1 (x^3-1)/(x-1)", "output": "\\lim_{x \\to 1} \\frac{x^{3}-1}{x-1}"}
+{"input": "предел x->0 sin(x^2)/x^2", "output": "\\lim_{x \\to 0} \\frac{\\sin(x^{2})}{x^{2}}"}
+{"input": "lim y->0 (e^y-1-y)/y^2", "output": "\\lim_{y \\to 0} \\frac{e^{y}-1-y}{y^{2}}"}
+{"input": "предел x->inf sqrt(x^2+1)-x", "output": "\\lim_{x \\to \\infty} \\sqrt{x^{2}+1}-x"}
+{"input": "lim x->0 (1-cos(2x))/x^2", "output": "\\lim_{x \\to 0} \\frac{1-\\cos(2x)}{x^{2}}"}
+{"input": "предел n->inf (1-1/n)^n", "output": "\\lim_{n \\to \\infty} (1-\\frac{1}{n})^{n}"}
+{"input": "lim x->a (x^n-a^n)/(x-a)", "output": "\\lim_{x \\to a} \\frac{x^{n}-a^{n}}{x-a}"}
+{"input": "предел x->0 (a^x-b^x)/x", "output": "\\lim_{x \\to 0} \\frac{a^{x}-b^{x}}{x}"}
+{"input": "lim x->inf (1+a/x)^x", "output": "\\lim_{x \\to \\infty} (1+\\frac{a}{x})^{x}"}
+{"input": "предел x->0 ln(cos(x))/x^2", "output": "\\lim_{x \\to 0} \\frac{\\ln(\\cos(x))}{x^{2}}"}
+{"input": "lim x->1 (x^x-1)/(x-1)", "output": "\\lim_{x \\to 1} \\frac{x^{x}-1}{x-1}"}
+{"input": "предел x->0 (sin(x)-x)/x^3", "output": "\\lim_{x \\to 0} \\frac{\\sin(x)-x}{x^{3}}"}
+{"input": "lim n->inf (n!)^(1/n)/n", "output": "\\lim_{n \\to \\infty} \\frac{(n!)^{1/n}}{n}"}
+{"input": "предел x->0 (1+x)^(a/x)", "output": "\\lim_{x \\to 0} (1+x)^{a/x}"}
+{"input": "lim x->pi/2 (cos(x))/(x-pi/2)", "output": "\\lim_{x \\to \\pi/2} \\frac{\\cos(x)}{x-\\pi/2}"}
+{"input": "x^2 + y^2", "output": "x^{2} + y^{2}"}
+{"input": "a/b + c/d", "output": "\\frac{a}{b} + \\frac{c}{d}"}
+{"input": "(x+1)/(x-1)", "output": "\\frac{x+1}{x-1}"}
+{"input": "1/(a+b)", "output": "\\frac{1}{a+b}"}
+{"input": "sqrt(x^2+y^2)", "output": "\\sqrt{x^{2}+y^{2}}"}
+{"input": "sqrt(a+b)", "output": "\\sqrt{a+b}"}
+{"input": "cbrt(a+b)", "output": "\\sqrt[3]{a+b}"}
+{"input": "sqrt(x)/sqrt(y)", "output": "\\frac{\\sqrt{x}}{\\sqrt{y}}"}
+{"input": "1/sqrt(a^2+b^2)", "output": "\\frac{1}{\\sqrt{a^{2}+b^{2}}}"}
+{"input": "sqrt(x^3)", "output": "\\sqrt{x^{3}}"}
+{"input": "deriv(x^2+3x)", "output": "\\frac{d}{dx}(x^{2}+3x)"}
+{"input": "d/dx sin(x)", "output": "\\frac{d}{dx}(\\sin(x))"}
+{"input": "производная от x^3", "output": "(x^{3})'"}
+{"input": "f'''(x)", "output": "f'''(x)"}
+{"input": "deriv(ln(x))", "output": "\\frac{d}{dx}(\\ln(x))"}
+{"input": "d/dx e^x", "output": "\\frac{d}{dx}(e^{x})"}
+{"input": "производная cos(x)", "output": "\\frac{d}{dx}(\\cos(x))"}
+{"input": "df/dy", "output": "\\frac{df}{dy}"}
+{"input": "deriv(x^n)", "output": "\\frac{d}{dx}(x^{n})"}
+{"input": "d/dt (t^2+1)", "output": "\\frac{d}{dt}(t^{2}+1)"}
+{"input": "integral x^3 dx", "output": "\\int x^{3} \\, dx"}
+{"input": "int_0^1 x dx", "output": "\\int_{0}^{1} x \\, dx"}
+{"input": "∫ cos(x) dx", "output": "\\int \\cos(x) \\, dx"}
+{"input": "integral from a to b of f(x) dx", "output": "\\int_{a}^{b} f(x) \\, dx"}
+{"input": "int e^x dx", "output": "\\int e^{x} \\, dx"}
+{"input": "интеграл 0 1 x^2 dx", "output": "\\int_{0}^{1} x^{2} \\, dx"}
+{"input": "∫∫∫ f(x,y,z) dx dy dz", "output": "\\iiint f(x,y,z) \\, dx \\, dy \\, dz"}
+{"input": "int 1/(x+1) dx", "output": "\\int \\frac{1}{x+1} \\, dx"}
+{"input": "integral ln(x) dx", "output": "\\int \\ln(x) \\, dx"}
+{"input": "∫_a^b g(t) dt", "output": "\\int_{a}^{b} g(t) \\, dt"}
+{"input": "sum k=1 n k", "output": "\\sum_{k=1}^{n} k"}
+{"input": "Σ_{i=1}^n i^2", "output": "\\sum_{i=1}^{n} i^{2}"}
+{"input": "sum from k=0 to inf x^k", "output": "\\sum_{k=0}^{\\infty} x^{k}"}
+{"input": "Σ 1/n", "output": "\\sum \\frac{1}{n}"}
+{"input": "sum of x_i from i=1 to n", "output": "\\sum_{i=1}^{n} x_i"}
+{"input": "Σ_{j=1}^m y_j", "output": "\\sum_{j=1}^{m} y_j"}
+{"input": "sum n=1 inf 1/n^3", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{3}}"}
+{"input": "Σ_{k} a_k b_k", "output": "\\sum_{k} a_k b_k"}
+{"input": "sum from i=1 to n of i", "output": "\\sum_{i=1}^{n} i"}
+{"input": "Σ 3^n", "output": "\\sum 3^{n}"}
+{"input": "alpha^2 + beta^2", "output": "\\alpha^{2} + \\beta^{2}"}
+{"input": "sin(theta) + cos(theta)", "output": "\\sin(\\theta) + \\cos(\\theta)"}
+{"input": "tan(phi)", "output": "\\tan(\\phi)"}
+{"input": "pi*r^2", "output": "\\pi r^{2}"}
+{"input": "lambda^2", "output": "\\lambda^{2}"}
+{"input": "omega^2 t", "output": "\\omega^{2} t"}
+{"input": "delta x / delta t", "output": "\\frac{\\delta x}{\\delta t}"}
+{"input": "gamma(x)", "output": "\\gamma(x)"}
+{"input": "sigma^2 / n", "output": "\\frac{\\sigma^{2}}{n}"}
+{"input": "mu + sigma", "output": "\\mu + \\sigma"}
+{"input": "log_3(x)", "output": "\\log_{3}(x)"}
+{"input": "ln(x^2+1)", "output": "\\ln(x^{2}+1)"}
+{"input": "log(a/b)", "output": "\\log(\\frac{a}{b})"}
+{"input": "log_2(8)", "output": "\\log_{2}(8)"}
+{"input": "exp(-x^2)", "output": "\\exp(-x^{2})"}
+{"input": "log(x^n)", "output": "\\log(x^{n})"}
+{"input": "ln(x)/ln(y)", "output": "\\frac{\\ln(x)}{\\ln(y)}"}
+{"input": "log_10(x+1)", "output": "\\log_{10}(x+1)"}
+{"input": "e^(ln(x))", "output": "e^{\\ln(x)}"}
+{"input": "log(sqrt(x))", "output": "\\log(\\sqrt{x})"}
+{"input": "f(x) = x^3 - 2x + 1", "output": "f(x) = x^{3} - 2x + 1"}
+{"input": "g(x) = sin(x^2)", "output": "g(x) = \\sin(x^{2})"}
+{"input": "E = mc^2", "output": "E = mc^{2}"}
+{"input": "F = m*a", "output": "F = m \\cdot a"}
+{"input": "a^2 + b^2 = c^2", "output": "a^{2} + b^{2} = c^{2}"}
+{"input": "sin^2(x) + cos^2(x) = 1", "output": "\\sin^{2}(x) + \\cos^{2}(x) = 1"}
+{"input": "e^(i*pi) + 1 = 0", "output": "e^{i\\pi} + 1 = 0"}
+{"input": "(x+y)^3 = x^3 + 3x^2y + 3xy^2 + y^3", "output": "(x+y)^{3} = x^{3} + 3x^{2}y + 3xy^{2} + y^{3}"}
+{"input": "sum n=1 inf 1/n^4 = pi^4/90", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{4}} = \\frac{\\pi^{4}}{90}"}
+{"input": "∫_0^1 x^n dx = 1/(n+1)", "output": "\\int_{0}^{1} x^{n} \\, dx = \\frac{1}{n+1}"}
+{"input": "lim x->0 sin(x)/x = 1", "output": "\\lim_{x \\to 0} \\frac{\\sin(x)}{x} = 1"}
+{"input": "x^2/2 + y^2/3 = 1", "output": "\\frac{x^{2}}{2} + \\frac{y^{2}}{3} = 1"}
+{"input": "sqrt(x^2+y^2+z^2)", "output": "\\sqrt{x^{2}+y^{2}+z^{2}}"}
+{"input": "1/(x^2+1)", "output": "\\frac{1}{x^{2}+1}"}
+{"input": "(a+b)/(a-b)", "output": "\\frac{a+b}{a-b}"}
+{"input": "x^(1/2)", "output": "x^{1/2}"}
+{"input": "a^(m/n)", "output": "a^{m/n}"}
+{"input": "(x^2)^3", "output": "(x^{2})^{3}"}
+{"input": "x^(-2)", "output": "x^{-2}"}
+{"input": "2^n * 3^n", "output": "2^{n} \\cdot 3^{n}"}
+{"input": "(a/b)^n", "output": "(\\frac{a}{b})^{n}"}
+{"input": "sqrt(x^2 - y^2)", "output": "\\sqrt{x^{2}-y^{2}}"}
+{"input": "cbrt(x^2)", "output": "\\sqrt[3]{x^{2}}"}
+{"input": "sqrt(1-x^2)", "output": "\\sqrt{1-x^{2}}"}
+{"input": "1/(sqrt(x)+1)", "output": "\\frac{1}{\\sqrt{x}+1}"}
+{"input": "deriv(x^2*sin(x))", "output": "\\frac{d}{dx}(x^{2}\\sin(x))"}
+{"input": "d/dx (f(x)*g(x))", "output": "\\frac{d}{dx}(f(x)g(x))"}
+{"input": "производная от ln(x)/x", "output": "(\\frac{\\ln(x)}{x})'"}
+{"input": "int x*e^x dx", "output": "\\int x e^{x} \\, dx"}
+{"input": "integral 1/(1+x^2) dx", "output": "\\int \\frac{1}{1+x^{2}} \\, dx"}
+{"input": "∫ sin^2(x) dx", "output": "\\int \\sin^{2}(x) \\, dx"}
+{"input": "sum k=1 n k^2", "output": "\\sum_{k=1}^{n} k^{2}"}
+{"input": "Σ_{i=1}^n (x_i - mu)^2", "output": "\\sum_{i=1}^{n} (x_i - \\mu)^{2}"}
+{"input": "lim x->inf (1+1/x)^x = e", "output": "\\lim_{x \\to \\infty} (1+\\frac{1}{x})^{x} = e"}
+{"input": "alpha + beta = gamma", "output": "\\alpha + \\beta = \\gamma"}
+{"input": "sin(alpha+beta) = sin(alpha)cos(beta) + cos(alpha)sin(beta)", "output": "\\sin(\\alpha+\\beta) = \\sin(\\alpha)\\cos(\\beta) + \\cos(\\alpha)\\sin(\\beta)"}
+{"input": "log(x*y*z)", "output": "\\log(xyz)"}
+{"input": "f(x,y) = x^2 + y^2", "output": "f(x,y) = x^{2} + y^{2}"}
+{"input": "sqrt(a^2+b^2+c^2)", "output": "\\sqrt{a^{2}+b^{2}+c^{2}}"}
+{"input": "1/2 + 1/4 + 1/8", "output": "\\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8}"}
+{"input": "x^2 - 5x + 6 = 0", "output": "x^{2} - 5x + 6 = 0"}
+{"input": "x^3 + y^3", "output": "x^{3} + y^{3}"}
+{"input": "a^3 - b^3", "output": "a^{3} - b^{3}"}
+{"input": "(x-y)/(x+y)", "output": "\\frac{x-y}{x+y}"}
+{"input": "1/(a^2+b^2)", "output": "\\frac{1}{a^{2}+b^{2}}"}
+{"input": "sqrt(x^4+y^4)", "output": "\\sqrt{x^{4}+y^{4}}"}
+{"input": "sqrt(a*b)", "output": "\\sqrt{a \\cdot b}"}
+{"input": "cbrt(x*y)", "output": "\\sqrt[3]{xy}"}
+{"input": "sqrt(x+y)/sqrt(x-y)", "output": "\\frac{\\sqrt{x+y}}{\\sqrt{x-y}}"}
+{"input": "1/cbrt(x)", "output": "\\frac{1}{\\sqrt[3]{x}}"}
+{"input": "sqrt(x^2+2x+1)", "output": "\\sqrt{x^{2}+2x+1}"}
+{"input": "deriv(x^4-2x^2+1)", "output": "\\frac{d}{dx}(x^{4}-2x^{2}+1)"}
+{"input": "d/dx cos(2x)", "output": "\\frac{d}{dx}(\\cos(2x))"}
+{"input": "производная от tan(x)", "output": "\\frac{d}{dx}(\\tan(x))"}
+{"input": "f''''(x)", "output": "f''''(x)"}
+{"input": "deriv(e^(2x))", "output": "\\frac{d}{dx}(e^{2x})"}
+{"input": "d/dx sqrt(x)", "output": "\\frac{d}{dx}(\\sqrt{x})"}
+{"input": "производная от 1/x", "output": "(\\frac{1}{x})'"}
+{"input": "dg/dx", "output": "\\frac{dg}{dx}"}
+{"input": "deriv(a^x)", "output": "\\frac{d}{dx}(a^{x})"}
+{"input": "d/dz (z^3+2z)", "output": "\\frac{d}{dz}(z^{3}+2z)"}
+{"input": "integral x^4 dx", "output": "\\int x^{4} \\, dx"}
+{"input": "int_1^2 1/x dx", "output": "\\int_{1}^{2} \\frac{1}{x} \\, dx"}
+{"input": "∫ tan(x) dx", "output": "\\int \\tan(x) \\, dx"}
+{"input": "integral from 0 to pi of sin(x) dx", "output": "\\int_{0}^{\\pi} \\sin(x) \\, dx"}
+{"input": "int a^x dx", "output": "\\int a^{x} \\, dx"}
+{"input": "интеграл 0 2 x^3 dx", "output": "\\int_{0}^{2} x^{3} \\, dx"}
+{"input": "∫∫ f(x,y) dy dx", "output": "\\iint f(x,y) \\, dy \\, dx"}
+{"input": "int 1/(x^2+1) dx", "output": "\\int \\frac{1}{x^{2}+1} \\, dx"}
+{"input": "integral cos^2(x) dx", "output": "\\int \\cos^{2}(x) \\, dx"}
+{"input": "∫_0^T f(t) dt", "output": "\\int_{0}^{T} f(t) \\, dt"}
+{"input": "sum k=0 n x^k", "output": "\\sum_{k=0}^{n} x^{k}"}
+{"input": "Σ_{i=1}^n i^3", "output": "\\sum_{i=1}^{n} i^{3}"}
+{"input": "sum from j=1 to m j^2", "output": "\\sum_{j=1}^{m} j^{2}"}
+{"input": "Σ 1/k^2", "output": "\\sum \\frac{1}{k^{2}}"}
+{"input": "sum of a_i from i=0 to n", "output": "\\sum_{i=0}^{n} a_i"}
+{"input": "Σ_{k=1}^n (2k-1)", "output": "\\sum_{k=1}^{n} (2k-1)"}
+{"input": "sum n=1 inf 1/n^5", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{5}}"}
+{"input": "Σ_{i} y_i^2", "output": "\\sum_{i} y_i^{2}"}
+{"input": "sum from k=1 to n of k^3", "output": "\\sum_{k=1}^{n} k^{3}"}
+{"input": "Σ 4^n", "output": "\\sum 4^{n}"}
+{"input": "alpha^3 - beta^3", "output": "\\alpha^{3} - \\beta^{3}"}
+{"input": "cos(theta) - sin(theta)", "output": "\\cos(\\theta) - \\sin(\\theta)"}
+{"input": "cot(phi)", "output": "\\cot(\\phi)"}
+{"input": "2*pi*r", "output": "2\\pi r"}
+{"input": "lambda^3", "output": "\\lambda^{3}"}
+{"input": "omega^2", "output": "\\omega^{2}"}
+{"input": "delta y / delta x", "output": "\\frac{\\delta y}{\\delta x}"}
+{"input": "gamma(n)", "output": "\\gamma(n)"}
+{"input": "sigma / sqrt(n)", "output": "\\frac{\\sigma}{\\sqrt{n}}"}
+{"input": "mu^2 + sigma^2", "output": "\\mu^{2} + \\sigma^{2}"}
+{"input": "log_5(x)", "output": "\\log_{5}(x)"}
+{"input": "ln(x^3+1)", "output": "\\ln(x^{3}+1)"}
+{"input": "log(b/a)", "output": "\\log(\\frac{b}{a})"}
+{"input": "log_2(16)", "output": "\\log_{2}(16)"}
+{"input": "exp(2x)", "output": "\\exp(2x)"}
+{"input": "log(x^2*y)", "output": "\\log(x^{2}y)"}
+{"input": "ln(x)/x", "output": "\\frac{\\ln(x)}{x}"}
+{"input": "log_10(x^2)", "output": "\\log_{10}(x^{2})"}
+{"input": "e^(2*ln(x))", "output": "e^{2\\ln(x)}"}
+{"input": "log(cbrt(x))", "output": "\\log(\\sqrt[3]{x})"}
+{"input": "h(x) = cos(x) + x^2", "output": "h(x) = \\cos(x) + x^{2}"}
+{"input": "p(x) = x^4 - 3x^2 + 2", "output": "p(x) = x^{4} - 3x^{2} + 2"}
+{"input": "E = 1/2 m v^2", "output": "E = \\frac{1}{2} m v^{2}"}
+{"input": "F = G*m1*m2/r^2", "output": "F = \\frac{G m_1 m_2}{r^{2}}"}
+{"input": "(a+b)^2 = a^2 + 2ab + b^2", "output": "(a+b)^{2} = a^{2} + 2ab + b^{2}"}
+{"input": "tan^2(x) + 1 = sec^2(x)", "output": "\\tan^{2}(x) + 1 = \\sec^{2}(x)"}
+{"input": "e^(i*theta) = cos(theta) + i*sin(theta)", "output": "e^{i\\theta} = \\cos(\\theta) + i\\sin(\\theta)"}
+{"input": "(x-y)^3 = x^3 - 3x^2y + 3xy^2 - y^3", "output": "(x-y)^{3} = x^{3} - 3x^{2}y + 3xy^{2} - y^{3}"}
+{"input": "sum n=1 inf 1/n^6 = pi^6/945", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{6}} = \\frac{\\pi^{6}}{945}"}
+{"input": "∫_0^inf e^(-x) dx = 1", "output": "\\int_{0}^{\\infty} e^{-x} \\, dx = 1"}
+{"input": "lim x->0 (e^x-1-x)/x^2 = 1/2", "output": "\\lim_{x \\to 0} \\frac{e^{x}-1-x}{x^{2}} = \\frac{1}{2}"}
+{"input": "x^2/a^2 + y^2/b^2 = 1", "output": "\\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} = 1"}
+{"input": "sqrt(x^2-y^2-z^2)", "output": "\\sqrt{x^{2}-y^{2}-z^{2}}"}
+{"input": "1/(x^2-1)", "output": "\\frac{1}{x^{2}-1}"}
+{"input": "(a^2+b^2)/(a^2-b^2)", "output": "\\frac{a^{2}+b^{2}}{a^{2}-b^{2}}"}
+{"input": "x^(3/2)", "output": "x^{3/2}"}
+{"input": "b^(p/q)", "output": "b^{p/q}"}
+{"input": "(y^3)^4", "output": "(y^{3})^{4}"}
+{"input": "y^(-3)", "output": "y^{-3}"}
+{"input": "5^n * 2^n", "output": "5^{n} \\cdot 2^{n}"}
+{"input": "(c/d)^m", "output": "(\\frac{c}{d})^{m}"}
+{"input": "sqrt(x^2 - 4)", "output": "\\sqrt{x^{2}-4}"}
+{"input": "cbrt(x^3)", "output": "\\sqrt[3]{x^{3}}"}
+{"input": "sqrt(4-x^2)", "output": "\\sqrt{4-x^{2}}"}
+{"input": "1/(sqrt(x)-1)", "output": "\\frac{1}{\\sqrt{x}-1}"}
+{"input": "deriv(x^3*cos(x))", "output": "\\frac{d}{dx}(x^{3}\\cos(x))"}
+{"input": "d/dx (f(x)/g(x))", "output": "\\frac{d}{dx}(\\frac{f(x)}{g(x)})"}
+{"input": "производная от e^x*sin(x)", "output": "(e^{x}\\sin(x))'"}
+{"input": "int x^2*ln(x) dx", "output": "\\int x^{2}\\ln(x) \\, dx"}
+{"input": "integral 1/(x^2+a^2) dx", "output": "\\int \\frac{1}{x^{2}+a^{2}} \\, dx"}
+{"input": "∫ cos^2(x) dx", "output": "\\int \\cos^{2}(x) \\, dx"}
+{"input": "sum k=1 n k^3", "output": "\\sum_{k=1}^{n} k^{3}"}
+{"input": "Σ_{i=1}^n (x_i - x_bar)^2", "output": "\\sum_{i=1}^{n} (x_i - \\bar{x})^{2}"}
+{"input": "lim x->inf (1+a/x)^(bx) = e^(ab)", "output": "\\lim_{x \\to \\infty} (1+\\frac{a}{x})^{bx} = e^{ab}"}
+{"input": "alpha*beta + gamma*delta", "output": "\\alpha\\beta + \\gamma\\delta"}
+{"input": "cos(alpha-beta) = cos(alpha)cos(beta) + sin(alpha)sin(beta)", "output": "\\cos(\\alpha-\\beta) = \\cos(\\alpha)\\cos(\\beta) + \\sin(\\alpha)\\sin(\\beta)"}
+{"input": "log(x/y/z)", "output": "\\log(\\frac{x}{y z})"}
+{"input": "f(x,y,z) = x^2 + y^2 + z^2", "output": "f(x,y,z) = x^{2} + y^{2} + z^{2}"}
+{"input": "sqrt(a^2-b^2)", "output": "\\sqrt{a^{2}-b^{2}}"}
+{"input": "1/3 + 1/9 + 1/27", "output": "\\frac{1}{3} + \\frac{1}{9} + \\frac{1}{27}"}
+{"input": "x^2 + 4x + 4 = 0", "output": "x^{2} + 4x + 4 = 0"}
+{"input": "e^(i*pi) + 1 = 0", "output": "e^{i\\pi} + 1 = 0"}
+{"input": "e^(i*theta) = cos(theta) + i*sin(theta)", "output": "e^{i\\theta} = \\cos(\\theta) + i\\sin(\\theta)"}
+{"input": "e^(i*pi) + 1 = 0 (Euler)", "output": "e^{i\\pi} + 1 = 0"}
+{"input": "exp(i*pi) + 1 = 0", "output": "\\exp(i\\pi) + 1 = 0"}
+{"input": "e^(i*x) = cos(x) + i*sin(x)", "output": "e^{ix} = \\cos(x) + i\\sin(x)"}
+{"input": "e^(-i*pi) = -1", "output": "e^{-i\\pi} = -1"}
+{"input": "e^(i*pi/2) = i", "output": "e^{i\\pi/2} = i"}
+{"input": "cos(x) = (e^(ix) + e^(-ix))/2", "output": "\\cos(x) = \\frac{e^{ix} + e^{-ix}}{2}"}
+{"input": "sin(x) = (e^(ix) - e^(-ix))/(2i)", "output": "\\sin(x) = \\frac{e^{ix} - e^{-ix}}{2i}"}
+{"input": "e^(i*2*pi) = 1", "output": "e^{i2\\pi} = 1"}
+{"input": "Nadaraya-Watson: m(x) = sum K((x-Xi)/h)*Yi / sum K((x-Xi)/h)", "output": "m(x) = \\frac{\\sum K(\\frac{x-X_i}{h}) Y_i}{\\sum K(\\frac{x-X_i}{h})}"}
+{"input": "Nadaraya Watson estimator", "output": "\\hat{m}(x) = \\frac{\\sum_{i=1}^{n} K_h(x-X_i) Y_i}{\\sum_{i=1}^{n} K_h(x-X_i)}"}
+{"input": "m_hat(x) = sum K_h(x-x_i)*y_i / sum K_h(x-x_i)", "output": "\\hat{m}(x) = \\frac{\\sum K_h(x-x_i) y_i}{\\sum K_h(x-x_i)}"}
+{"input": "Nadaraya-Watson with Gaussian kernel", "output": "\\hat{m}(x) = \\frac{\\sum_{i=1}^{n} \\exp(-\\frac{(x-X_i)^{2}}{2h^{2}}) Y_i}{\\sum_{i=1}^{n} \\exp(-\\frac{(x-X_i)^{2}}{2h^{2}})}"}
+{"input": "NW estimator: sum K((x-xi)/h)yi / sum K((x-xi)/h)", "output": "\\frac{\\sum K(\\frac{x-x_i}{h})y_i}{\\sum K(\\frac{x-x_i}{h})}"}
+{"input": "m(x) = sum w_i(x) y_i, w_i = K((x-x_i)/h)/sum K", "output": "m(x) = \\sum w_i(x) y_i, \\quad w_i = \\frac{K(\\frac{x-x_i}{h})}{\\sum K(\\frac{x-x_i}{h})}"}
+{"input": "Nadaraya Watson: g(x) = sum_{i=1}^n K_h(x-X_i)Y_i / sum_{i=1}^n K_h(x-X_i)", "output": "g(x) = \\frac{\\sum_{i=1}^{n} K_h(x-X_i)Y_i}{\\sum_{i=1}^{n} K_h(x-X_i)}"}
+{"input": "kernel regression m(x) = sum K((x-xi)/h)yi / sum K((x-xi)/h)", "output": "m(x) = \\frac{\\sum K(\\frac{x-x_i}{h})y_i}{\\sum K(\\frac{x-x_i}{h})}"}
+{"input": "NW: f_hat(x) = (1/n) sum K_h(x-Xi)Yi / (1/n) sum K_h(x-Xi)", "output": "\\hat{f}(x) = \\frac{\\frac{1}{n}\\sum K_h(x-X_i)Y_i}{\\frac{1}{n}\\sum K_h(x-X_i)}"}
+{"input": "Gaussian kernel K(u) = 1/sqrt(2pi) * exp(-u^2/2)", "output": "K(u) = \\frac{1}{\\sqrt{2\\pi}} e^{-\\frac{u^{2}}{2}}"}
+{"input": "Gaussian: K(x) = (1/sqrt(2*pi*sigma^2)) * exp(-x^2/(2*sigma^2))", "output": "K(x) = \\frac{1}{\\sqrt{2\\pi\\sigma^{2}}} \\exp(-\\frac{x^{2}}{2\\sigma^{2}})"}
+{"input": "normal density f(x) = 1/(sqrt(2pi)sigma) * e^(-(x-mu)^2/(2sigma^2))", "output": "f(x) = \\frac{1}{\\sqrt{2\\pi}\\sigma} e^{-\\frac{(x-\\mu)^{2}}{2\\sigma^{2}}}"}
+{"input": "Gaussian pdf N(mu, sigma^2)", "output": "\\mathcal{N}(\\mu, \\sigma^{2})"}
+{"input": "K_h(u) = (1/h) K(u/h)", "output": "K_h(u) = \\frac{1}{h} K(\\frac{u}{h})"}
+{"input": "Gaussian kernel with bandwidth h", "output": "K_h(x) = \\frac{1}{h\\sqrt{2\\pi}} e^{-\\frac{x^{2}}{2h^{2}}}"}
+{"input": "multivariate Gaussian N(x|mu,Sigma)", "output": "\\mathcal{N}(x|\\mu, \\Sigma)"}
+{"input": "N(x|mu,sigma^2) = 1/((2pi)^(d/2)|Sigma|^(1/2)) exp(-1/2 (x-mu)^T Sigma^-1 (x-mu))", "output": "\\mathcal{N}(x|\\mu,\\Sigma) = \\frac{1}{(2\\pi)^{d/2}|\\Sigma|^{1/2}} \\exp(-\\frac{1}{2}(x-\\mu)^{T}\\Sigma^{-1}(x-\\mu))"}
+{"input": "Gaussian integral ∫ e^(-x^2) dx = sqrt(pi)", "output": "\\int_{-\\infty}^{\\infty} e^{-x^{2}} \\, dx = \\sqrt{\\pi}"}
+{"input": "∫ exp(-a*x^2) dx = sqrt(pi/a)", "output": "\\int_{-\\infty}^{\\infty} e^{-ax^{2}} \\, dx = \\sqrt{\\frac{\\pi}{a}}"}
+{"input": "Euler-Lagrange: d/dt (dL/dq_dot) - dL/dq = 0", "output": "\\frac{d}{dt}(\\frac{\\partial L}{\\partial \\dot{q}}) - \\frac{\\partial L}{\\partial q} = 0"}
+{"input": "Euler-Lagrange equation", "output": "\\frac{\\partial L}{\\partial q} - \\frac{d}{dt}(\\frac{\\partial L}{\\partial \\dot{q}}) = 0"}
+{"input": "d/dt (partial L / partial q_dot) - partial L / partial q = 0", "output": "\\frac{d}{dt}\\left(\\frac{\\partial L}{\\partial \\dot{q}}\\right) - \\frac{\\partial L}{\\partial q} = 0"}
+{"input": "Lagrangian L = T - V", "output": "L = T - V"}
+{"input": "action S = ∫ L(q, q_dot, t) dt", "output": "S = \\int L(q, \\dot{q}, t) \\, dt"}
+{"input": "Euler-Lagrange for field: d_mu (partial L / partial (d_mu phi)) - partial L / partial phi = 0", "output": "\\partial_\\mu \\left(\\frac{\\partial \\mathcal{L}}{\\partial (\\partial_\\mu \\phi)}\\right) - \\frac{\\partial \\mathcal{L}}{\\partial \\phi} = 0"}
+{"input": "Navier-Stokes: rho (dv/dt + v*grad v) = -grad p + mu*laplacian v + f", "output": "\\rho \\left(\\frac{\\partial v}{\\partial t} + v \\cdot \\nabla v\\right) = -\\nabla p + \\mu \\nabla^{2} v + f"}
+{"input": "Navier-Stokes equation", "output": "\\rho \\left(\\frac{\\partial \\mathbf{v}}{\\partial t} + \\mathbf{v} \\cdot \\nabla \\mathbf{v}\\right) = -\\nabla p + \\mu \\nabla^{2} \\mathbf{v} + \\mathbf{f}"}
+{"input": "continuity: div v = 0", "output": "\\nabla \\cdot \\mathbf{v} = 0"}
+{"input": "Schrodinger: i*hbar*dpsi/dt = -hbar^2/(2m)*laplacian psi + V*psi", "output": "i\\hbar \\frac{\\partial \\psi}{\\partial t} = -\\frac{\\hbar^{2}}{2m} \\nabla^{2} \\psi + V \\psi"}
+{"input": "time-independent Schrodinger", "output": "-\\frac{\\hbar^{2}}{2m} \\nabla^{2} \\psi + V \\psi = E \\psi"}
+{"input": "H psi = E psi", "output": "\\hat{H} \\psi = E \\psi"}
+{"input": "Maxwell: div E = rho/epsilon_0", "output": "\\nabla \\cdot \\mathbf{E} = \\frac{\\rho}{\\epsilon_0}"}
+{"input": "div B = 0", "output": "\\nabla \\cdot \\mathbf{B} = 0"}
+{"input": "curl E = -dB/dt", "output": "\\nabla \\times \\mathbf{E} = -\\frac{\\partial \\mathbf{B}}{\\partial t}"}
+{"input": "curl B = mu_0 J + mu_0 epsilon_0 dE/dt", "output": "\\nabla \\times \\mathbf{B} = \\mu_0 \\mathbf{J} + \\mu_0 \\epsilon_0 \\frac{\\partial \\mathbf{E}}{\\partial t}"}
+{"input": "Einstein field equations G_mu_nu + Lambda g_mu_nu = 8piG/c^4 T_mu_nu", "output": "G_{\\mu\\nu} + \\Lambda g_{\\mu\\nu} = \\frac{8\\pi G}{c^{4}} T_{\\mu\\nu}"}
+{"input": "R_mu_nu - 1/2 R g_mu_nu + Lambda g_mu_nu = 8piG T_mu_nu / c^4", "output": "R_{\\mu\\nu} - \\frac{1}{2} R g_{\\mu\\nu} + \\Lambda g_{\\mu\\nu} = \\frac{8\\pi G}{c^{4}} T_{\\mu\\nu}"}
+{"input": "Ricci tensor R_mu_nu", "output": "R_{\\mu\\nu}"}
+{"input": "Christoffel symbol Gamma^lambda_mu_nu", "output": "\\Gamma^{\\lambda}_{\\mu\\nu}"}
+{"input": "metric ds^2 = g_mu_nu dx^mu dx^nu", "output": "ds^{2} = g_{\\mu\\nu} dx^{\\mu} dx^{\\nu}"}
+{"input": "geodesic equation d^2x^mu/dtau^2 + Gamma^mu_alpha_beta dx^alpha/dtau dx^beta/dtau = 0", "output": "\\frac{d^{2}x^{\\mu}}{d\\tau^{2}} + \\Gamma^{\\mu}_{\\alpha\\beta} \\frac{dx^{\\alpha}}{d\\tau} \\frac{dx^{\\beta}}{d\\tau} = 0"}
+{"input": "Riemann tensor R^rho_sigma_mu_nu", "output": "R^{\\rho}_{\\sigma\\mu\\nu}"}
+{"input": "Fourier transform f_hat(xi) = ∫ f(x) e^(-2pi i x xi) dx", "output": "\\hat{f}(\\xi) = \\int_{-\\infty}^{\\infty} f(x) e^{-2\\pi i x \\xi} \\, dx"}
+{"input": "inverse Fourier f(x) = ∫ f_hat(xi) e^(2pi i x xi) dxi", "output": "f(x) = \\int_{-\\infty}^{\\infty} \\hat{f}(\\xi) e^{2\\pi i x \\xi} \\, d\\xi"}
+{"input": "Fourier transform with omega: F(omega) = ∫ f(t) e^(-i omega t) dt", "output": "F(\\omega) = \\int_{-\\infty}^{\\infty} f(t) e^{-i\\omega t} \\, dt"}
+{"input": "Laplace transform F(s) = ∫_0^inf f(t) e^(-st) dt", "output": "F(s) = \\int_{0}^{\\infty} f(t) e^{-st} \\, dt"}
+{"input": "convolution (f*g)(t) = ∫ f(tau) g(t-tau) dtau", "output": "(f*g)(t) = \\int_{-\\infty}^{\\infty} f(\\tau) g(t-\\tau) \\, d\\tau"}
+{"input": "Dirac delta ∫ delta(x) dx = 1", "output": "\\int_{-\\infty}^{\\infty} \\delta(x) \\, dx = 1"}
+{"input": "delta(x) = 1/(2pi) ∫ e^(i k x) dk", "output": "\\delta(x) = \\frac{1}{2\\pi} \\int_{-\\infty}^{\\infty} e^{ikx} \\, dk"}
+{"input": "Heaviside H(x) = 1 for x>0, 0 for x<0", "output": "H(x) = \\begin{cases} 1 & x > 0 \\\\ 0 & x < 0 \\end{cases}"}
+{"input": "Bayes: P(A|B) = P(B|A)P(A)/P(B)", "output": "P(A|B) = \\frac{P(B|A)P(A)}{P(B)}"}
+{"input": "posterior ∝ likelihood * prior", "output": "p(\\theta|D) \\propto p(D|\\theta) p(\\theta)"}
+{"input": "Gaussian posterior p(theta|D) ∝ exp(-1/2 (theta-mu)^T Sigma^-1 (theta-mu))", "output": "p(\\theta|D) \\propto \\exp(-\\frac{1}{2}(\\theta-\\mu)^{T}\\Sigma^{-1}(\\theta-\\mu))"}
+{"input": "KL divergence D_KL(P||Q) = sum P(x) log(P(x)/Q(x))", "output": "D_{KL}(P||Q) = \\sum P(x) \\log\\frac{P(x)}{Q(x)}"}
+{"input": "entropy H(X) = -sum p(x) log p(x)", "output": "H(X) = -\\sum p(x) \\log p(x)"}
+{"input": "cross entropy H(p,q) = -sum p(x) log q(x)", "output": "H(p,q) = -\\sum p(x) \\log q(x)"}
+{"input": "softmax p_i = e^(z_i) / sum e^(z_j)", "output": "p_i = \\frac{e^{z_i}}{\\sum_j e^{z_j}}"}
+{"input": "sigmoid sigma(x) = 1/(1+e^(-x))", "output": "\\sigma(x) = \\frac{1}{1+e^{-x}}"}
+{"input": "tanh(x) = (e^x - e^(-x))/(e^x + e^(-x))", "output": "\\tanh(x) = \\frac{e^{x} - e^{-x}}{e^{x} + e^{-x}}"}
+{"input": "ReLU f(x) = max(0,x)", "output": "f(x) = \\max(0,x)"}
+{"input": "gradient descent theta = theta - alpha * grad J(theta)", "output": "\\theta = \\theta - \\alpha \\nabla J(\\theta)"}
+{"input": "stochastic gradient descent update", "output": "\\theta_{t+1} = \\theta_t - \\eta_t \\nabla f(\\theta_t)"}
+{"input": "Newton method x_{n+1} = x_n - f(x_n)/f'(x_n)", "output": "x_{n+1} = x_n - \\frac{f(x_n)}{f'(x_n)}"}
+{"input": "Taylor series f(x) = sum f^(n)(a)/n! (x-a)^n", "output": "f(x) = \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(a)}{n!} (x-a)^{n}"}
+{"input": "Maclaurin e^x = sum x^n/n!", "output": "e^{x} = \\sum_{n=0}^{\\infty} \\frac{x^{n}}{n!}"}
+{"input": "sin(x) = sum (-1)^n x^(2n+1)/(2n+1)!", "output": "\\sin(x) = \\sum_{n=0}^{\\infty} \\frac{(-1)^{n} x^{2n+1}}{(2n+1)!}"}
+{"input": "cos(x) = sum (-1)^n x^(2n)/(2n)!", "output": "\\cos(x) = \\sum_{n=0}^{\\infty} \\frac{(-1)^{n} x^{2n}}{(2n)!}"}
+{"input": "ln(1+x) = sum (-1)^(n+1) x^n/n", "output": "\\ln(1+x) = \\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1} x^{n}}{n}"}
+{"input": "1/(1-x) = sum x^n", "output": "\\frac{1}{1-x} = \\sum_{n=0}^{\\infty} x^{n}"}
+{"input": "binomial (1+x)^alpha = sum C(alpha,n) x^n", "output": "(1+x)^{\\alpha} = \\sum_{n=0}^{\\infty} \\binom{\\alpha}{n} x^{n}"}
+{"input": "Stirling n! ~ sqrt(2pi n) (n/e)^n", "output": "n! \\sim \\sqrt{2\\pi n} \\left(\\frac{n}{e}\\right)^{n}"}
+{"input": "Gamma function Gamma(z) = ∫_0^inf t^(z-1) e^(-t) dt", "output": "\\Gamma(z) = \\int_{0}^{\\infty} t^{z-1} e^{-t} \\, dt"}
+{"input": "Beta function B(x,y) = Gamma(x)Gamma(y)/Gamma(x+y)", "output": "B(x,y) = \\frac{\\Gamma(x)\\Gamma(y)}{\\Gamma(x+y)}"}
+{"input": "Beta integral B(x,y) = ∫_0^1 t^(x-1)(1-t)^(y-1) dt", "output": "B(x,y) = \\int_{0}^{1} t^{x-1}(1-t)^{y-1} \\, dt"}
+{"input": "error function erf(x) = 2/sqrt(pi) ∫_0^x e^(-t^2) dt", "output": "\\operatorname{erf}(x) = \\frac{2}{\\sqrt{\\pi}} \\int_{0}^{x} e^{-t^{2}} \\, dt"}
+{"input": "Bessel J_n(x) = sum (-1)^k/(k! Gamma(k+n+1)) (x/2)^(2k+n)", "output": "J_n(x) = \\sum_{k=0}^{\\infty} \\frac{(-1)^{k}}{k! \\Gamma(k+n+1)} \\left(\\frac{x}{2}\\right)^{2k+n}"}
+{"input": "Legendre P_n(x) = 1/(2^n n!) d^n/dx^n (x^2-1)^n", "output": "P_n(x) = \\frac{1}{2^{n} n!} \\frac{d^{n}}{dx^{n}} (x^{2}-1)^{n}"}
+{"input": "Hermite H_n(x) = (-1)^n e^(x^2) d^n/dx^n e^(-x^2)", "output": "H_n(x) = (-1)^{n} e^{x^{2}} \\frac{d^{n}}{dx^{n}} e^{-x^{2}}"}
+{"input": "Laguerre L_n(x) = e^x/n! d^n/dx^n (x^n e^(-x))", "output": "L_n(x) = \\frac{e^{x}}{n!} \\frac{d^{n}}{dx^{n}} (x^{n} e^{-x})"}
+{"input": "Chebyshev T_n(x) = cos(n arccos(x))", "output": "T_n(x) = \\cos(n \\arccos(x))"}
+{"input": "Green's theorem ∮ P dx + Q dy = ∫∫ (dQ/dx - dP/dy) dA", "output": "\\oint_C P \\, dx + Q \\, dy = \\iint_D \\left(\\frac{\\partial Q}{\\partial x} - \\frac{\\partial P}{\\partial y}\\right) \\, dA"}
+{"input": "Stokes theorem ∮ F·dr = ∫∫ curl F · dS", "output": "\\oint_{\\partial S} \\mathbf{F} \\cdot d\\mathbf{r} = \\iint_S (\\nabla \\times \\mathbf{F}) \\cdot d\\mathbf{S}"}
+{"input": "divergence theorem ∮ F·dS = ∫∫∫ div F dV", "output": "\\oiint_{\\partial V} \\mathbf{F} \\cdot d\\mathbf{S} = \\iiint_V (\\nabla \\cdot \\mathbf{F}) \\, dV"}
+{"input": "Cauchy integral f(a) = 1/(2pi i) ∮ f(z)/(z-a) dz", "output": "f(a) = \\frac{1}{2\\pi i} \\oint_C \\frac{f(z)}{z-a} \\, dz"}
+{"input": "residue theorem ∮ f(z) dz = 2pi i sum Res(f, z_k)", "output": "\\oint_C f(z) \\, dz = 2\\pi i \\sum_k \\operatorname{Res}(f, z_k)"}
+{"input": "Riemann zeta zeta(s) = sum 1/n^s", "output": "\\zeta(s) = \\sum_{n=1}^{\\infty} \\frac{1}{n^{s}}"}
+{"input": "zeta(2) = pi^2/6", "output": "\\zeta(2) = \\frac{\\pi^{2}}{6}"}
+{"input": "Euler product zeta(s) = prod_p 1/(1-p^(-s))", "output": "\\zeta(s) = \\prod_p \\frac{1}{1-p^{-s}}"}
+{"input": "Mobius inversion f(n) = sum_{d|n} mu(d) g(n/d)", "output": "f(n) = \\sum_{d|n} \\mu(d) g(\\frac{n}{d})"}
+{"input": "Euler totient phi(n) = n prod_{p|n} (1-1/p)", "output": "\\varphi(n) = n \\prod_{p|n} \\left(1-\\frac{1}{p}\\right)"}
+{"input": "derivtve(x^2)", "output": "\\frac{d}{dx}(x^{2})"}
+{"input": "derivitive of x^3", "output": "\\frac{d}{dx}(x^{3})"}
+{"input": "deriv(x^2+sin(x))", "output": "\\frac{d}{dx}(x^{2}+\\sin(x))"}
+{"input": "derivitive f(x)", "output": "\\frac{d}{dx} f(x)"}
+{"input": "derivtive of e^x", "output": "\\frac{d}{dx}(e^{x})"}
+{"input": "derivitive of ln(x)", "output": "\\frac{d}{dx}(\\ln(x))"}
+{"input": "deriv(x*cos(x))", "output": "\\frac{d}{dx}(x\\cos(x))"}
+{"input": "derivtive x^n", "output": "\\frac{d}{dx}(x^{n})"}
+{"input": "derivative of tan(x)", "output": "\\frac{d}{dx}(\\tan(x))"}
+{"input": "derivitive of sqrt(x)", "output": "\\frac{d}{dx}(\\sqrt{x})"}
+{"input": "integrl x^2 dx", "output": "\\int x^{2} \\, dx"}
+{"input": "integrl of sin(x) dx", "output": "\\int \\sin(x) \\, dx"}
+{"input": "intgral 0 1 x dx", "output": "\\int_{0}^{1} x \\, dx"}
+{"input": "intergral e^x dx", "output": "\\int e^{x} \\, dx"}
+{"input": "integrl 1/x dx", "output": "\\int \\frac{1}{x} \\, dx"}
+{"input": "intgral from 0 to inf e^(-x) dx", "output": "\\int_{0}^{\\infty} e^{-x} \\, dx"}
+{"input": "integrl cos(x) dx", "output": "\\int \\cos(x) \\, dx"}
+{"input": "intergral x^3 dx", "output": "\\int x^{3} \\, dx"}
+{"input": "integrl 0 pi sin(x) dx", "output": "\\int_{0}^{\\pi} \\sin(x) \\, dx"}
+{"input": "intgral 1/(1+x^2) dx", "output": "\\int \\frac{1}{1+x^{2}} \\, dx"}
+{"input": "sqr(x)", "output": "\\sqrt{x}"}
+{"input": "squar root of x+1", "output": "\\sqrt{x+1}"}
+{"input": "sqr(a^2+b^2)", "output": "\\sqrt{a^{2}+b^{2}}"}
+{"input": "sqrt(x^2+y^2)", "output": "\\sqrt{x^{2}+y^{2}}"}
+{"input": "squareroot 2", "output": "\\sqrt{2}"}
+{"input": "sqr(sqr(x))", "output": "\\sqrt{\\sqrt{x}}"}
+{"input": "sqrt(x*y)", "output": "\\sqrt{xy}"}
+{"input": "sqr(x^2+1)", "output": "\\sqrt{x^{2}+1}"}
+{"input": "cube root of x", "output": "\\sqrt[3]{x}"}
+{"input": "sqrt(a*b)", "output": "\\sqrt{a \\cdot b}"}
+{"input": "fract 1/n", "output": "\\frac{1}{n}"}
+{"input": "fraction a/b", "output": "\\frac{a}{b}"}
+{"input": "frac (a+b)/(c+d)", "output": "\\frac{a+b}{c+d}"}
+{"input": "fract x/2", "output": "\\frac{x}{2}"}
+{"input": "fraction 3/4", "output": "\\frac{3}{4}"}
+{"input": "frac 1/(x+1)", "output": "\\frac{1}{x+1}"}
+{"input": "fract (x^2+1)/(x-1)", "output": "\\frac{x^{2}+1}{x-1}"}
+{"input": "fraction n/(n+1)", "output": "\\frac{n}{n+1}"}
+{"input": "frac a^2/b^2", "output": "\\frac{a^{2}}{b^{2}}"}
+{"input": "fract 1/2 + 1/3", "output": "\\frac{1}{2} + \\frac{1}{3}"}
+{"input": "limt x->0 sin(x)/x", "output": "\\lim_{x \\to 0} \\frac{\\sin(x)}{x}"}
+{"input": "limt n->inf 1/n", "output": "\\lim_{n \\to \\infty} \\frac{1}{n}"}
+{"input": "limt x->a f(x)", "output": "\\lim_{x \\to a} f(x)"}
+{"input": "limt x->inf (1+1/x)^x", "output": "\\lim_{x \\to \\infty} (1+\\frac{1}{x})^{x}"}
+{"input": "limt h->0 (f(x+h)-f(x))/h", "output": "\\lim_{h \\to 0} \\frac{f(x+h)-f(x)}{h}"}
+{"input": "limt x->0 (e^x-1)/x", "output": "\\lim_{x \\to 0} \\frac{e^{x}-1}{x}"}
+{"input": "limt x->1 (x^2-1)/(x-1)", "output": "\\lim_{x \\to 1} \\frac{x^{2}-1}{x-1}"}
+{"input": "limt x->-inf e^x", "output": "\\lim_{x \\to -\\infty} e^{x}"}
+{"input": "limt x->0 tan(x)/x", "output": "\\lim_{x \\to 0} \\frac{\\tan(x)}{x}"}
+{"input": "limt x->0 (1-cos(x))/x^2", "output": "\\lim_{x \\to 0} \\frac{1-\\cos(x)}{x^{2}}"}

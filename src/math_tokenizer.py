@@ -55,5 +55,7 @@ class MathTokenizer:
         ids = ids[:max_len]
         return ids
 
-    def decode(self, ids: list[int]) -> str:
+    def decode(self, ids, skip_special=True):
+        if skip_special:
+            ids = [i for i in ids if i not in (self.pad_id, self.sos_id, self.eos_id)]
         return ''.join(self.id_to_token.get(i, '') for i in ids)

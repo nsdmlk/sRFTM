@@ -1,3 +1,4 @@
+import src
 import torch
 import torch.nn as nn
 from .transformer import Transformer
@@ -43,7 +44,7 @@ class SRFTM(nn.Module):
         return self.output_projection(out)
 
     @torch.no_grad()
-    def greedy_decode(self, src, sos_id, eos_id, max_len=128):
+    def greedy_decode(self, src, sos_id, eos_id, max_len=128, repetition_penalty=1.2):
         self.eval()
         batch_size = src.size(0)
         device = src.device
@@ -59,6 +60,17 @@ class SRFTM(nn.Module):
 
             out = self.transformer.decoder(tgt_emb, mask, encoder_output)
             logits = self.output_projection(out[:, -1, :])
+
+            # Repetition penalty
+            for b in range(batch_size):
+                for prev_token in set(tgt[b].tolist()):
+                    if prev_token in (sos_id, eos_id):
+                        continue
+                    if logits[b, prev_token] > 0:
+                        logits[b, prev_token] /= repetition_penalty
+                    else:
+                        logits[b, prev_token] *= repetition_penalty
+
             next_token = logits.argmax(dim=-1, keepdim=True)
             tgt = torch.cat([tgt, next_token], dim=1)
 

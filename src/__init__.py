@@ -1,4 +1,4 @@
-# core/__init__.py
+
 from .attention import MultiHeadAttention
 from .encoder_layer import EncoderLayer
 from .decoder_layer import DecoderLayer

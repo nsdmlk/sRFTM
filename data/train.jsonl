@@ -1,0 +1,100 @@
+{"input": "1/n", "output": "\\frac{1}{n}"}
+{"input": "a/b", "output": "\\frac{a}{b}"}
+{"input": "(a+b)/(c+d)", "output": "\\frac{a+b}{c+d}"}
+{"input": "1/(x+1)", "output": "\\frac{1}{x+1}"}
+{"input": "x/2", "output": "\\frac{x}{2}"}
+{"input": "3/4", "output": "\\frac{3}{4}"}
+{"input": "a^2/b^2", "output": "\\frac{a^{2}}{b^{2}}"}
+{"input": "1/2 + 1/3", "output": "\\frac{1}{2} + \\frac{1}{3}"}
+{"input": "n/(n+1)", "output": "\\frac{n}{n+1}"}
+{"input": "(x^2+1)/(x-1)", "output": "\\frac{x^{2}+1}{x-1}"}
+{"input": "sqrt(x)", "output": "\\sqrt{x}"}
+{"input": "sqrt(a^2+b^2)", "output": "\\sqrt{a^{2}+b^{2}}"}
+{"input": "sqrt(2)", "output": "\\sqrt{2}"}
+{"input": "sqrt(x+1)", "output": "\\sqrt{x+1}"}
+{"input": "cbrt(x)", "output": "\\sqrt[3]{x}"}
+{"input": "sqrt(sqrt(x))", "output": "\\sqrt{\\sqrt{x}}"}
+{"input": "1/sqrt(x)", "output": "\\frac{1}{\\sqrt{x}}"}
+{"input": "sqrt(a)*sqrt(b)", "output": "\\sqrt{a} \\cdot \\sqrt{b}"}
+{"input": "sqrt(x^2+y^2+z^2)", "output": "\\sqrt{x^{2}+y^{2}+z^{2}}"}
+{"input": "sqrt(n)", "output": "\\sqrt{n}"}
+{"input": "deriv(x^2)", "output": "\\frac{d}{dx}(x^{2})"}
+{"input": "deriv f(x)", "output": "\\frac{d}{dx} f(x)"}
+{"input": "f'(x)", "output": "f'(x)"}
+{"input": "производная f(x)", "output": "f'(x)"}
+{"input": "d/dx x^2", "output": "\\frac{d}{dx}(x^{2})"}
+{"input": "deriv(sin(x))", "output": "\\frac{d}{dx}(\\sin(x))"}
+{"input": "f''(x)", "output": "f''(x)"}
+{"input": "deriv(x^3-4)", "output": "\\frac{d}{dx}(x^{3}-4)"}
+{"input": "производная от x^2", "output": "(x^{2})'"}
+{"input": "df/dx", "output": "\\frac{df}{dx}"}
+{"input": "integral 0 1 x dx", "output": "\\int_{0}^{1} x \\, dx"}
+{"input": "∫ x dx", "output": "\\int x \\, dx"}
+{"input": "int_a^b f(x) dx", "output": "\\int_{a}^{b} f(x) \\, dx"}
+{"input": "integral of x^2 dx", "output": "\\int x^{2} \\, dx"}
+{"input": "integral from 0 to inf of e^(-x) dx", "output": "\\int_{0}^{\\infty} e^{-x} \\, dx"}
+{"input": "∫∫ f(x,y) dx dy", "output": "\\iint f(x,y) \\, dx \\, dy"}
+{"input": "integral sin(x) dx", "output": "\\int \\sin(x) \\, dx"}
+{"input": "int 1/x dx", "output": "\\int \\frac{1}{x} \\, dx"}
+{"input": "integral 0 to 1 of x^2 dx", "output": "\\int_{0}^{1} x^{2} \\, dx"}
+{"input": "∫_0^∞ e^(-x^2) dx", "output": "\\int_{0}^{\\infty} e^{-x^{2}} \\, dx"}
+{"input": "sum n=1 inf 1/n^2", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{2}}"}
+{"input": "Σ n", "output": "\\sum n"}
+{"input": "sum from n=1 to N of n", "output": "\\sum_{n=1}^{N} n"}
+{"input": "sum i=1 n x_i", "output": "\\sum_{i=1}^{n} x_i"}
+{"input": "Σ_{k=0}^n a_k", "output": "\\sum_{k=0}^{n} a_k"}
+{"input": "sum of 1/n from 1 to inf", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n}"}
+{"input": "Σ 2^k", "output": "\\sum 2^{k}"}
+{"input": "sum n^2", "output": "\\sum n^{2}"}
+{"input": "Σ_{i} x_i^2", "output": "\\sum_{i} x_i^{2}"}
+{"input": "sum from i=0 to n of i^2", "output": "\\sum_{i=0}^{n} i^{2}"}
+{"input": "sum n=1 inf 1/n^2", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{2}}"}
+{"input": "Σ n", "output": "\\sum n"}
+{"input": "sum from n=1 to N of n", "output": "\\sum_{n=1}^{N} n"}
+{"input": "sum i=1 n x_i", "output": "\\sum_{i=1}^{n} x_i"}
+{"input": "Σ_{k=0}^n a_k", "output": "\\sum_{k=0}^{n} a_k"}
+{"input": "sum of 1/n from 1 to inf", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n}"}
+{"input": "Σ 2^k", "output": "\\sum 2^{k}"}
+{"input": "sum n^2", "output": "\\sum n^{2}"}
+{"input": "Σ_{i} x_i^2", "output": "\\sum_{i} x_i^{2}"}
+{"input": "sum from i=0 to n of i^2", "output": "\\sum_{i=0}^{n} i^{2}"}
+{"input": "lim x->0 sin(x)/x", "output": "\\lim_{x \\to 0} \\frac{\\sin(x)}{x}"}
+{"input": "lim x->inf 1/x", "output": "\\lim_{x \\to \\infty} \\frac{1}{x}"}
+{"input": "lim n->inf (1+1/n)^n", "output": "\\lim_{n \\to \\infty} (1+\\frac{1}{n})^{n}"}
+{"input": "lim x->a f(x)", "output": "\\lim_{x \\to a} f(x)"}
+{"input": "lim x->0 (e^x-1)/x", "output": "\\lim_{x \\to 0} \\frac{e^{x}-1}{x}"}
+{"input": "lim x→0 tan(x)/x", "output": "\\lim_{x \\to 0} \\frac{\\tan(x)}{x}"}
+{"input": "lim x->+inf x^n", "output": "\\lim_{x \\to +\\infty} x^{n}"}
+{"input": "lim h->0 (f(x+h)-f(x))/h", "output": "\\lim_{h \\to 0} \\frac{f(x+h)-f(x)}{h}"}
+{"input": "lim x->-inf e^x", "output": "\\lim_{x \\to -\\infty} e^{x}"}
+{"input": "lim x->1 (x^2-1)/(x-1)", "output": "\\lim_{x \\to 1} \\frac{x^{2}-1}{x-1}"}
+{"input": "alpha + beta", "output": "\\alpha + \\beta"}
+{"input": "theta^2", "output": "\\theta^{2}"}
+{"input": "sin(alpha)", "output": "\\sin(\\alpha)"}
+{"input": "π r^2", "output": "\\pi r^{2}"}
+{"input": "lambda x", "output": "\\lambda x"}
+{"input": "sigma^2", "output": "\\sigma^{2}"}
+{"input": "omega t", "output": "\\omega t"}
+{"input": "delta x", "output": "\\delta x"}
+{"input": "phi(x)", "output": "\\phi(x)"}
+{"input": "gamma + delta", "output": "\\gamma + \\delta"}
+{"input": "log(x)", "output": "\\log(x)"}
+{"input": "ln(x)", "output": "\\ln(x)"}
+{"input": "log_2(x)", "output": "\\log_{2}(x)"}
+{"input": "log(x^2)", "output": "\\log(x^{2})"}
+{"input": "ln(e^x)", "output": "\\ln(e^{x})"}
+{"input": "log(a*b)", "output": "\\log(a \\cdot b)"}
+{"input": "log_10(100)", "output": "\\log_{10}(100)"}
+{"input": "exp(x)", "output": "\\exp(x)"}
+{"input": "log(x)/log(2)", "output": "\\frac{\\log(x)}{\\log(2)}"}
+{"input": "ln(x+1)", "output": "\\ln(x+1)"}
+{"input": "f(x) = x^2 + sin(x)", "output": "f(x) = x^{2} + \\sin(x)"}
+{"input": "E = m c^2", "output": "E = mc^{2}"}
+{"input": "∫_0^∞ e^(-x^2) dx = sqrt(π)/2", "output": "\\int_{0}^{\\infty} e^{-x^{2}} \\, dx = \\frac{\\sqrt{\\pi}}{2}"}
+{"input": "sum n=1 inf 1/n^2 = π^2/6", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{2}} = \\frac{\\pi^{2}}{6}"}
+{"input": "e^(iπ) + 1 = 0", "output": "e^{i\\pi} + 1 = 0"}
+{"input": "a^2 + b^2 = c^2", "output": "a^{2} + b^{2} = c^{2}"}
+{"input": "(x+y)^2 = x^2 + 2xy + y^2", "output": "(x+y)^{2} = x^{2} + 2xy + y^{2}"}
+{"input": "sqrt(a^2 + b^2)", "output": "\\sqrt{a^{2} + b^{2}}"}
+{"input": "log(x*y) = log(x) + log(y)", "output": "\\log(xy) = \\log(x) + \\log(y)"}
+{"input": "lim n->inf (1 + 1/n)^n = e", "output": "\\lim_{n \\to \\infty} (1 + \\frac{1}{n})^{n} = e"}

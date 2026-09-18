@@ -7060,3 +7060,1243 @@
 {"input": "f от x равно 1/(x^2+1)", "output": "f(x)=\\frac{1}{x^{2}+1}"}
 {"input": "f of x equals one over x squared plus one", "output": "f(x)=\\frac{1}{x^{2}+1}"}
 {"input": "F(X)=1/(X^2+1)", "output": "f(x)=\\frac{1}{x^{2}+1}"}
+{"input": "alpha + beta", "output": "\\alpha + \\beta"}
+{"input": "α+β", "output": "\\alpha + \\beta"}
+{"input": "альфа + бета", "output": "\\alpha + \\beta"}
+{"input": "alpha plus beta", "output": "\\alpha + \\beta"}
+{"input": "ALPHA + BETA", "output": "\\alpha + \\beta"}
+{"input": "gamma + delta", "output": "\\gamma + \\delta"}
+{"input": "γ+δ", "output": "\\gamma + \\delta"}
+{"input": "гамма + дельта", "output": "\\gamma + \\delta"}
+{"input": "gamma plus delta", "output": "\\gamma + \\delta"}
+{"input": "GAMMA + DELTA", "output": "\\gamma + \\delta"}
+{"input": "epsilon + zeta", "output": "\\epsilon + \\zeta"}
+{"input": "ε+ζ", "output": "\\epsilon + \\zeta"}
+{"input": "эпсилон + дзета", "output": "\\epsilon + \\zeta"}
+{"input": "epsilon plus zeta", "output": "\\epsilon + \\zeta"}
+{"input": "EPSILON + ZETA", "output": "\\epsilon + \\zeta"}
+{"input": "theta + phi", "output": "\\theta + \\phi"}
+{"input": "θ+φ", "output": "\\theta + \\phi"}
+{"input": "тета + фи", "output": "\\theta + \\phi"}
+{"input": "theta plus phi", "output": "\\theta + \\phi"}
+{"input": "THETA + PHI", "output": "\\theta + \\phi"}
+{"input": "lambda + mu", "output": "\\lambda + \\mu"}
+{"input": "λ+μ", "output": "\\lambda + \\mu"}
+{"input": "лямбда + мю", "output": "\\lambda + \\mu"}
+{"input": "lambda plus mu", "output": "\\lambda + \\mu"}
+{"input": "LAMBDA + MU", "output": "\\lambda + \\mu"}
+{"input": "sigma + tau", "output": "\\sigma + \\tau"}
+{"input": "σ+τ", "output": "\\sigma + \\tau"}
+{"input": "сигма + тау", "output": "\\sigma + \\tau"}
+{"input": "sigma plus tau", "output": "\\sigma + \\tau"}
+{"input": "SIGMA + TAU", "output": "\\sigma + \\tau"}
+{"input": "omega + psi", "output": "\\omega + \\psi"}
+{"input": "ω+ψ", "output": "\\omega + \\psi"}
+{"input": "омега + пси", "output": "\\omega + \\psi"}
+{"input": "omega plus psi", "output": "\\omega + \\psi"}
+{"input": "OMEGA + PSI", "output": "\\omega + \\psi"}
+{"input": "alpha + beta + gamma", "output": "\\alpha + \\beta + \\gamma"}
+{"input": "α+β+γ", "output": "\\alpha + \\beta + \\gamma"}
+{"input": "альфа + бета + гамма", "output": "\\alpha + \\beta + \\gamma"}
+{"input": "alpha plus beta plus gamma", "output": "\\alpha + \\beta + \\gamma"}
+{"input": "ALPHA + BETA + GAMMA", "output": "\\alpha + \\beta + \\gamma"}
+{"input": "delta + epsilon + theta", "output": "\\delta + \\epsilon + \\theta"}
+{"input": "δ+ε+θ", "output": "\\delta + \\epsilon + \\theta"}
+{"input": "дельта + эпсилон + тета", "output": "\\delta + \\epsilon + \\theta"}
+{"input": "delta plus epsilon plus theta", "output": "\\delta + \\epsilon + \\theta"}
+{"input": "DELTA + EPSILON + THETA", "output": "\\delta + \\epsilon + \\theta"}
+{"input": "lambda + mu + pi", "output": "\\lambda + \\mu + \\pi"}
+{"input": "λ+μ+π", "output": "\\lambda + \\mu + \\pi"}
+{"input": "лямбда + мю + пи", "output": "\\lambda + \\mu + \\pi"}
+{"input": "lambda plus mu plus pi", "output": "\\lambda + \\mu + \\pi"}
+{"input": "LAMBDA + MU + PI", "output": "\\lambda + \\mu + \\pi"}
+{"input": "sigma + phi + omega", "output": "\\sigma + \\phi + \\omega"}
+{"input": "σ+φ+ω", "output": "\\sigma + \\phi + \\omega"}
+{"input": "сигма + фи + омега", "output": "\\sigma + \\phi + \\omega"}
+{"input": "sigma plus phi plus omega", "output": "\\sigma + \\phi + \\omega"}
+{"input": "SIGMA + PHI + OMEGA", "output": "\\sigma + \\phi + \\omega"}
+{"input": "alpha^2", "output": "\\alpha^{2}"}
+{"input": "α^2", "output": "\\alpha^{2}"}
+{"input": "альфа в квадрате", "output": "\\alpha^{2}"}
+{"input": "alpha squared", "output": "\\alpha^{2}"}
+{"input": "ALPHA^2", "output": "\\alpha^{2}"}
+{"input": "beta^3", "output": "\\beta^{3}"}
+{"input": "β^3", "output": "\\beta^{3}"}
+{"input": "бета в кубе", "output": "\\beta^{3}"}
+{"input": "beta cubed", "output": "\\beta^{3}"}
+{"input": "BETA^3", "output": "\\beta^{3}"}
+{"input": "gamma^4", "output": "\\gamma^{4}"}
+{"input": "γ^4", "output": "\\gamma^{4}"}
+{"input": "гамма в четвертой", "output": "\\gamma^{4}"}
+{"input": "gamma to the 4th", "output": "\\gamma^{4}"}
+{"input": "GAMMA^4", "output": "\\gamma^{4}"}
+{"input": "delta^2", "output": "\\delta^{2}"}
+{"input": "δ^2", "output": "\\delta^{2}"}
+{"input": "дельта в квадрате", "output": "\\delta^{2}"}
+{"input": "delta squared", "output": "\\delta^{2}"}
+{"input": "DELTA^2", "output": "\\delta^{2}"}
+{"input": "epsilon^2", "output": "\\epsilon^{2}"}
+{"input": "ε^2", "output": "\\epsilon^{2}"}
+{"input": "эпсилон в квадрате", "output": "\\epsilon^{2}"}
+{"input": "epsilon squared", "output": "\\epsilon^{2}"}
+{"input": "EPSILON^2", "output": "\\epsilon^{2}"}
+{"input": "theta^2", "output": "\\theta^{2}"}
+{"input": "θ^2", "output": "\\theta^{2}"}
+{"input": "тета в квадрате", "output": "\\theta^{2}"}
+{"input": "theta squared", "output": "\\theta^{2}"}
+{"input": "THETA^2", "output": "\\theta^{2}"}
+{"input": "lambda^2", "output": "\\lambda^{2}"}
+{"input": "λ^2", "output": "\\lambda^{2}"}
+{"input": "лямбда в квадрате", "output": "\\lambda^{2}"}
+{"input": "lambda squared", "output": "\\lambda^{2}"}
+{"input": "LAMBDA^2", "output": "\\lambda^{2}"}
+{"input": "mu^2", "output": "\\mu^{2}"}
+{"input": "μ^2", "output": "\\mu^{2}"}
+{"input": "мю в квадрате", "output": "\\mu^{2}"}
+{"input": "mu squared", "output": "\\mu^{2}"}
+{"input": "MU^2", "output": "\\mu^{2}"}
+{"input": "pi^2", "output": "\\pi^{2}"}
+{"input": "π^2", "output": "\\pi^{2}"}
+{"input": "пи в квадрате", "output": "\\pi^{2}"}
+{"input": "pi squared", "output": "\\pi^{2}"}
+{"input": "PI^2", "output": "\\pi^{2}"}
+{"input": "sigma^2", "output": "\\sigma^{2}"}
+{"input": "σ^2", "output": "\\sigma^{2}"}
+{"input": "сигма в квадрате", "output": "\\sigma^{2}"}
+{"input": "sigma squared", "output": "\\sigma^{2}"}
+{"input": "SIGMA^2", "output": "\\sigma^{2}"}
+{"input": "phi^2", "output": "\\phi^{2}"}
+{"input": "φ^2", "output": "\\phi^{2}"}
+{"input": "фи в квадрате", "output": "\\phi^{2}"}
+{"input": "phi squared", "output": "\\phi^{2}"}
+{"input": "PHI^2", "output": "\\phi^{2}"}
+{"input": "omega^2", "output": "\\omega^{2}"}
+{"input": "ω^2", "output": "\\omega^{2}"}
+{"input": "омега в квадрате", "output": "\\omega^{2}"}
+{"input": "omega squared", "output": "\\omega^{2}"}
+{"input": "OMEGA^2", "output": "\\omega^{2}"}
+{"input": "alpha^3", "output": "\\alpha^{3}"}
+{"input": "α^3", "output": "\\alpha^{3}"}
+{"input": "альфа в кубе", "output": "\\alpha^{3}"}
+{"input": "alpha cubed", "output": "\\alpha^{3}"}
+{"input": "ALPHA^3", "output": "\\alpha^{3}"}
+{"input": "beta^2", "output": "\\beta^{2}"}
+{"input": "β^2", "output": "\\beta^{2}"}
+{"input": "бета в квадрате", "output": "\\beta^{2}"}
+{"input": "beta squared", "output": "\\beta^{2}"}
+{"input": "BETA^2", "output": "\\beta^{2}"}
+{"input": "gamma^2", "output": "\\gamma^{2}"}
+{"input": "γ^2", "output": "\\gamma^{2}"}
+{"input": "гамма в квадрате", "output": "\\gamma^{2}"}
+{"input": "gamma squared", "output": "\\gamma^{2}"}
+{"input": "GAMMA^2", "output": "\\gamma^{2}"}
+{"input": "theta^3", "output": "\\theta^{3}"}
+{"input": "θ^3", "output": "\\theta^{3}"}
+{"input": "тета в кубе", "output": "\\theta^{3}"}
+{"input": "theta cubed", "output": "\\theta^{3}"}
+{"input": "THETA^3", "output": "\\theta^{3}"}
+{"input": "lambda^3", "output": "\\lambda^{3}"}
+{"input": "λ^3", "output": "\\lambda^{3}"}
+{"input": "лямбда в кубе", "output": "\\lambda^{3}"}
+{"input": "lambda cubed", "output": "\\lambda^{3}"}
+{"input": "LAMBDA^3", "output": "\\lambda^{3}"}
+{"input": "mu^3", "output": "\\mu^{3}"}
+{"input": "μ^3", "output": "\\mu^{3}"}
+{"input": "мю в кубе", "output": "\\mu^{3}"}
+{"input": "mu cubed", "output": "\\mu^{3}"}
+{"input": "MU^3", "output": "\\mu^{3}"}
+{"input": "pi^3", "output": "\\pi^{3}"}
+{"input": "π^3", "output": "\\pi^{3}"}
+{"input": "пи в кубе", "output": "\\pi^{3}"}
+{"input": "pi cubed", "output": "\\pi^{3}"}
+{"input": "PI^3", "output": "\\pi^{3}"}
+{"input": "sigma^3", "output": "\\sigma^{3}"}
+{"input": "σ^3", "output": "\\sigma^{3}"}
+{"input": "сигма в кубе", "output": "\\sigma^{3}"}
+{"input": "sigma cubed", "output": "\\sigma^{3}"}
+{"input": "SIGMA^3", "output": "\\sigma^{3}"}
+{"input": "phi^3", "output": "\\phi^{3}"}
+{"input": "φ^3", "output": "\\phi^{3}"}
+{"input": "фи в кубе", "output": "\\phi^{3}"}
+{"input": "phi cubed", "output": "\\phi^{3}"}
+{"input": "PHI^3", "output": "\\phi^{3}"}
+{"input": "omega^3", "output": "\\omega^{3}"}
+{"input": "ω^3", "output": "\\omega^{3}"}
+{"input": "омега в кубе", "output": "\\omega^{3}"}
+{"input": "omega cubed", "output": "\\omega^{3}"}
+{"input": "OMEGA^3", "output": "\\omega^{3}"}
+{"input": "sin(alpha)", "output": "\\sin(\\alpha)"}
+{"input": "sin α", "output": "\\sin(\\alpha)"}
+{"input": "синус альфа", "output": "\\sin(\\alpha)"}
+{"input": "sine of alpha", "output": "\\sin(\\alpha)"}
+{"input": "SIN(ALPHA)", "output": "\\sin(\\alpha)"}
+{"input": "cos(beta)", "output": "\\cos(\\beta)"}
+{"input": "cos β", "output": "\\cos(\\beta)"}
+{"input": "косинус бета", "output": "\\cos(\\beta)"}
+{"input": "cosine of beta", "output": "\\cos(\\beta)"}
+{"input": "COS(BETA)", "output": "\\cos(\\beta)"}
+{"input": "tan(gamma)", "output": "\\tan(\\gamma)"}
+{"input": "tan γ", "output": "\\tan(\\gamma)"}
+{"input": "тангенс гамма", "output": "\\tan(\\gamma)"}
+{"input": "tangent of gamma", "output": "\\tan(\\gamma)"}
+{"input": "TAN(GAMMA)", "output": "\\tan(\\gamma)"}
+{"input": "sin(theta)", "output": "\\sin(\\theta)"}
+{"input": "sin θ", "output": "\\sin(\\theta)"}
+{"input": "синус тета", "output": "\\sin(\\theta)"}
+{"input": "sine of theta", "output": "\\sin(\\theta)"}
+{"input": "SIN(THETA)", "output": "\\sin(\\theta)"}
+{"input": "cos(theta)", "output": "\\cos(\\theta)"}
+{"input": "cos θ", "output": "\\cos(\\theta)"}
+{"input": "косинус тета", "output": "\\cos(\\theta)"}
+{"input": "cosine of theta", "output": "\\cos(\\theta)"}
+{"input": "COS(THETA)", "output": "\\cos(\\theta)"}
+{"input": "tan(phi)", "output": "\\tan(\\phi)"}
+{"input": "tan φ", "output": "\\tan(\\phi)"}
+{"input": "тангенс фи", "output": "\\tan(\\phi)"}
+{"input": "tangent of phi", "output": "\\tan(\\phi)"}
+{"input": "TAN(PHI)", "output": "\\tan(\\phi)"}
+{"input": "sin(omega t)", "output": "\\sin(\\omega t)"}
+{"input": "sin(ωt)", "output": "\\sin(\\omega t)"}
+{"input": "синус омега t", "output": "\\sin(\\omega t)"}
+{"input": "sine of omega t", "output": "\\sin(\\omega t)"}
+{"input": "SIN(OMEGA T)", "output": "\\sin(\\omega t)"}
+{"input": "cos(omega t)", "output": "\\cos(\\omega t)"}
+{"input": "cos(ωt)", "output": "\\cos(\\omega t)"}
+{"input": "косинус омега t", "output": "\\cos(\\omega t)"}
+{"input": "cosine of omega t", "output": "\\cos(\\omega t)"}
+{"input": "COS(OMEGA T)", "output": "\\cos(\\omega t)"}
+{"input": "sin(alpha + beta)", "output": "\\sin(\\alpha + \\beta)"}
+{"input": "sin(α+β)", "output": "\\sin(\\alpha + \\beta)"}
+{"input": "синус (альфа + бета)", "output": "\\sin(\\alpha + \\beta)"}
+{"input": "sine of alpha plus beta", "output": "\\sin(\\alpha + \\beta)"}
+{"input": "SIN(ALPHA+BETA)", "output": "\\sin(\\alpha + \\beta)"}
+{"input": "cos(alpha - beta)", "output": "\\cos(\\alpha - \\beta)"}
+{"input": "cos(α-β)", "output": "\\cos(\\alpha - \\beta)"}
+{"input": "косинус (альфа - бета)", "output": "\\cos(\\alpha - \\beta)"}
+{"input": "cosine of alpha minus beta", "output": "\\cos(\\alpha - \\beta)"}
+{"input": "COS(ALPHA-BETA)", "output": "\\cos(\\alpha - \\beta)"}
+{"input": "tan(theta + phi)", "output": "\\tan(\\theta + \\phi)"}
+{"input": "tan(θ+φ)", "output": "\\tan(\\theta + \\phi)"}
+{"input": "тангенс (тета + фи)", "output": "\\tan(\\theta + \\phi)"}
+{"input": "tangent of theta plus phi", "output": "\\tan(\\theta + \\phi)"}
+{"input": "TAN(THETA+PHI)", "output": "\\tan(\\theta + \\phi)"}
+{"input": "sin(2 alpha)", "output": "\\sin(2\\alpha)"}
+{"input": "sin(2α)", "output": "\\sin(2\\alpha)"}
+{"input": "синус 2 альфа", "output": "\\sin(2\\alpha)"}
+{"input": "sine of two alpha", "output": "\\sin(2\\alpha)"}
+{"input": "SIN(2 ALPHA)", "output": "\\sin(2\\alpha)"}
+{"input": "cos(2 beta)", "output": "\\cos(2\\beta)"}
+{"input": "cos(2β)", "output": "\\cos(2\\beta)"}
+{"input": "косинус 2 бета", "output": "\\cos(2\\beta)"}
+{"input": "cosine of two beta", "output": "\\cos(2\\beta)"}
+{"input": "COS(2 BETA)", "output": "\\cos(2\\beta)"}
+{"input": "sin(3 theta)", "output": "\\sin(3\\theta)"}
+{"input": "sin(3θ)", "output": "\\sin(3\\theta)"}
+{"input": "синус 3 тета", "output": "\\sin(3\\theta)"}
+{"input": "sine of three theta", "output": "\\sin(3\\theta)"}
+{"input": "SIN(3 THETA)", "output": "\\sin(3\\theta)"}
+{"input": "cos(3 phi)", "output": "\\cos(3\\phi)"}
+{"input": "cos(3φ)", "output": "\\cos(3\\phi)"}
+{"input": "косинус 3 фи", "output": "\\cos(3\\phi)"}
+{"input": "cosine of three phi", "output": "\\cos(3\\phi)"}
+{"input": "COS(3 PHI)", "output": "\\cos(3\\phi)"}
+{"input": "sin^2(alpha)", "output": "\\sin^{2}(\\alpha)"}
+{"input": "sin^2 α", "output": "\\sin^{2}(\\alpha)"}
+{"input": "синус квадрат альфа", "output": "\\sin^{2}(\\alpha)"}
+{"input": "sine squared alpha", "output": "\\sin^{2}(\\alpha)"}
+{"input": "SIN^2(ALPHA)", "output": "\\sin^{2}(\\alpha)"}
+{"input": "cos^2(beta)", "output": "\\cos^{2}(\\beta)"}
+{"input": "cos^2 β", "output": "\\cos^{2}(\\beta)"}
+{"input": "косинус квадрат бета", "output": "\\cos^{2}(\\beta)"}
+{"input": "cosine squared beta", "output": "\\cos^{2}(\\beta)"}
+{"input": "COS^2(BETA)", "output": "\\cos^{2}(\\beta)"}
+{"input": "tan^2(theta)", "output": "\\tan^{2}(\\theta)"}
+{"input": "tan^2 θ", "output": "\\tan^{2}(\\theta)"}
+{"input": "тангенс квадрат тета", "output": "\\tan^{2}(\\theta)"}
+{"input": "tangent squared theta", "output": "\\tan^{2}(\\theta)"}
+{"input": "TAN^2(THETA)", "output": "\\tan^{2}(\\theta)"}
+{"input": "sin^2(alpha) + cos^2(alpha) = 1", "output": "\\sin^{2}(\\alpha) + \\cos^{2}(\\alpha) = 1"}
+{"input": "sin^2 α + cos^2 α = 1", "output": "\\sin^{2}(\\alpha) + \\cos^{2}(\\alpha) = 1"}
+{"input": "синус квадрат альфа + косинус квадрат альфа = 1", "output": "\\sin^{2}(\\alpha) + \\cos^{2}(\\alpha) = 1"}
+{"input": "sin squared alpha plus cos squared alpha equals 1", "output": "\\sin^{2}(\\alpha) + \\cos^{2}(\\alpha) = 1"}
+{"input": "SIN^2(ALPHA)+COS^2(ALPHA)=1", "output": "\\sin^{2}(\\alpha) + \\cos^{2}(\\alpha) = 1"}
+{"input": "sin^2(theta) + cos^2(theta) = 1", "output": "\\sin^{2}(\\theta) + \\cos^{2}(\\theta) = 1"}
+{"input": "sin^2 θ + cos^2 θ = 1", "output": "\\sin^{2}(\\theta) + \\cos^{2}(\\theta) = 1"}
+{"input": "синус квадрат тета + косинус квадрат тета = 1", "output": "\\sin^{2}(\\theta) + \\cos^{2}(\\theta) = 1"}
+{"input": "sin squared theta plus cos squared theta equals 1", "output": "\\sin^{2}(\\theta) + \\cos^{2}(\\theta) = 1"}
+{"input": "SIN^2(THETA)+COS^2(THETA)=1", "output": "\\sin^{2}(\\theta) + \\cos^{2}(\\theta) = 1"}
+{"input": "1 + tan^2(alpha) = sec^2(alpha)", "output": "1 + \\tan^{2}(\\alpha) = \\sec^{2}(\\alpha)"}
+{"input": "1 + tan^2 α = sec^2 α", "output": "1 + \\tan^{2}(\\alpha) = \\sec^{2}(\\alpha)"}
+{"input": "1 + тангенс квадрат альфа = секанс квадрат альфа", "output": "1 + \\tan^{2}(\\alpha) = \\sec^{2}(\\alpha)"}
+{"input": "1 plus tan squared alpha equals sec squared alpha", "output": "1 + \\tan^{2}(\\alpha) = \\sec^{2}(\\alpha)"}
+{"input": "1+TAN^2(ALPHA)=SEC^2(ALPHA)", "output": "1 + \\tan^{2}(\\alpha) = \\sec^{2}(\\alpha)"}
+{"input": "sin(alpha)cos(beta) + cos(alpha)sin(beta)", "output": "\\sin(\\alpha)\\cos(\\beta) + \\cos(\\alpha)\\sin(\\beta)"}
+{"input": "sin α cos β + cos α sin β", "output": "\\sin(\\alpha)\\cos(\\beta) + \\cos(\\alpha)\\sin(\\beta)"}
+{"input": "синус альфа косинус бета + косинус альфа синус бета", "output": "\\sin(\\alpha)\\cos(\\beta) + \\cos(\\alpha)\\sin(\\beta)"}
+{"input": "sin alpha cos beta plus cos alpha sin beta", "output": "\\sin(\\alpha)\\cos(\\beta) + \\cos(\\alpha)\\sin(\\beta)"}
+{"input": "SIN(ALPHA)COS(BETA)+COS(ALPHA)SIN(BETA)", "output": "\\sin(\\alpha)\\cos(\\beta) + \\cos(\\alpha)\\sin(\\beta)"}
+{"input": "cos(alpha)cos(beta) - sin(alpha)sin(beta)", "output": "\\cos(\\alpha)\\cos(\\beta) - \\sin(\\alpha)\\sin(\\beta)"}
+{"input": "cos α cos β - sin α sin β", "output": "\\cos(\\alpha)\\cos(\\beta) - \\sin(\\alpha)\\sin(\\beta)"}
+{"input": "косинус альфа косинус бета - синус альфа синус бета", "output": "\\cos(\\alpha)\\cos(\\beta) - \\sin(\\alpha)\\sin(\\beta)"}
+{"input": "cos alpha cos beta minus sin alpha sin beta", "output": "\\cos(\\alpha)\\cos(\\beta) - \\sin(\\alpha)\\sin(\\beta)"}
+{"input": "COS(ALPHA)COS(BETA)-SIN(ALPHA)SIN(BETA)", "output": "\\cos(\\alpha)\\cos(\\beta) - \\sin(\\alpha)\\sin(\\beta)"}
+{"input": "pi r^2", "output": "\\pi r^{2}"}
+{"input": "π r^2", "output": "\\pi r^{2}"}
+{"input": "пи r в квадрате", "output": "\\pi r^{2}"}
+{"input": "pi r squared", "output": "\\pi r^{2}"}
+{"input": "PI R^2", "output": "\\pi r^{2}"}
+{"input": "2 pi r", "output": "2\\pi r"}
+{"input": "2πr", "output": "2\\pi r"}
+{"input": "2 пи r", "output": "2\\pi r"}
+{"input": "two pi r", "output": "2\\pi r"}
+{"input": "2 PI R", "output": "2\\pi r"}
+{"input": "pi r^2 h", "output": "\\pi r^{2} h"}
+{"input": "π r^2 h", "output": "\\pi r^{2} h"}
+{"input": "пи r в квадрате h", "output": "\\pi r^{2} h"}
+{"input": "pi r squared h", "output": "\\pi r^{2} h"}
+{"input": "PI R^2 H", "output": "\\pi r^{2} h"}
+{"input": "4/3 pi r^3", "output": "\\frac{4}{3}\\pi r^{3}"}
+{"input": "4/3 π r^3", "output": "\\frac{4}{3}\\pi r^{3}"}
+{"input": "4/3 пи r в кубе", "output": "\\frac{4}{3}\\pi r^{3}"}
+{"input": "four thirds pi r cubed", "output": "\\frac{4}{3}\\pi r^{3}"}
+{"input": "4/3 PI R^3", "output": "\\frac{4}{3}\\pi r^{3}"}
+{"input": "pi/2", "output": "\\frac{\\pi}{2}"}
+{"input": "π/2", "output": "\\frac{\\pi}{2}"}
+{"input": "пи делить на 2", "output": "\\frac{\\pi}{2}"}
+{"input": "pi over 2", "output": "\\frac{\\pi}{2}"}
+{"input": "PI/2", "output": "\\frac{\\pi}{2}"}
+{"input": "pi/3", "output": "\\frac{\\pi}{3}"}
+{"input": "π/3", "output": "\\frac{\\pi}{3}"}
+{"input": "пи делить на 3", "output": "\\frac{\\pi}{3}"}
+{"input": "pi over 3", "output": "\\frac{\\pi}{3}"}
+{"input": "PI/3", "output": "\\frac{\\pi}{3}"}
+{"input": "pi/4", "output": "\\frac{\\pi}{4}"}
+{"input": "π/4", "output": "\\frac{\\pi}{4}"}
+{"input": "пи делить на 4", "output": "\\frac{\\pi}{4}"}
+{"input": "pi over 4", "output": "\\frac{\\pi}{4}"}
+{"input": "PI/4", "output": "\\frac{\\pi}{4}"}
+{"input": "pi/6", "output": "\\frac{\\pi}{6}"}
+{"input": "π/6", "output": "\\frac{\\pi}{6}"}
+{"input": "пи делить на 6", "output": "\\frac{\\pi}{6}"}
+{"input": "pi over 6", "output": "\\frac{\\pi}{6}"}
+{"input": "PI/6", "output": "\\frac{\\pi}{6}"}
+{"input": "2 pi", "output": "2\\pi"}
+{"input": "2π", "output": "2\\pi"}
+{"input": "2 пи", "output": "2\\pi"}
+{"input": "two pi", "output": "2\\pi"}
+{"input": "2 PI", "output": "2\\pi"}
+{"input": "lambda x", "output": "\\lambda x"}
+{"input": "λx", "output": "\\lambda x"}
+{"input": "лямбда x", "output": "\\lambda x"}
+{"input": "lambda times x", "output": "\\lambda x"}
+{"input": "LAMBDA X", "output": "\\lambda x"}
+{"input": "mu x", "output": "\\mu x"}
+{"input": "μx", "output": "\\mu x"}
+{"input": "мю x", "output": "\\mu x"}
+{"input": "mu times x", "output": "\\mu x"}
+{"input": "MU X", "output": "\\mu x"}
+{"input": "sigma x", "output": "\\sigma x"}
+{"input": "σx", "output": "\\sigma x"}
+{"input": "сигма x", "output": "\\sigma x"}
+{"input": "sigma times x", "output": "\\sigma x"}
+{"input": "SIGMA X", "output": "\\sigma x"}
+{"input": "omega t", "output": "\\omega t"}
+{"input": "ωt", "output": "\\omega t"}
+{"input": "омега t", "output": "\\omega t"}
+{"input": "omega times t", "output": "\\omega t"}
+{"input": "OMEGA T", "output": "\\omega t"}
+{"input": "alpha x + beta y", "output": "\\alpha x + \\beta y"}
+{"input": "αx + βy", "output": "\\alpha x + \\beta y"}
+{"input": "альфа x + бета y", "output": "\\alpha x + \\beta y"}
+{"input": "alpha x plus beta y", "output": "\\alpha x + \\beta y"}
+{"input": "ALPHA X + BETA Y", "output": "\\alpha x + \\beta y"}
+{"input": "gamma x + delta y", "output": "\\gamma x + \\delta y"}
+{"input": "γx + δy", "output": "\\gamma x + \\delta y"}
+{"input": "гамма x + дельта y", "output": "\\gamma x + \\delta y"}
+{"input": "gamma x plus delta y", "output": "\\gamma x + \\delta y"}
+{"input": "GAMMA X + DELTA Y", "output": "\\gamma x + \\delta y"}
+{"input": "lambda x + mu y", "output": "\\lambda x + \\mu y"}
+{"input": "λx + μy", "output": "\\lambda x + \\mu y"}
+{"input": "лямбда x + мю y", "output": "\\lambda x + \\mu y"}
+{"input": "lambda x plus mu y", "output": "\\lambda x + \\mu y"}
+{"input": "LAMBDA X + MU Y", "output": "\\lambda x + \\mu y"}
+{"input": "theta x + phi y", "output": "\\theta x + \\phi y"}
+{"input": "θx + φy", "output": "\\theta x + \\phi y"}
+{"input": "тета x + фи y", "output": "\\theta x + \\phi y"}
+{"input": "theta x plus phi y", "output": "\\theta x + \\phi y"}
+{"input": "THETA X + PHI Y", "output": "\\theta x + \\phi y"}
+{"input": "sin(alpha x + beta)", "output": "\\sin(\\alpha x + \\beta)"}
+{"input": "sin(αx + β)", "output": "\\sin(\\alpha x + \\beta)"}
+{"input": "синус (альфа x + бета)", "output": "\\sin(\\alpha x + \\beta)"}
+{"input": "sine of alpha x plus beta", "output": "\\sin(\\alpha x + \\beta)"}
+{"input": "SIN(ALPHA X + BETA)", "output": "\\sin(\\alpha x + \\beta)"}
+{"input": "cos(omega t + phi)", "output": "\\cos(\\omega t + \\phi)"}
+{"input": "cos(ωt + φ)", "output": "\\cos(\\omega t + \\phi)"}
+{"input": "косинус (омега t + фи)", "output": "\\cos(\\omega t + \\phi)"}
+{"input": "cosine of omega t plus phi", "output": "\\cos(\\omega t + \\phi)"}
+{"input": "COS(OMEGA T + PHI)", "output": "\\cos(\\omega t + \\phi)"}
+{"input": "e^(i alpha)", "output": "e^{i\\alpha}"}
+{"input": "e^(iα)", "output": "e^{i\\alpha}"}
+{"input": "e в степени i альфа", "output": "e^{i\\alpha}"}
+{"input": "e to the i alpha", "output": "e^{i\\alpha}"}
+{"input": "E^(I ALPHA)", "output": "e^{i\\alpha}"}
+{"input": "e^(i theta)", "output": "e^{i\\theta}"}
+{"input": "e^(iθ)", "output": "e^{i\\theta}"}
+{"input": "e в степени i тета", "output": "e^{i\\theta}"}
+{"input": "e to the i theta", "output": "e^{i\\theta}"}
+{"input": "E^(I THETA)", "output": "e^{i\\theta}"}
+{"input": "e^(i pi)", "output": "e^{i\\pi}"}
+{"input": "e^(iπ)", "output": "e^{i\\pi}"}
+{"input": "e в степени i пи", "output": "e^{i\\pi}"}
+{"input": "e to the i pi", "output": "e^{i\\pi}"}
+{"input": "E^(I PI)", "output": "e^{i\\pi}"}
+{"input": "e^(i pi) + 1 = 0", "output": "e^{i\\pi} + 1 = 0"}
+{"input": "e^(iπ) + 1 = 0", "output": "e^{i\\pi} + 1 = 0"}
+{"input": "e в степени i пи + 1 = 0", "output": "e^{i\\pi} + 1 = 0"}
+{"input": "e to the i pi plus one equals zero", "output": "e^{i\\pi} + 1 = 0"}
+{"input": "E^(I PI)+1=0", "output": "e^{i\\pi} + 1 = 0"}
+{"input": "e^(i theta) = cos(theta) + i sin(theta)", "output": "e^{i\\theta} = \\cos(\\theta) + i\\sin(\\theta)"}
+{"input": "e^(iθ) = cos θ + i sin θ", "output": "e^{i\\theta} = \\cos(\\theta) + i\\sin(\\theta)"}
+{"input": "e в степени i тета = косинус тета + i синус тета", "output": "e^{i\\theta} = \\cos(\\theta) + i\\sin(\\theta)"}
+{"input": "e to the i theta equals cos theta plus i sin theta", "output": "e^{i\\theta} = \\cos(\\theta) + i\\sin(\\theta)"}
+{"input": "E^(I THETA)=COS(THETA)+I SIN(THETA)", "output": "e^{i\\theta} = \\cos(\\theta) + i\\sin(\\theta)"}
+{"input": "alpha beta", "output": "\\alpha\\beta"}
+{"input": "αβ", "output": "\\alpha\\beta"}
+{"input": "альфа бета", "output": "\\alpha\\beta"}
+{"input": "alpha beta", "output": "\\alpha\\beta"}
+{"input": "ALPHA BETA", "output": "\\alpha\\beta"}
+{"input": "gamma delta", "output": "\\gamma\\delta"}
+{"input": "γδ", "output": "\\gamma\\delta"}
+{"input": "гамма дельта", "output": "\\gamma\\delta"}
+{"input": "gamma delta", "output": "\\gamma\\delta"}
+{"input": "GAMMA DELTA", "output": "\\gamma\\delta"}
+{"input": "lambda mu", "output": "\\lambda\\mu"}
+{"input": "λμ", "output": "\\lambda\\mu"}
+{"input": "лямбда мю", "output": "\\lambda\\mu"}
+{"input": "lambda mu", "output": "\\lambda\\mu"}
+{"input": "LAMBDA MU", "output": "\\lambda\\mu"}
+{"input": "sigma phi", "output": "\\sigma\\phi"}
+{"input": "σφ", "output": "\\sigma\\phi"}
+{"input": "сигма фи", "output": "\\sigma\\phi"}
+{"input": "sigma phi", "output": "\\sigma\\phi"}
+{"input": "SIGMA PHI", "output": "\\sigma\\phi"}
+{"input": "omega psi", "output": "\\omega\\psi"}
+{"input": "ωψ", "output": "\\omega\\psi"}
+{"input": "омега пси", "output": "\\omega\\psi"}
+{"input": "omega psi", "output": "\\omega\\psi"}
+{"input": "OMEGA PSI", "output": "\\omega\\psi"}
+{"input": "alpha/beta", "output": "\\frac{\\alpha}{\\beta}"}
+{"input": "α/β", "output": "\\frac{\\alpha}{\\beta}"}
+{"input": "альфа делить на бета", "output": "\\frac{\\alpha}{\\beta}"}
+{"input": "alpha over beta", "output": "\\frac{\\alpha}{\\beta}"}
+{"input": "ALPHA/BETA", "output": "\\frac{\\alpha}{\\beta}"}
+{"input": "gamma/delta", "output": "\\frac{\\gamma}{\\delta}"}
+{"input": "γ/δ", "output": "\\frac{\\gamma}{\\delta}"}
+{"input": "гамма делить на дельта", "output": "\\frac{\\gamma}{\\delta}"}
+{"input": "gamma over delta", "output": "\\frac{\\gamma}{\\delta}"}
+{"input": "GAMMA/DELTA", "output": "\\frac{\\gamma}{\\delta}"}
+{"input": "lambda/mu", "output": "\\frac{\\lambda}{\\mu}"}
+{"input": "λ/μ", "output": "\\frac{\\lambda}{\\mu}"}
+{"input": "лямбда делить на мю", "output": "\\frac{\\lambda}{\\mu}"}
+{"input": "lambda over mu", "output": "\\frac{\\lambda}{\\mu}"}
+{"input": "LAMBDA/MU", "output": "\\frac{\\lambda}{\\mu}"}
+{"input": "sigma/phi", "output": "\\frac{\\sigma}{\\phi}"}
+{"input": "σ/φ", "output": "\\frac{\\sigma}{\\phi}"}
+{"input": "сигма делить на фи", "output": "\\frac{\\sigma}{\\phi}"}
+{"input": "sigma over phi", "output": "\\frac{\\sigma}{\\phi}"}
+{"input": "SIGMA/PHI", "output": "\\frac{\\sigma}{\\phi}"}
+{"input": "omega/psi", "output": "\\frac{\\omega}{\\psi}"}
+{"input": "ω/ψ", "output": "\\frac{\\omega}{\\psi}"}
+{"input": "омега делить на пси", "output": "\\frac{\\omega}{\\psi}"}
+{"input": "omega over psi", "output": "\\frac{\\omega}{\\psi}"}
+{"input": "OMEGA/PSI", "output": "\\frac{\\omega}{\\psi}"}
+{"input": "alpha_1", "output": "\\alpha_1"}
+{"input": "α_1", "output": "\\alpha_1"}
+{"input": "альфа с индексом 1", "output": "\\alpha_1"}
+{"input": "alpha sub 1", "output": "\\alpha_1"}
+{"input": "ALPHA_1", "output": "\\alpha_1"}
+{"input": "beta_2", "output": "\\beta_2"}
+{"input": "β_2", "output": "\\beta_2"}
+{"input": "бета с индексом 2", "output": "\\beta_2"}
+{"input": "beta sub 2", "output": "\\beta_2"}
+{"input": "BETA_2", "output": "\\beta_2"}
+{"input": "gamma_i", "output": "\\gamma_i"}
+{"input": "γ_i", "output": "\\gamma_i"}
+{"input": "гамма с индексом i", "output": "\\gamma_i"}
+{"input": "gamma sub i", "output": "\\gamma_i"}
+{"input": "GAMMA_I", "output": "\\gamma_i"}
+{"input": "theta_n", "output": "\\theta_n"}
+{"input": "θ_n", "output": "\\theta_n"}
+{"input": "тета с индексом n", "output": "\\theta_n"}
+{"input": "theta sub n", "output": "\\theta_n"}
+{"input": "THETA_N", "output": "\\theta_n"}
+{"input": "lambda_j", "output": "\\lambda_j"}
+{"input": "λ_j", "output": "\\lambda_j"}
+{"input": "лямбда с индексом j", "output": "\\lambda_j"}
+{"input": "lambda sub j", "output": "\\lambda_j"}
+{"input": "LAMBDA_J", "output": "\\lambda_j"}
+{"input": "mu_k", "output": "\\mu_k"}
+{"input": "μ_k", "output": "\\mu_k"}
+{"input": "мю с индексом k", "output": "\\mu_k"}
+{"input": "mu sub k", "output": "\\mu_k"}
+{"input": "MU_K", "output": "\\mu_k"}
+{"input": "sigma_m", "output": "\\sigma_m"}
+{"input": "σ_m", "output": "\\sigma_m"}
+{"input": "сигма с индексом m", "output": "\\sigma_m"}
+{"input": "sigma sub m", "output": "\\sigma_m"}
+{"input": "SIGMA_M", "output": "\\sigma_m"}
+{"input": "phi_p", "output": "\\phi_p"}
+{"input": "φ_p", "output": "\\phi_p"}
+{"input": "фи с индексом p", "output": "\\phi_p"}
+{"input": "phi sub p", "output": "\\phi_p"}
+{"input": "PHI_P", "output": "\\phi_p"}
+{"input": "omega_q", "output": "\\omega_q"}
+{"input": "ω_q", "output": "\\omega_q"}
+{"input": "омега с индексом q", "output": "\\omega_q"}
+{"input": "omega sub q", "output": "\\omega_q"}
+{"input": "OMEGA_Q", "output": "\\omega_q"}
+{"input": "alpha_{n+1}", "output": "\\alpha_{n+1}"}
+{"input": "α_{n+1}", "output": "\\alpha_{n+1}"}
+{"input": "альфа с индексом n+1", "output": "\\alpha_{n+1}"}
+{"input": "alpha sub n plus one", "output": "\\alpha_{n+1}"}
+{"input": "ALPHA_{N+1}", "output": "\\alpha_{n+1}"}
+{"input": "beta_{i,j}", "output": "\\beta_{i,j}"}
+{"input": "β_{i,j}", "output": "\\beta_{i,j}"}
+{"input": "бета с индексами i,j", "output": "\\beta_{i,j}"}
+{"input": "beta sub i comma j", "output": "\\beta_{i,j}"}
+{"input": "BETA_{I,J}", "output": "\\beta_{i,j}"}
+{"input": "theta_{n-1}", "output": "\\theta_{n-1}"}
+{"input": "θ_{n-1}", "output": "\\theta_{n-1}"}
+{"input": "тета с индексом n-1", "output": "\\theta_{n-1}"}
+{"input": "theta sub n minus one", "output": "\\theta_{n-1}"}
+{"input": "THETA_{N-1}", "output": "\\theta_{n-1}"}
+{"input": "sqrt(alpha)", "output": "\\sqrt{\\alpha}"}
+{"input": "√α", "output": "\\sqrt{\\alpha}"}
+{"input": "корень из альфа", "output": "\\sqrt{\\alpha}"}
+{"input": "square root of alpha", "output": "\\sqrt{\\alpha}"}
+{"input": "SQRT(ALPHA)", "output": "\\sqrt{\\alpha}"}
+{"input": "sqrt(beta)", "output": "\\sqrt{\\beta}"}
+{"input": "√β", "output": "\\sqrt{\\beta}"}
+{"input": "корень из бета", "output": "\\sqrt{\\beta}"}
+{"input": "square root of beta", "output": "\\sqrt{\\beta}"}
+{"input": "SQRT(BETA)", "output": "\\sqrt{\\beta}"}
+{"input": "sqrt(gamma)", "output": "\\sqrt{\\gamma}"}
+{"input": "√γ", "output": "\\sqrt{\\gamma}"}
+{"input": "корень из гамма", "output": "\\sqrt{\\gamma}"}
+{"input": "square root of gamma", "output": "\\sqrt{\\gamma}"}
+{"input": "SQRT(GAMMA)", "output": "\\sqrt{\\gamma}"}
+{"input": "sqrt(theta)", "output": "\\sqrt{\\theta}"}
+{"input": "√θ", "output": "\\sqrt{\\theta}"}
+{"input": "корень из тета", "output": "\\sqrt{\\theta}"}
+{"input": "square root of theta", "output": "\\sqrt{\\theta}"}
+{"input": "SQRT(THETA)", "output": "\\sqrt{\\theta}"}
+{"input": "sqrt(lambda)", "output": "\\sqrt{\\lambda}"}
+{"input": "√λ", "output": "\\sqrt{\\lambda}"}
+{"input": "корень из лямбда", "output": "\\sqrt{\\lambda}"}
+{"input": "square root of lambda", "output": "\\sqrt{\\lambda}"}
+{"input": "SQRT(LAMBDA)", "output": "\\sqrt{\\lambda}"}
+{"input": "sqrt(pi)", "output": "\\sqrt{\\pi}"}
+{"input": "√π", "output": "\\sqrt{\\pi}"}
+{"input": "корень из пи", "output": "\\sqrt{\\pi}"}
+{"input": "square root of pi", "output": "\\sqrt{\\pi}"}
+{"input": "SQRT(PI)", "output": "\\sqrt{\\pi}"}
+{"input": "log(alpha)", "output": "\\log(\\alpha)"}
+{"input": "лог(α)", "output": "\\log(\\alpha)"}
+{"input": "лог альфа", "output": "\\log(\\alpha)"}
+{"input": "log of alpha", "output": "\\log(\\alpha)"}
+{"input": "LOG(ALPHA)", "output": "\\log(\\alpha)"}
+{"input": "ln(beta)", "output": "\\ln(\\beta)"}
+{"input": "лн(β)", "output": "\\ln(\\beta)"}
+{"input": "лн бета", "output": "\\ln(\\beta)"}
+{"input": "natural log of beta", "output": "\\ln(\\beta)"}
+{"input": "LN(BETA)", "output": "\\ln(\\beta)"}
+{"input": "log_2(theta)", "output": "\\log_{2}(\\theta)"}
+{"input": "log_2 θ", "output": "\\log_{2}(\\theta)"}
+{"input": "лог по основанию 2 от тета", "output": "\\log_{2}(\\theta)"}
+{"input": "log base 2 of theta", "output": "\\log_{2}(\\theta)"}
+{"input": "LOG_2(THETA)", "output": "\\log_{2}(\\theta)"}
+{"input": "log_10(sigma)", "output": "\\log_{10}(\\sigma)"}
+{"input": "log_10 σ", "output": "\\log_{10}(\\sigma)"}
+{"input": "лог по основанию 10 от сигма", "output": "\\log_{10}(\\sigma)"}
+{"input": "log base 10 of sigma", "output": "\\log_{10}(\\sigma)"}
+{"input": "LOG_10(SIGMA)", "output": "\\log_{10}(\\sigma)"}
+{"input": "exp(alpha)", "output": "\\exp(\\alpha)"}
+{"input": "эксп(α)", "output": "\\exp(\\alpha)"}
+{"input": "эксп альфа", "output": "\\exp(\\alpha)"}
+{"input": "exponential of alpha", "output": "\\exp(\\alpha)"}
+{"input": "EXP(ALPHA)", "output": "\\exp(\\alpha)"}
+{"input": "e^alpha", "output": "e^{\\alpha}"}
+{"input": "e^α", "output": "e^{\\alpha}"}
+{"input": "е в степени альфа", "output": "e^{\\alpha}"}
+{"input": "e to the alpha", "output": "e^{\\alpha}"}
+{"input": "E^ALPHA", "output": "e^{\\alpha}"}
+{"input": "e^beta", "output": "e^{\\beta}"}
+{"input": "e^β", "output": "e^{\\beta}"}
+{"input": "е в степени бета", "output": "e^{\\beta}"}
+{"input": "e to the beta", "output": "e^{\\beta}"}
+{"input": "E^BETA", "output": "e^{\\beta}"}
+{"input": "e^theta", "output": "e^{\\theta}"}
+{"input": "e^θ", "output": "e^{\\theta}"}
+{"input": "е в степени тета", "output": "e^{\\theta}"}
+{"input": "e to the theta", "output": "e^{\\theta}"}
+{"input": "E^THETA", "output": "e^{\\theta}"}
+{"input": "e^lambda", "output": "e^{\\lambda}"}
+{"input": "e^λ", "output": "e^{\\lambda}"}
+{"input": "е в степени лямбда", "output": "e^{\\lambda}"}
+{"input": "e to the lambda", "output": "e^{\\lambda}"}
+{"input": "E^LAMBDA", "output": "e^{\\lambda}"}
+{"input": "alpha + beta = gamma", "output": "\\alpha + \\beta = \\gamma"}
+{"input": "α + β = γ", "output": "\\alpha + \\beta = \\gamma"}
+{"input": "альфа + бета = гамма", "output": "\\alpha + \\beta = \\gamma"}
+{"input": "alpha plus beta equals gamma", "output": "\\alpha + \\beta = \\gamma"}
+{"input": "ALPHA+BETA=GAMMA", "output": "\\alpha + \\beta = \\gamma"}
+{"input": "delta + epsilon = theta", "output": "\\delta + \\epsilon = \\theta"}
+{"input": "δ + ε = θ", "output": "\\delta + \\epsilon = \\theta"}
+{"input": "дельта + эпсилон = тета", "output": "\\delta + \\epsilon = \\theta"}
+{"input": "delta plus epsilon equals theta", "output": "\\delta + \\epsilon = \\theta"}
+{"input": "DELTA+EPSILON=THETA", "output": "\\delta + \\epsilon = \\theta"}
+{"input": "lambda + mu = pi", "output": "\\lambda + \\mu = \\pi"}
+{"input": "λ + μ = π", "output": "\\lambda + \\mu = \\pi"}
+{"input": "лямбда + мю = пи", "output": "\\lambda + \\mu = \\pi"}
+{"input": "lambda plus mu equals pi", "output": "\\lambda + \\mu = \\pi"}
+{"input": "LAMBDA+MU=PI", "output": "\\lambda + \\mu = \\pi"}
+{"input": "sigma + phi = omega", "output": "\\sigma + \\phi = \\omega"}
+{"input": "σ + φ = ω", "output": "\\sigma + \\phi = \\omega"}
+{"input": "сигма + фи = омега", "output": "\\sigma + \\phi = \\omega"}
+{"input": "sigma plus phi equals omega", "output": "\\sigma + \\phi = \\omega"}
+{"input": "SIGMA+PHI=OMEGA", "output": "\\sigma + \\phi = \\omega"}
+{"input": "alpha beta = gamma", "output": "\\alpha\\beta = \\gamma"}
+{"input": "αβ = γ", "output": "\\alpha\\beta = \\gamma"}
+{"input": "альфа бета = гамма", "output": "\\alpha\\beta = \\gamma"}
+{"input": "alpha beta equals gamma", "output": "\\alpha\\beta = \\gamma"}
+{"input": "ALPHA BETA=GAMMA", "output": "\\alpha\\beta = \\gamma"}
+{"input": "gamma delta = epsilon", "output": "\\gamma\\delta = \\epsilon"}
+{"input": "γδ = ε", "output": "\\gamma\\delta = \\epsilon"}
+{"input": "гамма дельта = эпсилон", "output": "\\gamma\\delta = \\epsilon"}
+{"input": "gamma delta equals epsilon", "output": "\\gamma\\delta = \\epsilon"}
+{"input": "GAMMA DELTA=EPSILON", "output": "\\gamma\\delta = \\epsilon"}
+{"input": "lambda mu = pi", "output": "\\lambda\\mu = \\pi"}
+{"input": "λμ = π", "output": "\\lambda\\mu = \\pi"}
+{"input": "лямбда мю = пи", "output": "\\lambda\\mu = \\pi"}
+{"input": "lambda mu equals pi", "output": "\\lambda\\mu = \\pi"}
+{"input": "LAMBDA MU=PI", "output": "\\lambda\\mu = \\pi"}
+{"input": "sigma phi = omega", "output": "\\sigma\\phi = \\omega"}
+{"input": "σφ = ω", "output": "\\sigma\\phi = \\omega"}
+{"input": "сигма фи = омега", "output": "\\sigma\\phi = \\omega"}
+{"input": "sigma phi equals omega", "output": "\\sigma\\phi = \\omega"}
+{"input": "SIGMA PHI=OMEGA", "output": "\\sigma\\phi = \\omega"}
+{"input": "alpha^2 + beta^2 = gamma^2", "output": "\\alpha^{2} + \\beta^{2} = \\gamma^{2}"}
+{"input": "α^2 + β^2 = γ^2", "output": "\\alpha^{2} + \\beta^{2} = \\gamma^{2}"}
+{"input": "альфа в квадрате + бета в квадрате = гамма в квадрате", "output": "\\alpha^{2} + \\beta^{2} = \\gamma^{2}"}
+{"input": "alpha squared plus beta squared equals gamma squared", "output": "\\alpha^{2} + \\beta^{2} = \\gamma^{2}"}
+{"input": "ALPHA^2+BETA^2=GAMMA^2", "output": "\\alpha^{2} + \\beta^{2} = \\gamma^{2}"}
+{"input": "delta^2 + epsilon^2 = theta^2", "output": "\\delta^{2} + \\epsilon^{2} = \\theta^{2}"}
+{"input": "δ^2 + ε^2 = θ^2", "output": "\\delta^{2} + \\epsilon^{2} = \\theta^{2}"}
+{"input": "дельта в квадрате + эпсилон в квадрате = тета в квадрате", "output": "\\delta^{2} + \\epsilon^{2} = \\theta^{2}"}
+{"input": "delta squared plus epsilon squared equals theta squared", "output": "\\delta^{2} + \\epsilon^{2} = \\theta^{2}"}
+{"input": "DELTA^2+EPSILON^2=THETA^2", "output": "\\delta^{2} + \\epsilon^{2} = \\theta^{2}"}
+{"input": "lambda^2 + mu^2 = pi^2", "output": "\\lambda^{2} + \\mu^{2} = \\pi^{2}"}
+{"input": "λ^2 + μ^2 = π^2", "output": "\\lambda^{2} + \\mu^{2} = \\pi^{2}"}
+{"input": "лямбда в квадрате + мю в квадрате = пи в квадрате", "output": "\\lambda^{2} + \\mu^{2} = \\pi^{2}"}
+{"input": "lambda squared plus mu squared equals pi squared", "output": "\\lambda^{2} + \\mu^{2} = \\pi^{2}"}
+{"input": "LAMBDA^2+MU^2=PI^2", "output": "\\lambda^{2} + \\mu^{2} = \\pi^{2}"}
+{"input": "sigma^2 + phi^2 = omega^2", "output": "\\sigma^{2} + \\phi^{2} = \\omega^{2}"}
+{"input": "σ^2 + φ^2 = ω^2", "output": "\\sigma^{2} + \\phi^{2} = \\omega^{2}"}
+{"input": "сигма в квадрате + фи в квадрате = омега в квадрате", "output": "\\sigma^{2} + \\phi^{2} = \\omega^{2}"}
+{"input": "sigma squared plus phi squared equals omega squared", "output": "\\sigma^{2} + \\phi^{2} = \\omega^{2}"}
+{"input": "SIGMA^2+PHI^2=OMEGA^2", "output": "\\sigma^{2} + \\phi^{2} = \\omega^{2}"}
+{"input": "alpha_1 + alpha_2 = beta", "output": "\\alpha_1 + \\alpha_2 = \\beta"}
+{"input": "α_1 + α_2 = β", "output": "\\alpha_1 + \\alpha_2 = \\beta"}
+{"input": "альфа 1 + альфа 2 = бета", "output": "\\alpha_1 + \\alpha_2 = \\beta"}
+{"input": "alpha one plus alpha two equals beta", "output": "\\alpha_1 + \\alpha_2 = \\beta"}
+{"input": "ALPHA_1+ALPHA_2=BETA", "output": "\\alpha_1 + \\alpha_2 = \\beta"}
+{"input": "beta_1 + beta_2 = gamma", "output": "\\beta_1 + \\beta_2 = \\gamma"}
+{"input": "β_1 + β_2 = γ", "output": "\\beta_1 + \\beta_2 = \\gamma"}
+{"input": "бета 1 + бета 2 = гамма", "output": "\\beta_1 + \\beta_2 = \\gamma"}
+{"input": "beta one plus beta two equals gamma", "output": "\\beta_1 + \\beta_2 = \\gamma"}
+{"input": "BETA_1+BETA_2=GAMMA", "output": "\\beta_1 + \\beta_2 = \\gamma"}
+{"input": "theta_1 + theta_2 = phi", "output": "\\theta_1 + \\theta_2 = \\phi"}
+{"input": "θ_1 + θ_2 = φ", "output": "\\theta_1 + \\theta_2 = \\phi"}
+{"input": "тета 1 + тета 2 = фи", "output": "\\theta_1 + \\theta_2 = \\phi"}
+{"input": "theta one plus theta two equals phi", "output": "\\theta_1 + \\theta_2 = \\phi"}
+{"input": "THETA_1+THETA_2=PHI", "output": "\\theta_1 + \\theta_2 = \\phi"}
+{"input": "lambda_1 + lambda_2 = mu", "output": "\\lambda_1 + \\lambda_2 = \\mu"}
+{"input": "λ_1 + λ_2 = μ", "output": "\\lambda_1 + \\lambda_2 = \\mu"}
+{"input": "лямбда 1 + лямбда 2 = мю", "output": "\\lambda_1 + \\lambda_2 = \\mu"}
+{"input": "lambda one plus lambda two equals mu", "output": "\\lambda_1 + \\lambda_2 = \\mu"}
+{"input": "LAMBDA_1+LAMBDA_2=MU", "output": "\\lambda_1 + \\lambda_2 = \\mu"}
+{"input": "sigma_1 + sigma_2 = tau", "output": "\\sigma_1 + \\sigma_2 = \\tau"}
+{"input": "σ_1 + σ_2 = τ", "output": "\\sigma_1 + \\sigma_2 = \\tau"}
+{"input": "сигма 1 + сигма 2 = тау", "output": "\\sigma_1 + \\sigma_2 = \\tau"}
+{"input": "sigma one plus sigma two equals tau", "output": "\\sigma_1 + \\sigma_2 = \\tau"}
+{"input": "SIGMA_1+SIGMA_2=TAU", "output": "\\sigma_1 + \\sigma_2 = \\tau"}
+{"input": "alpha_i beta_j", "output": "\\alpha_i \\beta_j"}
+{"input": "α_i β_j", "output": "\\alpha_i \\beta_j"}
+{"input": "альфа i бета j", "output": "\\alpha_i \\beta_j"}
+{"input": "alpha sub i beta sub j", "output": "\\alpha_i \\beta_j"}
+{"input": "ALPHA_I BETA_J", "output": "\\alpha_i \\beta_j"}
+{"input": "sum_{i=1}^n alpha_i", "output": "\\sum_{i=1}^{n} \\alpha_i"}
+{"input": "Σ_{i=1}^n α_i", "output": "\\sum_{i=1}^{n} \\alpha_i"}
+{"input": "сумма от i=1 до n альфа i", "output": "\\sum_{i=1}^{n} \\alpha_i"}
+{"input": "sum from i equals 1 to n of alpha sub i", "output": "\\sum_{i=1}^{n} \\alpha_i"}
+{"input": "SUM_{I=1}^N ALPHA_I", "output": "\\sum_{i=1}^{n} \\alpha_i"}
+{"input": "sum_{i=1}^n beta_i", "output": "\\sum_{i=1}^{n} \\beta_i"}
+{"input": "Σ_{i=1}^n β_i", "output": "\\sum_{i=1}^{n} \\beta_i"}
+{"input": "сумма от i=1 до n бета i", "output": "\\sum_{i=1}^{n} \\beta_i"}
+{"input": "sum from i equals 1 to n of beta sub i", "output": "\\sum_{i=1}^{n} \\beta_i"}
+{"input": "SUM_{I=1}^N BETA_I", "output": "\\sum_{i=1}^{n} \\beta_i"}
+{"input": "sum_{i=1}^n gamma_i", "output": "\\sum_{i=1}^{n} \\gamma_i"}
+{"input": "Σ_{i=1}^n γ_i", "output": "\\sum_{i=1}^{n} \\gamma_i"}
+{"input": "сумма от i=1 до n гамма i", "output": "\\sum_{i=1}^{n} \\gamma_i"}
+{"input": "sum from i equals 1 to n of gamma sub i", "output": "\\sum_{i=1}^{n} \\gamma_i"}
+{"input": "SUM_{I=1}^N GAMMA_I", "output": "\\sum_{i=1}^{n} \\gamma_i"}
+{"input": "sum_{i=1}^n theta_i", "output": "\\sum_{i=1}^{n} \\theta_i"}
+{"input": "Σ_{i=1}^n θ_i", "output": "\\sum_{i=1}^{n} \\theta_i"}
+{"input": "сумма от i=1 до n тета i", "output": "\\sum_{i=1}^{n} \\theta_i"}
+{"input": "sum from i equals 1 to n of theta sub i", "output": "\\sum_{i=1}^{n} \\theta_i"}
+{"input": "SUM_{I=1}^N THETA_I", "output": "\\sum_{i=1}^{n} \\theta_i"}
+{"input": "sum_{i=1}^n lambda_i", "output": "\\sum_{i=1}^{n} \\lambda_i"}
+{"input": "Σ_{i=1}^n λ_i", "output": "\\sum_{i=1}^{n} \\lambda_i"}
+{"input": "сумма от i=1 до n лямбда i", "output": "\\sum_{i=1}^{n} \\lambda_i"}
+{"input": "sum from i equals 1 to n of lambda sub i", "output": "\\sum_{i=1}^{n} \\lambda_i"}
+{"input": "SUM_{I=1}^N LAMBDA_I", "output": "\\sum_{i=1}^{n} \\lambda_i"}
+{"input": "sum_{i=1}^n mu_i", "output": "\\sum_{i=1}^{n} \\mu_i"}
+{"input": "Σ_{i=1}^n μ_i", "output": "\\sum_{i=1}^{n} \\mu_i"}
+{"input": "сумма от i=1 до n мю i", "output": "\\sum_{i=1}^{n} \\mu_i"}
+{"input": "sum from i equals 1 to n of mu sub i", "output": "\\sum_{i=1}^{n} \\mu_i"}
+{"input": "SUM_{I=1}^N MU_I", "output": "\\sum_{i=1}^{n} \\mu_i"}
+{"input": "sum_{i=1}^n sigma_i", "output": "\\sum_{i=1}^{n} \\sigma_i"}
+{"input": "Σ_{i=1}^n σ_i", "output": "\\sum_{i=1}^{n} \\sigma_i"}
+{"input": "сумма от i=1 до n сигма i", "output": "\\sum_{i=1}^{n} \\sigma_i"}
+{"input": "sum from i equals 1 to n of sigma sub i", "output": "\\sum_{i=1}^{n} \\sigma_i"}
+{"input": "SUM_{I=1}^N SIGMA_I", "output": "\\sum_{i=1}^{n} \\sigma_i"}
+{"input": "sum_{i=1}^n phi_i", "output": "\\sum_{i=1}^{n} \\phi_i"}
+{"input": "Σ_{i=1}^n φ_i", "output": "\\sum_{i=1}^{n} \\phi_i"}
+{"input": "сумма от i=1 до n фи i", "output": "\\sum_{i=1}^{n} \\phi_i"}
+{"input": "sum from i equals 1 to n of phi sub i", "output": "\\sum_{i=1}^{n} \\phi_i"}
+{"input": "SUM_{I=1}^N PHI_I", "output": "\\sum_{i=1}^{n} \\phi_i"}
+{"input": "sum_{i=1}^n omega_i", "output": "\\sum_{i=1}^{n} \\omega_i"}
+{"input": "Σ_{i=1}^n ω_i", "output": "\\sum_{i=1}^{n} \\omega_i"}
+{"input": "сумма от i=1 до n омега i", "output": "\\sum_{i=1}^{n} \\omega_i"}
+{"input": "sum from i equals 1 to n of omega sub i", "output": "\\sum_{i=1}^{n} \\omega_i"}
+{"input": "SUM_{I=1}^N OMEGA_I", "output": "\\sum_{i=1}^{n} \\omega_i"}
+{"input": "int alpha dalpha", "output": "\\int \\alpha \\, d\\alpha"}
+{"input": "∫ α dα", "output": "\\int \\alpha \\, d\\alpha"}
+{"input": "интеграл альфа d альфа", "output": "\\int \\alpha \\, d\\alpha"}
+{"input": "integral alpha d alpha", "output": "\\int \\alpha \\, d\\alpha"}
+{"input": "INT ALPHA DALPHA", "output": "\\int \\alpha \\, d\\alpha"}
+{"input": "int beta dbeta", "output": "\\int \\beta \\, d\\beta"}
+{"input": "∫ β dβ", "output": "\\int \\beta \\, d\\beta"}
+{"input": "интеграл бета d бета", "output": "\\int \\beta \\, d\\beta"}
+{"input": "integral beta d beta", "output": "\\int \\beta \\, d\\beta"}
+{"input": "INT BETA DBETA", "output": "\\int \\beta \\, d\\beta"}
+{"input": "int theta dtheta", "output": "\\int \\theta \\, d\\theta"}
+{"input": "∫ θ dθ", "output": "\\int \\theta \\, d\\theta"}
+{"input": "интеграл тета d тета", "output": "\\int \\theta \\, d\\theta"}
+{"input": "integral theta d theta", "output": "\\int \\theta \\, d\\theta"}
+{"input": "INT THETA DTHETA", "output": "\\int \\theta \\, d\\theta"}
+{"input": "int lambda dlambda", "output": "\\int \\lambda \\, d\\lambda"}
+{"input": "∫ λ dλ", "output": "\\int \\lambda \\, d\\lambda"}
+{"input": "интеграл лямбда d лямбда", "output": "\\int \\lambda \\, d\\lambda"}
+{"input": "integral lambda d lambda", "output": "\\int \\lambda \\, d\\lambda"}
+{"input": "INT LAMBDA DLAMBDA", "output": "\\int \\lambda \\, d\\lambda"}
+{"input": "int mu dmu", "output": "\\int \\mu \\, d\\mu"}
+{"input": "∫ μ dμ", "output": "\\int \\mu \\, d\\mu"}
+{"input": "интеграл мю d мю", "output": "\\int \\mu \\, d\\mu"}
+{"input": "integral mu d mu", "output": "\\int \\mu \\, d\\mu"}
+{"input": "INT MU DMU", "output": "\\int \\mu \\, d\\mu"}
+{"input": "int sigma dsigma", "output": "\\int \\sigma \\, d\\sigma"}
+{"input": "∫ σ dσ", "output": "\\int \\sigma \\, d\\sigma"}
+{"input": "интеграл сигма d сигма", "output": "\\int \\sigma \\, d\\sigma"}
+{"input": "integral sigma d sigma", "output": "\\int \\sigma \\, d\\sigma"}
+{"input": "INT SIGMA DSIGMA", "output": "\\int \\sigma \\, d\\sigma"}
+{"input": "int phi dphi", "output": "\\int \\phi \\, d\\phi"}
+{"input": "∫ φ dφ", "output": "\\int \\phi \\, d\\phi"}
+{"input": "интеграл фи d фи", "output": "\\int \\phi \\, d\\phi"}
+{"input": "integral phi d phi", "output": "\\int \\phi \\, d\\phi"}
+{"input": "INT PHI DPHI", "output": "\\int \\phi \\, d\\phi"}
+{"input": "int omega domega", "output": "\\int \\omega \\, d\\omega"}
+{"input": "∫ ω dω", "output": "\\int \\omega \\, d\\omega"}
+{"input": "интеграл омега d омега", "output": "\\int \\omega \\, d\\omega"}
+{"input": "integral omega d omega", "output": "\\int \\omega \\, d\\omega"}
+{"input": "INT OMEGA DOMEGA", "output": "\\int \\omega \\, d\\omega"}
+{"input": "lim alpha->0 sin(alpha)/alpha", "output": "\\lim_{\\alpha \\to 0} \\frac{\\sin(\\alpha)}{\\alpha}"}
+{"input": "lim α->0 sin α / α", "output": "\\lim_{\\alpha \\to 0} \\frac{\\sin(\\alpha)}{\\alpha}"}
+{"input": "предел альфа->0 sin альфа / альфа", "output": "\\lim_{\\alpha \\to 0} \\frac{\\sin(\\alpha)}{\\alpha}"}
+{"input": "limit as alpha approaches 0 of sin alpha over alpha", "output": "\\lim_{\\alpha \\to 0} \\frac{\\sin(\\alpha)}{\\alpha}"}
+{"input": "LIM ALPHA->0 SIN(ALPHA)/ALPHA", "output": "\\lim_{\\alpha \\to 0} \\frac{\\sin(\\alpha)}{\\alpha}"}
+{"input": "lim theta->0 sin(theta)/theta", "output": "\\lim_{\\theta \\to 0} \\frac{\\sin(\\theta)}{\\theta}"}
+{"input": "lim θ->0 sin θ / θ", "output": "\\lim_{\\theta \\to 0} \\frac{\\sin(\\theta)}{\\theta}"}
+{"input": "предел тета->0 sin тета / тета", "output": "\\lim_{\\theta \\to 0} \\frac{\\sin(\\theta)}{\\theta}"}
+{"input": "limit as theta approaches 0 of sin theta over theta", "output": "\\lim_{\\theta \\to 0} \\frac{\\sin(\\theta)}{\\theta}"}
+{"input": "LIM THETA->0 SIN(THETA)/THETA", "output": "\\lim_{\\theta \\to 0} \\frac{\\sin(\\theta)}{\\theta}"}
+{"input": "lim lambda->0 (e^lambda-1)/lambda", "output": "\\lim_{\\lambda \\to 0} \\frac{e^{\\lambda}-1}{\\lambda}"}
+{"input": "lim λ->0 (e^λ-1)/λ", "output": "\\lim_{\\lambda \\to 0} \\frac{e^{\\lambda}-1}{\\lambda}"}
+{"input": "предел лямбда->0 (e^лямбда-1)/лямбда", "output": "\\lim_{\\lambda \\to 0} \\frac{e^{\\lambda}-1}{\\lambda}"}
+{"input": "limit as lambda approaches 0 of e to the lambda minus 1 over lambda", "output": "\\lim_{\\lambda \\to 0} \\frac{e^{\\lambda}-1}{\\lambda}"}
+{"input": "LIM LAMBDA->0 (E^LAMBDA-1)/LAMBDA", "output": "\\lim_{\\lambda \\to 0} \\frac{e^{\\lambda}-1}{\\lambda}"}
+{"input": "lim mu->0 (1-cos(mu))/mu^2", "output": "\\lim_{\\mu \\to 0} \\frac{1-\\cos(\\mu)}{\\mu^{2}}"}
+{"input": "lim μ->0 (1-cos μ)/μ^2", "output": "\\lim_{\\mu \\to 0} \\frac{1-\\cos(\\mu)}{\\mu^{2}}"}
+{"input": "предел мю->0 (1-cos мю)/мю^2", "output": "\\lim_{\\mu \\to 0} \\frac{1-\\cos(\\mu)}{\\mu^{2}}"}
+{"input": "limit as mu approaches 0 of 1 minus cos mu over mu squared", "output": "\\lim_{\\mu \\to 0} \\frac{1-\\cos(\\mu)}{\\mu^{2}}"}
+{"input": "LIM MU->0 (1-COS(MU))/MU^2", "output": "\\lim_{\\mu \\to 0} \\frac{1-\\cos(\\mu)}{\\mu^{2}}"}
+{"input": "lim omega->0 sin(omega)/omega", "output": "\\lim_{\\omega \\to 0} \\frac{\\sin(\\omega)}{\\omega}"}
+{"input": "lim ω->0 sin ω / ω", "output": "\\lim_{\\omega \\to 0} \\frac{\\sin(\\omega)}{\\omega}"}
+{"input": "предел омега->0 sin омега / омега", "output": "\\lim_{\\omega \\to 0} \\frac{\\sin(\\omega)}{\\omega}"}
+{"input": "limit as omega approaches 0 of sin omega over omega", "output": "\\lim_{\\omega \\to 0} \\frac{\\sin(\\omega)}{\\omega}"}
+{"input": "LIM OMEGA->0 SIN(OMEGA)/OMEGA", "output": "\\lim_{\\omega \\to 0} \\frac{\\sin(\\omega)}{\\omega}"}
+{"input": "deriv(alpha x)", "output": "\\frac{d}{dx}(\\alpha x)"}
+{"input": "d/dx alpha x", "output": "\\frac{d}{dx}(\\alpha x)"}
+{"input": "производная альфа x", "output": "\\frac{d}{dx}(\\alpha x)"}
+{"input": "derivative of alpha x", "output": "\\frac{d}{dx}(\\alpha x)"}
+{"input": "DERIV(ALPHA X)", "output": "\\frac{d}{dx}(\\alpha x)"}
+{"input": "deriv(beta x)", "output": "\\frac{d}{dx}(\\beta x)"}
+{"input": "d/dx beta x", "output": "\\frac{d}{dx}(\\beta x)"}
+{"input": "производная бета x", "output": "\\frac{d}{dx}(\\beta x)"}
+{"input": "derivative of beta x", "output": "\\frac{d}{dx}(\\beta x)"}
+{"input": "DERIV(BETA X)", "output": "\\frac{d}{dx}(\\beta x)"}
+{"input": "deriv(gamma x)", "output": "\\frac{d}{dx}(\\gamma x)"}
+{"input": "d/dx gamma x", "output": "\\frac{d}{dx}(\\gamma x)"}
+{"input": "производная гамма x", "output": "\\frac{d}{dx}(\\gamma x)"}
+{"input": "derivative of gamma x", "output": "\\frac{d}{dx}(\\gamma x)"}
+{"input": "DERIV(GAMMA X)", "output": "\\frac{d}{dx}(\\gamma x)"}
+{"input": "deriv(theta x)", "output": "\\frac{d}{dx}(\\theta x)"}
+{"input": "d/dx theta x", "output": "\\frac{d}{dx}(\\theta x)"}
+{"input": "производная тета x", "output": "\\frac{d}{dx}(\\theta x)"}
+{"input": "derivative of theta x", "output": "\\frac{d}{dx}(\\theta x)"}
+{"input": "DERIV(THETA X)", "output": "\\frac{d}{dx}(\\theta x)"}
+{"input": "deriv(lambda x)", "output": "\\frac{d}{dx}(\\lambda x)"}
+{"input": "d/dx lambda x", "output": "\\frac{d}{dx}(\\lambda x)"}
+{"input": "производная лямбда x", "output": "\\frac{d}{dx}(\\lambda x)"}
+{"input": "derivative of lambda x", "output": "\\frac{d}{dx}(\\lambda x)"}
+{"input": "DERIV(LAMBDA X)", "output": "\\frac{d}{dx}(\\lambda x)"}
+{"input": "deriv(omega t)", "output": "\\frac{d}{dt}(\\omega t)"}
+{"input": "d/dt omega t", "output": "\\frac{d}{dt}(\\omega t)"}
+{"input": "производная омега t", "output": "\\frac{d}{dt}(\\omega t)"}
+{"input": "derivative of omega t", "output": "\\frac{d}{dt}(\\omega t)"}
+{"input": "DERIV(OMEGA T)", "output": "\\frac{d}{dt}(\\omega t)"}
+{"input": "partial/partial alpha (alpha^2 + beta^2)", "output": "\\frac{\\partial}{\\partial \\alpha}(\\alpha^{2} + \\beta^{2})"}
+{"input": "∂/∂α (α^2 + β^2)", "output": "\\frac{\\partial}{\\partial \\alpha}(\\alpha^{2} + \\beta^{2})"}
+{"input": "частная производная по альфа (альфа^2 + бета^2)", "output": "\\frac{\\partial}{\\partial \\alpha}(\\alpha^{2} + \\beta^{2})"}
+{"input": "partial derivative with respect to alpha of alpha squared plus beta squared", "output": "\\frac{\\partial}{\\partial \\alpha}(\\alpha^{2} + \\beta^{2})"}
+{"input": "PARTIAL/PARTIAL ALPHA (ALPHA^2+BETA^2)", "output": "\\frac{\\partial}{\\partial \\alpha}(\\alpha^{2} + \\beta^{2})"}
+{"input": "partial/partial beta (alpha^2 + beta^2)", "output": "\\frac{\\partial}{\\partial \\beta}(\\alpha^{2} + \\beta^{2})"}
+{"input": "∂/∂β (α^2 + β^2)", "output": "\\frac{\\partial}{\\partial \\beta}(\\alpha^{2} + \\beta^{2})"}
+{"input": "частная производная по бета (альфа^2 + бета^2)", "output": "\\frac{\\partial}{\\partial \\beta}(\\alpha^{2} + \\beta^{2})"}
+{"input": "partial derivative with respect to beta of alpha squared plus beta squared", "output": "\\frac{\\partial}{\\partial \\beta}(\\alpha^{2} + \\beta^{2})"}
+{"input": "PARTIAL/PARTIAL BETA (ALPHA^2+BETA^2)", "output": "\\frac{\\partial}{\\partial \\beta}(\\alpha^{2} + \\beta^{2})"}
+{"input": "partial/partial theta (theta^2 + phi^2)", "output": "\\frac{\\partial}{\\partial \\theta}(\\theta^{2} + \\phi^{2})"}
+{"input": "∂/∂θ (θ^2 + φ^2)", "output": "\\frac{\\partial}{\\partial \\theta}(\\theta^{2} + \\phi^{2})"}
+{"input": "частная производная по тета (тета^2 + фи^2)", "output": "\\frac{\\partial}{\\partial \\theta}(\\theta^{2} + \\phi^{2})"}
+{"input": "partial derivative with respect to theta of theta squared plus phi squared", "output": "\\frac{\\partial}{\\partial \\theta}(\\theta^{2} + \\phi^{2})"}
+{"input": "PARTIAL/PARTIAL THETA (THETA^2+PHI^2)", "output": "\\frac{\\partial}{\\partial \\theta}(\\theta^{2} + \\phi^{2})"}
+{"input": "partial/partial phi (theta^2 + phi^2)", "output": "\\frac{\\partial}{\\partial \\phi}(\\theta^{2} + \\phi^{2})"}
+{"input": "∂/∂φ (θ^2 + φ^2)", "output": "\\frac{\\partial}{\\partial \\phi}(\\theta^{2} + \\phi^{2})"}
+{"input": "частная производная по фи (тета^2 + фи^2)", "output": "\\frac{\\partial}{\\partial \\phi}(\\theta^{2} + \\phi^{2})"}
+{"input": "partial derivative with respect to phi of theta squared plus phi squared", "output": "\\frac{\\partial}{\\partial \\phi}(\\theta^{2} + \\phi^{2})"}
+{"input": "PARTIAL/PARTIAL PHI (THETA^2+PHI^2)", "output": "\\frac{\\partial}{\\partial \\phi}(\\theta^{2} + \\phi^{2})"}
+{"input": "alpha = beta + gamma", "output": "\\alpha = \\beta + \\gamma"}
+{"input": "α = β + γ", "output": "\\alpha = \\beta + \\gamma"}
+{"input": "альфа = бета + гамма", "output": "\\alpha = \\beta + \\gamma"}
+{"input": "alpha equals beta plus gamma", "output": "\\alpha = \\beta + \\gamma"}
+{"input": "ALPHA=BETA+GAMMA", "output": "\\alpha = \\beta + \\gamma"}
+{"input": "beta = gamma - delta", "output": "\\beta = \\gamma - \\delta"}
+{"input": "β = γ - δ", "output": "\\beta = \\gamma - \\delta"}
+{"input": "бета = гамма - дельта", "output": "\\beta = \\gamma - \\delta"}
+{"input": "beta equals gamma minus delta", "output": "\\beta = \\gamma - \\delta"}
+{"input": "BETA=GAMMA-DELTA", "output": "\\beta = \\gamma - \\delta"}
+{"input": "theta = phi + omega t", "output": "\\theta = \\phi + \\omega t"}
+{"input": "θ = φ + ωt", "output": "\\theta = \\phi + \\omega t"}
+{"input": "тета = фи + омега t", "output": "\\theta = \\phi + \\omega t"}
+{"input": "theta equals phi plus omega t", "output": "\\theta = \\phi + \\omega t"}
+{"input": "THETA=PHI+OMEGA T", "output": "\\theta = \\phi + \\omega t"}
+{"input": "lambda = mu + sigma", "output": "\\lambda = \\mu + \\sigma"}
+{"input": "λ = μ + σ", "output": "\\lambda = \\mu + \\sigma"}
+{"input": "лямбда = мю + сигма", "output": "\\lambda = \\mu + \\sigma"}
+{"input": "lambda equals mu plus sigma", "output": "\\lambda = \\mu + \\sigma"}
+{"input": "LAMBDA=MU+SIGMA", "output": "\\lambda = \\mu + \\sigma"}
+{"input": "omega = 2 pi f", "output": "\\omega = 2\\pi f"}
+{"input": "ω = 2πf", "output": "\\omega = 2\\pi f"}
+{"input": "омега = 2 пи f", "output": "\\omega = 2\\pi f"}
+{"input": "omega equals two pi f", "output": "\\omega = 2\\pi f"}
+{"input": "OMEGA=2 PI F", "output": "\\omega = 2\\pi f"}
+{"input": "100/10", "output": "\\frac{100}{10}"}
+{"input": "100/10", "output": "\\frac{100}{10}"}
+{"input": "100 делить на 10", "output": "\\frac{100}{10}"}
+{"input": "one hundred over ten", "output": "\\frac{100}{10}"}
+{"input": "100/10 (дробь)", "output": "\\frac{100}{10}"}
+{"input": "1000/100", "output": "\\frac{1000}{100}"}
+{"input": "1000/100", "output": "\\frac{1000}{100}"}
+{"input": "1000 делить на 100", "output": "\\frac{1000}{100}"}
+{"input": "one thousand over one hundred", "output": "\\frac{1000}{100}"}
+{"input": "1000/100 (дробь)", "output": "\\frac{1000}{100}"}
+{"input": "50/25", "output": "\\frac{50}{25}"}
+{"input": "50/25", "output": "\\frac{50}{25}"}
+{"input": "50 делить на 25", "output": "\\frac{50}{25}"}
+{"input": "fifty over twenty five", "output": "\\frac{50}{25}"}
+{"input": "50/25 (дробь)", "output": "\\frac{50}{25}"}
+{"input": "10/100", "output": "\\frac{10}{100}"}
+{"input": "10/100", "output": "\\frac{10}{100}"}
+{"input": "10 делить на 100", "output": "\\frac{10}{100}"}
+{"input": "ten over one hundred", "output": "\\frac{10}{100}"}
+{"input": "10/100 (дробь)", "output": "\\frac{10}{100}"}
+{"input": "5/100", "output": "\\frac{5}{100}"}
+{"input": "5/100", "output": "\\frac{5}{100}"}
+{"input": "5 делить на 100", "output": "\\frac{5}{100}"}
+{"input": "five over one hundred", "output": "\\frac{5}{100}"}
+{"input": "5/100 (дробь)", "output": "\\frac{5}{100}"}
+{"input": "200/50", "output": "\\frac{200}{50}"}
+{"input": "200/50", "output": "\\frac{200}{50}"}
+{"input": "200 делить на 50", "output": "\\frac{200}{50}"}
+{"input": "two hundred over fifty", "output": "\\frac{200}{50}"}
+{"input": "200/50 (дробь)", "output": "\\frac{200}{50}"}
+{"input": "1000/10", "output": "\\frac{1000}{10}"}
+{"input": "1000/10", "output": "\\frac{1000}{10}"}
+{"input": "1000 делить на 10", "output": "\\frac{1000}{10}"}
+{"input": "one thousand over ten", "output": "\\frac{1000}{10}"}
+{"input": "1000/10 (дробь)", "output": "\\frac{1000}{10}"}
+{"input": "100/1000", "output": "\\frac{100}{1000}"}
+{"input": "100/1000", "output": "\\frac{100}{1000}"}
+{"input": "100 делить на 1000", "output": "\\frac{100}{1000}"}
+{"input": "one hundred over one thousand", "output": "\\frac{100}{1000}"}
+{"input": "100/1000 (дробь)", "output": "\\frac{100}{1000}"}
+{"input": "500/100", "output": "\\frac{500}{100}"}
+{"input": "500/100", "output": "\\frac{500}{100}"}
+{"input": "500 делить на 100", "output": "\\frac{500}{100}"}
+{"input": "five hundred over one hundred", "output": "\\frac{500}{100}"}
+{"input": "500/100 (дробь)", "output": "\\frac{500}{100}"}
+{"input": "250/50", "output": "\\frac{250}{50}"}
+{"input": "250/50", "output": "\\frac{250}{50}"}
+{"input": "250 делить на 50", "output": "\\frac{250}{50}"}
+{"input": "two hundred fifty over fifty", "output": "\\frac{250}{50}"}
+{"input": "250/50 (дробь)", "output": "\\frac{250}{50}"}
+{"input": "75/25", "output": "\\frac{75}{25}"}
+{"input": "75/25", "output": "\\frac{75}{25}"}
+{"input": "75 делить на 25", "output": "\\frac{75}{25}"}
+{"input": "seventy five over twenty five", "output": "\\frac{75}{25}"}
+{"input": "75/25 (дробь)", "output": "\\frac{75}{25}"}
+{"input": "100/25", "output": "\\frac{100}{25}"}
+{"input": "100/25", "output": "\\frac{100}{25}"}
+{"input": "100 делить на 25", "output": "\\frac{100}{25}"}
+{"input": "one hundred over twenty five", "output": "\\frac{100}{25}"}
+{"input": "100/25 (дробь)", "output": "\\frac{100}{25}"}
+{"input": "100/50", "output": "\\frac{100}{50}"}
+{"input": "100/50", "output": "\\frac{100}{50}"}
+{"input": "100 делить на 50", "output": "\\frac{100}{50}"}
+{"input": "one hundred over fifty", "output": "\\frac{100}{50}"}
+{"input": "100/50 (дробь)", "output": "\\frac{100}{50}"}
+{"input": "100/20", "output": "\\frac{100}{20}"}
+{"input": "100/20", "output": "\\frac{100}{20}"}
+{"input": "100 делить на 20", "output": "\\frac{100}{20}"}
+{"input": "one hundred over twenty", "output": "\\frac{100}{20}"}
+{"input": "100/20 (дробь)", "output": "\\frac{100}{20}"}
+{"input": "100/5", "output": "\\frac{100}{5}"}
+{"input": "100/5", "output": "\\frac{100}{5}"}
+{"input": "100 делить на 5", "output": "\\frac{100}{5}"}
+{"input": "one hundred over five", "output": "\\frac{100}{5}"}
+{"input": "100/5 (дробь)", "output": "\\frac{100}{5}"}
+{"input": "1000/5", "output": "\\frac{1000}{5}"}
+{"input": "1000/5", "output": "\\frac{1000}{5}"}
+{"input": "1000 делить на 5", "output": "\\frac{1000}{5}"}
+{"input": "one thousand over five", "output": "\\frac{1000}{5}"}
+{"input": "1000/5 (дробь)", "output": "\\frac{1000}{5}"}
+{"input": "1000/25", "output": "\\frac{1000}{25}"}
+{"input": "1000/25", "output": "\\frac{1000}{25}"}
+{"input": "1000 делить на 25", "output": "\\frac{1000}{25}"}
+{"input": "one thousand over twenty five", "output": "\\frac{1000}{25}"}
+{"input": "1000/25 (дробь)", "output": "\\frac{1000}{25}"}
+{"input": "1000/50", "output": "\\frac{1000}{50}"}
+{"input": "1000/50", "output": "\\frac{1000}{50}"}
+{"input": "1000 делить на 50", "output": "\\frac{1000}{50}"}
+{"input": "one thousand over fifty", "output": "\\frac{1000}{50}"}
+{"input": "1000/50 (дробь)", "output": "\\frac{1000}{50}"}
+{"input": "1000/20", "output": "\\frac{1000}{20}"}
+{"input": "1000/20", "output": "\\frac{1000}{20}"}
+{"input": "1000 делить на 20", "output": "\\frac{1000}{20}"}
+{"input": "one thousand over twenty", "output": "\\frac{1000}{20}"}
+{"input": "1000/20 (дробь)", "output": "\\frac{1000}{20}"}
+{"input": "x^100", "output": "x^{100}"}
+{"input": "x^100", "output": "x^{100}"}
+{"input": "x в степени 100", "output": "x^{100}"}
+{"input": "x to the 100", "output": "x^{100}"}
+{"input": "X^100", "output": "x^{100}"}
+{"input": "x^1000", "output": "x^{1000}"}
+{"input": "x^1000", "output": "x^{1000}"}
+{"input": "x в степени 1000", "output": "x^{1000}"}
+{"input": "x to the 1000", "output": "x^{1000}"}
+{"input": "X^1000", "output": "x^{1000}"}
+{"input": "y^100", "output": "y^{100}"}
+{"input": "y^100", "output": "y^{100}"}
+{"input": "y в степени 100", "output": "y^{100}"}
+{"input": "y to the 100", "output": "y^{100}"}
+{"input": "Y^100", "output": "y^{100}"}
+{"input": "y^1000", "output": "y^{1000}"}
+{"input": "y^1000", "output": "y^{1000}"}
+{"input": "y в степени 1000", "output": "y^{1000}"}
+{"input": "y to the 1000", "output": "y^{1000}"}
+{"input": "Y^1000", "output": "y^{1000}"}
+{"input": "z^100", "output": "z^{100}"}
+{"input": "z^100", "output": "z^{100}"}
+{"input": "z в степени 100", "output": "z^{100}"}
+{"input": "z to the 100", "output": "z^{100}"}
+{"input": "Z^100", "output": "z^{100}"}
+{"input": "z^1000", "output": "z^{1000}"}
+{"input": "z^1000", "output": "z^{1000}"}
+{"input": "z в степени 1000", "output": "z^{1000}"}
+{"input": "z to the 1000", "output": "z^{1000}"}
+{"input": "Z^1000", "output": "z^{1000}"}
+{"input": "a^100", "output": "a^{100}"}
+{"input": "a^100", "output": "a^{100}"}
+{"input": "a в степени 100", "output": "a^{100}"}
+{"input": "a to the 100", "output": "a^{100}"}
+{"input": "A^100", "output": "a^{100}"}
+{"input": "a^1000", "output": "a^{1000}"}
+{"input": "a^1000", "output": "a^{1000}"}
+{"input": "a в степени 1000", "output": "a^{1000}"}
+{"input": "a to the 1000", "output": "a^{1000}"}
+{"input": "A^1000", "output": "a^{1000}"}
+{"input": "b^100", "output": "b^{100}"}
+{"input": "b^100", "output": "b^{100}"}
+{"input": "b в степени 100", "output": "b^{100}"}
+{"input": "b to the 100", "output": "b^{100}"}
+{"input": "B^100", "output": "b^{100}"}
+{"input": "b^1000", "output": "b^{1000}"}
+{"input": "b^1000", "output": "b^{1000}"}
+{"input": "b в степени 1000", "output": "b^{1000}"}
+{"input": "b to the 1000", "output": "b^{1000}"}
+{"input": "B^1000", "output": "b^{1000}"}
+{"input": "n^100", "output": "n^{100}"}
+{"input": "n^100", "output": "n^{100}"}
+{"input": "n в степени 100", "output": "n^{100}"}
+{"input": "n to the 100", "output": "n^{100}"}
+{"input": "N^100", "output": "n^{100}"}
+{"input": "n^1000", "output": "n^{1000}"}
+{"input": "n^1000", "output": "n^{1000}"}
+{"input": "n в степени 1000", "output": "n^{1000}"}
+{"input": "n to the 1000", "output": "n^{1000}"}
+{"input": "N^1000", "output": "n^{1000}"}
+{"input": "x^(100)", "output": "x^{100}"}
+{"input": "x^(100)", "output": "x^{100}"}
+{"input": "x в степени (100)", "output": "x^{100}"}
+{"input": "x to the power 100", "output": "x^{100}"}
+{"input": "X^(100)", "output": "x^{100}"}
+{"input": "x^(1000)", "output": "x^{1000}"}
+{"input": "x^(1000)", "output": "x^{1000}"}
+{"input": "x в степени (1000)", "output": "x^{1000}"}
+{"input": "x to the power 1000", "output": "x^{1000}"}
+{"input": "X^(1000)", "output": "x^{1000}"}
+{"input": "y^3/z^3", "output": "\\frac{y^{3}}{z^{3}}"}
+{"input": "y^3/z^3", "output": "\\frac{y^{3}}{z^{3}}"}
+{"input": "y в кубе делить на z в кубе", "output": "\\frac{y^{3}}{z^{3}}"}
+{"input": "y cubed over z cubed", "output": "\\frac{y^{3}}{z^{3}}"}
+{"input": "Y^3/Z^3", "output": "\\frac{y^{3}}{z^{3}}"}
+{"input": "a^4/b^4", "output": "\\frac{a^{4}}{b^{4}}"}
+{"input": "a^4/b^4", "output": "\\frac{a^{4}}{b^{4}}"}
+{"input": "a в четвертой делить на b в четвертой", "output": "\\frac{a^{4}}{b^{4}}"}
+{"input": "a to the 4th over b to the 4th", "output": "\\frac{a^{4}}{b^{4}}"}
+{"input": "A^4/B^4", "output": "\\frac{a^{4}}{b^{4}}"}
+{"input": "x^5/y^5", "output": "\\frac{x^{5}}{y^{5}}"}
+{"input": "x^5/y^5", "output": "\\frac{x^{5}}{y^{5}}"}
+{"input": "x в пятой делить на y в пятой", "output": "\\frac{x^{5}}{y^{5}}"}
+{"input": "x to the 5th over y to the 5th", "output": "\\frac{x^{5}}{y^{5}}"}
+{"input": "X^5/Y^5", "output": "\\frac{x^{5}}{y^{5}}"}
+{"input": "a^2/b^3", "output": "\\frac{a^{2}}{b^{3}}"}
+{"input": "a^2/b^3", "output": "\\frac{a^{2}}{b^{3}}"}
+{"input": "a в квадрате делить на b в кубе", "output": "\\frac{a^{2}}{b^{3}}"}
+{"input": "a squared over b cubed", "output": "\\frac{a^{2}}{b^{3}}"}
+{"input": "A^2/B^3", "output": "\\frac{a^{2}}{b^{3}}"}
+{"input": "x^3/y^2", "output": "\\frac{x^{3}}{y^{2}}"}
+{"input": "x^3/y^2", "output": "\\frac{x^{3}}{y^{2}}"}
+{"input": "x в кубе делить на y в квадрате", "output": "\\frac{x^{3}}{y^{2}}"}
+{"input": "x cubed over y squared", "output": "\\frac{x^{3}}{y^{2}}"}
+{"input": "X^3/Y^2", "output": "\\frac{x^{3}}{y^{2}}"}
+{"input": "b^3/c^3", "output": "\\frac{b^{3}}{c^{3}}"}
+{"input": "b^3/c^3", "output": "\\frac{b^{3}}{c^{3}}"}
+{"input": "b в кубе делить на c в кубе", "output": "\\frac{b^{3}}{c^{3}}"}
+{"input": "b cubed over c cubed", "output": "\\frac{b^{3}}{c^{3}}"}
+{"input": "B^3/C^3", "output": "\\frac{b^{3}}{c^{3}}"}
+{"input": "c^4/d^4", "output": "\\frac{c^{4}}{d^{4}}"}
+{"input": "c^4/d^4", "output": "\\frac{c^{4}}{d^{4}}"}
+{"input": "c в четвертой делить на d в четвертой", "output": "\\frac{c^{4}}{d^{4}}"}
+{"input": "c to the 4th over d to the 4th", "output": "\\frac{c^{4}}{d^{4}}"}
+{"input": "C^4/D^4", "output": "\\frac{c^{4}}{d^{4}}"}
+{"input": "z^5/w^5", "output": "\\frac{z^{5}}{w^{5}}"}
+{"input": "z^5/w^5", "output": "\\frac{z^{5}}{w^{5}}"}
+{"input": "z в пятой делить на w в пятой", "output": "\\frac{z^{5}}{w^{5}}"}
+{"input": "z to the 5th over w to the 5th", "output": "\\frac{z^{5}}{w^{5}}"}
+{"input": "Z^5/W^5", "output": "\\frac{z^{5}}{w^{5}}"}
+{"input": "m^3/n^3", "output": "\\frac{m^{3}}{n^{3}}"}
+{"input": "m^3/n^3", "output": "\\frac{m^{3}}{n^{3}}"}
+{"input": "m в кубе делить на n в кубе", "output": "\\frac{m^{3}}{n^{3}}"}
+{"input": "m cubed over n cubed", "output": "\\frac{m^{3}}{n^{3}}"}
+{"input": "M^3/N^3", "output": "\\frac{m^{3}}{n^{3}}"}
+{"input": "p^4/q^4", "output": "\\frac{p^{4}}{q^{4}}"}
+{"input": "p^4/q^4", "output": "\\frac{p^{4}}{q^{4}}"}
+{"input": "p в четвертой делить на q в четвертой", "output": "\\frac{p^{4}}{q^{4}}"}
+{"input": "p to the 4th over q to the 4th", "output": "\\frac{p^{4}}{q^{4}}"}
+{"input": "P^4/Q^4", "output": "\\frac{p^{4}}{q^{4}}"}
+{"input": "u^5/v^5", "output": "\\frac{u^{5}}{v^{5}}"}
+{"input": "u^5/v^5", "output": "\\frac{u^{5}}{v^{5}}"}
+{"input": "u в пятой делить на v в пятой", "output": "\\frac{u^{5}}{v^{5}}"}
+{"input": "u to the 5th over v to the 5th", "output": "\\frac{u^{5}}{v^{5}}"}
+{"input": "U^5/V^5", "output": "\\frac{u^{5}}{v^{5}}"}
+{"input": "a^3/b^2", "output": "\\frac{a^{3}}{b^{2}}"}
+{"input": "a^3/b^2", "output": "\\frac{a^{3}}{b^{2}}"}
+{"input": "a в кубе делить на b в квадрате", "output": "\\frac{a^{3}}{b^{2}}"}
+{"input": "a cubed over b squared", "output": "\\frac{a^{3}}{b^{2}}"}
+{"input": "A^3/B^2", "output": "\\frac{a^{3}}{b^{2}}"}
+{"input": "c^5/d^2", "output": "\\frac{c^{5}}{d^{2}}"}
+{"input": "c^5/d^2", "output": "\\frac{c^{5}}{d^{2}}"}
+{"input": "c в пятой делить на d в квадрате", "output": "\\frac{c^{5}}{d^{2}}"}
+{"input": "c to the 5th over d squared", "output": "\\frac{c^{5}}{d^{2}}"}
+{"input": "C^5/D^2", "output": "\\frac{c^{5}}{d^{2}}"}
+{"input": "x^4/y^3", "output": "\\frac{x^{4}}{y^{3}}"}
+{"input": "x^4/y^3", "output": "\\frac{x^{4}}{y^{3}}"}
+{"input": "x в четвертой делить на y в кубе", "output": "\\frac{x^{4}}{y^{3}}"}
+{"input": "x to the 4th over y cubed", "output": "\\frac{x^{4}}{y^{3}}"}
+{"input": "X^4/Y^3", "output": "\\frac{x^{4}}{y^{3}}"}
+{"input": "m^2/n^3", "output": "\\frac{m^{2}}{n^{3}}"}
+{"input": "m^2/n^3", "output": "\\frac{m^{2}}{n^{3}}"}
+{"input": "m в квадрате делить на n в кубе", "output": "\\frac{m^{2}}{n^{3}}"}
+{"input": "m squared over n cubed", "output": "\\frac{m^{2}}{n^{3}}"}
+{"input": "M^2/N^3", "output": "\\frac{m^{2}}{n^{3}}"}
+{"input": "p^3/q^2", "output": "\\frac{p^{3}}{q^{2}}"}
+{"input": "p^3/q^2", "output": "\\frac{p^{3}}{q^{2}}"}
+{"input": "p в кубе делить на q в квадрате", "output": "\\frac{p^{3}}{q^{2}}"}
+{"input": "p cubed over q squared", "output": "\\frac{p^{3}}{q^{2}}"}
+{"input": "P^3/Q^2", "output": "\\frac{p^{3}}{q^{2}}"}
+{"input": "u^4/v^2", "output": "\\frac{u^{4}}{v^{2}}"}
+{"input": "u^4/v^2", "output": "\\frac{u^{4}}{v^{2}}"}
+{"input": "u в четвертой делить на v в квадрате", "output": "\\frac{u^{4}}{v^{2}}"}
+{"input": "u to the 4th over v squared", "output": "\\frac{u^{4}}{v^{2}}"}
+{"input": "U^4/V^2", "output": "\\frac{u^{4}}{v^{2}}"}
+{"input": "b^5/c^2", "output": "\\frac{b^{5}}{c^{2}}"}
+{"input": "b^5/c^2", "output": "\\frac{b^{5}}{c^{2}}"}
+{"input": "b в пятой делить на c в квадрате", "output": "\\frac{b^{5}}{c^{2}}"}
+{"input": "b to the 5th over c squared", "output": "\\frac{b^{5}}{c^{2}}"}
+{"input": "B^5/C^2", "output": "\\frac{b^{5}}{c^{2}}"}
+{"input": "1/n", "output": "\\frac{1}{n}"}
+{"input": "1/n", "output": "\\frac{1}{n}"}
+{"input": "1 делить на n", "output": "\\frac{1}{n}"}
+{"input": "one over n", "output": "\\frac{1}{n}"}
+{"input": "1/N", "output": "\\frac{1}{n}"}
+{"input": "1/m", "output": "\\frac{1}{m}"}
+{"input": "1/m", "output": "\\frac{1}{m}"}
+{"input": "1 делить на m", "output": "\\frac{1}{m}"}
+{"input": "one over m", "output": "\\frac{1}{m}"}
+{"input": "1/M", "output": "\\frac{1}{m}"}
+{"input": "1/k", "output": "\\frac{1}{k}"}
+{"input": "1/k", "output": "\\frac{1}{k}"}
+{"input": "1 делить на k", "output": "\\frac{1}{k}"}
+{"input": "one over k", "output": "\\frac{1}{k}"}
+{"input": "1/K", "output": "\\frac{1}{k}"}
+{"input": "2/n", "output": "\\frac{2}{n}"}
+{"input": "2/n", "output": "\\frac{2}{n}"}
+{"input": "2 делить на n", "output": "\\frac{2}{n}"}
+{"input": "two over n", "output": "\\frac{2}{n}"}
+{"input": "2/N", "output": "\\frac{2}{n}"}
+{"input": "3/m", "output": "\\frac{3}{m}"}
+{"input": "3/m", "output": "\\frac{3}{m}"}
+{"input": "3 делить на m", "output": "\\frac{3}{m}"}
+{"input": "three over m", "output": "\\frac{3}{m}"}
+{"input": "3/M", "output": "\\frac{3}{m}"}
+{"input": "1/p", "output": "\\frac{1}{p}"}
+{"input": "1/p", "output": "\\frac{1}{p}"}
+{"input": "1 делить на p", "output": "\\frac{1}{p}"}
+{"input": "one over p", "output": "\\frac{1}{p}"}
+{"input": "1/P", "output": "\\frac{1}{p}"}
+{"input": "1/q", "output": "\\frac{1}{q}"}
+{"input": "1/q", "output": "\\frac{1}{q}"}
+{"input": "1 делить на q", "output": "\\frac{1}{q}"}
+{"input": "one over q", "output": "\\frac{1}{q}"}
+{"input": "1/Q", "output": "\\frac{1}{q}"}
+{"input": "1/r", "output": "\\frac{1}{r}"}
+{"input": "1/r", "output": "\\frac{1}{r}"}
+{"input": "1 делить на r", "output": "\\frac{1}{r}"}
+{"input": "one over r", "output": "\\frac{1}{r}"}
+{"input": "1/R", "output": "\\frac{1}{r}"}
+{"input": "2/m", "output": "\\frac{2}{m}"}
+{"input": "2/m", "output": "\\frac{2}{m}"}
+{"input": "2 делить на m", "output": "\\frac{2}{m}"}
+{"input": "two over m", "output": "\\frac{2}{m}"}
+{"input": "2/M", "output": "\\frac{2}{m}"}
+{"input": "3/n", "output": "\\frac{3}{n}"}
+{"input": "3/n", "output": "\\frac{3}{n}"}
+{"input": "3 делить на n", "output": "\\frac{3}{n}"}
+{"input": "three over n", "output": "\\frac{3}{n}"}
+{"input": "3/N", "output": "\\frac{3}{n}"}
+{"input": "4/k", "output": "\\frac{4}{k}"}
+{"input": "4/k", "output": "\\frac{4}{k}"}
+{"input": "4 делить на k", "output": "\\frac{4}{k}"}
+{"input": "four over k", "output": "\\frac{4}{k}"}
+{"input": "4/K", "output": "\\frac{4}{k}"}
+{"input": "5/p", "output": "\\frac{5}{p}"}
+{"input": "5/p", "output": "\\frac{5}{p}"}
+{"input": "5 делить на p", "output": "\\frac{5}{p}"}
+{"input": "five over p", "output": "\\frac{5}{p}"}
+{"input": "5/P", "output": "\\frac{5}{p}"}
+{"input": "10/q", "output": "\\frac{10}{q}"}
+{"input": "10/q", "output": "\\frac{10}{q}"}
+{"input": "10 делить на q", "output": "\\frac{10}{q}"}
+{"input": "ten over q", "output": "\\frac{10}{q}"}
+{"input": "10/Q", "output": "\\frac{10}{q}"}
+{"input": "100/r", "output": "\\frac{100}{r}"}
+{"input": "100/r", "output": "\\frac{100}{r}"}
+{"input": "100 делить на r", "output": "\\frac{100}{r}"}
+{"input": "one hundred over r", "output": "\\frac{100}{r}"}
+{"input": "100/R", "output": "\\frac{100}{r}"}
+{"input": "1/x", "output": "\\frac{1}{x}"}
+{"input": "1/x", "output": "\\frac{1}{x}"}
+{"input": "1 делить на x", "output": "\\frac{1}{x}"}
+{"input": "one over x", "output": "\\frac{1}{x}"}
+{"input": "1/X", "output": "\\frac{1}{x}"}
+{"input": "1/y", "output": "\\frac{1}{y}"}
+{"input": "1/y", "output": "\\frac{1}{y}"}
+{"input": "1 делить на y", "output": "\\frac{1}{y}"}
+{"input": "one over y", "output": "\\frac{1}{y}"}
+{"input": "1/Y", "output": "\\frac{1}{y}"}
+{"input": "1/z", "output": "\\frac{1}{z}"}
+{"input": "1/z", "output": "\\frac{1}{z}"}
+{"input": "1 делить на z", "output": "\\frac{1}{z}"}
+{"input": "one over z", "output": "\\frac{1}{z}"}
+{"input": "1/Z", "output": "\\frac{1}{z}"}
+{"input": "2/x", "output": "\\frac{2}{x}"}
+{"input": "2/x", "output": "\\frac{2}{x}"}
+{"input": "2 делить на x", "output": "\\frac{2}{x}"}
+{"input": "two over x", "output": "\\frac{2}{x}"}
+{"input": "2/X", "output": "\\frac{2}{x}"}
+{"input": "3/y", "output": "\\frac{3}{y}"}
+{"input": "3/y", "output": "\\frac{3}{y}"}
+{"input": "3 делить на y", "output": "\\frac{3}{y}"}
+{"input": "three over y", "output": "\\frac{3}{y}"}
+{"input": "3/Y", "output": "\\frac{3}{y}"}
+{"input": "4/z", "output": "\\frac{4}{z}"}
+{"input": "4/z", "output": "\\frac{4}{z}"}
+{"input": "4 делить на z", "output": "\\frac{4}{z}"}
+{"input": "four over z", "output": "\\frac{4}{z}"}
+{"input": "4/Z", "output": "\\frac{4}{z}"}
+{"input": "5/n", "output": "\\frac{5}{n}"}
+{"input": "5/n", "output": "\\frac{5}{n}"}
+{"input": "5 делить на n", "output": "\\frac{5}{n}"}
+{"input": "five over n", "output": "\\frac{5}{n}"}
+{"input": "5/N", "output": "\\frac{5}{n}"}
+{"input": "1/(n+1)", "output": "\\frac{1}{n+1}"}
+{"input": "1/(n+1)", "output": "\\frac{1}{n+1}"}
+{"input": "1 делить на (n+1)", "output": "\\frac{1}{n+1}"}
+{"input": "one over n plus one", "output": "\\frac{1}{n+1}"}
+{"input": "1/(N+1)", "output": "\\frac{1}{n+1}"}
+{"input": "1/(n-1)", "output": "\\frac{1}{n-1}"}
+{"input": "1/(n-1)", "output": "\\frac{1}{n-1}"}
+{"input": "1 делить на (n-1)", "output": "\\frac{1}{n-1}"}
+{"input": "one over n minus one", "output": "\\frac{1}{n-1}"}
+{"input": "1/(N-1)", "output": "\\frac{1}{n-1}"}
+{"input": "1/(m+1)", "output": "\\frac{1}{m+1}"}
+{"input": "1/(m+1)", "output": "\\frac{1}{m+1}"}
+{"input": "1 делить на (m+1)", "output": "\\frac{1}{m+1}"}
+{"input": "one over m plus one", "output": "\\frac{1}{m+1}"}
+{"input": "1/(M+1)", "output": "\\frac{1}{m+1}"}
+{"input": "1/(k+1)", "output": "\\frac{1}{k+1}"}
+{"input": "1/(k+1)", "output": "\\frac{1}{k+1}"}
+{"input": "1 делить на (k+1)", "output": "\\frac{1}{k+1}"}
+{"input": "one over k plus one", "output": "\\frac{1}{k+1}"}
+{"input": "1/(K+1)", "output": "\\frac{1}{k+1}"}

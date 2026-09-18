@@ -4560,3 +4560,1258 @@
 {"input": "y в минус второй + z в минус второй", "output": "y^{-2} + z^{-2}"}
 {"input": "y to the minus two plus z to the minus two", "output": "y^{-2} + z^{-2}"}
 {"input": "Y^(-2)+Z^(-2)", "output": "y^{-2} + z^{-2}"}
+{"input": "1/n", "output": "\\frac{1}{n}"}
+{"input": "1/m", "output": "\\frac{1}{m}"}
+{"input": "1/k", "output": "\\frac{1}{k}"}
+{"input": "1/x", "output": "\\frac{1}{x}"}
+{"input": "1/y", "output": "\\frac{1}{y}"}
+{"input": "1/z", "output": "\\frac{1}{z}"}
+{"input": "1/a", "output": "\\frac{1}{a}"}
+{"input": "1/b", "output": "\\frac{1}{b}"}
+{"input": "1/c", "output": "\\frac{1}{c}"}
+{"input": "1/p", "output": "\\frac{1}{p}"}
+{"input": "1/q", "output": "\\frac{1}{q}"}
+{"input": "1/r", "output": "\\frac{1}{r}"}
+{"input": "a/b", "output": "\\frac{a}{b}"}
+{"input": "b/c", "output": "\\frac{b}{c}"}
+{"input": "x/y", "output": "\\frac{x}{y}"}
+{"input": "y/z", "output": "\\frac{y}{z}"}
+{"input": "p/q", "output": "\\frac{p}{q}"}
+{"input": "u/v", "output": "\\frac{u}{v}"}
+{"input": "m/n", "output": "\\frac{m}{n}"}
+{"input": "k/l", "output": "\\frac{k}{l}"}
+{"input": "x^2", "output": "x^{2}"}
+{"input": "y^3", "output": "y^{3}"}
+{"input": "a^4", "output": "a^{4}"}
+{"input": "b^5", "output": "b^{5}"}
+{"input": "c^6", "output": "c^{6}"}
+{"input": "z^2", "output": "z^{2}"}
+{"input": "n^2", "output": "n^{2}"}
+{"input": "m^3", "output": "m^{3}"}
+{"input": "k^4", "output": "k^{4}"}
+{"input": "p^5", "output": "p^{5}"}
+{"input": "5/7", "output": "\\frac{5}{7}"}
+{"input": "3/4", "output": "\\frac{3}{4}"}
+{"input": "1/2", "output": "\\frac{1}{2}"}
+{"input": "2/3", "output": "\\frac{2}{3}"}
+{"input": "3/5", "output": "\\frac{3}{5}"}
+{"input": "4/7", "output": "\\frac{4}{7}"}
+{"input": "5/8", "output": "\\frac{5}{8}"}
+{"input": "7/9", "output": "\\frac{7}{9}"}
+{"input": "9/10", "output": "\\frac{9}{10}"}
+{"input": "10/100", "output": "\\frac{10}{100}"}
+{"input": "sqrt(x)", "output": "\\sqrt{x}"}
+{"input": "√x", "output": "\\sqrt{x}"}
+{"input": "sqrt(y)", "output": "\\sqrt{y}"}
+{"input": "√y", "output": "\\sqrt{y}"}
+{"input": "sqrt(a)", "output": "\\sqrt{a}"}
+{"input": "√a", "output": "\\sqrt{a}"}
+{"input": "sqrt(b)", "output": "\\sqrt{b}"}
+{"input": "√b", "output": "\\sqrt{b}"}
+{"input": "sqrt(n)", "output": "\\sqrt{n}"}
+{"input": "√n", "output": "\\sqrt{n}"}
+{"input": "log(x)", "output": "\\log(x)"}
+{"input": "ln(x)", "output": "\\ln(x)"}
+{"input": "log(y)", "output": "\\log(y)"}
+{"input": "ln(y)", "output": "\\ln(y)"}
+{"input": "log(a)", "output": "\\log(a)"}
+{"input": "ln(a)", "output": "\\ln(a)"}
+{"input": "log(n)", "output": "\\log(n)"}
+{"input": "ln(n)", "output": "\\ln(n)"}
+{"input": "sin(x)", "output": "\\sin(x)"}
+{"input": "cos(x)", "output": "\\cos(x)"}
+{"input": "tan(x)", "output": "\\tan(x)"}
+{"input": "sin(y)", "output": "\\sin(y)"}
+{"input": "cos(y)", "output": "\\cos(y)"}
+{"input": "tan(y)", "output": "\\tan(y)"}
+{"input": "sin(a)", "output": "\\sin(a)"}
+{"input": "cos(a)", "output": "\\cos(a)"}
+{"input": "tan(a)", "output": "\\tan(a)"}
+{"input": "sin(n)", "output": "\\sin(n)"}
+{"input": "x+y", "output": "x + y"}
+{"input": "a-b", "output": "a - b"}
+{"input": "a*b", "output": "ab"}
+{"input": "x-y", "output": "x - y"}
+{"input": "x*y", "output": "xy"}
+{"input": "b+c", "output": "b + c"}
+{"input": "c-d", "output": "c - d"}
+{"input": "c*d", "output": "cd"}
+{"input": "m+n", "output": "m + n"}
+{"input": "m-n", "output": "m - n"}
+{"input": "deriv(x^2)", "output": "\\frac{d}{dx}(x^{2})"}
+{"input": "d/dx x^2", "output": "\\frac{d}{dx}(x^{2})"}
+{"input": "производная x^2", "output": "\\frac{d}{dx}(x^{2})"}
+{"input": "deriv(y^3)", "output": "\\frac{d}{dy}(y^{3})"}
+{"input": "d/dy y^3", "output": "\\frac{d}{dy}(y^{3})"}
+{"input": "производная y^3", "output": "\\frac{d}{dy}(y^{3})"}
+{"input": "deriv(sin(x))", "output": "\\frac{d}{dx}(\\sin(x))"}
+{"input": "d/dx sin(x)", "output": "\\frac{d}{dx}(\\sin(x))"}
+{"input": "производная sin(x)", "output": "\\frac{d}{dx}(\\sin(x))"}
+{"input": "deriv(ln(x))", "output": "\\frac{d}{dx}(\\ln(x))"}
+{"input": "d/dx ln(x)", "output": "\\frac{d}{dx}(\\ln(x))"}
+{"input": "производная ln(x)", "output": "\\frac{d}{dx}(\\ln(x))"}
+{"input": "∫ x dx", "output": "\\int x \\, dx"}
+{"input": "integral x dx", "output": "\\int x \\, dx"}
+{"input": "int y dy", "output": "\\int y \\, dy"}
+{"input": "∫ y dy", "output": "\\int y \\, dy"}
+{"input": "int a da", "output": "\\int a \\, da"}
+{"input": "∫ a da", "output": "\\int a \\, da"}
+{"input": "sum n", "output": "\\sum n"}
+{"input": "Σ n", "output": "\\sum n"}
+{"input": "sum k", "output": "\\sum k"}
+{"input": "Σ k", "output": "\\sum k"}
+{"input": "lim x->0 x", "output": "\\lim_{x \\to 0} x"}
+{"input": "lim y->1 y", "output": "\\lim_{y \\to 1} y"}
+{"input": "1/2x", "output": "\\frac{1}{2x}"}
+{"input": "1/3x", "output": "\\frac{1}{3x}"}
+{"input": "1/4x", "output": "\\frac{1}{4x}"}
+{"input": "1/5x", "output": "\\frac{1}{5x}"}
+{"input": "1/10x", "output": "\\frac{1}{10x}"}
+{"input": "1/100x", "output": "\\frac{1}{100x}"}
+{"input": "1/2y", "output": "\\frac{1}{2y}"}
+{"input": "1/3y", "output": "\\frac{1}{3y}"}
+{"input": "1/4y", "output": "\\frac{1}{4y}"}
+{"input": "1/5y", "output": "\\frac{1}{5y}"}
+{"input": "1/2n", "output": "\\frac{1}{2n}"}
+{"input": "1/3n", "output": "\\frac{1}{3n}"}
+{"input": "1/4n", "output": "\\frac{1}{4n}"}
+{"input": "1/5n", "output": "\\frac{1}{5n}"}
+{"input": "1/10n", "output": "\\frac{1}{10n}"}
+{"input": "1/100n", "output": "\\frac{1}{100n}"}
+{"input": "2/n", "output": "\\frac{2}{n}"}
+{"input": "3/n", "output": "\\frac{3}{n}"}
+{"input": "4/n", "output": "\\frac{4}{n}"}
+{"input": "5/n", "output": "\\frac{5}{n}"}
+{"input": "10/n", "output": "\\frac{10}{n}"}
+{"input": "100/n", "output": "\\frac{100}{n}"}
+{"input": "2/m", "output": "\\frac{2}{m}"}
+{"input": "3/m", "output": "\\frac{3}{m}"}
+{"input": "4/m", "output": "\\frac{4}{m}"}
+{"input": "5/m", "output": "\\frac{5}{m}"}
+{"input": "2/k", "output": "\\frac{2}{k}"}
+{"input": "3/k", "output": "\\frac{3}{k}"}
+{"input": "4/k", "output": "\\frac{4}{k}"}
+{"input": "5/k", "output": "\\frac{5}{k}"}
+{"input": "a/2", "output": "\\frac{a}{2}"}
+{"input": "a/3", "output": "\\frac{a}{3}"}
+{"input": "a/4", "output": "\\frac{a}{4}"}
+{"input": "a/5", "output": "\\frac{a}{5}"}
+{"input": "a/10", "output": "\\frac{a}{10}"}
+{"input": "a/100", "output": "\\frac{a}{100}"}
+{"input": "b/2", "output": "\\frac{b}{2}"}
+{"input": "b/3", "output": "\\frac{b}{3}"}
+{"input": "b/4", "output": "\\frac{b}{4}"}
+{"input": "b/5", "output": "\\frac{b}{5}"}
+{"input": "x/2", "output": "\\frac{x}{2}"}
+{"input": "x/3", "output": "\\frac{x}{3}"}
+{"input": "x/4", "output": "\\frac{x}{4}"}
+{"input": "x/5", "output": "\\frac{x}{5}"}
+{"input": "x/10", "output": "\\frac{x}{10}"}
+{"input": "x/100", "output": "\\frac{x}{100}"}
+{"input": "y/2", "output": "\\frac{y}{2}"}
+{"input": "y/3", "output": "\\frac{y}{3}"}
+{"input": "y/4", "output": "\\frac{y}{4}"}
+{"input": "y/5", "output": "\\frac{y}{5}"}
+{"input": "n/2", "output": "\\frac{n}{2}"}
+{"input": "n/3", "output": "\\frac{n}{3}"}
+{"input": "n/4", "output": "\\frac{n}{4}"}
+{"input": "n/5", "output": "\\frac{n}{5}"}
+{"input": "n/10", "output": "\\frac{n}{10}"}
+{"input": "n/100", "output": "\\frac{n}{100}"}
+{"input": "m/2", "output": "\\frac{m}{2}"}
+{"input": "m/3", "output": "\\frac{m}{3}"}
+{"input": "m/4", "output": "\\frac{m}{4}"}
+{"input": "m/5", "output": "\\frac{m}{5}"}
+{"input": "k/2", "output": "\\frac{k}{2}"}
+{"input": "k/3", "output": "\\frac{k}{3}"}
+{"input": "k/4", "output": "\\frac{k}{4}"}
+{"input": "k/5", "output": "\\frac{k}{5}"}
+{"input": "x^3", "output": "x^{3}"}
+{"input": "x^4", "output": "x^{4}"}
+{"input": "x^5", "output": "x^{5}"}
+{"input": "x^6", "output": "x^{6}"}
+{"input": "y^2", "output": "y^{2}"}
+{"input": "y^4", "output": "y^{4}"}
+{"input": "y^5", "output": "y^{5}"}
+{"input": "y^6", "output": "y^{6}"}
+{"input": "a^2", "output": "a^{2}"}
+{"input": "a^3", "output": "a^{3}"}
+{"input": "a^5", "output": "a^{5}"}
+{"input": "a^6", "output": "a^{6}"}
+{"input": "b^2", "output": "b^{2}"}
+{"input": "b^3", "output": "b^{3}"}
+{"input": "b^4", "output": "b^{4}"}
+{"input": "b^6", "output": "b^{6}"}
+{"input": "c^2", "output": "c^{2}"}
+{"input": "c^3", "output": "c^{3}"}
+{"input": "c^4", "output": "c^{4}"}
+{"input": "c^5", "output": "c^{5}"}
+{"input": "n^3", "output": "n^{3}"}
+{"input": "n^4", "output": "n^{4}"}
+{"input": "n^5", "output": "n^{5}"}
+{"input": "n^6", "output": "n^{6}"}
+{"input": "m^2", "output": "m^{2}"}
+{"input": "m^4", "output": "m^{4}"}
+{"input": "m^5", "output": "m^{5}"}
+{"input": "m^6", "output": "m^{6}"}
+{"input": "k^2", "output": "k^{2}"}
+{"input": "k^3", "output": "k^{3}"}
+{"input": "k^5", "output": "k^{5}"}
+{"input": "k^6", "output": "k^{6}"}
+{"input": "p^2", "output": "p^{2}"}
+{"input": "p^3", "output": "p^{3}"}
+{"input": "p^4", "output": "p^{4}"}
+{"input": "p^6", "output": "p^{6}"}
+{"input": "q^2", "output": "q^{2}"}
+{"input": "q^3", "output": "q^{3}"}
+{"input": "q^4", "output": "q^{4}"}
+{"input": "q^5", "output": "q^{5}"}
+{"input": "q^6", "output": "q^{6}"}
+{"input": "2/5", "output": "\\frac{2}{5}"}
+{"input": "3/7", "output": "\\frac{3}{7}"}
+{"input": "3/8", "output": "\\frac{3}{8}"}
+{"input": "3/10", "output": "\\frac{3}{10}"}
+{"input": "4/5", "output": "\\frac{4}{5}"}
+{"input": "4/9", "output": "\\frac{4}{9}"}
+{"input": "4/10", "output": "\\frac{4}{10}"}
+{"input": "5/6", "output": "\\frac{5}{6}"}
+{"input": "5/9", "output": "\\frac{5}{9}"}
+{"input": "5/10", "output": "\\frac{5}{10}"}
+{"input": "6/7", "output": "\\frac{6}{7}"}
+{"input": "6/10", "output": "\\frac{6}{10}"}
+{"input": "7/8", "output": "\\frac{7}{8}"}
+{"input": "7/10", "output": "\\frac{7}{10}"}
+{"input": "8/9", "output": "\\frac{8}{9}"}
+{"input": "8/10", "output": "\\frac{8}{10}"}
+{"input": "9/100", "output": "\\frac{9}{100}"}
+{"input": "1/100", "output": "\\frac{1}{100}"}
+{"input": "2/100", "output": "\\frac{2}{100}"}
+{"input": "3/100", "output": "\\frac{3}{100}"}
+{"input": "4/100", "output": "\\frac{4}{100}"}
+{"input": "5/100", "output": "\\frac{5}{100}"}
+{"input": "6/100", "output": "\\frac{6}{100}"}
+{"input": "7/100", "output": "\\frac{7}{100}"}
+{"input": "8/100", "output": "\\frac{8}{100}"}
+{"input": "sqrt(z)", "output": "\\sqrt{z}"}
+{"input": "√z", "output": "\\sqrt{z}"}
+{"input": "sqrt(m)", "output": "\\sqrt{m}"}
+{"input": "√m", "output": "\\sqrt{m}"}
+{"input": "sqrt(k)", "output": "\\sqrt{k}"}
+{"input": "√k", "output": "\\sqrt{k}"}
+{"input": "sqrt(p)", "output": "\\sqrt{p}"}
+{"input": "√p", "output": "\\sqrt{p}"}
+{"input": "sqrt(q)", "output": "\\sqrt{q}"}
+{"input": "√q", "output": "\\sqrt{q}"}
+{"input": "sqrt(2)", "output": "\\sqrt{2}"}
+{"input": "√2", "output": "\\sqrt{2}"}
+{"input": "sqrt(3)", "output": "\\sqrt{3}"}
+{"input": "√3", "output": "\\sqrt{3}"}
+{"input": "sqrt(5)", "output": "\\sqrt{5}"}
+{"input": "√5", "output": "\\sqrt{5}"}
+{"input": "sqrt(10)", "output": "\\sqrt{10}"}
+{"input": "√10", "output": "\\sqrt{10}"}
+{"input": "sqrt(100)", "output": "\\sqrt{100}"}
+{"input": "√100", "output": "\\sqrt{100}"}
+{"input": "cbrt(x)", "output": "\\sqrt[3]{x}"}
+{"input": "∛x", "output": "\\sqrt[3]{x}"}
+{"input": "cbrt(y)", "output": "\\sqrt[3]{y}"}
+{"input": "∛y", "output": "\\sqrt[3]{y}"}
+{"input": "cbrt(a)", "output": "\\sqrt[3]{a}"}
+{"input": "∛a", "output": "\\sqrt[3]{a}"}
+{"input": "cbrt(n)", "output": "\\sqrt[3]{n}"}
+{"input": "∛n", "output": "\\sqrt[3]{n}"}
+{"input": "cbrt(8)", "output": "\\sqrt[3]{8}"}
+{"input": "∛8", "output": "\\sqrt[3]{8}"}
+{"input": "log_2(x)", "output": "\\log_{2}(x)"}
+{"input": "log_2(y)", "output": "\\log_{2}(y)"}
+{"input": "log_2(n)", "output": "\\log_{2}(n)"}
+{"input": "log_3(x)", "output": "\\log_{3}(x)"}
+{"input": "log_3(y)", "output": "\\log_{3}(y)"}
+{"input": "log_3(n)", "output": "\\log_{3}(n)"}
+{"input": "log_10(x)", "output": "\\log_{10}(x)"}
+{"input": "log_10(y)", "output": "\\log_{10}(y)"}
+{"input": "log_10(n)", "output": "\\log_{10}(n)"}
+{"input": "log_10(100)", "output": "\\log_{10}(100)"}
+{"input": "exp(x)", "output": "\\exp(x)"}
+{"input": "exp(y)", "output": "\\exp(y)"}
+{"input": "exp(a)", "output": "\\exp(a)"}
+{"input": "exp(n)", "output": "\\exp(n)"}
+{"input": "e^x", "output": "e^{x}"}
+{"input": "e^y", "output": "e^{y}"}
+{"input": "e^a", "output": "e^{a}"}
+{"input": "e^n", "output": "e^{n}"}
+{"input": "sin(2x)", "output": "\\sin(2x)"}
+{"input": "cos(2x)", "output": "\\cos(2x)"}
+{"input": "tan(2x)", "output": "\\tan(2x)"}
+{"input": "sin(3x)", "output": "\\sin(3x)"}
+{"input": "cos(3x)", "output": "\\cos(3x)"}
+{"input": "tan(3x)", "output": "\\tan(3x)"}
+{"input": "sin(x/2)", "output": "\\sin(\\frac{x}{2})"}
+{"input": "cos(x/2)", "output": "\\cos(\\frac{x}{2})"}
+{"input": "tan(x/2)", "output": "\\tan(\\frac{x}{2})"}
+{"input": "arcsin(x)", "output": "\\arcsin(x)"}
+{"input": "arccos(x)", "output": "\\arccos(x)"}
+{"input": "arctan(x)", "output": "\\arctan(x)"}
+{"input": "arcsin(y)", "output": "\\arcsin(y)"}
+{"input": "arccos(y)", "output": "\\arccos(y)"}
+{"input": "arctan(y)", "output": "\\arctan(y)"}
+{"input": "x+1", "output": "x + 1"}
+{"input": "x-1", "output": "x - 1"}
+{"input": "x*1", "output": "x"}
+{"input": "y+2", "output": "y + 2"}
+{"input": "y-2", "output": "y - 2"}
+{"input": "y*2", "output": "2y"}
+{"input": "a+3", "output": "a + 3"}
+{"input": "a-3", "output": "a - 3"}
+{"input": "a*3", "output": "3a"}
+{"input": "b+4", "output": "b + 4"}
+{"input": "b-4", "output": "b - 4"}
+{"input": "b*4", "output": "4b"}
+{"input": "n+5", "output": "n + 5"}
+{"input": "n-5", "output": "n - 5"}
+{"input": "n*5", "output": "5n"}
+{"input": "m+6", "output": "m + 6"}
+{"input": "m-6", "output": "m - 6"}
+{"input": "m*6", "output": "6m"}
+{"input": "k+7", "output": "k + 7"}
+{"input": "k-7", "output": "k - 7"}
+{"input": "k*7", "output": "7k"}
+{"input": "p+8", "output": "p + 8"}
+{"input": "p-8", "output": "p - 8"}
+{"input": "p*8", "output": "8p"}
+{"input": "q+9", "output": "q + 9"}
+{"input": "q-9", "output": "q - 9"}
+{"input": "q*9", "output": "9q"}
+{"input": "x+10", "output": "x + 10"}
+{"input": "x-10", "output": "x - 10"}
+{"input": "x*10", "output": "10x"}
+{"input": "y+100", "output": "y + 100"}
+{"input": "y-100", "output": "y - 100"}
+{"input": "y*100", "output": "100y"}
+{"input": "deriv(x^3)", "output": "\\frac{d}{dx}(x^{3})"}
+{"input": "d/dx x^3", "output": "\\frac{d}{dx}(x^{3})"}
+{"input": "производная x^3", "output": "\\frac{d}{dx}(x^{3})"}
+{"input": "deriv(x^4)", "output": "\\frac{d}{dx}(x^{4})"}
+{"input": "d/dx x^4", "output": "\\frac{d}{dx}(x^{4})"}
+{"input": "производная x^4", "output": "\\frac{d}{dx}(x^{4})"}
+{"input": "deriv(x^n)", "output": "\\frac{d}{dx}(x^{n})"}
+{"input": "d/dx x^n", "output": "\\frac{d}{dx}(x^{n})"}
+{"input": "производная x^n", "output": "\\frac{d}{dx}(x^{n})"}
+{"input": "deriv(cos(x))", "output": "\\frac{d}{dx}(\\cos(x))"}
+{"input": "d/dx cos(x)", "output": "\\frac{d}{dx}(\\cos(x))"}
+{"input": "производная cos(x)", "output": "\\frac{d}{dx}(\\cos(x))"}
+{"input": "deriv(tan(x))", "output": "\\frac{d}{dx}(\\tan(x))"}
+{"input": "d/dx tan(x)", "output": "\\frac{d}{dx}(\\tan(x))"}
+{"input": "производная tan(x)", "output": "\\frac{d}{dx}(\\tan(x))"}
+{"input": "deriv(e^x)", "output": "\\frac{d}{dx}(e^{x})"}
+{"input": "d/dx e^x", "output": "\\frac{d}{dx}(e^{x})"}
+{"input": "производная e^x", "output": "\\frac{d}{dx}(e^{x})"}
+{"input": "deriv(sqrt(x))", "output": "\\frac{d}{dx}(\\sqrt{x})"}
+{"input": "d/dx sqrt(x)", "output": "\\frac{d}{dx}(\\sqrt{x})"}
+{"input": "производная sqrt(x)", "output": "\\frac{d}{dx}(\\sqrt{x})"}
+{"input": "deriv(1/x)", "output": "\\frac{d}{dx}(\\frac{1}{x})"}
+{"input": "d/dx 1/x", "output": "\\frac{d}{dx}(\\frac{1}{x})"}
+{"input": "производная 1/x", "output": "\\frac{d}{dx}(\\frac{1}{x})"}
+{"input": "∫ x^2 dx", "output": "\\int x^{2} \\, dx"}
+{"input": "integral x^2 dx", "output": "\\int x^{2} \\, dx"}
+{"input": "int x^2 dx", "output": "\\int x^{2} \\, dx"}
+{"input": "∫ x^3 dx", "output": "\\int x^{3} \\, dx"}
+{"input": "integral x^3 dx", "output": "\\int x^{3} \\, dx"}
+{"input": "int x^3 dx", "output": "\\int x^{3} \\, dx"}
+{"input": "∫ y^2 dy", "output": "\\int y^{2} \\, dy"}
+{"input": "integral y^2 dy", "output": "\\int y^{2} \\, dy"}
+{"input": "int y^2 dy", "output": "\\int y^{2} \\, dy"}
+{"input": "∫ sin(x) dx", "output": "\\int \\sin(x) \\, dx"}
+{"input": "integral sin(x) dx", "output": "\\int \\sin(x) \\, dx"}
+{"input": "int sin(x) dx", "output": "\\int \\sin(x) \\, dx"}
+{"input": "∫ cos(x) dx", "output": "\\int \\cos(x) \\, dx"}
+{"input": "integral cos(x) dx", "output": "\\int \\cos(x) \\, dx"}
+{"input": "int cos(x) dx", "output": "\\int \\cos(x) \\, dx"}
+{"input": "∫ e^x dx", "output": "\\int e^{x} \\, dx"}
+{"input": "integral e^x dx", "output": "\\int e^{x} \\, dx"}
+{"input": "int e^x dx", "output": "\\int e^{x} \\, dx"}
+{"input": "∫ 1/x dx", "output": "\\int \\frac{1}{x} \\, dx"}
+{"input": "integral 1/x dx", "output": "\\int \\frac{1}{x} \\, dx"}
+{"input": "int 1/x dx", "output": "\\int \\frac{1}{x} \\, dx"}
+{"input": "sum n^2", "output": "\\sum n^{2}"}
+{"input": "Σ n^2", "output": "\\sum n^{2}"}
+{"input": "sum k^2", "output": "\\sum k^{2}"}
+{"input": "Σ k^2", "output": "\\sum k^{2}"}
+{"input": "sum n^3", "output": "\\sum n^{3}"}
+{"input": "Σ n^3", "output": "\\sum n^{3}"}
+{"input": "sum k^3", "output": "\\sum k^{3}"}
+{"input": "Σ k^3", "output": "\\sum k^{3}"}
+{"input": "sum 1/n", "output": "\\sum \\frac{1}{n}"}
+{"input": "Σ 1/n", "output": "\\sum \\frac{1}{n}"}
+{"input": "sum 1/n^2", "output": "\\sum \\frac{1}{n^{2}}"}
+{"input": "Σ 1/n^2", "output": "\\sum \\frac{1}{n^{2}}"}
+{"input": "lim x->0 x", "output": "\\lim_{x \\to 0} x"}
+{"input": "lim x->1 x", "output": "\\lim_{x \\to 1} x"}
+{"input": "lim x->a x", "output": "\\lim_{x \\to a} x"}
+{"input": "lim n->inf n", "output": "\\lim_{n \\to \\infty} n"}
+{"input": "lim y->0 y", "output": "\\lim_{y \\to 0} y"}
+{"input": "lim y->1 y", "output": "\\lim_{y \\to 1} y"}
+{"input": "lim y->a y", "output": "\\lim_{y \\to a} y"}
+{"input": "lim m->inf m", "output": "\\lim_{m \\to \\infty} m"}
+{"input": "lim x->0 sin(x)", "output": "\\lim_{x \\to 0} \\sin(x)"}
+{"input": "lim x->0 cos(x)", "output": "\\lim_{x \\to 0} \\cos(x)"}
+{"input": "lim x->0 tan(x)", "output": "\\lim_{x \\to 0} \\tan(x)"}
+{"input": "lim x->0 e^x", "output": "\\lim_{x \\to 0} e^{x}"}
+{"input": "lim x->0 ln(x)", "output": "\\lim_{x \\to 0} \\ln(x)"}
+{"input": "lim x->0 sqrt(x)", "output": "\\lim_{x \\to 0} \\sqrt{x}"}
+{"input": "lim x->1 ln(x)", "output": "\\lim_{x \\to 1} \\ln(x)"}
+{"input": "lim x->1 sqrt(x)", "output": "\\lim_{x \\to 1} \\sqrt{x}"}
+{"input": "lim n->inf 1/n", "output": "\\lim_{n \\to \\infty} \\frac{1}{n}"}
+{"input": "lim n->inf 1/n^2", "output": "\\lim_{n \\to \\infty} \\frac{1}{n^{2}}"}
+{"input": "lim x->inf 1/x", "output": "\\lim_{x \\to \\infty} \\frac{1}{x}"}
+{"input": "lim x->inf 1/x^2", "output": "\\lim_{x \\to \\infty} \\frac{1}{x^{2}}"}
+{"input": "x^2 = 9", "output": "x^{2} = 9"}
+{"input": "x^2=9", "output": "x^{2} = 9"}
+{"input": "x в квадрате равно 9", "output": "x^{2} = 9"}
+{"input": "x squared equals nine", "output": "x^{2} = 9"}
+{"input": "X^2=9", "output": "x^{2} = 9"}
+{"input": "x^2 = 4", "output": "x^{2} = 4"}
+{"input": "x^2=4", "output": "x^{2} = 4"}
+{"input": "x в квадрате равно 4", "output": "x^{2} = 4"}
+{"input": "x squared equals four", "output": "x^{2} = 4"}
+{"input": "X^2=4", "output": "x^{2} = 4"}
+{"input": "x^2 = 16", "output": "x^{2} = 16"}
+{"input": "x^2=16", "output": "x^{2} = 16"}
+{"input": "x в квадрате равно 16", "output": "x^{2} = 16"}
+{"input": "x squared equals sixteen", "output": "x^{2} = 16"}
+{"input": "X^2=16", "output": "x^{2} = 16"}
+{"input": "x^2 = 25", "output": "x^{2} = 25"}
+{"input": "x^2=25", "output": "x^{2} = 25"}
+{"input": "x в квадрате равно 25", "output": "x^{2} = 25"}
+{"input": "x squared equals twenty five", "output": "x^{2} = 25"}
+{"input": "X^2=25", "output": "x^{2} = 25"}
+{"input": "x^2 = 36", "output": "x^{2} = 36"}
+{"input": "x^2=36", "output": "x^{2} = 36"}
+{"input": "x в квадрате равно 36", "output": "x^{2} = 36"}
+{"input": "x squared equals thirty six", "output": "x^{2} = 36"}
+{"input": "X^2=36", "output": "x^{2} = 36"}
+{"input": "x^2 = 49", "output": "x^{2} = 49"}
+{"input": "x^2=49", "output": "x^{2} = 49"}
+{"input": "x в квадрате равно 49", "output": "x^{2} = 49"}
+{"input": "x squared equals forty nine", "output": "x^{2} = 49"}
+{"input": "X^2=49", "output": "x^{2} = 49"}
+{"input": "x^2 = 64", "output": "x^{2} = 64"}
+{"input": "x^2=64", "output": "x^{2} = 64"}
+{"input": "x в квадрате равно 64", "output": "x^{2} = 64"}
+{"input": "x squared equals sixty four", "output": "x^{2} = 64"}
+{"input": "X^2=64", "output": "x^{2} = 64"}
+{"input": "x^2 = 81", "output": "x^{2} = 81"}
+{"input": "x^2=81", "output": "x^{2} = 81"}
+{"input": "x в квадрате равно 81", "output": "x^{2} = 81"}
+{"input": "x squared equals eighty one", "output": "x^{2} = 81"}
+{"input": "X^2=81", "output": "x^{2} = 81"}
+{"input": "x^2 = 100", "output": "x^{2} = 100"}
+{"input": "x^2=100", "output": "x^{2} = 100"}
+{"input": "x в квадрате равно 100", "output": "x^{2} = 100"}
+{"input": "x squared equals one hundred", "output": "x^{2} = 100"}
+{"input": "X^2=100", "output": "x^{2} = 100"}
+{"input": "2x + 3 = 7", "output": "2x + 3 = 7"}
+{"input": "2x+3=7", "output": "2x + 3 = 7"}
+{"input": "2x плюс 3 равно 7", "output": "2x + 3 = 7"}
+{"input": "two x plus three equals seven", "output": "2x + 3 = 7"}
+{"input": "2X+3=7", "output": "2x + 3 = 7"}
+{"input": "3x + 4 = 10", "output": "3x + 4 = 10"}
+{"input": "3x+4=10", "output": "3x + 4 = 10"}
+{"input": "3x плюс 4 равно 10", "output": "3x + 4 = 10"}
+{"input": "three x plus four equals ten", "output": "3x + 4 = 10"}
+{"input": "3X+4=10", "output": "3x + 4 = 10"}
+{"input": "4x + 5 = 13", "output": "4x + 5 = 13"}
+{"input": "4x+5=13", "output": "4x + 5 = 13"}
+{"input": "4x плюс 5 равно 13", "output": "4x + 5 = 13"}
+{"input": "four x plus five equals thirteen", "output": "4x + 5 = 13"}
+{"input": "4X+5=13", "output": "4x + 5 = 13"}
+{"input": "5x + 6 = 16", "output": "5x + 6 = 16"}
+{"input": "5x+6=16", "output": "5x + 6 = 16"}
+{"input": "5x плюс 6 равно 16", "output": "5x + 6 = 16"}
+{"input": "five x plus six equals sixteen", "output": "5x + 6 = 16"}
+{"input": "5X+6=16", "output": "5x + 6 = 16"}
+{"input": "6x + 7 = 19", "output": "6x + 7 = 19"}
+{"input": "6x+7=19", "output": "6x + 7 = 19"}
+{"input": "6x плюс 7 равно 19", "output": "6x + 7 = 19"}
+{"input": "six x plus seven equals nineteen", "output": "6x + 7 = 19"}
+{"input": "6X+7=19", "output": "6x + 7 = 19"}
+{"input": "7x + 8 = 22", "output": "7x + 8 = 22"}
+{"input": "7x+8=22", "output": "7x + 8 = 22"}
+{"input": "7x плюс 8 равно 22", "output": "7x + 8 = 22"}
+{"input": "seven x plus eight equals twenty two", "output": "7x + 8 = 22"}
+{"input": "7X+8=22", "output": "7x + 8 = 22"}
+{"input": "8x + 9 = 25", "output": "8x + 9 = 25"}
+{"input": "8x+9=25", "output": "8x + 9 = 25"}
+{"input": "8x плюс 9 равно 25", "output": "8x + 9 = 25"}
+{"input": "eight x plus nine equals twenty five", "output": "8x + 9 = 25"}
+{"input": "8X+9=25", "output": "8x + 9 = 25"}
+{"input": "9x + 10 = 28", "output": "9x + 10 = 28"}
+{"input": "9x+10=28", "output": "9x + 10 = 28"}
+{"input": "9x плюс 10 равно 28", "output": "9x + 10 = 28"}
+{"input": "nine x plus ten equals twenty eight", "output": "9x + 10 = 28"}
+{"input": "9X+10=28", "output": "9x + 10 = 28"}
+{"input": "10x + 1 = 21", "output": "10x + 1 = 21"}
+{"input": "10x+1=21", "output": "10x + 1 = 21"}
+{"input": "10x плюс 1 равно 21", "output": "10x + 1 = 21"}
+{"input": "ten x plus one equals twenty one", "output": "10x + 1 = 21"}
+{"input": "10X+1=21", "output": "10x + 1 = 21"}
+{"input": "a + b = 10", "output": "a + b = 10"}
+{"input": "a+b=10", "output": "a + b = 10"}
+{"input": "a плюс b равно 10", "output": "a + b = 10"}
+{"input": "a plus b equals ten", "output": "a + b = 10"}
+{"input": "A+B=10", "output": "a + b = 10"}
+{"input": "c + d = 10", "output": "c + d = 10"}
+{"input": "c+d=10", "output": "c + d = 10"}
+{"input": "c плюс d равно 10", "output": "c + d = 10"}
+{"input": "c plus d equals ten", "output": "c + d = 10"}
+{"input": "C+D=10", "output": "c + d = 10"}
+{"input": "x + y = 10", "output": "x + y = 10"}
+{"input": "x+y=10", "output": "x + y = 10"}
+{"input": "x плюс y равно 10", "output": "x + y = 10"}
+{"input": "x plus y equals ten", "output": "x + y = 10"}
+{"input": "X+Y=10", "output": "x + y = 10"}
+{"input": "n + m = 10", "output": "n + m = 10"}
+{"input": "n+m=10", "output": "n + m = 10"}
+{"input": "n плюс m равно 10", "output": "n + m = 10"}
+{"input": "n plus m equals ten", "output": "n + m = 10"}
+{"input": "N+M=10", "output": "n + m = 10"}
+{"input": "k + p = 10", "output": "k + p = 10"}
+{"input": "k+p=10", "output": "k + p = 10"}
+{"input": "k плюс p равно 10", "output": "k + p = 10"}
+{"input": "k plus p equals ten", "output": "k + p = 10"}
+{"input": "K+P=10", "output": "k + p = 10"}
+{"input": "q + r = 10", "output": "q + r = 10"}
+{"input": "q+r=10", "output": "q + r = 10"}
+{"input": "q плюс r равно 10", "output": "q + r = 10"}
+{"input": "q plus r equals ten", "output": "q + r = 10"}
+{"input": "Q+R=10", "output": "q + r = 10"}
+{"input": "u + v = 10", "output": "u + v = 10"}
+{"input": "u+v=10", "output": "u + v = 10"}
+{"input": "u плюс v равно 10", "output": "u + v = 10"}
+{"input": "u plus v equals ten", "output": "u + v = 10"}
+{"input": "U+V=10", "output": "u + v = 10"}
+{"input": "i + j = 10", "output": "i + j = 10"}
+{"input": "i+j=10", "output": "i + j = 10"}
+{"input": "i плюс j равно 10", "output": "i + j = 10"}
+{"input": "i plus j equals ten", "output": "i + j = 10"}
+{"input": "I+J=10", "output": "i + j = 10"}
+{"input": "x - y = 5", "output": "x - y = 5"}
+{"input": "x-y=5", "output": "x - y = 5"}
+{"input": "x минус y равно 5", "output": "x - y = 5"}
+{"input": "x minus y equals five", "output": "x - y = 5"}
+{"input": "X-Y=5", "output": "x - y = 5"}
+{"input": "a - b = 5", "output": "a - b = 5"}
+{"input": "a-b=5", "output": "a - b = 5"}
+{"input": "a минус b равно 5", "output": "a - b = 5"}
+{"input": "a minus b equals five", "output": "a - b = 5"}
+{"input": "A-B=5", "output": "a - b = 5"}
+{"input": "c - d = 5", "output": "c - d = 5"}
+{"input": "c-d=5", "output": "c - d = 5"}
+{"input": "c минус d равно 5", "output": "c - d = 5"}
+{"input": "c minus d equals five", "output": "c - d = 5"}
+{"input": "C-D=5", "output": "c - d = 5"}
+{"input": "n - m = 5", "output": "n - m = 5"}
+{"input": "n-m=5", "output": "n - m = 5"}
+{"input": "n минус m равно 5", "output": "n - m = 5"}
+{"input": "n minus m equals five", "output": "n - m = 5"}
+{"input": "N-M=5", "output": "n - m = 5"}
+{"input": "k - p = 5", "output": "k - p = 5"}
+{"input": "k-p=5", "output": "k - p = 5"}
+{"input": "k минус p равно 5", "output": "k - p = 5"}
+{"input": "k minus p equals five", "output": "k - p = 5"}
+{"input": "K-P=5", "output": "k - p = 5"}
+{"input": "q - r = 5", "output": "q - r = 5"}
+{"input": "q-r=5", "output": "q - r = 5"}
+{"input": "q минус r равно 5", "output": "q - r = 5"}
+{"input": "q minus r equals five", "output": "q - r = 5"}
+{"input": "Q-R=5", "output": "q - r = 5"}
+{"input": "u - v = 5", "output": "u - v = 5"}
+{"input": "u-v=5", "output": "u - v = 5"}
+{"input": "u минус v равно 5", "output": "u - v = 5"}
+{"input": "u minus v equals five", "output": "u - v = 5"}
+{"input": "U-V=5", "output": "u - v = 5"}
+{"input": "i - j = 5", "output": "i - j = 5"}
+{"input": "i-j=5", "output": "i - j = 5"}
+{"input": "i минус j равно 5", "output": "i - j = 5"}
+{"input": "i minus j equals five", "output": "i - j = 5"}
+{"input": "I-J=5", "output": "i - j = 5"}
+{"input": "a^2 + b^2 = c^2", "output": "a^{2} + b^{2} = c^{2}"}
+{"input": "a^2+b^2=c^2", "output": "a^{2} + b^{2} = c^{2}"}
+{"input": "a в квадрате плюс b в квадрате равно c в квадрате", "output": "a^{2} + b^{2} = c^{2}"}
+{"input": "a squared plus b squared equals c squared", "output": "a^{2} + b^{2} = c^{2}"}
+{"input": "A^2+B^2=C^2", "output": "a^{2} + b^{2} = c^{2}"}
+{"input": "x^2 + y^2 = z^2", "output": "x^{2} + y^{2} = z^{2}"}
+{"input": "x^2+y^2=z^2", "output": "x^{2} + y^{2} = z^{2}"}
+{"input": "x в квадрате плюс y в квадрате равно z в квадрате", "output": "x^{2} + y^{2} = z^{2}"}
+{"input": "x squared plus y squared equals z squared", "output": "x^{2} + y^{2} = z^{2}"}
+{"input": "X^2+Y^2=Z^2", "output": "x^{2} + y^{2} = z^{2}"}
+{"input": "n^2 + m^2 = k^2", "output": "n^{2} + m^{2} = k^{2}"}
+{"input": "n^2+m^2=k^2", "output": "n^{2} + m^{2} = k^{2}"}
+{"input": "n в квадрате плюс m в квадрате равно k в квадрате", "output": "n^{2} + m^{2} = k^{2}"}
+{"input": "n squared plus m squared equals k squared", "output": "n^{2} + m^{2} = k^{2}"}
+{"input": "N^2+M^2=K^2", "output": "n^{2} + m^{2} = k^{2}"}
+{"input": "p^2 + q^2 = r^2", "output": "p^{2} + q^{2} = r^{2}"}
+{"input": "p^2+q^2=r^2", "output": "p^{2} + q^{2} = r^{2}"}
+{"input": "p в квадрате плюс q в квадрате равно r в квадрате", "output": "p^{2} + q^{2} = r^{2}"}
+{"input": "p squared plus q squared equals r squared", "output": "p^{2} + q^{2} = r^{2}"}
+{"input": "P^2+Q^2=R^2", "output": "p^{2} + q^{2} = r^{2}"}
+{"input": "u^2 + v^2 = w^2", "output": "u^{2} + v^{2} = w^{2}"}
+{"input": "u^2+v^2=w^2", "output": "u^{2} + v^{2} = w^{2}"}
+{"input": "u в квадрате плюс v в квадрате равно w в квадрате", "output": "u^{2} + v^{2} = w^{2}"}
+{"input": "u squared plus v squared equals w squared", "output": "u^{2} + v^{2} = w^{2}"}
+{"input": "U^2+V^2=W^2", "output": "u^{2} + v^{2} = w^{2}"}
+{"input": "i^2 + j^2 = k^2", "output": "i^{2} + j^{2} = k^{2}"}
+{"input": "i^2+j^2=k^2", "output": "i^{2} + j^{2} = k^{2}"}
+{"input": "i в квадрате плюс j в квадрате равно k в квадрате", "output": "i^{2} + j^{2} = k^{2}"}
+{"input": "i squared plus j squared equals k squared", "output": "i^{2} + j^{2} = k^{2}"}
+{"input": "I^2+J^2=K^2", "output": "i^{2} + j^{2} = k^{2}"}
+{"input": "E = mc^2", "output": "E = mc^{2}"}
+{"input": "E=mc^2", "output": "E = mc^{2}"}
+{"input": "E равно mc в квадрате", "output": "E = mc^{2}"}
+{"input": "E equals m c squared", "output": "E = mc^{2}"}
+{"input": "E=MC^2", "output": "E = mc^{2}"}
+{"input": "E = m*c^2", "output": "E = mc^{2}"}
+{"input": "E=m*c^2", "output": "E = mc^{2}"}
+{"input": "E равно m умножить на c в квадрате", "output": "E = mc^{2}"}
+{"input": "E equals m times c squared", "output": "E = mc^{2}"}
+{"input": "E=M*C^2", "output": "E = mc^{2}"}
+{"input": "sin^2(x) + cos^2(x) = 1", "output": "\\sin^{2}(x) + \\cos^{2}(x) = 1"}
+{"input": "sin^2(x)+cos^2(x)=1", "output": "\\sin^{2}(x) + \\cos^{2}(x) = 1"}
+{"input": "синус квадрат x плюс косинус квадрат x равно 1", "output": "\\sin^{2}(x) + \\cos^{2}(x) = 1"}
+{"input": "sin squared x plus cos squared x equals one", "output": "\\sin^{2}(x) + \\cos^{2}(x) = 1"}
+{"input": "SIN^2(X)+COS^2(X)=1", "output": "\\sin^{2}(x) + \\cos^{2}(x) = 1"}
+{"input": "sin^2 + cos^2 = 1", "output": "\\sin^{2} + \\cos^{2} = 1"}
+{"input": "sin^2+cos^2=1", "output": "\\sin^{2} + \\cos^{2} = 1"}
+{"input": "синус квадрат плюс косинус квадрат равно 1", "output": "\\sin^{2} + \\cos^{2} = 1"}
+{"input": "sin squared plus cos squared equals one", "output": "\\sin^{2} + \\cos^{2} = 1"}
+{"input": "SIN^2+COS^2=1", "output": "\\sin^{2} + \\cos^{2} = 1"}
+{"input": "1 + tan^2(x) = sec^2(x)", "output": "1 + \\tan^{2}(x) = \\sec^{2}(x)"}
+{"input": "1+tan^2(x)=sec^2(x)", "output": "1 + \\tan^{2}(x) = \\sec^{2}(x)"}
+{"input": "1 плюс тангенс квадрат x равно секанс квадрат x", "output": "1 + \\tan^{2}(x) = \\sec^{2}(x)"}
+{"input": "one plus tan squared x equals sec squared x", "output": "1 + \\tan^{2}(x) = \\sec^{2}(x)"}
+{"input": "1+TAN^2(X)=SEC^2(X)", "output": "1 + \\tan^{2}(x) = \\sec^{2}(x)"}
+{"input": "1 + cot^2(x) = csc^2(x)", "output": "1 + \\cot^{2}(x) = \\csc^{2}(x)"}
+{"input": "1+cot^2(x)=csc^2(x)", "output": "1 + \\cot^{2}(x) = \\csc^{2}(x)"}
+{"input": "1 плюс котангенс квадрат x равно косеканс квадрат x", "output": "1 + \\cot^{2}(x) = \\csc^{2}(x)"}
+{"input": "one plus cot squared x equals csc squared x", "output": "1 + \\cot^{2}(x) = \\csc^{2}(x)"}
+{"input": "1+COT^2(X)=CSC^2(X)", "output": "1 + \\cot^{2}(x) = \\csc^{2}(x)"}
+{"input": "e^(i*pi) + 1 = 0", "output": "e^{i\\pi} + 1 = 0"}
+{"input": "e^(i*pi)+1=0", "output": "e^{i\\pi} + 1 = 0"}
+{"input": "e в степени i пи плюс 1 равно 0", "output": "e^{i\\pi} + 1 = 0"}
+{"input": "e to the i pi plus one equals zero", "output": "e^{i\\pi} + 1 = 0"}
+{"input": "E^(I*PI)+1=0", "output": "e^{i\\pi} + 1 = 0"}
+{"input": "e^(i*theta) = cos(theta) + i*sin(theta)", "output": "e^{i\\theta} = \\cos(\\theta) + i\\sin(\\theta)"}
+{"input": "e^(i*theta)=cos(theta)+i*sin(theta)", "output": "e^{i\\theta} = \\cos(\\theta) + i\\sin(\\theta)"}
+{"input": "e в степени i тета равно косинус тета плюс i синус тета", "output": "e^{i\\theta} = \\cos(\\theta) + i\\sin(\\theta)"}
+{"input": "e to the i theta equals cos theta plus i sin theta", "output": "e^{i\\theta} = \\cos(\\theta) + i\\sin(\\theta)"}
+{"input": "E^(I*THETA)=COS(THETA)+I*SIN(THETA)", "output": "e^{i\\theta} = \\cos(\\theta) + i\\sin(\\theta)"}
+{"input": "a^3 + b^3 = c^3", "output": "a^{3} + b^{3} = c^{3}"}
+{"input": "a^3+b^3=c^3", "output": "a^{3} + b^{3} = c^{3}"}
+{"input": "a в кубе плюс b в кубе равно c в кубе", "output": "a^{3} + b^{3} = c^{3}"}
+{"input": "a cubed plus b cubed equals c cubed", "output": "a^{3} + b^{3} = c^{3}"}
+{"input": "A^3+B^3=C^3", "output": "a^{3} + b^{3} = c^{3}"}
+{"input": "x^3 + y^3 = z^3", "output": "x^{3} + y^{3} = z^{3}"}
+{"input": "x^3+y^3=z^3", "output": "x^{3} + y^{3} = z^{3}"}
+{"input": "x в кубе плюс y в кубе равно z в кубе", "output": "x^{3} + y^{3} = z^{3}"}
+{"input": "x cubed plus y cubed equals z cubed", "output": "x^{3} + y^{3} = z^{3}"}
+{"input": "X^3+Y^3=Z^3", "output": "x^{3} + y^{3} = z^{3}"}
+{"input": "n^3 + m^3 = k^3", "output": "n^{3} + m^{3} = k^{3}"}
+{"input": "n^3+m^3=k^3", "output": "n^{3} + m^{3} = k^{3}"}
+{"input": "n в кубе плюс m в кубе равно k в кубе", "output": "n^{3} + m^{3} = k^{3}"}
+{"input": "n cubed plus m cubed equals k cubed", "output": "n^{3} + m^{3} = k^{3}"}
+{"input": "N^3+M^3=K^3", "output": "n^{3} + m^{3} = k^{3}"}
+{"input": "p^3 + q^3 = r^3", "output": "p^{3} + q^{3} = r^{3}"}
+{"input": "p^3+q^3=r^3", "output": "p^{3} + q^{3} = r^{3}"}
+{"input": "p в кубе плюс q в кубе равно r в кубе", "output": "p^{3} + q^{3} = r^{3}"}
+{"input": "p cubed plus q cubed equals r cubed", "output": "p^{3} + q^{3} = r^{3}"}
+{"input": "P^3+Q^3=R^3", "output": "p^{3} + q^{3} = r^{3}"}
+{"input": "u^3 + v^3 = w^3", "output": "u^{3} + v^{3} = w^{3}"}
+{"input": "u^3+v^3=w^3", "output": "u^{3} + v^{3} = w^{3}"}
+{"input": "u в кубе плюс v в кубе равно w в кубе", "output": "u^{3} + v^{3} = w^{3}"}
+{"input": "u cubed plus v cubed equals w cubed", "output": "u^{3} + v^{3} = w^{3}"}
+{"input": "U^3+V^3=W^3", "output": "u^{3} + v^{3} = w^{3}"}
+{"input": "i^3 + j^3 = k^3", "output": "i^{3} + j^{3} = k^{3}"}
+{"input": "i^3+j^3=k^3", "output": "i^{3} + j^{3} = k^{3}"}
+{"input": "i в кубе плюс j в кубе равно k в кубе", "output": "i^{3} + j^{3} = k^{3}"}
+{"input": "i cubed plus j cubed equals k cubed", "output": "i^{3} + j^{3} = k^{3}"}
+{"input": "I^3+J^3=K^3", "output": "i^{3} + j^{3} = k^{3}"}
+{"input": "a^2 + b^2 = c^2 + d^2", "output": "a^{2} + b^{2} = c^{2} + d^{2}"}
+{"input": "a^2+b^2=c^2+d^2", "output": "a^{2} + b^{2} = c^{2} + d^{2}"}
+{"input": "a в квадрате плюс b в квадрате равно c в квадрате плюс d в квадрате", "output": "a^{2} + b^{2} = c^{2} + d^{2}"}
+{"input": "a squared plus b squared equals c squared plus d squared", "output": "a^{2} + b^{2} = c^{2} + d^{2}"}
+{"input": "A^2+B^2=C^2+D^2", "output": "a^{2} + b^{2} = c^{2} + d^{2}"}
+{"input": "x^2 + y^2 = z^2 + w^2", "output": "x^{2} + y^{2} = z^{2} + w^{2}"}
+{"input": "x^2+y^2=z^2+w^2", "output": "x^{2} + y^{2} = z^{2} + w^{2}"}
+{"input": "x в квадрате плюс y в квадрате равно z в квадрате плюс w в квадрате", "output": "x^{2} + y^{2} = z^{2} + w^{2}"}
+{"input": "x squared plus y squared equals z squared plus w squared", "output": "x^{2} + y^{2} = z^{2} + w^{2}"}
+{"input": "X^2+Y^2=Z^2+W^2", "output": "x^{2} + y^{2} = z^{2} + w^{2}"}
+{"input": "n^2 + m^2 = k^2 + p^2", "output": "n^{2} + m^{2} = k^{2} + p^{2}"}
+{"input": "n^2+m^2=k^2+p^2", "output": "n^{2} + m^{2} = k^{2} + p^{2}"}
+{"input": "n в квадрате плюс m в квадрате равно k в квадрате плюс p в квадрате", "output": "n^{2} + m^{2} = k^{2} + p^{2}"}
+{"input": "n squared plus m squared equals k squared plus p squared", "output": "n^{2} + m^{2} = k^{2} + p^{2}"}
+{"input": "N^2+M^2=K^2+P^2", "output": "n^{2} + m^{2} = k^{2} + p^{2}"}
+{"input": "p^2 + q^2 = r^2 + s^2", "output": "p^{2} + q^{2} = r^{2} + s^{2}"}
+{"input": "p^2+q^2=r^2+s^2", "output": "p^{2} + q^{2} = r^{2} + s^{2}"}
+{"input": "p в квадрате плюс q в квадрате равно r в квадрате плюс s в квадрате", "output": "p^{2} + q^{2} = r^{2} + s^{2}"}
+{"input": "p squared plus q squared equals r squared plus s squared", "output": "p^{2} + q^{2} = r^{2} + s^{2}"}
+{"input": "P^2+Q^2=R^2+S^2", "output": "p^{2} + q^{2} = r^{2} + s^{2}"}
+{"input": "u^2 + v^2 = w^2 + x^2", "output": "u^{2} + v^{2} = w^{2} + x^{2}"}
+{"input": "u^2+v^2=w^2+x^2", "output": "u^{2} + v^{2} = w^{2} + x^{2}"}
+{"input": "u в квадрате плюс v в квадрате равно w в квадрате плюс x в квадрате", "output": "u^{2} + v^{2} = w^{2} + x^{2}"}
+{"input": "u squared plus v squared equals w squared plus x squared", "output": "u^{2} + v^{2} = w^{2} + x^{2}"}
+{"input": "U^2+V^2=W^2+X^2", "output": "u^{2} + v^{2} = w^{2} + x^{2}"}
+{"input": "i^2 + j^2 = k^2 + l^2", "output": "i^{2} + j^{2} = k^{2} + l^{2}"}
+{"input": "i^2+j^2=k^2+l^2", "output": "i^{2} + j^{2} = k^{2} + l^{2}"}
+{"input": "i в квадрате плюс j в квадрате равно k в квадрате плюс l в квадрате", "output": "i^{2} + j^{2} = k^{2} + l^{2}"}
+{"input": "i squared plus j squared equals k squared plus l squared", "output": "i^{2} + j^{2} = k^{2} + l^{2}"}
+{"input": "I^2+J^2=K^2+L^2", "output": "i^{2} + j^{2} = k^{2} + l^{2}"}
+{"input": "F = ma", "output": "F = ma"}
+{"input": "F=ma", "output": "F = ma"}
+{"input": "F равно ma", "output": "F = ma"}
+{"input": "F equals m a", "output": "F = ma"}
+{"input": "F=MA", "output": "F = ma"}
+{"input": "F = m*a", "output": "F = ma"}
+{"input": "F=m*a", "output": "F = ma"}
+{"input": "F равно m умножить на a", "output": "F = ma"}
+{"input": "F equals m times a", "output": "F = ma"}
+{"input": "F=M*A", "output": "F = ma"}
+{"input": "p = mv", "output": "p = mv"}
+{"input": "p=mv", "output": "p = mv"}
+{"input": "p равно mv", "output": "p = mv"}
+{"input": "p equals m v", "output": "p = mv"}
+{"input": "P=MV", "output": "p = mv"}
+{"input": "p = m*v", "output": "p = mv"}
+{"input": "p=m*v", "output": "p = mv"}
+{"input": "p равно m умножить на v", "output": "p = mv"}
+{"input": "p equals m times v", "output": "p = mv"}
+{"input": "P=M*V", "output": "p = mv"}
+{"input": "E = 1/2 mv^2", "output": "E = \\frac{1}{2} mv^{2}"}
+{"input": "E=1/2mv^2", "output": "E = \\frac{1}{2} mv^{2}"}
+{"input": "E равно 1/2 mv в квадрате", "output": "E = \\frac{1}{2} mv^{2}"}
+{"input": "E equals one half m v squared", "output": "E = \\frac{1}{2} mv^{2}"}
+{"input": "E=1/2*M*V^2", "output": "E = \\frac{1}{2} mv^{2}"}
+{"input": "E = 1/2 m v^2", "output": "E = \\frac{1}{2} mv^{2}"}
+{"input": "E=1/2*m*v^2", "output": "E = \\frac{1}{2} mv^{2}"}
+{"input": "E равно 1/2 m v в квадрате", "output": "E = \\frac{1}{2} mv^{2}"}
+{"input": "E equals one half m times v squared", "output": "E = \\frac{1}{2} mv^{2}"}
+{"input": "E=1/2*M*V^2", "output": "E = \\frac{1}{2} mv^{2}"}
+{"input": "PV = nRT", "output": "PV = nRT"}
+{"input": "PV=nRT", "output": "PV = nRT"}
+{"input": "PV равно nRT", "output": "PV = nRT"}
+{"input": "P V equals n R T", "output": "PV = nRT"}
+{"input": "PV=NRT", "output": "PV = nRT"}
+{"input": "P*V=n*R*T", "output": "PV = nRT"}
+{"input": "P*V=n*R*T", "output": "PV = nRT"}
+{"input": "P умножить на V равно n умножить на R умножить на T", "output": "PV = nRT"}
+{"input": "P times V equals n times R times T", "output": "PV = nRT"}
+{"input": "P*V=N*R*T", "output": "PV = nRT"}
+{"input": "F = G*m1*m2/r^2", "output": "F = \\frac{G m_1 m_2}{r^{2}}"}
+{"input": "F=G*m1*m2/r^2", "output": "F = \\frac{G m_1 m_2}{r^{2}}"}
+{"input": "F равно G m1 m2 делить на r в квадрате", "output": "F = \\frac{G m_1 m_2}{r^{2}}"}
+{"input": "F equals G m one m two over r squared", "output": "F = \\frac{G m_1 m_2}{r^{2}}"}
+{"input": "F=G*M1*M2/R^2", "output": "F = \\frac{G m_1 m_2}{r^{2}}"}
+{"input": "F = G m1 m2 / r^2", "output": "F = \\frac{G m_1 m_2}{r^{2}}"}
+{"input": "F=Gm1m2/r^2", "output": "F = \\frac{G m_1 m_2}{r^{2}}"}
+{"input": "F равно G умножить на m1 умножить на m2 делить на r в квадрате", "output": "F = \\frac{G m_1 m_2}{r^{2}}"}
+{"input": "F equals G times m one times m two over r squared", "output": "F = \\frac{G m_1 m_2}{r^{2}}"}
+{"input": "F=G*M1*M2/R^2", "output": "F = \\frac{G m_1 m_2}{r^{2}}"}
+{"input": "E = h*nu", "output": "E = h\\nu"}
+{"input": "E=h*nu", "output": "E = h\\nu"}
+{"input": "E равно h ню", "output": "E = h\\nu"}
+{"input": "E equals h nu", "output": "E = h\\nu"}
+{"input": "E=H*NU", "output": "E = h\\nu"}
+{"input": "E = h*f", "output": "E = hf"}
+{"input": "E=h*f", "output": "E = hf"}
+{"input": "E равно h умножить на f", "output": "E = hf"}
+{"input": "E equals h f", "output": "E = hf"}
+{"input": "E=H*F", "output": "E = hf"}
+{"input": "lambda = h/p", "output": "\\lambda = \\frac{h}{p}"}
+{"input": "lambda=h/p", "output": "\\lambda = \\frac{h}{p}"}
+{"input": "лямбда равно h делить на p", "output": "\\lambda = \\frac{h}{p}"}
+{"input": "lambda equals h over p", "output": "\\lambda = \\frac{h}{p}"}
+{"input": "LAMBDA=H/P", "output": "\\lambda = \\frac{h}{p}"}
+{"input": "x^2 - 5x + 6 = 0", "output": "x^{2} - 5x + 6 = 0"}
+{"input": "x^2-5x+6=0", "output": "x^{2} - 5x + 6 = 0"}
+{"input": "x в квадрате минус 5x плюс 6 равно 0", "output": "x^{2} - 5x + 6 = 0"}
+{"input": "x squared minus five x plus six equals zero", "output": "x^{2} - 5x + 6 = 0"}
+{"input": "X^2-5X+6=0", "output": "x^{2} - 5x + 6 = 0"}
+{"input": "x^2 + 5x + 6 = 0", "output": "x^{2} + 5x + 6 = 0"}
+{"input": "x^2+5x+6=0", "output": "x^{2} + 5x + 6 = 0"}
+{"input": "x в квадрате плюс 5x плюс 6 равно 0", "output": "x^{2} + 5x + 6 = 0"}
+{"input": "x squared plus five x plus six equals zero", "output": "x^{2} + 5x + 6 = 0"}
+{"input": "X^2+5X+6=0", "output": "x^{2} + 5x + 6 = 0"}
+{"input": "x^2 - 4 = 0", "output": "x^{2} - 4 = 0"}
+{"input": "x^2-4=0", "output": "x^{2} - 4 = 0"}
+{"input": "x в квадрате минус 4 равно 0", "output": "x^{2} - 4 = 0"}
+{"input": "x squared minus four equals zero", "output": "x^{2} - 4 = 0"}
+{"input": "X^2-4=0", "output": "x^{2} - 4 = 0"}
+{"input": "x^2 - 9 = 0", "output": "x^{2} - 9 = 0"}
+{"input": "x^2-9=0", "output": "x^{2} - 9 = 0"}
+{"input": "x в квадрате минус 9 равно 0", "output": "x^{2} - 9 = 0"}
+{"input": "x squared minus nine equals zero", "output": "x^{2} - 9 = 0"}
+{"input": "X^2-9=0", "output": "x^{2} - 9 = 0"}
+{"input": "x^2 - 16 = 0", "output": "x^{2} - 16 = 0"}
+{"input": "x^2-16=0", "output": "x^{2} - 16 = 0"}
+{"input": "x в квадрате минус 16 равно 0", "output": "x^{2} - 16 = 0"}
+{"input": "x squared minus sixteen equals zero", "output": "x^{2} - 16 = 0"}
+{"input": "X^2-16=0", "output": "x^{2} - 16 = 0"}
+{"input": "x^2 - 25 = 0", "output": "x^{2} - 25 = 0"}
+{"input": "x^2-25=0", "output": "x^{2} - 25 = 0"}
+{"input": "x в квадрате минус 25 равно 0", "output": "x^{2} - 25 = 0"}
+{"input": "x squared minus twenty five equals zero", "output": "x^{2} - 25 = 0"}
+{"input": "X^2-25=0", "output": "x^{2} - 25 = 0"}
+{"input": "x^2 - 36 = 0", "output": "x^{2} - 36 = 0"}
+{"input": "x^2-36=0", "output": "x^{2} - 36 = 0"}
+{"input": "x в квадрате минус 36 равно 0", "output": "x^{2} - 36 = 0"}
+{"input": "x squared minus thirty six equals zero", "output": "x^{2} - 36 = 0"}
+{"input": "X^2-36=0", "output": "x^{2} - 36 = 0"}
+{"input": "x^2 - 49 = 0", "output": "x^{2} - 49 = 0"}
+{"input": "x^2-49=0", "output": "x^{2} - 49 = 0"}
+{"input": "x в квадрате минус 49 равно 0", "output": "x^{2} - 49 = 0"}
+{"input": "x squared minus forty nine equals zero", "output": "x^{2} - 49 = 0"}
+{"input": "X^2-49=0", "output": "x^{2} - 49 = 0"}
+{"input": "x^2 - 64 = 0", "output": "x^{2} - 64 = 0"}
+{"input": "x^2-64=0", "output": "x^{2} - 64 = 0"}
+{"input": "x в квадрате минус 64 равно 0", "output": "x^{2} - 64 = 0"}
+{"input": "x squared minus sixty four equals zero", "output": "x^{2} - 64 = 0"}
+{"input": "X^2-64=0", "output": "x^{2} - 64 = 0"}
+{"input": "x^2 - 81 = 0", "output": "x^{2} - 81 = 0"}
+{"input": "x^2-81=0", "output": "x^{2} - 81 = 0"}
+{"input": "x в квадрате минус 81 равно 0", "output": "x^{2} - 81 = 0"}
+{"input": "x squared minus eighty one equals zero", "output": "x^{2} - 81 = 0"}
+{"input": "X^2-81=0", "output": "x^{2} - 81 = 0"}
+{"input": "x^2 - 100 = 0", "output": "x^{2} - 100 = 0"}
+{"input": "x^2-100=0", "output": "x^{2} - 100 = 0"}
+{"input": "x в квадрате минус 100 равно 0", "output": "x^{2} - 100 = 0"}
+{"input": "x squared minus one hundred equals zero", "output": "x^{2} - 100 = 0"}
+{"input": "X^2-100=0", "output": "x^{2} - 100 = 0"}
+{"input": "x + y = 10", "output": "x + y = 10"}
+{"input": "x+y=10", "output": "x + y = 10"}
+{"input": "x плюс y равно 10", "output": "x + y = 10"}
+{"input": "x plus y equals ten", "output": "x + y = 10"}
+{"input": "X+Y=10", "output": "x + y = 10"}
+{"input": "x - y = 5", "output": "x - y = 5"}
+{"input": "x-y=5", "output": "x - y = 5"}
+{"input": "x минус y равно 5", "output": "x - y = 5"}
+{"input": "x minus y equals five", "output": "x - y = 5"}
+{"input": "X-Y=5", "output": "x - y = 5"}
+{"input": "2x + 3y = 7", "output": "2x + 3y = 7"}
+{"input": "2x+3y=7", "output": "2x + 3y = 7"}
+{"input": "2x плюс 3y равно 7", "output": "2x + 3y = 7"}
+{"input": "two x plus three y equals seven", "output": "2x + 3y = 7"}
+{"input": "2X+3Y=7", "output": "2x + 3y = 7"}
+{"input": "3x + 4y = 10", "output": "3x + 4y = 10"}
+{"input": "3x+4y=10", "output": "3x + 4y = 10"}
+{"input": "3x плюс 4y равно 10", "output": "3x + 4y = 10"}
+{"input": "three x plus four y equals ten", "output": "3x + 4y = 10"}
+{"input": "3X+4Y=10", "output": "3x + 4y = 10"}
+{"input": "4x + 5y = 13", "output": "4x + 5y = 13"}
+{"input": "4x+5y=13", "output": "4x + 5y = 13"}
+{"input": "4x плюс 5y равно 13", "output": "4x + 5y = 13"}
+{"input": "four x plus five y equals thirteen", "output": "4x + 5y = 13"}
+{"input": "4X+5Y=13", "output": "4x + 5y = 13"}
+{"input": "5x + 6y = 16", "output": "5x + 6y = 16"}
+{"input": "5x+6y=16", "output": "5x + 6y = 16"}
+{"input": "5x плюс 6y равно 16", "output": "5x + 6y = 16"}
+{"input": "five x plus six y equals sixteen", "output": "5x + 6y = 16"}
+{"input": "5X+6Y=16", "output": "5x + 6y = 16"}
+{"input": "6x + 7y = 19", "output": "6x + 7y = 19"}
+{"input": "6x+7y=19", "output": "6x + 7y = 19"}
+{"input": "6x плюс 7y равно 19", "output": "6x + 7y = 19"}
+{"input": "six x plus seven y equals nineteen", "output": "6x + 7y = 19"}
+{"input": "6X+7Y=19", "output": "6x + 7y = 19"}
+{"input": "7x + 8y = 22", "output": "7x + 8y = 22"}
+{"input": "7x+8y=22", "output": "7x + 8y = 22"}
+{"input": "7x плюс 8y равно 22", "output": "7x + 8y = 22"}
+{"input": "seven x plus eight y equals twenty two", "output": "7x + 8y = 22"}
+{"input": "7X+8Y=22", "output": "7x + 8y = 22"}
+{"input": "8x + 9y = 25", "output": "8x + 9y = 25"}
+{"input": "8x+9y=25", "output": "8x + 9y = 25"}
+{"input": "8x плюс 9y равно 25", "output": "8x + 9y = 25"}
+{"input": "eight x plus nine y equals twenty five", "output": "8x + 9y = 25"}
+{"input": "8X+9Y=25", "output": "8x + 9y = 25"}
+{"input": "9x + 10y = 28", "output": "9x + 10y = 28"}
+{"input": "9x+10y=28", "output": "9x + 10y = 28"}
+{"input": "9x плюс 10y равно 28", "output": "9x + 10y = 28"}
+{"input": "nine x plus ten y equals twenty eight", "output": "9x + 10y = 28"}
+{"input": "9X+10Y=28", "output": "9x + 10y = 28"}
+{"input": "10x + y = 21", "output": "10x + y = 21"}
+{"input": "10x+y=21", "output": "10x + y = 21"}
+{"input": "10x плюс y равно 21", "output": "10x + y = 21"}
+{"input": "ten x plus y equals twenty one", "output": "10x + y = 21"}
+{"input": "10X+Y=21", "output": "10x + y = 21"}
+{"input": "x/2 = 5", "output": "\\frac{x}{2} = 5"}
+{"input": "x/2=5", "output": "\\frac{x}{2} = 5"}
+{"input": "x делить на 2 равно 5", "output": "\\frac{x}{2} = 5"}
+{"input": "x over two equals five", "output": "\\frac{x}{2} = 5"}
+{"input": "X/2=5", "output": "\\frac{x}{2} = 5"}
+{"input": "x/3 = 4", "output": "\\frac{x}{3} = 4"}
+{"input": "x/3=4", "output": "\\frac{x}{3} = 4"}
+{"input": "x делить на 3 равно 4", "output": "\\frac{x}{3} = 4"}
+{"input": "x over three equals four", "output": "\\frac{x}{3} = 4"}
+{"input": "X/3=4", "output": "\\frac{x}{3} = 4"}
+{"input": "x/4 = 3", "output": "\\frac{x}{4} = 3"}
+{"input": "x/4=3", "output": "\\frac{x}{4} = 3"}
+{"input": "x делить на 4 равно 3", "output": "\\frac{x}{4} = 3"}
+{"input": "x over four equals three", "output": "\\frac{x}{4} = 3"}
+{"input": "X/4=3", "output": "\\frac{x}{4} = 3"}
+{"input": "x/5 = 2", "output": "\\frac{x}{5} = 2"}
+{"input": "x/5=2", "output": "\\frac{x}{5} = 2"}
+{"input": "x делить на 5 равно 2", "output": "\\frac{x}{5} = 2"}
+{"input": "x over five equals two", "output": "\\frac{x}{5} = 2"}
+{"input": "X/5=2", "output": "\\frac{x}{5} = 2"}
+{"input": "x/10 = 1", "output": "\\frac{x}{10} = 1"}
+{"input": "x/10=1", "output": "\\frac{x}{10} = 1"}
+{"input": "x делить на 10 равно 1", "output": "\\frac{x}{10} = 1"}
+{"input": "x over ten equals one", "output": "\\frac{x}{10} = 1"}
+{"input": "X/10=1", "output": "\\frac{x}{10} = 1"}
+{"input": "x/100 = 1", "output": "\\frac{x}{100} = 1"}
+{"input": "x/100=1", "output": "\\frac{x}{100} = 1"}
+{"input": "x делить на 100 равно 1", "output": "\\frac{x}{100} = 1"}
+{"input": "x over one hundred equals one", "output": "\\frac{x}{100} = 1"}
+{"input": "X/100=1", "output": "\\frac{x}{100} = 1"}
+{"input": "1/x = 2", "output": "\\frac{1}{x} = 2"}
+{"input": "1/x=2", "output": "\\frac{1}{x} = 2"}
+{"input": "1 делить на x равно 2", "output": "\\frac{1}{x} = 2"}
+{"input": "one over x equals two", "output": "\\frac{1}{x} = 2"}
+{"input": "1/X=2", "output": "\\frac{1}{x} = 2"}
+{"input": "1/x = 3", "output": "\\frac{1}{x} = 3"}
+{"input": "1/x=3", "output": "\\frac{1}{x} = 3"}
+{"input": "1 делить на x равно 3", "output": "\\frac{1}{x} = 3"}
+{"input": "one over x equals three", "output": "\\frac{1}{x} = 3"}
+{"input": "1/X=3", "output": "\\frac{1}{x} = 3"}
+{"input": "1/x = 4", "output": "\\frac{1}{x} = 4"}
+{"input": "1/x=4", "output": "\\frac{1}{x} = 4"}
+{"input": "1 делить на x равно 4", "output": "\\frac{1}{x} = 4"}
+{"input": "one over x equals four", "output": "\\frac{1}{x} = 4"}
+{"input": "1/X=4", "output": "\\frac{1}{x} = 4"}
+{"input": "1/x = 5", "output": "\\frac{1}{x} = 5"}
+{"input": "1/x=5", "output": "\\frac{1}{x} = 5"}
+{"input": "1 делить на x равно 5", "output": "\\frac{1}{x} = 5"}
+{"input": "one over x equals five", "output": "\\frac{1}{x} = 5"}
+{"input": "1/X=5", "output": "\\frac{1}{x} = 5"}
+{"input": "1/x = 10", "output": "\\frac{1}{x} = 10"}
+{"input": "1/x=10", "output": "\\frac{1}{x} = 10"}
+{"input": "1 делить на x равно 10", "output": "\\frac{1}{x} = 10"}
+{"input": "one over x equals ten", "output": "\\frac{1}{x} = 10"}
+{"input": "1/X=10", "output": "\\frac{1}{x} = 10"}
+{"input": "1/x = 100", "output": "\\frac{1}{x} = 100"}
+{"input": "1/x=100", "output": "\\frac{1}{x} = 100"}
+{"input": "1 делить на x равно 100", "output": "\\frac{1}{x} = 100"}
+{"input": "one over x equals one hundred", "output": "\\frac{1}{x} = 100"}
+{"input": "1/X=100", "output": "\\frac{1}{x} = 100"}
+{"input": "x^2 + y^2 = 1", "output": "x^{2} + y^{2} = 1"}
+{"input": "x^2+y^2=1", "output": "x^{2} + y^{2} = 1"}
+{"input": "x в квадрате плюс y в квадрате равно 1", "output": "x^{2} + y^{2} = 1"}
+{"input": "x squared plus y squared equals one", "output": "x^{2} + y^{2} = 1"}
+{"input": "X^2+Y^2=1", "output": "x^{2} + y^{2} = 1"}
+{"input": "x^2 + y^2 = 4", "output": "x^{2} + y^{2} = 4"}
+{"input": "x^2+y^2=4", "output": "x^{2} + y^{2} = 4"}
+{"input": "x в квадрате плюс y в квадрате равно 4", "output": "x^{2} + y^{2} = 4"}
+{"input": "x squared plus y squared equals four", "output": "x^{2} + y^{2} = 4"}
+{"input": "X^2+Y^2=4", "output": "x^{2} + y^{2} = 4"}
+{"input": "x^2 + y^2 = 9", "output": "x^{2} + y^{2} = 9"}
+{"input": "x^2+y^2=9", "output": "x^{2} + y^{2} = 9"}
+{"input": "x в квадрате плюс y в квадрате равно 9", "output": "x^{2} + y^{2} = 9"}
+{"input": "x squared plus y squared equals nine", "output": "x^{2} + y^{2} = 9"}
+{"input": "X^2+Y^2=9", "output": "x^{2} + y^{2} = 9"}
+{"input": "x^2 + y^2 = 16", "output": "x^{2} + y^{2} = 16"}
+{"input": "x^2+y^2=16", "output": "x^{2} + y^{2} = 16"}
+{"input": "x в квадрате плюс y в квадрате равно 16", "output": "x^{2} + y^{2} = 16"}
+{"input": "x squared plus y squared equals sixteen", "output": "x^{2} + y^{2} = 16"}
+{"input": "X^2+Y^2=16", "output": "x^{2} + y^{2} = 16"}
+{"input": "x^2 + y^2 = 25", "output": "x^{2} + y^{2} = 25"}
+{"input": "x^2+y^2=25", "output": "x^{2} + y^{2} = 25"}
+{"input": "x в квадрате плюс y в квадрате равно 25", "output": "x^{2} + y^{2} = 25"}
+{"input": "x squared plus y squared equals twenty five", "output": "x^{2} + y^{2} = 25"}
+{"input": "X^2+Y^2=25", "output": "x^{2} + y^{2} = 25"}
+{"input": "x^2 + y^2 = 36", "output": "x^{2} + y^{2} = 36"}
+{"input": "x^2+y^2=36", "output": "x^{2} + y^{2} = 36"}
+{"input": "x в квадрате плюс y в квадрате равно 36", "output": "x^{2} + y^{2} = 36"}
+{"input": "x squared plus y squared equals thirty six", "output": "x^{2} + y^{2} = 36"}
+{"input": "X^2+Y^2=36", "output": "x^{2} + y^{2} = 36"}
+{"input": "x^2 + y^2 = 49", "output": "x^{2} + y^{2} = 49"}
+{"input": "x^2+y^2=49", "output": "x^{2} + y^{2} = 49"}
+{"input": "x в квадрате плюс y в квадрате равно 49", "output": "x^{2} + y^{2} = 49"}
+{"input": "x squared plus y squared equals forty nine", "output": "x^{2} + y^{2} = 49"}
+{"input": "X^2+Y^2=49", "output": "x^{2} + y^{2} = 49"}
+{"input": "x^2 + y^2 = 64", "output": "x^{2} + y^{2} = 64"}
+{"input": "x^2+y^2=64", "output": "x^{2} + y^{2} = 64"}
+{"input": "x в квадрате плюс y в квадрате равно 64", "output": "x^{2} + y^{2} = 64"}
+{"input": "x squared plus y squared equals sixty four", "output": "x^{2} + y^{2} = 64"}
+{"input": "X^2+Y^2=64", "output": "x^{2} + y^{2} = 64"}
+{"input": "x^2 + y^2 = 81", "output": "x^{2} + y^{2} = 81"}
+{"input": "x^2+y^2=81", "output": "x^{2} + y^{2} = 81"}
+{"input": "x в квадрате плюс y в квадрате равно 81", "output": "x^{2} + y^{2} = 81"}
+{"input": "x squared plus y squared equals eighty one", "output": "x^{2} + y^{2} = 81"}
+{"input": "X^2+Y^2=81", "output": "x^{2} + y^{2} = 81"}
+{"input": "x^2 + y^2 = 100", "output": "x^{2} + y^{2} = 100"}
+{"input": "x^2+y^2=100", "output": "x^{2} + y^{2} = 100"}
+{"input": "x в квадрате плюс y в квадрате равно 100", "output": "x^{2} + y^{2} = 100"}
+{"input": "x squared plus y squared equals one hundred", "output": "x^{2} + y^{2} = 100"}
+{"input": "X^2+Y^2=100", "output": "x^{2} + y^{2} = 100"}
+{"input": "x^2 = a", "output": "x^{2} = a"}
+{"input": "x^2=a", "output": "x^{2} = a"}
+{"input": "x в квадрате равно a", "output": "x^{2} = a"}
+{"input": "x squared equals a", "output": "x^{2} = a"}
+{"input": "X^2=A", "output": "x^{2} = a"}
+{"input": "x^3 = a", "output": "x^{3} = a"}
+{"input": "x^3=a", "output": "x^{3} = a"}
+{"input": "x в кубе равно a", "output": "x^{3} = a"}
+{"input": "x cubed equals a", "output": "x^{3} = a"}
+{"input": "X^3=A", "output": "x^{3} = a"}
+{"input": "x^n = a", "output": "x^{n} = a"}
+{"input": "x^n=a", "output": "x^{n} = a"}
+{"input": "x в степени n равно a", "output": "x^{n} = a"}
+{"input": "x to the n equals a", "output": "x^{n} = a"}
+{"input": "X^N=A", "output": "x^{n} = a"}
+{"input": "2^x = 8", "output": "2^{x} = 8"}
+{"input": "2^x=8", "output": "2^{x} = 8"}
+{"input": "2 в степени x равно 8", "output": "2^{x} = 8"}
+{"input": "two to the x equals eight", "output": "2^{x} = 8"}
+{"input": "2^X=8", "output": "2^{x} = 8"}
+{"input": "3^x = 9", "output": "3^{x} = 9"}
+{"input": "3^x=9", "output": "3^{x} = 9"}
+{"input": "3 в степени x равно 9", "output": "3^{x} = 9"}
+{"input": "three to the x equals nine", "output": "3^{x} = 9"}
+{"input": "3^X=9", "output": "3^{x} = 9"}
+{"input": "4^x = 16", "output": "4^{x} = 16"}
+{"input": "4^x=16", "output": "4^{x} = 16"}
+{"input": "4 в степени x равно 16", "output": "4^{x} = 16"}
+{"input": "four to the x equals sixteen", "output": "4^{x} = 16"}
+{"input": "4^X=16", "output": "4^{x} = 16"}
+{"input": "5^x = 25", "output": "5^{x} = 25"}
+{"input": "5^x=25", "output": "5^{x} = 25"}
+{"input": "5 в степени x равно 25", "output": "5^{x} = 25"}
+{"input": "five to the x equals twenty five", "output": "5^{x} = 25"}
+{"input": "5^X=25", "output": "5^{x} = 25"}
+{"input": "10^x = 100", "output": "10^{x} = 100"}
+{"input": "10^x=100", "output": "10^{x} = 100"}
+{"input": "10 в степени x равно 100", "output": "10^{x} = 100"}
+{"input": "ten to the x equals one hundred", "output": "10^{x} = 100"}
+{"input": "10^X=100", "output": "10^{x} = 100"}
+{"input": "e^x = y", "output": "e^{x} = y"}
+{"input": "e^x=y", "output": "e^{x} = y"}
+{"input": "e в степени x равно y", "output": "e^{x} = y"}
+{"input": "e to the x equals y", "output": "e^{x} = y"}
+{"input": "E^X=Y", "output": "e^{x} = y"}
+{"input": "ln(x) = y", "output": "\\ln(x) = y"}
+{"input": "ln(x)=y", "output": "\\ln(x) = y"}
+{"input": "ln x равно y", "output": "\\ln(x) = y"}
+{"input": "ln of x equals y", "output": "\\ln(x) = y"}
+{"input": "LN(X)=Y", "output": "\\ln(x) = y"}
+{"input": "log(x) = y", "output": "\\log(x) = y"}
+{"input": "log(x)=y", "output": "\\log(x) = y"}
+{"input": "log x равно y", "output": "\\log(x) = y"}
+{"input": "log of x equals y", "output": "\\log(x) = y"}
+{"input": "LOG(X)=Y", "output": "\\log(x) = y"}
+{"input": "sin(x) = 0", "output": "\\sin(x) = 0"}
+{"input": "sin(x)=0", "output": "\\sin(x) = 0"}
+{"input": "синус x равно 0", "output": "\\sin(x) = 0"}
+{"input": "sin x equals zero", "output": "\\sin(x) = 0"}
+{"input": "SIN(X)=0", "output": "\\sin(x) = 0"}
+{"input": "cos(x) = 0", "output": "\\cos(x) = 0"}
+{"input": "cos(x)=0", "output": "\\cos(x) = 0"}
+{"input": "косинус x равно 0", "output": "\\cos(x) = 0"}
+{"input": "cos x equals zero", "output": "\\cos(x) = 0"}
+{"input": "COS(X)=0", "output": "\\cos(x) = 0"}
+{"input": "tan(x) = 0", "output": "\\tan(x) = 0"}
+{"input": "tan(x)=0", "output": "\\tan(x) = 0"}
+{"input": "тангенс x равно 0", "output": "\\tan(x) = 0"}
+{"input": "tan x equals zero", "output": "\\tan(x) = 0"}
+{"input": "TAN(X)=0", "output": "\\tan(x) = 0"}
+{"input": "sin(x) = 1", "output": "\\sin(x) = 1"}
+{"input": "sin(x)=1", "output": "\\sin(x) = 1"}
+{"input": "синус x равно 1", "output": "\\sin(x) = 1"}
+{"input": "sin x equals one", "output": "\\sin(x) = 1"}
+{"input": "SIN(X)=1", "output": "\\sin(x) = 1"}
+{"input": "cos(x) = 1", "output": "\\cos(x) = 1"}
+{"input": "cos(x)=1", "output": "\\cos(x) = 1"}
+{"input": "косинус x равно 1", "output": "\\cos(x) = 1"}
+{"input": "cos x equals one", "output": "\\cos(x) = 1"}
+{"input": "COS(X)=1", "output": "\\cos(x) = 1"}
+{"input": "sin(x) = -1", "output": "\\sin(x) = -1"}
+{"input": "sin(x)=-1", "output": "\\sin(x) = -1"}
+{"input": "синус x равно -1", "output": "\\sin(x) = -1"}
+{"input": "sin x equals minus one", "output": "\\sin(x) = -1"}
+{"input": "SIN(X)=-1", "output": "\\sin(x) = -1"}
+{"input": "cos(x) = -1", "output": "\\cos(x) = -1"}
+{"input": "cos(x)=-1", "output": "\\cos(x) = -1"}
+{"input": "косинус x равно -1", "output": "\\cos(x) = -1"}
+{"input": "cos x equals minus one", "output": "\\cos(x) = -1"}
+{"input": "COS(X)=-1", "output": "\\cos(x) = -1"}
+{"input": "x^2 + 2x + 1 = 0", "output": "x^{2} + 2x + 1 = 0"}
+{"input": "x^2+2x+1=0", "output": "x^{2} + 2x + 1 = 0"}
+{"input": "x в квадрате плюс 2x плюс 1 равно 0", "output": "x^{2} + 2x + 1 = 0"}
+{"input": "x squared plus two x plus one equals zero", "output": "x^{2} + 2x + 1 = 0"}
+{"input": "X^2+2X+1=0", "output": "x^{2} + 2x + 1 = 0"}
+{"input": "x^2 - 2x + 1 = 0", "output": "x^{2} - 2x + 1 = 0"}
+{"input": "x^2-2x+1=0", "output": "x^{2} - 2x + 1 = 0"}
+{"input": "x в квадрате минус 2x плюс 1 равно 0", "output": "x^{2} - 2x + 1 = 0"}
+{"input": "x squared minus two x plus one equals zero", "output": "x^{2} - 2x + 1 = 0"}
+{"input": "X^2-2X+1=0", "output": "x^{2} - 2x + 1 = 0"}
+{"input": "x^2 + 4x + 4 = 0", "output": "x^{2} + 4x + 4 = 0"}
+{"input": "x^2+4x+4=0", "output": "x^{2} + 4x + 4 = 0"}
+{"input": "x в квадрате плюс 4x плюс 4 равно 0", "output": "x^{2} + 4x + 4 = 0"}
+{"input": "x squared plus four x plus four equals zero", "output": "x^{2} + 4x + 4 = 0"}
+{"input": "X^2+4X+4=0", "output": "x^{2} + 4x + 4 = 0"}
+{"input": "x^2 - 4x + 4 = 0", "output": "x^{2} - 4x + 4 = 0"}
+{"input": "x^2-4x+4=0", "output": "x^{2} - 4x + 4 = 0"}
+{"input": "x в квадрате минус 4x плюс 4 равно 0", "output": "x^{2} - 4x + 4 = 0"}
+{"input": "x squared minus four x plus four equals zero", "output": "x^{2} - 4x + 4 = 0"}
+{"input": "X^2-4X+4=0", "output": "x^{2} - 4x + 4 = 0"}
+{"input": "x^2 + 6x + 9 = 0", "output": "x^{2} + 6x + 9 = 0"}
+{"input": "x^2+6x+9=0", "output": "x^{2} + 6x + 9 = 0"}
+{"input": "x в квадрате плюс 6x плюс 9 равно 0", "output": "x^{2} + 6x + 9 = 0"}
+{"input": "x squared plus six x plus nine equals zero", "output": "x^{2} + 6x + 9 = 0"}
+{"input": "X^2+6X+9=0", "output": "x^{2} + 6x + 9 = 0"}
+{"input": "x^2 - 6x + 9 = 0", "output": "x^{2} - 6x + 9 = 0"}
+{"input": "x^2-6x+9=0", "output": "x^{2} - 6x + 9 = 0"}
+{"input": "x в квадрате минус 6x плюс 9 равно 0", "output": "x^{2} - 6x + 9 = 0"}
+{"input": "x squared minus six x plus nine equals zero", "output": "x^{2} - 6x + 9 = 0"}
+{"input": "X^2-6X+9=0", "output": "x^{2} - 6x + 9 = 0"}
+{"input": "x^2 + 8x + 16 = 0", "output": "x^{2} + 8x + 16 = 0"}
+{"input": "x^2+8x+16=0", "output": "x^{2} + 8x + 16 = 0"}
+{"input": "x в квадрате плюс 8x плюс 16 равно 0", "output": "x^{2} + 8x + 16 = 0"}
+{"input": "x squared plus eight x plus sixteen equals zero", "output": "x^{2} + 8x + 16 = 0"}
+{"input": "X^2+8X+16=0", "output": "x^{2} + 8x + 16 = 0"}
+{"input": "x^2 - 8x + 16 = 0", "output": "x^{2} - 8x + 16 = 0"}
+{"input": "x^2-8x+16=0", "output": "x^{2} - 8x + 16 = 0"}
+{"input": "x в квадрате минус 8x плюс 16 равно 0", "output": "x^{2} - 8x + 16 = 0"}
+{"input": "x squared minus eight x plus sixteen equals zero", "output": "x^{2} - 8x + 16 = 0"}
+{"input": "X^2-8X+16=0", "output": "x^{2} - 8x + 16 = 0"}
+{"input": "x^2 + 10x + 25 = 0", "output": "x^{2} + 10x + 25 = 0"}
+{"input": "x^2+10x+25=0", "output": "x^{2} + 10x + 25 = 0"}
+{"input": "x в квадрате плюс 10x плюс 25 равно 0", "output": "x^{2} + 10x + 25 = 0"}
+{"input": "x squared plus ten x plus twenty five equals zero", "output": "x^{2} + 10x + 25 = 0"}
+{"input": "X^2+10X+25=0", "output": "x^{2} + 10x + 25 = 0"}
+{"input": "x^2 - 10x + 25 = 0", "output": "x^{2} - 10x + 25 = 0"}
+{"input": "x^2-10x+25=0", "output": "x^{2} - 10x + 25 = 0"}
+{"input": "x в квадрате минус 10x плюс 25 равно 0", "output": "x^{2} - 10x + 25 = 0"}
+{"input": "x squared minus ten x plus twenty five equals zero", "output": "x^{2} - 10x + 25 = 0"}
+{"input": "X^2-10X+25=0", "output": "x^{2} - 10x + 25 = 0"}
+{"input": "a^2 + b^2 = c^2", "output": "a^{2} + b^{2} = c^{2}"}
+{"input": "a^2+b^2=c^2", "output": "a^{2} + b^{2} = c^{2}"}
+{"input": "a в квадрате плюс b в квадрате равно c в квадрате", "output": "a^{2} + b^{2} = c^{2}"}
+{"input": "a squared plus b squared equals c squared", "output": "a^{2} + b^{2} = c^{2}"}
+{"input": "A^2+B^2=C^2", "output": "a^{2} + b^{2} = c^{2}"}
+{"input": "a^2 = b^2 + c^2", "output": "a^{2} = b^{2} + c^{2}"}
+{"input": "a^2=b^2+c^2", "output": "a^{2} = b^{2} + c^{2}"}
+{"input": "a в квадрате равно b в квадрате плюс c в квадрате", "output": "a^{2} = b^{2} + c^{2}"}
+{"input": "a squared equals b squared plus c squared", "output": "a^{2} = b^{2} + c^{2}"}
+{"input": "A^2=B^2+C^2", "output": "a^{2} = b^{2} + c^{2}"}
+{"input": "c^2 = a^2 + b^2", "output": "c^{2} = a^{2} + b^{2}"}
+{"input": "c^2=a^2+b^2", "output": "c^{2} = a^{2} + b^{2}"}
+{"input": "c в квадрате равно a в квадрате плюс b в квадрате", "output": "c^{2} = a^{2} + b^{2}"}
+{"input": "c squared equals a squared plus b squared", "output": "c^{2} = a^{2} + b^{2}"}
+{"input": "C^2=A^2+B^2", "output": "c^{2} = a^{2} + b^{2}"}
+{"input": "z^2 = x^2 + y^2", "output": "z^{2} = x^{2} + y^{2}"}
+{"input": "z^2=x^2+y^2", "output": "z^{2} = x^{2} + y^{2}"}
+{"input": "z в квадрате равно x в квадрате плюс y в квадрате", "output": "z^{2} = x^{2} + y^{2}"}
+{"input": "z squared equals x squared plus y squared", "output": "z^{2} = x^{2} + y^{2}"}
+{"input": "Z^2=X^2+Y^2", "output": "z^{2} = x^{2} + y^{2}"}
+{"input": "k^2 = n^2 + m^2", "output": "k^{2} = n^{2} + m^{2}"}
+{"input": "k^2=n^2+m^2", "output": "k^{2} = n^{2} + m^{2}"}
+{"input": "k в квадрате равно n в квадрате плюс m в квадрате", "output": "k^{2} = n^{2} + m^{2}"}
+{"input": "k squared equals n squared plus m squared", "output": "k^{2} = n^{2} + m^{2}"}
+{"input": "K^2=N^2+M^2", "output": "k^{2} = n^{2} + m^{2}"}
+{"input": "r^2 = p^2 + q^2", "output": "r^{2} = p^{2} + q^{2}"}
+{"input": "r^2=p^2+q^2", "output": "r^{2} = p^{2} + q^{2}"}
+{"input": "r в квадрате равно p в квадрате плюс q в квадрате", "output": "r^{2} = p^{2} + q^{2}"}
+{"input": "r squared equals p squared plus q squared", "output": "r^{2} = p^{2} + q^{2}"}
+{"input": "R^2=P^2+Q^2", "output": "r^{2} = p^{2} + q^{2}"}
+{"input": "w^2 = u^2 + v^2", "output": "w^{2} = u^{2} + v^{2}"}
+{"input": "w^2=u^2+v^2", "output": "w^{2} = u^{2} + v^{2}"}
+{"input": "w в квадрате равно u в квадрате плюс v в квадрате", "output": "w^{2} = u^{2} + v^{2}"}
+{"input": "w squared equals u squared plus v squared", "output": "w^{2} = u^{2} + v^{2}"}
+{"input": "W^2=U^2+V^2", "output": "w^{2} = u^{2} + v^{2}"}
+{"input": "l^2 = i^2 + j^2", "output": "l^{2} = i^{2} + j^{2}"}
+{"input": "l^2=i^2+j^2", "output": "l^{2} = i^{2} + j^{2}"}
+{"input": "l в квадрате равно i в квадрате плюс j в квадрате", "output": "l^{2} = i^{2} + j^{2}"}
+{"input": "l squared equals i squared plus j squared", "output": "l^{2} = i^{2} + j^{2}"}
+{"input": "L^2=I^2+J^2", "output": "l^{2} = i^{2} + j^{2}"}
+{"input": "d^2 = e^2 + f^2", "output": "d^{2} = e^{2} + f^{2}"}
+{"input": "d^2=e^2+f^2", "output": "d^{2} = e^{2} + f^{2}"}
+{"input": "d в квадрате равно e в квадрате плюс f в квадрате", "output": "d^{2} = e^{2} + f^{2}"}
+{"input": "d squared equals e squared plus f squared", "output": "d^{2} = e^{2} + f^{2}"}
+{"input": "D^2=E^2+F^2", "output": "d^{2} = e^{2} + f^{2}"}
+{"input": "h^2 = g^2 + i^2", "output": "h^{2} = g^{2} + i^{2}"}
+{"input": "h^2=g^2+i^2", "output": "h^{2} = g^{2} + i^{2}"}
+{"input": "h в квадрате равно g в квадрате плюс i в квадрате", "output": "h^{2} = g^{2} + i^{2}"}
+{"input": "h squared equals g squared plus i squared", "output": "h^{2} = g^{2} + i^{2}"}
+{"input": "H^2=G^2+I^2", "output": "h^{2} = g^{2} + i^{2}"}
+{"input": "x^2 = 2", "output": "x^{2} = 2"}
+{"input": "x^2=2", "output": "x^{2} = 2"}
+{"input": "x в квадрате равно 2", "output": "x^{2} = 2"}
+{"input": "x squared equals two", "output": "x^{2} = 2"}
+{"input": "X^2=2", "output": "x^{2} = 2"}
+{"input": "x^2 = 3", "output": "x^{2} = 3"}
+{"input": "x^2=3", "output": "x^{2} = 3"}
+{"input": "x в квадрате равно 3", "output": "x^{2} = 3"}
+{"input": "x squared equals three", "output": "x^{2} = 3"}
+{"input": "X^2=3", "output": "x^{2} = 3"}
+{"input": "x^2 = 5", "output": "x^{2} = 5"}
+{"input": "x^2=5", "output": "x^{2} = 5"}
+{"input": "x в квадрате равно 5", "output": "x^{2} = 5"}
+{"input": "x squared equals five", "output": "x^{2} = 5"}
+{"input": "X^2=5", "output": "x^{2} = 5"}
+{"input": "x^2 = 6", "output": "x^{2} = 6"}
+{"input": "x^2=6", "output": "x^{2} = 6"}
+{"input": "x в квадрате равно 6", "output": "x^{2} = 6"}
+{"input": "x squared equals six", "output": "x^{2} = 6"}
+{"input": "X^2=6", "output": "x^{2} = 6"}
+{"input": "x^2 = 7", "output": "x^{2} = 7"}
+{"input": "x^2=7", "output": "x^{2} = 7"}
+{"input": "x в квадрате равно 7", "output": "x^{2} = 7"}
+{"input": "x squared equals seven", "output": "x^{2} = 7"}
+{"input": "X^2=7", "output": "x^{2} = 7"}
+{"input": "x^2 = 8", "output": "x^{2} = 8"}
+{"input": "x^2=8", "output": "x^{2} = 8"}
+{"input": "x в квадрате равно 8", "output": "x^{2} = 8"}
+{"input": "x squared equals eight", "output": "x^{2} = 8"}
+{"input": "X^2=8", "output": "x^{2} = 8"}
+{"input": "x^2 = 10", "output": "x^{2} = 10"}
+{"input": "x^2=10", "output": "x^{2} = 10"}
+{"input": "x в квадрате равно 10", "output": "x^{2} = 10"}
+{"input": "x squared equals ten", "output": "x^{2} = 10"}
+{"input": "X^2=10", "output": "x^{2} = 10"}
+{"input": "x^2 = 0", "output": "x^{2} = 0"}
+{"input": "x^2=0", "output": "x^{2} = 0"}
+{"input": "x в квадрате равно 0", "output": "x^{2} = 0"}
+{"input": "x squared equals zero", "output": "x^{2} = 0"}
+{"input": "X^2=0", "output": "x^{2} = 0"}
+{"input": "x^2 = 1", "output": "x^{2} = 1"}
+{"input": "x^2=1", "output": "x^{2} = 1"}
+{"input": "x в квадрате равно 1", "output": "x^{2} = 1"}
+{"input": "x squared equals one", "output": "x^{2} = 1"}
+{"input": "X^2=1", "output": "x^{2} = 1"}
+{"input": "x^2 = a^2", "output": "x^{2} = a^{2}"}
+{"input": "x^2=a^2", "output": "x^{2} = a^{2}"}
+{"input": "x в квадрате равно a в квадрате", "output": "x^{2} = a^{2}"}
+{"input": "x squared equals a squared", "output": "x^{2} = a^{2}"}
+{"input": "X^2=A^2", "output": "x^{2} = a^{2}"}
+{"input": "x^2 = b^2", "output": "x^{2} = b^{2}"}
+{"input": "x^2=b^2", "output": "x^{2} = b^{2}"}
+{"input": "x в квадрате равно b в квадрате", "output": "x^{2} = b^{2}"}
+{"input": "x squared equals b squared", "output": "x^{2} = b^{2}"}
+{"input": "X^2=B^2", "output": "x^{2} = b^{2}"}
+{"input": "x^2 = c^2", "output": "x^{2} = c^{2}"}
+{"input": "x^2=c^2", "output": "x^{2} = c^{2}"}
+{"input": "x в квадрате равно c в квадрате", "output": "x^{2} = c^{2}"}
+{"input": "x squared equals c squared", "output": "x^{2} = c^{2}"}
+{"input": "X^2=C^2", "output": "x^{2} = c^{2}"}
+{"input": "x^2 = n^2", "output": "x^{2} = n^{2}"}
+{"input": "x^2=n^2", "output": "x^{2} = n^{2}"}
+{"input": "x в квадрате равно n в квадрате", "output": "x^{2} = n^{2}"}
+{"input": "x squared equals n squared", "output": "x^{2} = n^{2}"}
+{"input": "X^2=N^2", "output": "x^{2} = n^{2}"}
+{"input": "x^2 = m^2", "output": "x^{2} = m^{2}"}
+{"input": "x^2=m^2", "output": "x^{2} = m^{2}"}
+{"input": "x в квадрате равно m в квадрате", "output": "x^{2} = m^{2}"}
+{"input": "x squared equals m squared", "output": "x^{2} = m^{2}"}
+{"input": "X^2=M^2", "output": "x^{2} = m^{2}"}
+{"input": "x^2 = k^2", "output": "x^{2} = k^{2}"}
+{"input": "x^2=k^2", "output": "x^{2} = k^{2}"}
+{"input": "x в квадрате равно k в квадрате", "output": "x^{2} = k^{2}"}
+{"input": "x squared equals k squared", "output": "x^{2} = k^{2}"}
+{"input": "X^2=K^2", "output": "x^{2} = k^{2}"}

@@ -2970,3 +2970,1593 @@
 {"input": "Q от r,s равно r^2 + s^2", "output": "Q(r,s) = r^{2} + s^{2}"}
 {"input": "Q of r and s equals r squared plus s squared", "output": "Q(r,s) = r^{2} + s^{2}"}
 {"input": "Q(R,S)=R^2+S^2", "output": "Q(r,s) = r^{2} + s^{2}"}
+{"input": "a + b", "output": "a + b"}
+{"input": "a+b", "output": "a + b"}
+{"input": "a плюс b", "output": "a + b"}
+{"input": "a plus b", "output": "a + b"}
+{"input": "A+B", "output": "a + b"}
+{"input": "c - d", "output": "c - d"}
+{"input": "c-d", "output": "c - d"}
+{"input": "c минус d", "output": "c - d"}
+{"input": "c minus d", "output": "c - d"}
+{"input": "C-D", "output": "c - d"}
+{"input": "x * y", "output": "xy"}
+{"input": "x*y", "output": "xy"}
+{"input": "x умножить на y", "output": "xy"}
+{"input": "x times y", "output": "xy"}
+{"input": "X*Y", "output": "xy"}
+{"input": "z / w", "output": "\\frac{z}{w}"}
+{"input": "z/w", "output": "\\frac{z}{w}"}
+{"input": "z делить на w", "output": "\\frac{z}{w}"}
+{"input": "z over w", "output": "\\frac{z}{w}"}
+{"input": "Z/W", "output": "\\frac{z}{w}"}
+{"input": "n + m", "output": "n + m"}
+{"input": "n+m", "output": "n + m"}
+{"input": "n плюс m", "output": "n + m"}
+{"input": "n plus m", "output": "n + m"}
+{"input": "N+M", "output": "n + m"}
+{"input": "k - p", "output": "k - p"}
+{"input": "k-p", "output": "k - p"}
+{"input": "k минус p", "output": "k - p"}
+{"input": "k minus p", "output": "k - p"}
+{"input": "K-P", "output": "k - p"}
+{"input": "q * r", "output": "qr"}
+{"input": "q*r", "output": "qr"}
+{"input": "q умножить на r", "output": "qr"}
+{"input": "q times r", "output": "qr"}
+{"input": "Q*R", "output": "qr"}
+{"input": "u / v", "output": "\\frac{u}{v}"}
+{"input": "u/v", "output": "\\frac{u}{v}"}
+{"input": "u делить на v", "output": "\\frac{u}{v}"}
+{"input": "u over v", "output": "\\frac{u}{v}"}
+{"input": "U/V", "output": "\\frac{u}{v}"}
+{"input": "i + j", "output": "i + j"}
+{"input": "i+j", "output": "i + j"}
+{"input": "i плюс j", "output": "i + j"}
+{"input": "i plus j", "output": "i + j"}
+{"input": "I+J", "output": "i + j"}
+{"input": "a + b + c", "output": "a + b + c"}
+{"input": "a+b+c", "output": "a + b + c"}
+{"input": "a плюс b плюс c", "output": "a + b + c"}
+{"input": "a plus b plus c", "output": "a + b + c"}
+{"input": "A+B+C", "output": "a + b + c"}
+{"input": "x + y + z", "output": "x + y + z"}
+{"input": "x+y+z", "output": "x + y + z"}
+{"input": "x плюс y плюс z", "output": "x + y + z"}
+{"input": "x plus y plus z", "output": "x + y + z"}
+{"input": "X+Y+Z", "output": "x + y + z"}
+{"input": "n + m + k", "output": "n + m + k"}
+{"input": "n+m+k", "output": "n + m + k"}
+{"input": "n плюс m плюс k", "output": "n + m + k"}
+{"input": "n plus m plus k", "output": "n + m + k"}
+{"input": "N+M+K", "output": "n + m + k"}
+{"input": "p + q + r", "output": "p + q + r"}
+{"input": "p+q+r", "output": "p + q + r"}
+{"input": "p плюс q плюс r", "output": "p + q + r"}
+{"input": "p plus q plus r", "output": "p + q + r"}
+{"input": "P+Q+R", "output": "p + q + r"}
+{"input": "u + v + w", "output": "u + v + w"}
+{"input": "u+v+w", "output": "u + v + w"}
+{"input": "u плюс v плюс w", "output": "u + v + w"}
+{"input": "u plus v plus w", "output": "u + v + w"}
+{"input": "U+V+W", "output": "u + v + w"}
+{"input": "i + j + k", "output": "i + j + k"}
+{"input": "i+j+k", "output": "i + j + k"}
+{"input": "i плюс j плюс k", "output": "i + j + k"}
+{"input": "i plus j plus k", "output": "i + j + k"}
+{"input": "I+J+K", "output": "i + j + k"}
+{"input": "a - b + c", "output": "a - b + c"}
+{"input": "a-b+c", "output": "a - b + c"}
+{"input": "a минус b плюс c", "output": "a - b + c"}
+{"input": "a minus b plus c", "output": "a - b + c"}
+{"input": "A-B+C", "output": "a - b + c"}
+{"input": "x - y - z", "output": "x - y - z"}
+{"input": "x-y-z", "output": "x - y - z"}
+{"input": "x минус y минус z", "output": "x - y - z"}
+{"input": "x minus y minus z", "output": "x - y - z"}
+{"input": "X-Y-Z", "output": "x - y - z"}
+{"input": "n - m + k", "output": "n - m + k"}
+{"input": "n-m+k", "output": "n - m + k"}
+{"input": "n минус m плюс k", "output": "n - m + k"}
+{"input": "n minus m plus k", "output": "n - m + k"}
+{"input": "N-M+K", "output": "n - m + k"}
+{"input": "p - q - r", "output": "p - q - r"}
+{"input": "p-q-r", "output": "p - q - r"}
+{"input": "p минус q минус r", "output": "p - q - r"}
+{"input": "p minus q minus r", "output": "p - q - r"}
+{"input": "P-Q-R", "output": "p - q - r"}
+{"input": "u - v + w", "output": "u - v + w"}
+{"input": "u-v+w", "output": "u - v + w"}
+{"input": "u минус v плюс w", "output": "u - v + w"}
+{"input": "u minus v plus w", "output": "u - v + w"}
+{"input": "U-V+W", "output": "u - v + w"}
+{"input": "i - j - k", "output": "i - j - k"}
+{"input": "i-j-k", "output": "i - j - k"}
+{"input": "i минус j минус k", "output": "i - j - k"}
+{"input": "i minus j minus k", "output": "i - j - k"}
+{"input": "I-J-K", "output": "i - j - k"}
+{"input": "a^2 + b^2", "output": "a^{2} + b^{2}"}
+{"input": "a^2+b^2", "output": "a^{2} + b^{2}"}
+{"input": "a в квадрате + b в квадрате", "output": "a^{2} + b^{2}"}
+{"input": "a squared plus b squared", "output": "a^{2} + b^{2}"}
+{"input": "A^2+B^2", "output": "a^{2} + b^{2}"}
+{"input": "c^3 + d^3", "output": "c^{3} + d^{3}"}
+{"input": "c^3+d^3", "output": "c^{3} + d^{3}"}
+{"input": "c в кубе + d в кубе", "output": "c^{3} + d^{3}"}
+{"input": "c cubed plus d cubed", "output": "c^{3} + d^{3}"}
+{"input": "C^3+D^3", "output": "c^{3} + d^{3}"}
+{"input": "x^2 + y^2", "output": "x^{2} + y^{2}"}
+{"input": "x^2+y^2", "output": "x^{2} + y^{2}"}
+{"input": "x в квадрате + y в квадрате", "output": "x^{2} + y^{2}"}
+{"input": "x squared plus y squared", "output": "x^{2} + y^{2}"}
+{"input": "X^2+Y^2", "output": "x^{2} + y^{2}"}
+{"input": "z^2 + w^2", "output": "z^{2} + w^{2}"}
+{"input": "z^2+w^2", "output": "z^{2} + w^{2}"}
+{"input": "z в квадрате + w в квадрате", "output": "z^{2} + w^{2}"}
+{"input": "z squared plus w squared", "output": "z^{2} + w^{2}"}
+{"input": "Z^2+W^2", "output": "z^{2} + w^{2}"}
+{"input": "n^2 + m^2", "output": "n^{2} + m^{2}"}
+{"input": "n^2+m^2", "output": "n^{2} + m^{2}"}
+{"input": "n в квадрате + m в квадрате", "output": "n^{2} + m^{2}"}
+{"input": "n squared plus m squared", "output": "n^{2} + m^{2}"}
+{"input": "N^2+M^2", "output": "n^{2} + m^{2}"}
+{"input": "k^2 + p^2", "output": "k^{2} + p^{2}"}
+{"input": "k^2+p^2", "output": "k^{2} + p^{2}"}
+{"input": "k в квадрате + p в квадрате", "output": "k^{2} + p^{2}"}
+{"input": "k squared plus p squared", "output": "k^{2} + p^{2}"}
+{"input": "K^2+P^2", "output": "k^{2} + p^{2}"}
+{"input": "q^2 + r^2", "output": "q^{2} + r^{2}"}
+{"input": "q^2+r^2", "output": "q^{2} + r^{2}"}
+{"input": "q в квадрате + r в квадрате", "output": "q^{2} + r^{2}"}
+{"input": "q squared plus r squared", "output": "q^{2} + r^{2}"}
+{"input": "Q^2+R^2", "output": "q^{2} + r^{2}"}
+{"input": "u^2 + v^2", "output": "u^{2} + v^{2}"}
+{"input": "u^2+v^2", "output": "u^{2} + v^{2}"}
+{"input": "u в квадрате + v в квадрате", "output": "u^{2} + v^{2}"}
+{"input": "u squared plus v squared", "output": "u^{2} + v^{2}"}
+{"input": "U^2+V^2", "output": "u^{2} + v^{2}"}
+{"input": "i^2 + j^2", "output": "i^{2} + j^{2}"}
+{"input": "i^2+j^2", "output": "i^{2} + j^{2}"}
+{"input": "i в квадрате + j в квадрате", "output": "i^{2} + j^{2}"}
+{"input": "i squared plus j squared", "output": "i^{2} + j^{2}"}
+{"input": "I^2+J^2", "output": "i^{2} + j^{2}"}
+{"input": "a^3 - b^3", "output": "a^{3} - b^{3}"}
+{"input": "a^3-b^3", "output": "a^{3} - b^{3}"}
+{"input": "a в кубе - b в кубе", "output": "a^{3} - b^{3}"}
+{"input": "a cubed minus b cubed", "output": "a^{3} - b^{3}"}
+{"input": "A^3-B^3", "output": "a^{3} - b^{3}"}
+{"input": "x^4 + y^4", "output": "x^{4} + y^{4}"}
+{"input": "x^4+y^4", "output": "x^{4} + y^{4}"}
+{"input": "x в четвертой + y в четвертой", "output": "x^{4} + y^{4}"}
+{"input": "x to the 4th plus y to the 4th", "output": "x^{4} + y^{4}"}
+{"input": "X^4+Y^4", "output": "x^{4} + y^{4}"}
+{"input": "z^4 - w^4", "output": "z^{4} - w^{4}"}
+{"input": "z^4-w^4", "output": "z^{4} - w^{4}"}
+{"input": "z в четвертой - w в четвертой", "output": "z^{4} - w^{4}"}
+{"input": "z to the 4th minus w to the 4th", "output": "z^{4} - w^{4}"}
+{"input": "Z^4-W^4", "output": "z^{4} - w^{4}"}
+{"input": "n^5 + m^5", "output": "n^{5} + m^{5}"}
+{"input": "n^5+m^5", "output": "n^{5} + m^{5}"}
+{"input": "n в пятой + m в пятой", "output": "n^{5} + m^{5}"}
+{"input": "n to the 5th plus m to the 5th", "output": "n^{5} + m^{5}"}
+{"input": "N^5+M^5", "output": "n^{5} + m^{5}"}
+{"input": "k^6 + p^6", "output": "k^{6} + p^{6}"}
+{"input": "k^6+p^6", "output": "k^{6} + p^{6}"}
+{"input": "k в шестой + p в шестой", "output": "k^{6} + p^{6}"}
+{"input": "k to the 6th plus p to the 6th", "output": "k^{6} + p^{6}"}
+{"input": "K^6+P^6", "output": "k^{6} + p^{6}"}
+{"input": "q^n + r^n", "output": "q^{n} + r^{n}"}
+{"input": "q^n+r^n", "output": "q^{n} + r^{n}"}
+{"input": "q в степени n + r в степени n", "output": "q^{n} + r^{n}"}
+{"input": "q to the n plus r to the n", "output": "q^{n} + r^{n}"}
+{"input": "Q^N+R^N", "output": "q^{n} + r^{n}"}
+{"input": "u^(n+1) + v^(n+1)", "output": "u^{n+1} + v^{n+1}"}
+{"input": "u^(n+1)+v^(n+1)", "output": "u^{n+1} + v^{n+1}"}
+{"input": "u в степени n+1 + v в степени n+1", "output": "u^{n+1} + v^{n+1}"}
+{"input": "u to the n plus one plus v to the n plus one", "output": "u^{n+1} + v^{n+1}"}
+{"input": "U^(N+1)+V^(N+1)", "output": "u^{n+1} + v^{n+1}"}
+{"input": "w^(2n) + x^(2n)", "output": "w^{2n} + x^{2n}"}
+{"input": "w^(2n)+x^(2n)", "output": "w^{2n} + x^{2n}"}
+{"input": "w в степени 2n + x в степени 2n", "output": "w^{2n} + x^{2n}"}
+{"input": "w to the 2n plus x to the 2n", "output": "w^{2n} + x^{2n}"}
+{"input": "W^(2N)+X^(2N)", "output": "w^{2n} + x^{2n}"}
+{"input": "y^(-1) + z^(-1)", "output": "y^{-1} + z^{-1}"}
+{"input": "y^(-1)+z^(-1)", "output": "y^{-1} + z^{-1}"}
+{"input": "y в минус первой + z в минус первой", "output": "y^{-1} + z^{-1}"}
+{"input": "y to the minus one plus z to the minus one", "output": "y^{-1} + z^{-1}"}
+{"input": "Y^(-1)+Z^(-1)", "output": "y^{-1} + z^{-1}"}
+{"input": "m^(-2) + n^(-2)", "output": "m^{-2} + n^{-2}"}
+{"input": "m^(-2)+n^(-2)", "output": "m^{-2} + n^{-2}"}
+{"input": "m в минус второй + n в минус второй", "output": "m^{-2} + n^{-2}"}
+{"input": "m to the minus two plus n to the minus two", "output": "m^{-2} + n^{-2}"}
+{"input": "M^(-2)+N^(-2)", "output": "m^{-2} + n^{-2}"}
+{"input": "a^2 + b^2 + c^2", "output": "a^{2} + b^{2} + c^{2}"}
+{"input": "a^2+b^2+c^2", "output": "a^{2} + b^{2} + c^{2}"}
+{"input": "a в квадрате + b в квадрате + c в квадрате", "output": "a^{2} + b^{2} + c^{2}"}
+{"input": "a squared plus b squared plus c squared", "output": "a^{2} + b^{2} + c^{2}"}
+{"input": "A^2+B^2+C^2", "output": "a^{2} + b^{2} + c^{2}"}
+{"input": "x^2 + y^2 + z^2", "output": "x^{2} + y^{2} + z^{2}"}
+{"input": "x^2+y^2+z^2", "output": "x^{2} + y^{2} + z^{2}"}
+{"input": "x в квадрате + y в квадрате + z в квадрате", "output": "x^{2} + y^{2} + z^{2}"}
+{"input": "x squared plus y squared plus z squared", "output": "x^{2} + y^{2} + z^{2}"}
+{"input": "X^2+Y^2+Z^2", "output": "x^{2} + y^{2} + z^{2}"}
+{"input": "n^2 + m^2 + k^2", "output": "n^{2} + m^{2} + k^{2}"}
+{"input": "n^2+m^2+k^2", "output": "n^{2} + m^{2} + k^{2}"}
+{"input": "n в квадрате + m в квадрате + k в квадрате", "output": "n^{2} + m^{2} + k^{2}"}
+{"input": "n squared plus m squared plus k squared", "output": "n^{2} + m^{2} + k^{2}"}
+{"input": "N^2+M^2+K^2", "output": "n^{2} + m^{2} + k^{2}"}
+{"input": "p^2 + q^2 + r^2", "output": "p^{2} + q^{2} + r^{2}"}
+{"input": "p^2+q^2+r^2", "output": "p^{2} + q^{2} + r^{2}"}
+{"input": "p в квадрате + q в квадрате + r в квадрате", "output": "p^{2} + q^{2} + r^{2}"}
+{"input": "p squared plus q squared plus r squared", "output": "p^{2} + q^{2} + r^{2}"}
+{"input": "P^2+Q^2+R^2", "output": "p^{2} + q^{2} + r^{2}"}
+{"input": "u^2 + v^2 + w^2", "output": "u^{2} + v^{2} + w^{2}"}
+{"input": "u^2+v^2+w^2", "output": "u^{2} + v^{2} + w^{2}"}
+{"input": "u в квадрате + v в квадрате + w в квадрате", "output": "u^{2} + v^{2} + w^{2}"}
+{"input": "u squared plus v squared plus w squared", "output": "u^{2} + v^{2} + w^{2}"}
+{"input": "U^2+V^2+W^2", "output": "u^{2} + v^{2} + w^{2}"}
+{"input": "i^2 + j^2 + k^2", "output": "i^{2} + j^{2} + k^{2}"}
+{"input": "i^2+j^2+k^2", "output": "i^{2} + j^{2} + k^{2}"}
+{"input": "i в квадрате + j в квадрате + k в квадрате", "output": "i^{2} + j^{2} + k^{2}"}
+{"input": "i squared plus j squared plus k squared", "output": "i^{2} + j^{2} + k^{2}"}
+{"input": "I^2+J^2+K^2", "output": "i^{2} + j^{2} + k^{2}"}
+{"input": "a^3 + b^3 + c^3", "output": "a^{3} + b^{3} + c^{3}"}
+{"input": "a^3+b^3+c^3", "output": "a^{3} + b^{3} + c^{3}"}
+{"input": "a в кубе + b в кубе + c в кубе", "output": "a^{3} + b^{3} + c^{3}"}
+{"input": "a cubed plus b cubed plus c cubed", "output": "a^{3} + b^{3} + c^{3}"}
+{"input": "A^3+B^3+C^3", "output": "a^{3} + b^{3} + c^{3}"}
+{"input": "x^3 + y^3 + z^3", "output": "x^{3} + y^{3} + z^{3}"}
+{"input": "x^3+y^3+z^3", "output": "x^{3} + y^{3} + z^{3}"}
+{"input": "x в кубе + y в кубе + z в кубе", "output": "x^{3} + y^{3} + z^{3}"}
+{"input": "x cubed plus y cubed plus z cubed", "output": "x^{3} + y^{3} + z^{3}"}
+{"input": "X^3+Y^3+Z^3", "output": "x^{3} + y^{3} + z^{3}"}
+{"input": "n^3 + m^3 + k^3", "output": "n^{3} + m^{3} + k^{3}"}
+{"input": "n^3+m^3+k^3", "output": "n^{3} + m^{3} + k^{3}"}
+{"input": "n в кубе + m в кубе + k в кубе", "output": "n^{3} + m^{3} + k^{3}"}
+{"input": "n cubed plus m cubed plus k cubed", "output": "n^{3} + m^{3} + k^{3}"}
+{"input": "N^3+M^3+K^3", "output": "n^{3} + m^{3} + k^{3}"}
+{"input": "p^3 + q^3 + r^3", "output": "p^{3} + q^{3} + r^{3}"}
+{"input": "p^3+q^3+r^3", "output": "p^{3} + q^{3} + r^{3}"}
+{"input": "p в кубе + q в кубе + r в кубе", "output": "p^{3} + q^{3} + r^{3}"}
+{"input": "p cubed plus q cubed plus r cubed", "output": "p^{3} + q^{3} + r^{3}"}
+{"input": "P^3+Q^3+R^3", "output": "p^{3} + q^{3} + r^{3}"}
+{"input": "u^3 + v^3 + w^3", "output": "u^{3} + v^{3} + w^{3}"}
+{"input": "u^3+v^3+w^3", "output": "u^{3} + v^{3} + w^{3}"}
+{"input": "u в кубе + v в кубе + w в кубе", "output": "u^{3} + v^{3} + w^{3}"}
+{"input": "u cubed plus v cubed plus w cubed", "output": "u^{3} + v^{3} + w^{3}"}
+{"input": "U^3+V^3+W^3", "output": "u^{3} + v^{3} + w^{3}"}
+{"input": "i^3 + j^3 + k^3", "output": "i^{3} + j^{3} + k^{3}"}
+{"input": "i^3+j^3+k^3", "output": "i^{3} + j^{3} + k^{3}"}
+{"input": "i в кубе + j в кубе + k в кубе", "output": "i^{3} + j^{3} + k^{3}"}
+{"input": "i cubed plus j cubed plus k cubed", "output": "i^{3} + j^{3} + k^{3}"}
+{"input": "I^3+J^3+K^3", "output": "i^{3} + j^{3} + k^{3}"}
+{"input": "a^4 + b^4", "output": "a^{4} + b^{4}"}
+{"input": "a^4+b^4", "output": "a^{4} + b^{4}"}
+{"input": "a в четвертой + b в четвертой", "output": "a^{4} + b^{4}"}
+{"input": "a to the 4th plus b to the 4th", "output": "a^{4} + b^{4}"}
+{"input": "A^4+B^4", "output": "a^{4} + b^{4}"}
+{"input": "c^4 + d^4", "output": "c^{4} + d^{4}"}
+{"input": "c^4+d^4", "output": "c^{4} + d^{4}"}
+{"input": "c в четвертой + d в четвертой", "output": "c^{4} + d^{4}"}
+{"input": "c to the 4th plus d to the 4th", "output": "c^{4} + d^{4}"}
+{"input": "C^4+D^4", "output": "c^{4} + d^{4}"}
+{"input": "x^4 - y^4", "output": "x^{4} - y^{4}"}
+{"input": "x^4-y^4", "output": "x^{4} - y^{4}"}
+{"input": "x в четвертой - y в четвертой", "output": "x^{4} - y^{4}"}
+{"input": "x to the 4th minus y to the 4th", "output": "x^{4} - y^{4}"}
+{"input": "X^4-Y^4", "output": "x^{4} - y^{4}"}
+{"input": "z^5 + w^5", "output": "z^{5} + w^{5}"}
+{"input": "z^5+w^5", "output": "z^{5} + w^{5}"}
+{"input": "z в пятой + w в пятой", "output": "z^{5} + w^{5}"}
+{"input": "z to the 5th plus w to the 5th", "output": "z^{5} + w^{5}"}
+{"input": "Z^5+W^5", "output": "z^{5} + w^{5}"}
+{"input": "n^6 + m^6", "output": "n^{6} + m^{6}"}
+{"input": "n^6+m^6", "output": "n^{6} + m^{6}"}
+{"input": "n в шестой + m в шестой", "output": "n^{6} + m^{6}"}
+{"input": "n to the 6th plus m to the 6th", "output": "n^{6} + m^{6}"}
+{"input": "N^6+M^6", "output": "n^{6} + m^{6}"}
+{"input": "k^2 + p^2 + q^2", "output": "k^{2} + p^{2} + q^{2}"}
+{"input": "k^2+p^2+q^2", "output": "k^{2} + p^{2} + q^{2}"}
+{"input": "k в квадрате + p в квадрате + q в квадрате", "output": "k^{2} + p^{2} + q^{2}"}
+{"input": "k squared plus p squared plus q squared", "output": "k^{2} + p^{2} + q^{2}"}
+{"input": "K^2+P^2+Q^2", "output": "k^{2} + p^{2} + q^{2}"}
+{"input": "r^2 + s^2 + t^2", "output": "r^{2} + s^{2} + t^{2}"}
+{"input": "r^2+s^2+t^2", "output": "r^{2} + s^{2} + t^{2}"}
+{"input": "r в квадрате + s в квадрате + t в квадрате", "output": "r^{2} + s^{2} + t^{2}"}
+{"input": "r squared plus s squared plus t squared", "output": "r^{2} + s^{2} + t^{2}"}
+{"input": "R^2+S^2+T^2", "output": "r^{2} + s^{2} + t^{2}"}
+{"input": "v^2 + w^2 + x^2", "output": "v^{2} + w^{2} + x^{2}"}
+{"input": "v^2+w^2+x^2", "output": "v^{2} + w^{2} + x^{2}"}
+{"input": "v в квадрате + w в квадрате + x в квадрате", "output": "v^{2} + w^{2} + x^{2}"}
+{"input": "v squared plus w squared plus x squared", "output": "v^{2} + w^{2} + x^{2}"}
+{"input": "V^2+W^2+X^2", "output": "v^{2} + w^{2} + x^{2}"}
+{"input": "a^2 + b^2 = c^2", "output": "a^{2} + b^{2} = c^{2}"}
+{"input": "a^2+b^2=c^2", "output": "a^{2} + b^{2} = c^{2}"}
+{"input": "a в квадрате + b в квадрате = c в квадрате", "output": "a^{2} + b^{2} = c^{2}"}
+{"input": "a squared plus b squared equals c squared", "output": "a^{2} + b^{2} = c^{2}"}
+{"input": "A^2+B^2=C^2", "output": "a^{2} + b^{2} = c^{2}"}
+{"input": "x^2 + y^2 = z^2", "output": "x^{2} + y^{2} = z^{2}"}
+{"input": "x^2+y^2=z^2", "output": "x^{2} + y^{2} = z^{2}"}
+{"input": "x в квадрате + y в квадрате = z в квадрате", "output": "x^{2} + y^{2} = z^{2}"}
+{"input": "x squared plus y squared equals z squared", "output": "x^{2} + y^{2} = z^{2}"}
+{"input": "X^2+Y^2=Z^2", "output": "x^{2} + y^{2} = z^{2}"}
+{"input": "n^2 + m^2 = k^2", "output": "n^{2} + m^{2} = k^{2}"}
+{"input": "n^2+m^2=k^2", "output": "n^{2} + m^{2} = k^{2}"}
+{"input": "n в квадрате + m в квадрате = k в квадрате", "output": "n^{2} + m^{2} = k^{2}"}
+{"input": "n squared plus m squared equals k squared", "output": "n^{2} + m^{2} = k^{2}"}
+{"input": "N^2+M^2=K^2", "output": "n^{2} + m^{2} = k^{2}"}
+{"input": "p^2 + q^2 = r^2", "output": "p^{2} + q^{2} = r^{2}"}
+{"input": "p^2+q^2=r^2", "output": "p^{2} + q^{2} = r^{2}"}
+{"input": "p в квадрате + q в квадрате = r в квадрате", "output": "p^{2} + q^{2} = r^{2}"}
+{"input": "p squared plus q squared equals r squared", "output": "p^{2} + q^{2} = r^{2}"}
+{"input": "P^2+Q^2=R^2", "output": "p^{2} + q^{2} = r^{2}"}
+{"input": "u^2 + v^2 = w^2", "output": "u^{2} + v^{2} = w^{2}"}
+{"input": "u^2+v^2=w^2", "output": "u^{2} + v^{2} = w^{2}"}
+{"input": "u в квадрате + v в квадрате = w в квадрате", "output": "u^{2} + v^{2} = w^{2}"}
+{"input": "u squared plus v squared equals w squared", "output": "u^{2} + v^{2} = w^{2}"}
+{"input": "U^2+V^2=W^2", "output": "u^{2} + v^{2} = w^{2}"}
+{"input": "i^2 + j^2 = k^2", "output": "i^{2} + j^{2} = k^{2}"}
+{"input": "i^2+j^2=k^2", "output": "i^{2} + j^{2} = k^{2}"}
+{"input": "i в квадрате + j в квадрате = k в квадрате", "output": "i^{2} + j^{2} = k^{2}"}
+{"input": "i squared plus j squared equals k squared", "output": "i^{2} + j^{2} = k^{2}"}
+{"input": "I^2+J^2=K^2", "output": "i^{2} + j^{2} = k^{2}"}
+{"input": "a^3 + b^3 = c^3", "output": "a^{3} + b^{3} = c^{3}"}
+{"input": "a^3+b^3=c^3", "output": "a^{3} + b^{3} = c^{3}"}
+{"input": "a в кубе + b в кубе = c в кубе", "output": "a^{3} + b^{3} = c^{3}"}
+{"input": "a cubed plus b cubed equals c cubed", "output": "a^{3} + b^{3} = c^{3}"}
+{"input": "A^3+B^3=C^3", "output": "a^{3} + b^{3} = c^{3}"}
+{"input": "x^3 + y^3 = z^3", "output": "x^{3} + y^{3} = z^{3}"}
+{"input": "x^3+y^3=z^3", "output": "x^{3} + y^{3} = z^{3}"}
+{"input": "x в кубе + y в кубе = z в кубе", "output": "x^{3} + y^{3} = z^{3}"}
+{"input": "x cubed plus y cubed equals z cubed", "output": "x^{3} + y^{3} = z^{3}"}
+{"input": "X^3+Y^3=Z^3", "output": "x^{3} + y^{3} = z^{3}"}
+{"input": "n^3 + m^3 = k^3", "output": "n^{3} + m^{3} = k^{3}"}
+{"input": "n^3+m^3=k^3", "output": "n^{3} + m^{3} = k^{3}"}
+{"input": "n в кубе + m в кубе = k в кубе", "output": "n^{3} + m^{3} = k^{3}"}
+{"input": "n cubed plus m cubed equals k cubed", "output": "n^{3} + m^{3} = k^{3}"}
+{"input": "N^3+M^3=K^3", "output": "n^{3} + m^{3} = k^{3}"}
+{"input": "p^3 + q^3 = r^3", "output": "p^{3} + q^{3} = r^{3}"}
+{"input": "p^3+q^3=r^3", "output": "p^{3} + q^{3} = r^{3}"}
+{"input": "p в кубе + q в кубе = r в кубе", "output": "p^{3} + q^{3} = r^{3}"}
+{"input": "p cubed plus q cubed equals r cubed", "output": "p^{3} + q^{3} = r^{3}"}
+{"input": "P^3+Q^3=R^3", "output": "p^{3} + q^{3} = r^{3}"}
+{"input": "u^3 + v^3 = w^3", "output": "u^{3} + v^{3} = w^{3}"}
+{"input": "u^3+v^3=w^3", "output": "u^{3} + v^{3} = w^{3}"}
+{"input": "u в кубе + v в кубе = w в кубе", "output": "u^{3} + v^{3} = w^{3}"}
+{"input": "u cubed plus v cubed equals w cubed", "output": "u^{3} + v^{3} = w^{3}"}
+{"input": "U^3+V^3=W^3", "output": "u^{3} + v^{3} = w^{3}"}
+{"input": "i^3 + j^3 = k^3", "output": "i^{3} + j^{3} = k^{3}"}
+{"input": "i^3+j^3=k^3", "output": "i^{3} + j^{3} = k^{3}"}
+{"input": "i в кубе + j в кубе = k в кубе", "output": "i^{3} + j^{3} = k^{3}"}
+{"input": "i cubed plus j cubed equals k cubed", "output": "i^{3} + j^{3} = k^{3}"}
+{"input": "I^3+J^3=K^3", "output": "i^{3} + j^{3} = k^{3}"}
+{"input": "a^4 + b^4 = c^4", "output": "a^{4} + b^{4} = c^{4}"}
+{"input": "a^4+b^4=c^4", "output": "a^{4} + b^{4} = c^{4}"}
+{"input": "a в четвертой + b в четвертой = c в четвертой", "output": "a^{4} + b^{4} = c^{4}"}
+{"input": "a to the 4th plus b to the 4th equals c to the 4th", "output": "a^{4} + b^{4} = c^{4}"}
+{"input": "A^4+B^4=C^4", "output": "a^{4} + b^{4} = c^{4}"}
+{"input": "x^4 + y^4 = z^4", "output": "x^{4} + y^{4} = z^{4}"}
+{"input": "x^4+y^4=z^4", "output": "x^{4} + y^{4} = z^{4}"}
+{"input": "x в четвертой + y в четвертой = z в четвертой", "output": "x^{4} + y^{4} = z^{4}"}
+{"input": "x to the 4th plus y to the 4th equals z to the 4th", "output": "x^{4} + y^{4} = z^{4}"}
+{"input": "X^4+Y^4=Z^4", "output": "x^{4} + y^{4} = z^{4}"}
+{"input": "n^4 + m^4 = k^4", "output": "n^{4} + m^{4} = k^{4}"}
+{"input": "n^4+m^4=k^4", "output": "n^{4} + m^{4} = k^{4}"}
+{"input": "n в четвертой + m в четвертой = k в четвертой", "output": "n^{4} + m^{4} = k^{4}"}
+{"input": "n to the 4th plus m to the 4th equals k to the 4th", "output": "n^{4} + m^{4} = k^{4}"}
+{"input": "N^4+M^4=K^4", "output": "n^{4} + m^{4} = k^{4}"}
+{"input": "p^4 + q^4 = r^4", "output": "p^{4} + q^{4} = r^{4}"}
+{"input": "p^4+q^4=r^4", "output": "p^{4} + q^{4} = r^{4}"}
+{"input": "p в четвертой + q в четвертой = r в четвертой", "output": "p^{4} + q^{4} = r^{4}"}
+{"input": "p to the 4th plus q to the 4th equals r to the 4th", "output": "p^{4} + q^{4} = r^{4}"}
+{"input": "P^4+Q^4=R^4", "output": "p^{4} + q^{4} = r^{4}"}
+{"input": "u^4 + v^4 = w^4", "output": "u^{4} + v^{4} = w^{4}"}
+{"input": "u^4+v^4=w^4", "output": "u^{4} + v^{4} = w^{4}"}
+{"input": "u в четвертой + v в четвертой = w в четвертой", "output": "u^{4} + v^{4} = w^{4}"}
+{"input": "u to the 4th plus v to the 4th equals w to the 4th", "output": "u^{4} + v^{4} = w^{4}"}
+{"input": "U^4+V^4=W^4", "output": "u^{4} + v^{4} = w^{4}"}
+{"input": "i^4 + j^4 = k^4", "output": "i^{4} + j^{4} = k^{4}"}
+{"input": "i^4+j^4=k^4", "output": "i^{4} + j^{4} = k^{4}"}
+{"input": "i в четвертой + j в четвертой = k в четвертой", "output": "i^{4} + j^{4} = k^{4}"}
+{"input": "i to the 4th plus j to the 4th equals k to the 4th", "output": "i^{4} + j^{4} = k^{4}"}
+{"input": "I^4+J^4=K^4", "output": "i^{4} + j^{4} = k^{4}"}
+{"input": "a^5 + b^5 = c^5", "output": "a^{5} + b^{5} = c^{5}"}
+{"input": "a^5+b^5=c^5", "output": "a^{5} + b^{5} = c^{5}"}
+{"input": "a в пятой + b в пятой = c в пятой", "output": "a^{5} + b^{5} = c^{5}"}
+{"input": "a to the 5th plus b to the 5th equals c to the 5th", "output": "a^{5} + b^{5} = c^{5}"}
+{"input": "A^5+B^5=C^5", "output": "a^{5} + b^{5} = c^{5}"}
+{"input": "x^5 + y^5 = z^5", "output": "x^{5} + y^{5} = z^{5}"}
+{"input": "x^5+y^5=z^5", "output": "x^{5} + y^{5} = z^{5}"}
+{"input": "x в пятой + y в пятой = z в пятой", "output": "x^{5} + y^{5} = z^{5}"}
+{"input": "x to the 5th plus y to the 5th equals z to the 5th", "output": "x^{5} + y^{5} = z^{5}"}
+{"input": "X^5+Y^5=Z^5", "output": "x^{5} + y^{5} = z^{5}"}
+{"input": "n^5 + m^5 = k^5", "output": "n^{5} + m^{5} = k^{5}"}
+{"input": "n^5+m^5=k^5", "output": "n^{5} + m^{5} = k^{5}"}
+{"input": "n в пятой + m в пятой = k в пятой", "output": "n^{5} + m^{5} = k^{5}"}
+{"input": "n to the 5th plus m to the 5th equals k to the 5th", "output": "n^{5} + m^{5} = k^{5}"}
+{"input": "N^5+M^5=K^5", "output": "n^{5} + m^{5} = k^{5}"}
+{"input": "a^2 + b^2 + c^2 = d^2", "output": "a^{2} + b^{2} + c^{2} = d^{2}"}
+{"input": "a^2+b^2+c^2=d^2", "output": "a^{2} + b^{2} + c^{2} = d^{2}"}
+{"input": "a в квадрате + b в квадрате + c в квадрате = d в квадрате", "output": "a^{2} + b^{2} + c^{2} = d^{2}"}
+{"input": "a squared plus b squared plus c squared equals d squared", "output": "a^{2} + b^{2} + c^{2} = d^{2}"}
+{"input": "A^2+B^2+C^2=D^2", "output": "a^{2} + b^{2} + c^{2} = d^{2}"}
+{"input": "x^2 + y^2 + z^2 = w^2", "output": "x^{2} + y^{2} + z^{2} = w^{2}"}
+{"input": "x^2+y^2+z^2=w^2", "output": "x^{2} + y^{2} + z^{2} = w^{2}"}
+{"input": "x в квадрате + y в квадрате + z в квадрате = w в квадрате", "output": "x^{2} + y^{2} + z^{2} = w^{2}"}
+{"input": "x squared plus y squared plus z squared equals w squared", "output": "x^{2} + y^{2} + z^{2} = w^{2}"}
+{"input": "X^2+Y^2+Z^2=W^2", "output": "x^{2} + y^{2} + z^{2} = w^{2}"}
+{"input": "n^2 + m^2 + k^2 = p^2", "output": "n^{2} + m^{2} + k^{2} = p^{2}"}
+{"input": "n^2+m^2+k^2=p^2", "output": "n^{2} + m^{2} + k^{2} = p^{2}"}
+{"input": "n в квадрате + m в квадрате + k в квадрате = p в квадрате", "output": "n^{2} + m^{2} + k^{2} = p^{2}"}
+{"input": "n squared plus m squared plus k squared equals p squared", "output": "n^{2} + m^{2} + k^{2} = p^{2}"}
+{"input": "N^2+M^2+K^2=P^2", "output": "n^{2} + m^{2} + k^{2} = p^{2}"}
+{"input": "p^2 + q^2 + r^2 = s^2", "output": "p^{2} + q^{2} + r^{2} = s^{2}"}
+{"input": "p^2+q^2+r^2=s^2", "output": "p^{2} + q^{2} + r^{2} = s^{2}"}
+{"input": "p в квадрате + q в квадрате + r в квадрате = s в квадрате", "output": "p^{2} + q^{2} + r^{2} = s^{2}"}
+{"input": "p squared plus q squared plus r squared equals s squared", "output": "p^{2} + q^{2} + r^{2} = s^{2}"}
+{"input": "P^2+Q^2+R^2=S^2", "output": "p^{2} + q^{2} + r^{2} = s^{2}"}
+{"input": "u^2 + v^2 + w^2 = x^2", "output": "u^{2} + v^{2} + w^{2} = x^{2}"}
+{"input": "u^2+v^2+w^2=x^2", "output": "u^{2} + v^{2} + w^{2} = x^{2}"}
+{"input": "u в квадрате + v в квадрате + w в квадрате = x в квадрате", "output": "u^{2} + v^{2} + w^{2} = x^{2}"}
+{"input": "u squared plus v squared plus w squared equals x squared", "output": "u^{2} + v^{2} + w^{2} = x^{2}"}
+{"input": "U^2+V^2+W^2=X^2", "output": "u^{2} + v^{2} + w^{2} = x^{2}"}
+{"input": "i^2 + j^2 + k^2 = l^2", "output": "i^{2} + j^{2} + k^{2} = l^{2}"}
+{"input": "i^2+j^2+k^2=l^2", "output": "i^{2} + j^{2} + k^{2} = l^{2}"}
+{"input": "i в квадрате + j в квадрате + k в квадрате = l в квадрате", "output": "i^{2} + j^{2} + k^{2} = l^{2}"}
+{"input": "i squared plus j squared plus k squared equals l squared", "output": "i^{2} + j^{2} + k^{2} = l^{2}"}
+{"input": "I^2+J^2+K^2=L^2", "output": "i^{2} + j^{2} + k^{2} = l^{2}"}
+{"input": "(a+b)^2", "output": "(a+b)^{2}"}
+{"input": "(a+b)^2", "output": "(a+b)^{2}"}
+{"input": "(a+b) в квадрате", "output": "(a+b)^{2}"}
+{"input": "(a+b) squared", "output": "(a+b)^{2}"}
+{"input": "(A+B)^2", "output": "(a+b)^{2}"}
+{"input": "(c+d)^3", "output": "(c+d)^{3}"}
+{"input": "(c+d)^3", "output": "(c+d)^{3}"}
+{"input": "(c+d) в кубе", "output": "(c+d)^{3}"}
+{"input": "(c+d) cubed", "output": "(c+d)^{3}"}
+{"input": "(C+D)^3", "output": "(c+d)^{3}"}
+{"input": "(x+y)^2", "output": "(x+y)^{2}"}
+{"input": "(x+y)^2", "output": "(x+y)^{2}"}
+{"input": "(x+y) в квадрате", "output": "(x+y)^{2}"}
+{"input": "(x+y) squared", "output": "(x+y)^{2}"}
+{"input": "(X+Y)^2", "output": "(x+y)^{2}"}
+{"input": "(z+w)^2", "output": "(z+w)^{2}"}
+{"input": "(z+w)^2", "output": "(z+w)^{2}"}
+{"input": "(z+w) в квадрате", "output": "(z+w)^{2}"}
+{"input": "(z+w) squared", "output": "(z+w)^{2}"}
+{"input": "(Z+W)^2", "output": "(z+w)^{2}"}
+{"input": "(n+m)^3", "output": "(n+m)^{3}"}
+{"input": "(n+m)^3", "output": "(n+m)^{3}"}
+{"input": "(n+m) в кубе", "output": "(n+m)^{3}"}
+{"input": "(n+m) cubed", "output": "(n+m)^{3}"}
+{"input": "(N+M)^3", "output": "(n+m)^{3}"}
+{"input": "(k+p)^2", "output": "(k+p)^{2}"}
+{"input": "(k+p)^2", "output": "(k+p)^{2}"}
+{"input": "(k+p) в квадрате", "output": "(k+p)^{2}"}
+{"input": "(k+p) squared", "output": "(k+p)^{2}"}
+{"input": "(K+P)^2", "output": "(k+p)^{2}"}
+{"input": "(q+r)^3", "output": "(q+r)^{3}"}
+{"input": "(q+r)^3", "output": "(q+r)^{3}"}
+{"input": "(q+r) в кубе", "output": "(q+r)^{3}"}
+{"input": "(q+r) cubed", "output": "(q+r)^{3}"}
+{"input": "(Q+R)^3", "output": "(q+r)^{3}"}
+{"input": "(u+v)^2", "output": "(u+v)^{2}"}
+{"input": "(u+v)^2", "output": "(u+v)^{2}"}
+{"input": "(u+v) в квадрате", "output": "(u+v)^{2}"}
+{"input": "(u+v) squared", "output": "(u+v)^{2}"}
+{"input": "(U+V)^2", "output": "(u+v)^{2}"}
+{"input": "(i+j)^3", "output": "(i+j)^{3}"}
+{"input": "(i+j)^3", "output": "(i+j)^{3}"}
+{"input": "(i+j) в кубе", "output": "(i+j)^{3}"}
+{"input": "(i+j) cubed", "output": "(i+j)^{3}"}
+{"input": "(I+J)^3", "output": "(i+j)^{3}"}
+{"input": "(a-b)^2", "output": "(a-b)^{2}"}
+{"input": "(a-b)^2", "output": "(a-b)^{2}"}
+{"input": "(a-b) в квадрате", "output": "(a-b)^{2}"}
+{"input": "(a-b) squared", "output": "(a-b)^{2}"}
+{"input": "(A-B)^2", "output": "(a-b)^{2}"}
+{"input": "(x-y)^3", "output": "(x-y)^{3}"}
+{"input": "(x-y)^3", "output": "(x-y)^{3}"}
+{"input": "(x-y) в кубе", "output": "(x-y)^{3}"}
+{"input": "(x-y) cubed", "output": "(x-y)^{3}"}
+{"input": "(X-Y)^3", "output": "(x-y)^{3}"}
+{"input": "(n-m)^2", "output": "(n-m)^{2}"}
+{"input": "(n-m)^2", "output": "(n-m)^{2}"}
+{"input": "(n-m) в квадрате", "output": "(n-m)^{2}"}
+{"input": "(n-m) squared", "output": "(n-m)^{2}"}
+{"input": "(N-M)^2", "output": "(n-m)^{2}"}
+{"input": "(p-q)^3", "output": "(p-q)^{3}"}
+{"input": "(p-q)^3", "output": "(p-q)^{3}"}
+{"input": "(p-q) в кубе", "output": "(p-q)^{3}"}
+{"input": "(p-q) cubed", "output": "(p-q)^{3}"}
+{"input": "(P-Q)^3", "output": "(p-q)^{3}"}
+{"input": "(u-v)^2", "output": "(u-v)^{2}"}
+{"input": "(u-v)^2", "output": "(u-v)^{2}"}
+{"input": "(u-v) в квадрате", "output": "(u-v)^{2}"}
+{"input": "(u-v) squared", "output": "(u-v)^{2}"}
+{"input": "(U-V)^2", "output": "(u-v)^{2}"}
+{"input": "(i-j)^3", "output": "(i-j)^{3}"}
+{"input": "(i-j)^3", "output": "(i-j)^{3}"}
+{"input": "(i-j) в кубе", "output": "(i-j)^{3}"}
+{"input": "(i-j) cubed", "output": "(i-j)^{3}"}
+{"input": "(I-J)^3", "output": "(i-j)^{3}"}
+{"input": "(a+b+c)^2", "output": "(a+b+c)^{2}"}
+{"input": "(a+b+c)^2", "output": "(a+b+c)^{2}"}
+{"input": "(a+b+c) в квадрате", "output": "(a+b+c)^{2}"}
+{"input": "(a+b+c) squared", "output": "(a+b+c)^{2}"}
+{"input": "(A+B+C)^2", "output": "(a+b+c)^{2}"}
+{"input": "(x+y+z)^2", "output": "(x+y+z)^{2}"}
+{"input": "(x+y+z)^2", "output": "(x+y+z)^{2}"}
+{"input": "(x+y+z) в квадрате", "output": "(x+y+z)^{2}"}
+{"input": "(x+y+z) squared", "output": "(x+y+z)^{2}"}
+{"input": "(X+Y+Z)^2", "output": "(x+y+z)^{2}"}
+{"input": "(n+m+k)^3", "output": "(n+m+k)^{3}"}
+{"input": "(n+m+k)^3", "output": "(n+m+k)^{3}"}
+{"input": "(n+m+k) в кубе", "output": "(n+m+k)^{3}"}
+{"input": "(n+m+k) cubed", "output": "(n+m+k)^{3}"}
+{"input": "(N+M+K)^3", "output": "(n+m+k)^{3}"}
+{"input": "(p+q+r)^2", "output": "(p+q+r)^{2}"}
+{"input": "(p+q+r)^2", "output": "(p+q+r)^{2}"}
+{"input": "(p+q+r) в квадрате", "output": "(p+q+r)^{2}"}
+{"input": "(p+q+r) squared", "output": "(p+q+r)^{2}"}
+{"input": "(P+Q+R)^2", "output": "(p+q+r)^{2}"}
+{"input": "(u+v+w)^3", "output": "(u+v+w)^{3}"}
+{"input": "(u+v+w)^3", "output": "(u+v+w)^{3}"}
+{"input": "(u+v+w) в кубе", "output": "(u+v+w)^{3}"}
+{"input": "(u+v+w) cubed", "output": "(u+v+w)^{3}"}
+{"input": "(U+V+W)^3", "output": "(u+v+w)^{3}"}
+{"input": "(i+j+k)^2", "output": "(i+j+k)^{2}"}
+{"input": "(i+j+k)^2", "output": "(i+j+k)^{2}"}
+{"input": "(i+j+k) в квадрате", "output": "(i+j+k)^{2}"}
+{"input": "(i+j+k) squared", "output": "(i+j+k)^{2}"}
+{"input": "(I+J+K)^2", "output": "(i+j+k)^{2}"}
+{"input": "(a+b+c+d)^2", "output": "(a+b+c+d)^{2}"}
+{"input": "(a+b+c+d)^2", "output": "(a+b+c+d)^{2}"}
+{"input": "(a+b+c+d) в квадрате", "output": "(a+b+c+d)^{2}"}
+{"input": "(a+b+c+d) squared", "output": "(a+b+c+d)^{2}"}
+{"input": "(A+B+C+D)^2", "output": "(a+b+c+d)^{2}"}
+{"input": "(x+y+z+w)^2", "output": "(x+y+z+w)^{2}"}
+{"input": "(x+y+z+w)^2", "output": "(x+y+z+w)^{2}"}
+{"input": "(x+y+z+w) в квадрате", "output": "(x+y+z+w)^{2}"}
+{"input": "(x+y+z+w) squared", "output": "(x+y+z+w)^{2}"}
+{"input": "(X+Y+Z+W)^2", "output": "(x+y+z+w)^{2}"}
+{"input": "(n+m+k+p)^3", "output": "(n+m+k+p)^{3}"}
+{"input": "(n+m+k+p)^3", "output": "(n+m+k+p)^{3}"}
+{"input": "(n+m+k+p) в кубе", "output": "(n+m+k+p)^{3}"}
+{"input": "(n+m+k+p) cubed", "output": "(n+m+k+p)^{3}"}
+{"input": "(N+M+K+P)^3", "output": "(n+m+k+p)^{3}"}
+{"input": "(p+q+r+s)^2", "output": "(p+q+r+s)^{2}"}
+{"input": "(p+q+r+s)^2", "output": "(p+q+r+s)^{2}"}
+{"input": "(p+q+r+s) в квадрате", "output": "(p+q+r+s)^{2}"}
+{"input": "(p+q+r+s) squared", "output": "(p+q+r+s)^{2}"}
+{"input": "(P+Q+R+S)^2", "output": "(p+q+r+s)^{2}"}
+{"input": "(u+v+w+x)^3", "output": "(u+v+w+x)^{3}"}
+{"input": "(u+v+w+x)^3", "output": "(u+v+w+x)^{3}"}
+{"input": "(u+v+w+x) в кубе", "output": "(u+v+w+x)^{3}"}
+{"input": "(u+v+w+x) cubed", "output": "(u+v+w+x)^{3}"}
+{"input": "(U+V+W+X)^3", "output": "(u+v+w+x)^{3}"}
+{"input": "(i+j+k+l)^2", "output": "(i+j+k+l)^{2}"}
+{"input": "(i+j+k+l)^2", "output": "(i+j+k+l)^{2}"}
+{"input": "(i+j+k+l) в квадрате", "output": "(i+j+k+l)^{2}"}
+{"input": "(i+j+k+l) squared", "output": "(i+j+k+l)^{2}"}
+{"input": "(I+J+K+L)^2", "output": "(i+j+k+l)^{2}"}
+{"input": "e + f", "output": "e + f"}
+{"input": "e+f", "output": "e + f"}
+{"input": "e плюс f", "output": "e + f"}
+{"input": "e plus f", "output": "e + f"}
+{"input": "E+F", "output": "e + f"}
+{"input": "g - h", "output": "g - h"}
+{"input": "g-h", "output": "g - h"}
+{"input": "g минус h", "output": "g - h"}
+{"input": "g minus h", "output": "g - h"}
+{"input": "G-H", "output": "g - h"}
+{"input": "l * m", "output": "lm"}
+{"input": "l*m", "output": "lm"}
+{"input": "l умножить на m", "output": "lm"}
+{"input": "l times m", "output": "lm"}
+{"input": "L*M", "output": "lm"}
+{"input": "o / p", "output": "\\frac{o}{p}"}
+{"input": "o/p", "output": "\\frac{o}{p}"}
+{"input": "o делить на p", "output": "\\frac{o}{p}"}
+{"input": "o over p", "output": "\\frac{o}{p}"}
+{"input": "O/P", "output": "\\frac{o}{p}"}
+{"input": "r + s", "output": "r + s"}
+{"input": "r+s", "output": "r + s"}
+{"input": "r плюс s", "output": "r + s"}
+{"input": "r plus s", "output": "r + s"}
+{"input": "R+S", "output": "r + s"}
+{"input": "t - u", "output": "t - u"}
+{"input": "t-u", "output": "t - u"}
+{"input": "t минус u", "output": "t - u"}
+{"input": "t minus u", "output": "t - u"}
+{"input": "T-U", "output": "t - u"}
+{"input": "v * w", "output": "vw"}
+{"input": "v*w", "output": "vw"}
+{"input": "v умножить на w", "output": "vw"}
+{"input": "v times w", "output": "vw"}
+{"input": "V*W", "output": "vw"}
+{"input": "x / y", "output": "\\frac{x}{y}"}
+{"input": "x/y", "output": "\\frac{x}{y}"}
+{"input": "x делить на y", "output": "\\frac{x}{y}"}
+{"input": "x over y", "output": "\\frac{x}{y}"}
+{"input": "X/Y", "output": "\\frac{x}{y}"}
+{"input": "z + 1", "output": "z + 1"}
+{"input": "z+1", "output": "z + 1"}
+{"input": "z плюс 1", "output": "z + 1"}
+{"input": "z plus one", "output": "z + 1"}
+{"input": "Z+1", "output": "z + 1"}
+{"input": "a - 2", "output": "a - 2"}
+{"input": "a-2", "output": "a - 2"}
+{"input": "a минус 2", "output": "a - 2"}
+{"input": "a minus two", "output": "a - 2"}
+{"input": "A-2", "output": "a - 2"}
+{"input": "b * 3", "output": "3b"}
+{"input": "b*3", "output": "3b"}
+{"input": "b умножить на 3", "output": "3b"}
+{"input": "b times three", "output": "3b"}
+{"input": "B*3", "output": "3b"}
+{"input": "c / 4", "output": "\\frac{c}{4}"}
+{"input": "c/4", "output": "\\frac{c}{4}"}
+{"input": "c делить на 4", "output": "\\frac{c}{4}"}
+{"input": "c over four", "output": "\\frac{c}{4}"}
+{"input": "C/4", "output": "\\frac{c}{4}"}
+{"input": "d + 5", "output": "d + 5"}
+{"input": "d+5", "output": "d + 5"}
+{"input": "d плюс 5", "output": "d + 5"}
+{"input": "d plus five", "output": "d + 5"}
+{"input": "D+5", "output": "d + 5"}
+{"input": "e - 6", "output": "e - 6"}
+{"input": "e-6", "output": "e - 6"}
+{"input": "e минус 6", "output": "e - 6"}
+{"input": "e minus six", "output": "e - 6"}
+{"input": "E-6", "output": "e - 6"}
+{"input": "f * 7", "output": "7f"}
+{"input": "f*7", "output": "7f"}
+{"input": "f умножить на 7", "output": "7f"}
+{"input": "f times seven", "output": "7f"}
+{"input": "F*7", "output": "7f"}
+{"input": "g / 8", "output": "\\frac{g}{8}"}
+{"input": "g/8", "output": "\\frac{g}{8}"}
+{"input": "g делить на 8", "output": "\\frac{g}{8}"}
+{"input": "g over eight", "output": "\\frac{g}{8}"}
+{"input": "G/8", "output": "\\frac{g}{8}"}
+{"input": "h + 9", "output": "h + 9"}
+{"input": "h+9", "output": "h + 9"}
+{"input": "h плюс 9", "output": "h + 9"}
+{"input": "h plus nine", "output": "h + 9"}
+{"input": "H+9", "output": "h + 9"}
+{"input": "i - 10", "output": "i - 10"}
+{"input": "i-10", "output": "i - 10"}
+{"input": "i минус 10", "output": "i - 10"}
+{"input": "i minus ten", "output": "i - 10"}
+{"input": "I-10", "output": "i - 10"}
+{"input": "j * 100", "output": "100j"}
+{"input": "j*100", "output": "100j"}
+{"input": "j умножить на 100", "output": "100j"}
+{"input": "j times one hundred", "output": "100j"}
+{"input": "J*100", "output": "100j"}
+{"input": "k / 100", "output": "\\frac{k}{100}"}
+{"input": "k/100", "output": "\\frac{k}{100}"}
+{"input": "k делить на 100", "output": "\\frac{k}{100}"}
+{"input": "k over one hundred", "output": "\\frac{k}{100}"}
+{"input": "K/100", "output": "\\frac{k}{100}"}
+{"input": "l + 0", "output": "l + 0"}
+{"input": "l+0", "output": "l + 0"}
+{"input": "l плюс 0", "output": "l + 0"}
+{"input": "l plus zero", "output": "l + 0"}
+{"input": "L+0", "output": "l + 0"}
+{"input": "m - 1", "output": "m - 1"}
+{"input": "m-1", "output": "m - 1"}
+{"input": "m минус 1", "output": "m - 1"}
+{"input": "m minus one", "output": "m - 1"}
+{"input": "M-1", "output": "m - 1"}
+{"input": "n * 2", "output": "2n"}
+{"input": "n*2", "output": "2n"}
+{"input": "n умножить на 2", "output": "2n"}
+{"input": "n times two", "output": "2n"}
+{"input": "N*2", "output": "2n"}
+{"input": "o / 3", "output": "\\frac{o}{3}"}
+{"input": "o/3", "output": "\\frac{o}{3}"}
+{"input": "o делить на 3", "output": "\\frac{o}{3}"}
+{"input": "o over three", "output": "\\frac{o}{3}"}
+{"input": "O/3", "output": "\\frac{o}{3}"}
+{"input": "p + 4", "output": "p + 4"}
+{"input": "p+4", "output": "p + 4"}
+{"input": "p плюс 4", "output": "p + 4"}
+{"input": "p plus four", "output": "p + 4"}
+{"input": "P+4", "output": "p + 4"}
+{"input": "q - 5", "output": "q - 5"}
+{"input": "q-5", "output": "q - 5"}
+{"input": "q минус 5", "output": "q - 5"}
+{"input": "q minus five", "output": "q - 5"}
+{"input": "Q-5", "output": "q - 5"}
+{"input": "r * 6", "output": "6r"}
+{"input": "r*6", "output": "6r"}
+{"input": "r умножить на 6", "output": "6r"}
+{"input": "r times six", "output": "6r"}
+{"input": "R*6", "output": "6r"}
+{"input": "s / 7", "output": "\\frac{s}{7}"}
+{"input": "s/7", "output": "\\frac{s}{7}"}
+{"input": "s делить на 7", "output": "\\frac{s}{7}"}
+{"input": "s over seven", "output": "\\frac{s}{7}"}
+{"input": "S/7", "output": "\\frac{s}{7}"}
+{"input": "t + 8", "output": "t + 8"}
+{"input": "t+8", "output": "t + 8"}
+{"input": "t плюс 8", "output": "t + 8"}
+{"input": "t plus eight", "output": "t + 8"}
+{"input": "T+8", "output": "t + 8"}
+{"input": "u - 9", "output": "u - 9"}
+{"input": "u-9", "output": "u - 9"}
+{"input": "u минус 9", "output": "u - 9"}
+{"input": "u minus nine", "output": "u - 9"}
+{"input": "U-9", "output": "u - 9"}
+{"input": "v * 10", "output": "10v"}
+{"input": "v*10", "output": "10v"}
+{"input": "v умножить на 10", "output": "10v"}
+{"input": "v times ten", "output": "10v"}
+{"input": "V*10", "output": "10v"}
+{"input": "w / 10", "output": "\\frac{w}{10}"}
+{"input": "w/10", "output": "\\frac{w}{10}"}
+{"input": "w делить на 10", "output": "\\frac{w}{10}"}
+{"input": "w over ten", "output": "\\frac{w}{10}"}
+{"input": "W/10", "output": "\\frac{w}{10}"}
+{"input": "x + 100", "output": "x + 100"}
+{"input": "x+100", "output": "x + 100"}
+{"input": "x плюс 100", "output": "x + 100"}
+{"input": "x plus one hundred", "output": "x + 100"}
+{"input": "X+100", "output": "x + 100"}
+{"input": "y - 100", "output": "y - 100"}
+{"input": "y-100", "output": "y - 100"}
+{"input": "y минус 100", "output": "y - 100"}
+{"input": "y minus one hundred", "output": "y - 100"}
+{"input": "Y-100", "output": "y - 100"}
+{"input": "z * 0", "output": "0"}
+{"input": "z*0", "output": "0"}
+{"input": "z умножить на 0", "output": "0"}
+{"input": "z times zero", "output": "0"}
+{"input": "Z*0", "output": "0"}
+{"input": "a / 1", "output": "a"}
+{"input": "a/1", "output": "a"}
+{"input": "a делить на 1", "output": "a"}
+{"input": "a over one", "output": "a"}
+{"input": "A/1", "output": "a"}
+{"input": "2a + 3b", "output": "2a + 3b"}
+{"input": "2a+3b", "output": "2a + 3b"}
+{"input": "2a плюс 3b", "output": "2a + 3b"}
+{"input": "two a plus three b", "output": "2a + 3b"}
+{"input": "2A+3B", "output": "2a + 3b"}
+{"input": "4c - 5d", "output": "4c - 5d"}
+{"input": "4c-5d", "output": "4c - 5d"}
+{"input": "4c минус 5d", "output": "4c - 5d"}
+{"input": "four c minus five d", "output": "4c - 5d"}
+{"input": "4C-5D", "output": "4c - 5d"}
+{"input": "6e + 7f", "output": "6e + 7f"}
+{"input": "6e+7f", "output": "6e + 7f"}
+{"input": "6e плюс 7f", "output": "6e + 7f"}
+{"input": "six e plus seven f", "output": "6e + 7f"}
+{"input": "6E+7F", "output": "6e + 7f"}
+{"input": "8g - 9h", "output": "8g - 9h"}
+{"input": "8g-9h", "output": "8g - 9h"}
+{"input": "8g минус 9h", "output": "8g - 9h"}
+{"input": "eight g minus nine h", "output": "8g - 9h"}
+{"input": "8G-9H", "output": "8g - 9h"}
+{"input": "10i + 11j", "output": "10i + 11j"}
+{"input": "10i+11j", "output": "10i + 11j"}
+{"input": "10i плюс 11j", "output": "10i + 11j"}
+{"input": "ten i plus eleven j", "output": "10i + 11j"}
+{"input": "10I+11J", "output": "10i + 11j"}
+{"input": "12k - 13l", "output": "12k - 13l"}
+{"input": "12k-13l", "output": "12k - 13l"}
+{"input": "12k минус 13l", "output": "12k - 13l"}
+{"input": "twelve k minus thirteen l", "output": "12k - 13l"}
+{"input": "12K-13L", "output": "12k - 13l"}
+{"input": "14m + 15n", "output": "14m + 15n"}
+{"input": "14m+15n", "output": "14m + 15n"}
+{"input": "14m плюс 15n", "output": "14m + 15n"}
+{"input": "fourteen m plus fifteen n", "output": "14m + 15n"}
+{"input": "14M+15N", "output": "14m + 15n"}
+{"input": "16o - 17p", "output": "16o - 17p"}
+{"input": "16o-17p", "output": "16o - 17p"}
+{"input": "16o минус 17p", "output": "16o - 17p"}
+{"input": "sixteen o minus seventeen p", "output": "16o - 17p"}
+{"input": "16O-17P", "output": "16o - 17p"}
+{"input": "18q + 19r", "output": "18q + 19r"}
+{"input": "18q+19r", "output": "18q + 19r"}
+{"input": "18q плюс 19r", "output": "18q + 19r"}
+{"input": "eighteen q plus nineteen r", "output": "18q + 19r"}
+{"input": "18Q+19R", "output": "18q + 19r"}
+{"input": "20s - 21t", "output": "20s - 21t"}
+{"input": "20s-21t", "output": "20s - 21t"}
+{"input": "20s минус 21t", "output": "20s - 21t"}
+{"input": "twenty s minus twenty one t", "output": "20s - 21t"}
+{"input": "20S-21T", "output": "20s - 21t"}
+{"input": "22u + 23v", "output": "22u + 23v"}
+{"input": "22u+23v", "output": "22u + 23v"}
+{"input": "22u плюс 23v", "output": "22u + 23v"}
+{"input": "twenty two u plus twenty three v", "output": "22u + 23v"}
+{"input": "22U+23V", "output": "22u + 23v"}
+{"input": "24w - 25x", "output": "24w - 25x"}
+{"input": "24w-25x", "output": "24w - 25x"}
+{"input": "24w минус 25x", "output": "24w - 25x"}
+{"input": "twenty four w minus twenty five x", "output": "24w - 25x"}
+{"input": "24W-25X", "output": "24w - 25x"}
+{"input": "26y + 27z", "output": "26y + 27z"}
+{"input": "26y+27z", "output": "26y + 27z"}
+{"input": "26y плюс 27z", "output": "26y + 27z"}
+{"input": "twenty six y plus twenty seven z", "output": "26y + 27z"}
+{"input": "26Y+27Z", "output": "26y + 27z"}
+{"input": "28a - 29b", "output": "28a - 29b"}
+{"input": "28a-29b", "output": "28a - 29b"}
+{"input": "28a минус 29b", "output": "28a - 29b"}
+{"input": "twenty eight a minus twenty nine b", "output": "28a - 29b"}
+{"input": "28A-29B", "output": "28a - 29b"}
+{"input": "30c + 31d", "output": "30c + 31d"}
+{"input": "30c+31d", "output": "30c + 31d"}
+{"input": "30c плюс 31d", "output": "30c + 31d"}
+{"input": "thirty c plus thirty one d", "output": "30c + 31d"}
+{"input": "30C+31D", "output": "30c + 31d"}
+{"input": "32e - 33f", "output": "32e - 33f"}
+{"input": "32e-33f", "output": "32e - 33f"}
+{"input": "32e минус 33f", "output": "32e - 33f"}
+{"input": "thirty two e minus thirty three f", "output": "32e - 33f"}
+{"input": "32E-33F", "output": "32e - 33f"}
+{"input": "34g + 35h", "output": "34g + 35h"}
+{"input": "34g+35h", "output": "34g + 35h"}
+{"input": "34g плюс 35h", "output": "34g + 35h"}
+{"input": "thirty four g plus thirty five h", "output": "34g + 35h"}
+{"input": "34G+35H", "output": "34g + 35h"}
+{"input": "36i - 37j", "output": "36i - 37j"}
+{"input": "36i-37j", "output": "36i - 37j"}
+{"input": "36i минус 37j", "output": "36i - 37j"}
+{"input": "thirty six i minus thirty seven j", "output": "36i - 37j"}
+{"input": "36I-37J", "output": "36i - 37j"}
+{"input": "38k + 39l", "output": "38k + 39l"}
+{"input": "38k+39l", "output": "38k + 39l"}
+{"input": "38k плюс 39l", "output": "38k + 39l"}
+{"input": "thirty eight k plus thirty nine l", "output": "38k + 39l"}
+{"input": "38K+39L", "output": "38k + 39l"}
+{"input": "40m - 41n", "output": "40m - 41n"}
+{"input": "40m-41n", "output": "40m - 41n"}
+{"input": "40m минус 41n", "output": "40m - 41n"}
+{"input": "forty m minus forty one n", "output": "40m - 41n"}
+{"input": "40M-41N", "output": "40m - 41n"}
+{"input": "42o + 43p", "output": "42o + 43p"}
+{"input": "42o+43p", "output": "42o + 43p"}
+{"input": "42o плюс 43p", "output": "42o + 43p"}
+{"input": "forty two o plus forty three p", "output": "42o + 43p"}
+{"input": "42O+43P", "output": "42o + 43p"}
+{"input": "44q - 45r", "output": "44q - 45r"}
+{"input": "44q-45r", "output": "44q - 45r"}
+{"input": "44q минус 45r", "output": "44q - 45r"}
+{"input": "forty four q minus forty five r", "output": "44q - 45r"}
+{"input": "44Q-45R", "output": "44q - 45r"}
+{"input": "46s + 47t", "output": "46s + 47t"}
+{"input": "46s+47t", "output": "46s + 47t"}
+{"input": "46s плюс 47t", "output": "46s + 47t"}
+{"input": "forty six s plus forty seven t", "output": "46s + 47t"}
+{"input": "46S+47T", "output": "46s + 47t"}
+{"input": "48u - 49v", "output": "48u - 49v"}
+{"input": "48u-49v", "output": "48u - 49v"}
+{"input": "48u минус 49v", "output": "48u - 49v"}
+{"input": "forty eight u minus forty nine v", "output": "48u - 49v"}
+{"input": "48U-49V", "output": "48u - 49v"}
+{"input": "50w + 51x", "output": "50w + 51x"}
+{"input": "50w+51x", "output": "50w + 51x"}
+{"input": "50w плюс 51x", "output": "50w + 51x"}
+{"input": "fifty w plus fifty one x", "output": "50w + 51x"}
+{"input": "50W+51X", "output": "50w + 51x"}
+{"input": "52y - 53z", "output": "52y - 53z"}
+{"input": "52y-53z", "output": "52y - 53z"}
+{"input": "52y минус 53z", "output": "52y - 53z"}
+{"input": "fifty two y minus fifty three z", "output": "52y - 53z"}
+{"input": "52Y-53Z", "output": "52y - 53z"}
+{"input": "54a + 55b", "output": "54a + 55b"}
+{"input": "54a+55b", "output": "54a + 55b"}
+{"input": "54a плюс 55b", "output": "54a + 55b"}
+{"input": "fifty four a plus fifty five b", "output": "54a + 55b"}
+{"input": "54A+55B", "output": "54a + 55b"}
+{"input": "56c - 57d", "output": "56c - 57d"}
+{"input": "56c-57d", "output": "56c - 57d"}
+{"input": "56c минус 57d", "output": "56c - 57d"}
+{"input": "fifty six c minus fifty seven d", "output": "56c - 57d"}
+{"input": "56C-57D", "output": "56c - 57d"}
+{"input": "58e + 59f", "output": "58e + 59f"}
+{"input": "58e+59f", "output": "58e + 59f"}
+{"input": "58e плюс 59f", "output": "58e + 59f"}
+{"input": "fifty eight e plus fifty nine f", "output": "58e + 59f"}
+{"input": "58E+59F", "output": "58e + 59f"}
+{"input": "60g - 61h", "output": "60g - 61h"}
+{"input": "60g-61h", "output": "60g - 61h"}
+{"input": "60g минус 61h", "output": "60g - 61h"}
+{"input": "sixty g minus sixty one h", "output": "60g - 61h"}
+{"input": "60G-61H", "output": "60g - 61h"}
+{"input": "62i + 63j", "output": "62i + 63j"}
+{"input": "62i+63j", "output": "62i + 63j"}
+{"input": "62i плюс 63j", "output": "62i + 63j"}
+{"input": "sixty two i plus sixty three j", "output": "62i + 63j"}
+{"input": "62I+63J", "output": "62i + 63j"}
+{"input": "64k - 65l", "output": "64k - 65l"}
+{"input": "64k-65l", "output": "64k - 65l"}
+{"input": "64k минус 65l", "output": "64k - 65l"}
+{"input": "sixty four k minus sixty five l", "output": "64k - 65l"}
+{"input": "64K-65L", "output": "64k - 65l"}
+{"input": "66m + 67n", "output": "66m + 67n"}
+{"input": "66m+67n", "output": "66m + 67n"}
+{"input": "66m плюс 67n", "output": "66m + 67n"}
+{"input": "sixty six m plus sixty seven n", "output": "66m + 67n"}
+{"input": "66M+67N", "output": "66m + 67n"}
+{"input": "68o - 69p", "output": "68o - 69p"}
+{"input": "68o-69p", "output": "68o - 69p"}
+{"input": "68o минус 69p", "output": "68o - 69p"}
+{"input": "sixty eight o minus sixty nine p", "output": "68o - 69p"}
+{"input": "68O-69P", "output": "68o - 69p"}
+{"input": "70q + 71r", "output": "70q + 71r"}
+{"input": "70q+71r", "output": "70q + 71r"}
+{"input": "70q плюс 71r", "output": "70q + 71r"}
+{"input": "seventy q plus seventy one r", "output": "70q + 71r"}
+{"input": "70Q+71R", "output": "70q + 71r"}
+{"input": "72s - 73t", "output": "72s - 73t"}
+{"input": "72s-73t", "output": "72s - 73t"}
+{"input": "72s минус 73t", "output": "72s - 73t"}
+{"input": "seventy two s minus seventy three t", "output": "72s - 73t"}
+{"input": "72S-73T", "output": "72s - 73t"}
+{"input": "74u + 75v", "output": "74u + 75v"}
+{"input": "74u+75v", "output": "74u + 75v"}
+{"input": "74u плюс 75v", "output": "74u + 75v"}
+{"input": "seventy four u plus seventy five v", "output": "74u + 75v"}
+{"input": "74U+75V", "output": "74u + 75v"}
+{"input": "76w - 77x", "output": "76w - 77x"}
+{"input": "76w-77x", "output": "76w - 77x"}
+{"input": "76w минус 77x", "output": "76w - 77x"}
+{"input": "seventy six w minus seventy seven x", "output": "76w - 77x"}
+{"input": "76W-77X", "output": "76w - 77x"}
+{"input": "78y + 79z", "output": "78y + 79z"}
+{"input": "78y+79z", "output": "78y + 79z"}
+{"input": "78y плюс 79z", "output": "78y + 79z"}
+{"input": "seventy eight y plus seventy nine z", "output": "78y + 79z"}
+{"input": "78Y+79Z", "output": "78y + 79z"}
+{"input": "80a - 81b", "output": "80a - 81b"}
+{"input": "80a-81b", "output": "80a - 81b"}
+{"input": "80a минус 81b", "output": "80a - 81b"}
+{"input": "eighty a minus eighty one b", "output": "80a - 81b"}
+{"input": "80A-81B", "output": "80a - 81b"}
+{"input": "82c + 83d", "output": "82c + 83d"}
+{"input": "82c+83d", "output": "82c + 83d"}
+{"input": "82c плюс 83d", "output": "82c + 83d"}
+{"input": "eighty two c plus eighty three d", "output": "82c + 83d"}
+{"input": "82C+83D", "output": "82c + 83d"}
+{"input": "84e - 85f", "output": "84e - 85f"}
+{"input": "84e-85f", "output": "84e - 85f"}
+{"input": "84e минус 85f", "output": "84e - 85f"}
+{"input": "eighty four e minus eighty five f", "output": "84e - 85f"}
+{"input": "84E-85F", "output": "84e - 85f"}
+{"input": "86g + 87h", "output": "86g + 87h"}
+{"input": "86g+87h", "output": "86g + 87h"}
+{"input": "86g плюс 87h", "output": "86g + 87h"}
+{"input": "eighty six g plus eighty seven h", "output": "86g + 87h"}
+{"input": "86G+87H", "output": "86g + 87h"}
+{"input": "88i - 89j", "output": "88i - 89j"}
+{"input": "88i-89j", "output": "88i - 89j"}
+{"input": "88i минус 89j", "output": "88i - 89j"}
+{"input": "eighty eight i minus eighty nine j", "output": "88i - 89j"}
+{"input": "88I-89J", "output": "88i - 89j"}
+{"input": "90k + 91l", "output": "90k + 91l"}
+{"input": "90k+91l", "output": "90k + 91l"}
+{"input": "90k плюс 91l", "output": "90k + 91l"}
+{"input": "ninety k plus ninety one l", "output": "90k + 91l"}
+{"input": "90K+91L", "output": "90k + 91l"}
+{"input": "92m - 93n", "output": "92m - 93n"}
+{"input": "92m-93n", "output": "92m - 93n"}
+{"input": "92m минус 93n", "output": "92m - 93n"}
+{"input": "ninety two m minus ninety three n", "output": "92m - 93n"}
+{"input": "92M-93N", "output": "92m - 93n"}
+{"input": "94o + 95p", "output": "94o + 95p"}
+{"input": "94o+95p", "output": "94o + 95p"}
+{"input": "94o плюс 95p", "output": "94o + 95p"}
+{"input": "ninety four o plus ninety five p", "output": "94o + 95p"}
+{"input": "94O+95P", "output": "94o + 95p"}
+{"input": "96q - 97r", "output": "96q - 97r"}
+{"input": "96q-97r", "output": "96q - 97r"}
+{"input": "96q минус 97r", "output": "96q - 97r"}
+{"input": "ninety six q minus ninety seven r", "output": "96q - 97r"}
+{"input": "96Q-97R", "output": "96q - 97r"}
+{"input": "98s + 99t", "output": "98s + 99t"}
+{"input": "98s+99t", "output": "98s + 99t"}
+{"input": "98s плюс 99t", "output": "98s + 99t"}
+{"input": "ninety eight s plus ninety nine t", "output": "98s + 99t"}
+{"input": "98S+99T", "output": "98s + 99t"}
+{"input": "100u - 100v", "output": "100u - 100v"}
+{"input": "100u-100v", "output": "100u - 100v"}
+{"input": "100u минус 100v", "output": "100u - 100v"}
+{"input": "one hundred u minus one hundred v", "output": "100u - 100v"}
+{"input": "100U-100V", "output": "100u - 100v"}
+{"input": "a^2 + b^2 + c^2 + d^2", "output": "a^{2} + b^{2} + c^{2} + d^{2}"}
+{"input": "a^2+b^2+c^2+d^2", "output": "a^{2} + b^{2} + c^{2} + d^{2}"}
+{"input": "a в квадрате + b в квадрате + c в квадрате + d в квадрате", "output": "a^{2} + b^{2} + c^{2} + d^{2}"}
+{"input": "a squared plus b squared plus c squared plus d squared", "output": "a^{2} + b^{2} + c^{2} + d^{2}"}
+{"input": "A^2+B^2+C^2+D^2", "output": "a^{2} + b^{2} + c^{2} + d^{2}"}
+{"input": "e^2 + f^2 + g^2 + h^2", "output": "e^{2} + f^{2} + g^{2} + h^{2}"}
+{"input": "e^2+f^2+g^2+h^2", "output": "e^{2} + f^{2} + g^{2} + h^{2}"}
+{"input": "e в квадрате + f в квадрате + g в квадрате + h в квадрате", "output": "e^{2} + f^{2} + g^{2} + h^{2}"}
+{"input": "e squared plus f squared plus g squared plus h squared", "output": "e^{2} + f^{2} + g^{2} + h^{2}"}
+{"input": "E^2+F^2+G^2+H^2", "output": "e^{2} + f^{2} + g^{2} + h^{2}"}
+{"input": "i^2 + j^2 + k^2 + l^2", "output": "i^{2} + j^{2} + k^{2} + l^{2}"}
+{"input": "i^2+j^2+k^2+l^2", "output": "i^{2} + j^{2} + k^{2} + l^{2}"}
+{"input": "i в квадрате + j в квадрате + k в квадрате + l в квадрате", "output": "i^{2} + j^{2} + k^{2} + l^{2}"}
+{"input": "i squared plus j squared plus k squared plus l squared", "output": "i^{2} + j^{2} + k^{2} + l^{2}"}
+{"input": "I^2+J^2+K^2+L^2", "output": "i^{2} + j^{2} + k^{2} + l^{2}"}
+{"input": "m^2 + n^2 + o^2 + p^2", "output": "m^{2} + n^{2} + o^{2} + p^{2}"}
+{"input": "m^2+n^2+o^2+p^2", "output": "m^{2} + n^{2} + o^{2} + p^{2}"}
+{"input": "m в квадрате + n в квадрате + o в квадрате + p в квадрате", "output": "m^{2} + n^{2} + o^{2} + p^{2}"}
+{"input": "m squared plus n squared plus o squared plus p squared", "output": "m^{2} + n^{2} + o^{2} + p^{2}"}
+{"input": "M^2+N^2+O^2+P^2", "output": "m^{2} + n^{2} + o^{2} + p^{2}"}
+{"input": "q^2 + r^2 + s^2 + t^2", "output": "q^{2} + r^{2} + s^{2} + t^{2}"}
+{"input": "q^2+r^2+s^2+t^2", "output": "q^{2} + r^{2} + s^{2} + t^{2}"}
+{"input": "q в квадрате + r в квадрате + s в квадрате + t в квадрате", "output": "q^{2} + r^{2} + s^{2} + t^{2}"}
+{"input": "q squared plus r squared plus s squared plus t squared", "output": "q^{2} + r^{2} + s^{2} + t^{2}"}
+{"input": "Q^2+R^2+S^2+T^2", "output": "q^{2} + r^{2} + s^{2} + t^{2}"}
+{"input": "u^2 + v^2 + w^2 + x^2", "output": "u^{2} + v^{2} + w^{2} + x^{2}"}
+{"input": "u^2+v^2+w^2+x^2", "output": "u^{2} + v^{2} + w^{2} + x^{2}"}
+{"input": "u в квадрате + v в квадрате + w в квадрате + x в квадрате", "output": "u^{2} + v^{2} + w^{2} + x^{2}"}
+{"input": "u squared plus v squared plus w squared plus x squared", "output": "u^{2} + v^{2} + w^{2} + x^{2}"}
+{"input": "U^2+V^2+W^2+X^2", "output": "u^{2} + v^{2} + w^{2} + x^{2}"}
+{"input": "y^2 + z^2 + a^2 + b^2", "output": "y^{2} + z^{2} + a^{2} + b^{2}"}
+{"input": "y^2+z^2+a^2+b^2", "output": "y^{2} + z^{2} + a^{2} + b^{2}"}
+{"input": "y в квадрате + z в квадрате + a в квадрате + b в квадрате", "output": "y^{2} + z^{2} + a^{2} + b^{2}"}
+{"input": "y squared plus z squared plus a squared plus b squared", "output": "y^{2} + z^{2} + a^{2} + b^{2}"}
+{"input": "Y^2+Z^2+A^2+B^2", "output": "y^{2} + z^{2} + a^{2} + b^{2}"}
+{"input": "a^3 + b^3 + c^3 + d^3", "output": "a^{3} + b^{3} + c^{3} + d^{3}"}
+{"input": "a^3+b^3+c^3+d^3", "output": "a^{3} + b^{3} + c^{3} + d^{3}"}
+{"input": "a в кубе + b в кубе + c в кубе + d в кубе", "output": "a^{3} + b^{3} + c^{3} + d^{3}"}
+{"input": "a cubed plus b cubed plus c cubed plus d cubed", "output": "a^{3} + b^{3} + c^{3} + d^{3}"}
+{"input": "A^3+B^3+C^3+D^3", "output": "a^{3} + b^{3} + c^{3} + d^{3}"}
+{"input": "e^3 + f^3 + g^3 + h^3", "output": "e^{3} + f^{3} + g^{3} + h^{3}"}
+{"input": "e^3+f^3+g^3+h^3", "output": "e^{3} + f^{3} + g^{3} + h^{3}"}
+{"input": "e в кубе + f в кубе + g в кубе + h в кубе", "output": "e^{3} + f^{3} + g^{3} + h^{3}"}
+{"input": "e cubed plus f cubed plus g cubed plus h cubed", "output": "e^{3} + f^{3} + g^{3} + h^{3}"}
+{"input": "E^3+F^3+G^3+H^3", "output": "e^{3} + f^{3} + g^{3} + h^{3}"}
+{"input": "i^3 + j^3 + k^3 + l^3", "output": "i^{3} + j^{3} + k^{3} + l^{3}"}
+{"input": "i^3+j^3+k^3+l^3", "output": "i^{3} + j^{3} + k^{3} + l^{3}"}
+{"input": "i в кубе + j в кубе + k в кубе + l в кубе", "output": "i^{3} + j^{3} + k^{3} + l^{3}"}
+{"input": "i cubed plus j cubed plus k cubed plus l cubed", "output": "i^{3} + j^{3} + k^{3} + l^{3}"}
+{"input": "I^3+J^3+K^3+L^3", "output": "i^{3} + j^{3} + k^{3} + l^{3}"}
+{"input": "m^3 + n^3 + o^3 + p^3", "output": "m^{3} + n^{3} + o^{3} + p^{3}"}
+{"input": "m^3+n^3+o^3+p^3", "output": "m^{3} + n^{3} + o^{3} + p^{3}"}
+{"input": "m в кубе + n в кубе + o в кубе + p в кубе", "output": "m^{3} + n^{3} + o^{3} + p^{3}"}
+{"input": "m cubed plus n cubed plus o cubed plus p cubed", "output": "m^{3} + n^{3} + o^{3} + p^{3}"}
+{"input": "M^3+N^3+O^3+P^3", "output": "m^{3} + n^{3} + o^{3} + p^{3}"}
+{"input": "q^3 + r^3 + s^3 + t^3", "output": "q^{3} + r^{3} + s^{3} + t^{3}"}
+{"input": "q^3+r^3+s^3+t^3", "output": "q^{3} + r^{3} + s^{3} + t^{3}"}
+{"input": "q в кубе + r в кубе + s в кубе + t в кубе", "output": "q^{3} + r^{3} + s^{3} + t^{3}"}
+{"input": "q cubed plus r cubed plus s cubed plus t cubed", "output": "q^{3} + r^{3} + s^{3} + t^{3}"}
+{"input": "Q^3+R^3+S^3+T^3", "output": "q^{3} + r^{3} + s^{3} + t^{3}"}
+{"input": "u^3 + v^3 + w^3 + x^3", "output": "u^{3} + v^{3} + w^{3} + x^{3}"}
+{"input": "u^3+v^3+w^3+x^3", "output": "u^{3} + v^{3} + w^{3} + x^{3}"}
+{"input": "u в кубе + v в кубе + w в кубе + x в кубе", "output": "u^{3} + v^{3} + w^{3} + x^{3}"}
+{"input": "u cubed plus v cubed plus w cubed plus x cubed", "output": "u^{3} + v^{3} + w^{3} + x^{3}"}
+{"input": "U^3+V^3+W^3+X^3", "output": "u^{3} + v^{3} + w^{3} + x^{3}"}
+{"input": "y^3 + z^3 + a^3 + b^3", "output": "y^{3} + z^{3} + a^{3} + b^{3}"}
+{"input": "y^3+z^3+a^3+b^3", "output": "y^{3} + z^{3} + a^{3} + b^{3}"}
+{"input": "y в кубе + z в кубе + a в кубе + b в кубе", "output": "y^{3} + z^{3} + a^{3} + b^{3}"}
+{"input": "y cubed plus z cubed plus a cubed plus b cubed", "output": "y^{3} + z^{3} + a^{3} + b^{3}"}
+{"input": "Y^3+Z^3+A^3+B^3", "output": "y^{3} + z^{3} + a^{3} + b^{3}"}
+{"input": "a^2 + b^2 + c^2 + d^2 + e^2", "output": "a^{2} + b^{2} + c^{2} + d^{2} + e^{2}"}
+{"input": "a^2+b^2+c^2+d^2+e^2", "output": "a^{2} + b^{2} + c^{2} + d^{2} + e^{2}"}
+{"input": "a в квадрате + b в квадрате + c в квадрате + d в квадрате + e в квадрате", "output": "a^{2} + b^{2} + c^{2} + d^{2} + e^{2}"}
+{"input": "a squared plus b squared plus c squared plus d squared plus e squared", "output": "a^{2} + b^{2} + c^{2} + d^{2} + e^{2}"}
+{"input": "A^2+B^2+C^2+D^2+E^2", "output": "a^{2} + b^{2} + c^{2} + d^{2} + e^{2}"}
+{"input": "x^2 + y^2 + z^2 + w^2 + v^2", "output": "x^{2} + y^{2} + z^{2} + w^{2} + v^{2}"}
+{"input": "x^2+y^2+z^2+w^2+v^2", "output": "x^{2} + y^{2} + z^{2} + w^{2} + v^{2}"}
+{"input": "x в квадрате + y в квадрате + z в квадрате + w в квадрате + v в квадрате", "output": "x^{2} + y^{2} + z^{2} + w^{2} + v^{2}"}
+{"input": "x squared plus y squared plus z squared plus w squared plus v squared", "output": "x^{2} + y^{2} + z^{2} + w^{2} + v^{2}"}
+{"input": "X^2+Y^2+Z^2+W^2+V^2", "output": "x^{2} + y^{2} + z^{2} + w^{2} + v^{2}"}
+{"input": "n^2 + m^2 + k^2 + p^2 + q^2", "output": "n^{2} + m^{2} + k^{2} + p^{2} + q^{2}"}
+{"input": "n^2+m^2+k^2+p^2+q^2", "output": "n^{2} + m^{2} + k^{2} + p^{2} + q^{2}"}
+{"input": "n в квадрате + m в квадрате + k в квадрате + p в квадрате + q в квадрате", "output": "n^{2} + m^{2} + k^{2} + p^{2} + q^{2}"}
+{"input": "n squared plus m squared plus k squared plus p squared plus q squared", "output": "n^{2} + m^{2} + k^{2} + p^{2} + q^{2}"}
+{"input": "N^2+M^2+K^2+P^2+Q^2", "output": "n^{2} + m^{2} + k^{2} + p^{2} + q^{2}"}
+{"input": "r^2 + s^2 + t^2 + u^2 + v^2", "output": "r^{2} + s^{2} + t^{2} + u^{2} + v^{2}"}
+{"input": "r^2+s^2+t^2+u^2+v^2", "output": "r^{2} + s^{2} + t^{2} + u^{2} + v^{2}"}
+{"input": "r в квадрате + s в квадрате + t в квадрате + u в квадрате + v в квадрате", "output": "r^{2} + s^{2} + t^{2} + u^{2} + v^{2}"}
+{"input": "r squared plus s squared plus t squared plus u squared plus v squared", "output": "r^{2} + s^{2} + t^{2} + u^{2} + v^{2}"}
+{"input": "R^2+S^2+T^2+U^2+V^2", "output": "r^{2} + s^{2} + t^{2} + u^{2} + v^{2}"}
+{"input": "w^2 + x^2 + y^2 + z^2 + a^2", "output": "w^{2} + x^{2} + y^{2} + z^{2} + a^{2}"}
+{"input": "w^2+x^2+y^2+z^2+a^2", "output": "w^{2} + x^{2} + y^{2} + z^{2} + a^{2}"}
+{"input": "w в квадрате + x в квадрате + y в квадрате + z в квадрате + a в квадрате", "output": "w^{2} + x^{2} + y^{2} + z^{2} + a^{2}"}
+{"input": "w squared plus x squared plus y squared plus z squared plus a squared", "output": "w^{2} + x^{2} + y^{2} + z^{2} + a^{2}"}
+{"input": "W^2+X^2+Y^2+Z^2+A^2", "output": "w^{2} + x^{2} + y^{2} + z^{2} + a^{2}"}
+{"input": "b^2 + c^2 + d^2 + e^2 + f^2", "output": "b^{2} + c^{2} + d^{2} + e^{2} + f^{2}"}
+{"input": "b^2+c^2+d^2+e^2+f^2", "output": "b^{2} + c^{2} + d^{2} + e^{2} + f^{2}"}
+{"input": "b в квадрате + c в квадрате + d в квадрате + e в квадрате + f в квадрате", "output": "b^{2} + c^{2} + d^{2} + e^{2} + f^{2}"}
+{"input": "b squared plus c squared plus d squared plus e squared plus f squared", "output": "b^{2} + c^{2} + d^{2} + e^{2} + f^{2}"}
+{"input": "B^2+C^2+D^2+E^2+F^2", "output": "b^{2} + c^{2} + d^{2} + e^{2} + f^{2}"}
+{"input": "g^2 + h^2 + i^2 + j^2 + k^2", "output": "g^{2} + h^{2} + i^{2} + j^{2} + k^{2}"}
+{"input": "g^2+h^2+i^2+j^2+k^2", "output": "g^{2} + h^{2} + i^{2} + j^{2} + k^{2}"}
+{"input": "g в квадрате + h в квадрате + i в квадрате + j в квадрате + k в квадрате", "output": "g^{2} + h^{2} + i^{2} + j^{2} + k^{2}"}
+{"input": "g squared plus h squared plus i squared plus j squared plus k squared", "output": "g^{2} + h^{2} + i^{2} + j^{2} + k^{2}"}
+{"input": "G^2+H^2+I^2+J^2+K^2", "output": "g^{2} + h^{2} + i^{2} + j^{2} + k^{2}"}
+{"input": "l^2 + m^2 + n^2 + o^2 + p^2", "output": "l^{2} + m^{2} + n^{2} + o^{2} + p^{2}"}
+{"input": "l^2+m^2+n^2+o^2+p^2", "output": "l^{2} + m^{2} + n^{2} + o^{2} + p^{2}"}
+{"input": "l в квадрате + m в квадрате + n в квадрате + o в квадрате + p в квадрате", "output": "l^{2} + m^{2} + n^{2} + o^{2} + p^{2}"}
+{"input": "l squared plus m squared plus n squared plus o squared plus p squared", "output": "l^{2} + m^{2} + n^{2} + o^{2} + p^{2}"}
+{"input": "L^2+M^2+N^2+O^2+P^2", "output": "l^{2} + m^{2} + n^{2} + o^{2} + p^{2}"}
+{"input": "a^2 + b^2 + c^2 = d^2 + e^2", "output": "a^{2} + b^{2} + c^{2} = d^{2} + e^{2}"}
+{"input": "a^2+b^2+c^2=d^2+e^2", "output": "a^{2} + b^{2} + c^{2} = d^{2} + e^{2}"}
+{"input": "a в квадрате + b в квадрате + c в квадрате = d в квадрате + e в квадрате", "output": "a^{2} + b^{2} + c^{2} = d^{2} + e^{2}"}
+{"input": "a squared plus b squared plus c squared equals d squared plus e squared", "output": "a^{2} + b^{2} + c^{2} = d^{2} + e^{2}"}
+{"input": "A^2+B^2+C^2=D^2+E^2", "output": "a^{2} + b^{2} + c^{2} = d^{2} + e^{2}"}
+{"input": "x^2 + y^2 + z^2 = w^2 + v^2", "output": "x^{2} + y^{2} + z^{2} = w^{2} + v^{2}"}
+{"input": "x^2+y^2+z^2=w^2+v^2", "output": "x^{2} + y^{2} + z^{2} = w^{2} + v^{2}"}
+{"input": "x в квадрате + y в квадрате + z в квадрате = w в квадрате + v в квадрате", "output": "x^{2} + y^{2} + z^{2} = w^{2} + v^{2}"}
+{"input": "x squared plus y squared plus z squared equals w squared plus v squared", "output": "x^{2} + y^{2} + z^{2} = w^{2} + v^{2}"}
+{"input": "X^2+Y^2+Z^2=W^2+V^2", "output": "x^{2} + y^{2} + z^{2} = w^{2} + v^{2}"}
+{"input": "n^2 + m^2 + k^2 = p^2 + q^2", "output": "n^{2} + m^{2} + k^{2} = p^{2} + q^{2}"}
+{"input": "n^2+m^2+k^2=p^2+q^2", "output": "n^{2} + m^{2} + k^{2} = p^{2} + q^{2}"}
+{"input": "n в квадрате + m в квадрате + k в квадрате = p в квадрате + q в квадрате", "output": "n^{2} + m^{2} + k^{2} = p^{2} + q^{2}"}
+{"input": "n squared plus m squared plus k squared equals p squared plus q squared", "output": "n^{2} + m^{2} + k^{2} = p^{2} + q^{2}"}
+{"input": "N^2+M^2+K^2=P^2+Q^2", "output": "n^{2} + m^{2} + k^{2} = p^{2} + q^{2}"}
+{"input": "r^2 + s^2 + t^2 = u^2 + v^2", "output": "r^{2} + s^{2} + t^{2} = u^{2} + v^{2}"}
+{"input": "r^2+s^2+t^2=u^2+v^2", "output": "r^{2} + s^{2} + t^{2} = u^{2} + v^{2}"}
+{"input": "r в квадрате + s в квадрате + t в квадрате = u в квадрате + v в квадрате", "output": "r^{2} + s^{2} + t^{2} = u^{2} + v^{2}"}
+{"input": "r squared plus s squared plus t squared equals u squared plus v squared", "output": "r^{2} + s^{2} + t^{2} = u^{2} + v^{2}"}
+{"input": "R^2+S^2+T^2=U^2+V^2", "output": "r^{2} + s^{2} + t^{2} = u^{2} + v^{2}"}
+{"input": "w^2 + x^2 + y^2 = z^2 + a^2", "output": "w^{2} + x^{2} + y^{2} = z^{2} + a^{2}"}
+{"input": "w^2+x^2+y^2=z^2+a^2", "output": "w^{2} + x^{2} + y^{2} = z^{2} + a^{2}"}
+{"input": "w в квадрате + x в квадрате + y в квадрате = z в квадрате + a в квадрате", "output": "w^{2} + x^{2} + y^{2} = z^{2} + a^{2}"}
+{"input": "w squared plus x squared plus y squared equals z squared plus a squared", "output": "w^{2} + x^{2} + y^{2} = z^{2} + a^{2}"}
+{"input": "W^2+X^2+Y^2=Z^2+A^2", "output": "w^{2} + x^{2} + y^{2} = z^{2} + a^{2}"}
+{"input": "b^2 + c^2 + d^2 = e^2 + f^2", "output": "b^{2} + c^{2} + d^{2} = e^{2} + f^{2}"}
+{"input": "b^2+c^2+d^2=e^2+f^2", "output": "b^{2} + c^{2} + d^{2} = e^{2} + f^{2}"}
+{"input": "b в квадрате + c в квадрате + d в квадрате = e в квадрате + f в квадрате", "output": "b^{2} + c^{2} + d^{2} = e^{2} + f^{2}"}
+{"input": "b squared plus c squared plus d squared equals e squared plus f squared", "output": "b^{2} + c^{2} + d^{2} = e^{2} + f^{2}"}
+{"input": "B^2+C^2+D^2=E^2+F^2", "output": "b^{2} + c^{2} + d^{2} = e^{2} + f^{2}"}
+{"input": "g^2 + h^2 + i^2 = j^2 + k^2", "output": "g^{2} + h^{2} + i^{2} = j^{2} + k^{2}"}
+{"input": "g^2+h^2+i^2=j^2+k^2", "output": "g^{2} + h^{2} + i^{2} = j^{2} + k^{2}"}
+{"input": "g в квадрате + h в квадрате + i в квадрате = j в квадрате + k в квадрате", "output": "g^{2} + h^{2} + i^{2} = j^{2} + k^{2}"}
+{"input": "g squared plus h squared plus i squared equals j squared plus k squared", "output": "g^{2} + h^{2} + i^{2} = j^{2} + k^{2}"}
+{"input": "G^2+H^2+I^2=J^2+K^2", "output": "g^{2} + h^{2} + i^{2} = j^{2} + k^{2}"}
+{"input": "l^2 + m^2 + n^2 = o^2 + p^2", "output": "l^{2} + m^{2} + n^{2} = o^{2} + p^{2}"}
+{"input": "l^2+m^2+n^2=o^2+p^2", "output": "l^{2} + m^{2} + n^{2} = o^{2} + p^{2}"}
+{"input": "l в квадрате + m в квадрате + n в квадрате = o в квадрате + p в квадрате", "output": "l^{2} + m^{2} + n^{2} = o^{2} + p^{2}"}
+{"input": "l squared plus m squared plus n squared equals o squared plus p squared", "output": "l^{2} + m^{2} + n^{2} = o^{2} + p^{2}"}
+{"input": "L^2+M^2+N^2=O^2+P^2", "output": "l^{2} + m^{2} + n^{2} = o^{2} + p^{2}"}
+{"input": "a^4 + b^4 + c^4", "output": "a^{4} + b^{4} + c^{4}"}
+{"input": "a^4+b^4+c^4", "output": "a^{4} + b^{4} + c^{4}"}
+{"input": "a в четвертой + b в четвертой + c в четвертой", "output": "a^{4} + b^{4} + c^{4}"}
+{"input": "a to the 4th plus b to the 4th plus c to the 4th", "output": "a^{4} + b^{4} + c^{4}"}
+{"input": "A^4+B^4+C^4", "output": "a^{4} + b^{4} + c^{4}"}
+{"input": "d^4 + e^4 + f^4", "output": "d^{4} + e^{4} + f^{4}"}
+{"input": "d^4+e^4+f^4", "output": "d^{4} + e^{4} + f^{4}"}
+{"input": "d в четвертой + e в четвертой + f в четвертой", "output": "d^{4} + e^{4} + f^{4}"}
+{"input": "d to the 4th plus e to the 4th plus f to the 4th", "output": "d^{4} + e^{4} + f^{4}"}
+{"input": "D^4+E^4+F^4", "output": "d^{4} + e^{4} + f^{4}"}
+{"input": "g^4 + h^4 + i^4", "output": "g^{4} + h^{4} + i^{4}"}
+{"input": "g^4+h^4+i^4", "output": "g^{4} + h^{4} + i^{4}"}
+{"input": "g в четвертой + h в четвертой + i в четвертой", "output": "g^{4} + h^{4} + i^{4}"}
+{"input": "g to the 4th plus h to the 4th plus i to the 4th", "output": "g^{4} + h^{4} + i^{4}"}
+{"input": "G^4+H^4+I^4", "output": "g^{4} + h^{4} + i^{4}"}
+{"input": "j^4 + k^4 + l^4", "output": "j^{4} + k^{4} + l^{4}"}
+{"input": "j^4+k^4+l^4", "output": "j^{4} + k^{4} + l^{4}"}
+{"input": "j в четвертой + k в четвертой + l в четвертой", "output": "j^{4} + k^{4} + l^{4}"}
+{"input": "j to the 4th plus k to the 4th plus l to the 4th", "output": "j^{4} + k^{4} + l^{4}"}
+{"input": "J^4+K^4+L^4", "output": "j^{4} + k^{4} + l^{4}"}
+{"input": "m^4 + n^4 + o^4", "output": "m^{4} + n^{4} + o^{4}"}
+{"input": "m^4+n^4+o^4", "output": "m^{4} + n^{4} + o^{4}"}
+{"input": "m в четвертой + n в четвертой + o в четвертой", "output": "m^{4} + n^{4} + o^{4}"}
+{"input": "m to the 4th plus n to the 4th plus o to the 4th", "output": "m^{4} + n^{4} + o^{4}"}
+{"input": "M^4+N^4+O^4", "output": "m^{4} + n^{4} + o^{4}"}
+{"input": "p^4 + q^4 + r^4", "output": "p^{4} + q^{4} + r^{4}"}
+{"input": "p^4+q^4+r^4", "output": "p^{4} + q^{4} + r^{4}"}
+{"input": "p в четвертой + q в четвертой + r в четвертой", "output": "p^{4} + q^{4} + r^{4}"}
+{"input": "p to the 4th plus q to the 4th plus r to the 4th", "output": "p^{4} + q^{4} + r^{4}"}
+{"input": "P^4+Q^4+R^4", "output": "p^{4} + q^{4} + r^{4}"}
+{"input": "s^4 + t^4 + u^4", "output": "s^{4} + t^{4} + u^{4}"}
+{"input": "s^4+t^4+u^4", "output": "s^{4} + t^{4} + u^{4}"}
+{"input": "s в четвертой + t в четвертой + u в четвертой", "output": "s^{4} + t^{4} + u^{4}"}
+{"input": "s to the 4th plus t to the 4th plus u to the 4th", "output": "s^{4} + t^{4} + u^{4}"}
+{"input": "S^4+T^4+U^4", "output": "s^{4} + t^{4} + u^{4}"}
+{"input": "v^4 + w^4 + x^4", "output": "v^{4} + w^{4} + x^{4}"}
+{"input": "v^4+w^4+x^4", "output": "v^{4} + w^{4} + x^{4}"}
+{"input": "v в четвертой + w в четвертой + x в четвертой", "output": "v^{4} + w^{4} + x^{4}"}
+{"input": "v to the 4th plus w to the 4th plus x to the 4th", "output": "v^{4} + w^{4} + x^{4}"}
+{"input": "V^4+W^4+X^4", "output": "v^{4} + w^{4} + x^{4}"}
+{"input": "y^4 + z^4 + a^4", "output": "y^{4} + z^{4} + a^{4}"}
+{"input": "y^4+z^4+a^4", "output": "y^{4} + z^{4} + a^{4}"}
+{"input": "y в четвертой + z в четвертой + a в четвертой", "output": "y^{4} + z^{4} + a^{4}"}
+{"input": "y to the 4th plus z to the 4th plus a to the 4th", "output": "y^{4} + z^{4} + a^{4}"}
+{"input": "Y^4+Z^4+A^4", "output": "y^{4} + z^{4} + a^{4}"}
+{"input": "a^5 + b^5 + c^5", "output": "a^{5} + b^{5} + c^{5}"}
+{"input": "a^5+b^5+c^5", "output": "a^{5} + b^{5} + c^{5}"}
+{"input": "a в пятой + b в пятой + c в пятой", "output": "a^{5} + b^{5} + c^{5}"}
+{"input": "a to the 5th plus b to the 5th plus c to the 5th", "output": "a^{5} + b^{5} + c^{5}"}
+{"input": "A^5+B^5+C^5", "output": "a^{5} + b^{5} + c^{5}"}
+{"input": "d^5 + e^5 + f^5", "output": "d^{5} + e^{5} + f^{5}"}
+{"input": "d^5+e^5+f^5", "output": "d^{5} + e^{5} + f^{5}"}
+{"input": "d в пятой + e в пятой + f в пятой", "output": "d^{5} + e^{5} + f^{5}"}
+{"input": "d to the 5th plus e to the 5th plus f to the 5th", "output": "d^{5} + e^{5} + f^{5}"}
+{"input": "D^5+E^5+F^5", "output": "d^{5} + e^{5} + f^{5}"}
+{"input": "g^5 + h^5 + i^5", "output": "g^{5} + h^{5} + i^{5}"}
+{"input": "g^5+h^5+i^5", "output": "g^{5} + h^{5} + i^{5}"}
+{"input": "g в пятой + h в пятой + i в пятой", "output": "g^{5} + h^{5} + i^{5}"}
+{"input": "g to the 5th plus h to the 5th plus i to the 5th", "output": "g^{5} + h^{5} + i^{5}"}
+{"input": "G^5+H^5+I^5", "output": "g^{5} + h^{5} + i^{5}"}
+{"input": "j^5 + k^5 + l^5", "output": "j^{5} + k^{5} + l^{5}"}
+{"input": "j^5+k^5+l^5", "output": "j^{5} + k^{5} + l^{5}"}
+{"input": "j в пятой + k в пятой + l в пятой", "output": "j^{5} + k^{5} + l^{5}"}
+{"input": "j to the 5th plus k to the 5th plus l to the 5th", "output": "j^{5} + k^{5} + l^{5}"}
+{"input": "J^5+K^5+L^5", "output": "j^{5} + k^{5} + l^{5}"}
+{"input": "m^5 + n^5 + o^5", "output": "m^{5} + n^{5} + o^{5}"}
+{"input": "m^5+n^5+o^5", "output": "m^{5} + n^{5} + o^{5}"}
+{"input": "m в пятой + n в пятой + o в пятой", "output": "m^{5} + n^{5} + o^{5}"}
+{"input": "m to the 5th plus n to the 5th plus o to the 5th", "output": "m^{5} + n^{5} + o^{5}"}
+{"input": "M^5+N^5+O^5", "output": "m^{5} + n^{5} + o^{5}"}
+{"input": "p^5 + q^5 + r^5", "output": "p^{5} + q^{5} + r^{5}"}
+{"input": "p^5+q^5+r^5", "output": "p^{5} + q^{5} + r^{5}"}
+{"input": "p в пятой + q в пятой + r в пятой", "output": "p^{5} + q^{5} + r^{5}"}
+{"input": "p to the 5th plus q to the 5th plus r to the 5th", "output": "p^{5} + q^{5} + r^{5}"}
+{"input": "P^5+Q^5+R^5", "output": "p^{5} + q^{5} + r^{5}"}
+{"input": "s^5 + t^5 + u^5", "output": "s^{5} + t^{5} + u^{5}"}
+{"input": "s^5+t^5+u^5", "output": "s^{5} + t^{5} + u^{5}"}
+{"input": "s в пятой + t в пятой + u в пятой", "output": "s^{5} + t^{5} + u^{5}"}
+{"input": "s to the 5th plus t to the 5th plus u to the 5th", "output": "s^{5} + t^{5} + u^{5}"}
+{"input": "S^5+T^5+U^5", "output": "s^{5} + t^{5} + u^{5}"}
+{"input": "v^5 + w^5 + x^5", "output": "v^{5} + w^{5} + x^{5}"}
+{"input": "v^5+w^5+x^5", "output": "v^{5} + w^{5} + x^{5}"}
+{"input": "v в пятой + w в пятой + x в пятой", "output": "v^{5} + w^{5} + x^{5}"}
+{"input": "v to the 5th plus w to the 5th plus x to the 5th", "output": "v^{5} + w^{5} + x^{5}"}
+{"input": "V^5+W^5+X^5", "output": "v^{5} + w^{5} + x^{5}"}
+{"input": "y^5 + z^5 + a^5", "output": "y^{5} + z^{5} + a^{5}"}
+{"input": "y^5+z^5+a^5", "output": "y^{5} + z^{5} + a^{5}"}
+{"input": "y в пятой + z в пятой + a в пятой", "output": "y^{5} + z^{5} + a^{5}"}
+{"input": "y to the 5th plus z to the 5th plus a to the 5th", "output": "y^{5} + z^{5} + a^{5}"}
+{"input": "Y^5+Z^5+A^5", "output": "y^{5} + z^{5} + a^{5}"}
+{"input": "a^6 + b^6", "output": "a^{6} + b^{6}"}
+{"input": "a^6+b^6", "output": "a^{6} + b^{6}"}
+{"input": "a в шестой + b в шестой", "output": "a^{6} + b^{6}"}
+{"input": "a to the 6th plus b to the 6th", "output": "a^{6} + b^{6}"}
+{"input": "A^6+B^6", "output": "a^{6} + b^{6}"}
+{"input": "c^6 + d^6", "output": "c^{6} + d^{6}"}
+{"input": "c^6+d^6", "output": "c^{6} + d^{6}"}
+{"input": "c в шестой + d в шестой", "output": "c^{6} + d^{6}"}
+{"input": "c to the 6th plus d to the 6th", "output": "c^{6} + d^{6}"}
+{"input": "C^6+D^6", "output": "c^{6} + d^{6}"}
+{"input": "e^6 + f^6", "output": "e^{6} + f^{6}"}
+{"input": "e^6+f^6", "output": "e^{6} + f^{6}"}
+{"input": "e в шестой + f в шестой", "output": "e^{6} + f^{6}"}
+{"input": "e to the 6th plus f to the 6th", "output": "e^{6} + f^{6}"}
+{"input": "E^6+F^6", "output": "e^{6} + f^{6}"}
+{"input": "g^6 + h^6", "output": "g^{6} + h^{6}"}
+{"input": "g^6+h^6", "output": "g^{6} + h^{6}"}
+{"input": "g в шестой + h в шестой", "output": "g^{6} + h^{6}"}
+{"input": "g to the 6th plus h to the 6th", "output": "g^{6} + h^{6}"}
+{"input": "G^6+H^6", "output": "g^{6} + h^{6}"}
+{"input": "i^6 + j^6", "output": "i^{6} + j^{6}"}
+{"input": "i^6+j^6", "output": "i^{6} + j^{6}"}
+{"input": "i в шестой + j в шестой", "output": "i^{6} + j^{6}"}
+{"input": "i to the 6th plus j to the 6th", "output": "i^{6} + j^{6}"}
+{"input": "I^6+J^6", "output": "i^{6} + j^{6}"}
+{"input": "k^6 + l^6", "output": "k^{6} + l^{6}"}
+{"input": "k^6+l^6", "output": "k^{6} + l^{6}"}
+{"input": "k в шестой + l в шестой", "output": "k^{6} + l^{6}"}
+{"input": "k to the 6th plus l to the 6th", "output": "k^{6} + l^{6}"}
+{"input": "K^6+L^6", "output": "k^{6} + l^{6}"}
+{"input": "m^6 + n^6", "output": "m^{6} + n^{6}"}
+{"input": "m^6+n^6", "output": "m^{6} + n^{6}"}
+{"input": "m в шестой + n в шестой", "output": "m^{6} + n^{6}"}
+{"input": "m to the 6th plus n to the 6th", "output": "m^{6} + n^{6}"}
+{"input": "M^6+N^6", "output": "m^{6} + n^{6}"}
+{"input": "o^6 + p^6", "output": "o^{6} + p^{6}"}
+{"input": "o^6+p^6", "output": "o^{6} + p^{6}"}
+{"input": "o в шестой + p в шестой", "output": "o^{6} + p^{6}"}
+{"input": "o to the 6th plus p to the 6th", "output": "o^{6} + p^{6}"}
+{"input": "O^6+P^6", "output": "o^{6} + p^{6}"}
+{"input": "q^6 + r^6", "output": "q^{6} + r^{6}"}
+{"input": "q^6+r^6", "output": "q^{6} + r^{6}"}
+{"input": "q в шестой + r в шестой", "output": "q^{6} + r^{6}"}
+{"input": "q to the 6th plus r to the 6th", "output": "q^{6} + r^{6}"}
+{"input": "Q^6+R^6", "output": "q^{6} + r^{6}"}
+{"input": "s^6 + t^6", "output": "s^{6} + t^{6}"}
+{"input": "s^6+t^6", "output": "s^{6} + t^{6}"}
+{"input": "s в шестой + t в шестой", "output": "s^{6} + t^{6}"}
+{"input": "s to the 6th plus t to the 6th", "output": "s^{6} + t^{6}"}
+{"input": "S^6+T^6", "output": "s^{6} + t^{6}"}
+{"input": "u^6 + v^6", "output": "u^{6} + v^{6}"}
+{"input": "u^6+v^6", "output": "u^{6} + v^{6}"}
+{"input": "u в шестой + v в шестой", "output": "u^{6} + v^{6}"}
+{"input": "u to the 6th plus v to the 6th", "output": "u^{6} + v^{6}"}
+{"input": "U^6+V^6", "output": "u^{6} + v^{6}"}
+{"input": "w^6 + x^6", "output": "w^{6} + x^{6}"}
+{"input": "w^6+x^6", "output": "w^{6} + x^{6}"}
+{"input": "w в шестой + x в шестой", "output": "w^{6} + x^{6}"}
+{"input": "w to the 6th plus x to the 6th", "output": "w^{6} + x^{6}"}
+{"input": "W^6+X^6", "output": "w^{6} + x^{6}"}
+{"input": "y^6 + z^6", "output": "y^{6} + z^{6}"}
+{"input": "y^6+z^6", "output": "y^{6} + z^{6}"}
+{"input": "y в шестой + z в шестой", "output": "y^{6} + z^{6}"}
+{"input": "y to the 6th plus z to the 6th", "output": "y^{6} + z^{6}"}
+{"input": "Y^6+Z^6", "output": "y^{6} + z^{6}"}
+{"input": "a^n + b^n + c^n", "output": "a^{n} + b^{n} + c^{n}"}
+{"input": "a^n+b^n+c^n", "output": "a^{n} + b^{n} + c^{n}"}
+{"input": "a в степени n + b в степени n + c в степени n", "output": "a^{n} + b^{n} + c^{n}"}
+{"input": "a to the n plus b to the n plus c to the n", "output": "a^{n} + b^{n} + c^{n}"}
+{"input": "A^N+B^N+C^N", "output": "a^{n} + b^{n} + c^{n}"}
+{"input": "d^n + e^n + f^n", "output": "d^{n} + e^{n} + f^{n}"}
+{"input": "d^n+e^n+f^n", "output": "d^{n} + e^{n} + f^{n}"}
+{"input": "d в степени n + e в степени n + f в степени n", "output": "d^{n} + e^{n} + f^{n}"}
+{"input": "d to the n plus e to the n plus f to the n", "output": "d^{n} + e^{n} + f^{n}"}
+{"input": "D^N+E^N+F^N", "output": "d^{n} + e^{n} + f^{n}"}
+{"input": "g^n + h^n + i^n", "output": "g^{n} + h^{n} + i^{n}"}
+{"input": "g^n+h^n+i^n", "output": "g^{n} + h^{n} + i^{n}"}
+{"input": "g в степени n + h в степени n + i в степени n", "output": "g^{n} + h^{n} + i^{n}"}
+{"input": "g to the n plus h to the n plus i to the n", "output": "g^{n} + h^{n} + i^{n}"}
+{"input": "G^N+H^N+I^N", "output": "g^{n} + h^{n} + i^{n}"}
+{"input": "j^n + k^n + l^n", "output": "j^{n} + k^{n} + l^{n}"}
+{"input": "j^n+k^n+l^n", "output": "j^{n} + k^{n} + l^{n}"}
+{"input": "j в степени n + k в степени n + l в степени n", "output": "j^{n} + k^{n} + l^{n}"}
+{"input": "j to the n plus k to the n plus l to the n", "output": "j^{n} + k^{n} + l^{n}"}
+{"input": "J^N+K^N+L^N", "output": "j^{n} + k^{n} + l^{n}"}
+{"input": "m^n + o^n + p^n", "output": "m^{n} + o^{n} + p^{n}"}
+{"input": "m^n+o^n+p^n", "output": "m^{n} + o^{n} + p^{n}"}
+{"input": "m в степени n + o в степени n + p в степени n", "output": "m^{n} + o^{n} + p^{n}"}
+{"input": "m to the n plus o to the n plus p to the n", "output": "m^{n} + o^{n} + p^{n}"}
+{"input": "M^N+O^N+P^N", "output": "m^{n} + o^{n} + p^{n}"}
+{"input": "q^n + r^n + s^n", "output": "q^{n} + r^{n} + s^{n}"}
+{"input": "q^n+r^n+s^n", "output": "q^{n} + r^{n} + s^{n}"}
+{"input": "q в степени n + r в степени n + s в степени n", "output": "q^{n} + r^{n} + s^{n}"}
+{"input": "q to the n plus r to the n plus s to the n", "output": "q^{n} + r^{n} + s^{n}"}
+{"input": "Q^N+R^N+S^N", "output": "q^{n} + r^{n} + s^{n}"}
+{"input": "t^n + u^n + v^n", "output": "t^{n} + u^{n} + v^{n}"}
+{"input": "t^n+u^n+v^n", "output": "t^{n} + u^{n} + v^{n}"}
+{"input": "t в степени n + u в степени n + v в степени n", "output": "t^{n} + u^{n} + v^{n}"}
+{"input": "t to the n plus u to the n plus v to the n", "output": "t^{n} + u^{n} + v^{n}"}
+{"input": "T^N+U^N+V^N", "output": "t^{n} + u^{n} + v^{n}"}
+{"input": "w^n + x^n + y^n", "output": "w^{n} + x^{n} + y^{n}"}
+{"input": "w^n+x^n+y^n", "output": "w^{n} + x^{n} + y^{n}"}
+{"input": "w в степени n + x в степени n + y в степени n", "output": "w^{n} + x^{n} + y^{n}"}
+{"input": "w to the n plus x to the n plus y to the n", "output": "w^{n} + x^{n} + y^{n}"}
+{"input": "W^N+X^N+Y^N", "output": "w^{n} + x^{n} + y^{n}"}
+{"input": "z^n + a^n + b^n", "output": "z^{n} + a^{n} + b^{n}"}
+{"input": "z^n+a^n+b^n", "output": "z^{n} + a^{n} + b^{n}"}
+{"input": "z в степени n + a в степени n + b в степени n", "output": "z^{n} + a^{n} + b^{n}"}
+{"input": "z to the n plus a to the n plus b to the n", "output": "z^{n} + a^{n} + b^{n}"}
+{"input": "Z^N+A^N+B^N", "output": "z^{n} + a^{n} + b^{n}"}
+{"input": "a^(n+1) + b^(n+1)", "output": "a^{n+1} + b^{n+1}"}
+{"input": "a^(n+1)+b^(n+1)", "output": "a^{n+1} + b^{n+1}"}
+{"input": "a в степени n+1 + b в степени n+1", "output": "a^{n+1} + b^{n+1}"}
+{"input": "a to the n plus one plus b to the n plus one", "output": "a^{n+1} + b^{n+1}"}
+{"input": "A^(N+1)+B^(N+1)", "output": "a^{n+1} + b^{n+1}"}
+{"input": "c^(n+1) + d^(n+1)", "output": "c^{n+1} + d^{n+1}"}
+{"input": "c^(n+1)+d^(n+1)", "output": "c^{n+1} + d^{n+1}"}
+{"input": "c в степени n+1 + d в степени n+1", "output": "c^{n+1} + d^{n+1}"}
+{"input": "c to the n plus one plus d to the n plus one", "output": "c^{n+1} + d^{n+1}"}
+{"input": "C^(N+1)+D^(N+1)", "output": "c^{n+1} + d^{n+1}"}
+{"input": "e^(n+1) + f^(n+1)", "output": "e^{n+1} + f^{n+1}"}
+{"input": "e^(n+1)+f^(n+1)", "output": "e^{n+1} + f^{n+1}"}
+{"input": "e в степени n+1 + f в степени n+1", "output": "e^{n+1} + f^{n+1}"}
+{"input": "e to the n plus one plus f to the n plus one", "output": "e^{n+1} + f^{n+1}"}
+{"input": "E^(N+1)+F^(N+1)", "output": "e^{n+1} + f^{n+1}"}
+{"input": "g^(n+1) + h^(n+1)", "output": "g^{n+1} + h^{n+1}"}
+{"input": "g^(n+1)+h^(n+1)", "output": "g^{n+1} + h^{n+1}"}
+{"input": "g в степени n+1 + h в степени n+1", "output": "g^{n+1} + h^{n+1}"}
+{"input": "g to the n plus one plus h to the n plus one", "output": "g^{n+1} + h^{n+1}"}
+{"input": "G^(N+1)+H^(N+1)", "output": "g^{n+1} + h^{n+1}"}
+{"input": "i^(n+1) + j^(n+1)", "output": "i^{n+1} + j^{n+1}"}
+{"input": "i^(n+1)+j^(n+1)", "output": "i^{n+1} + j^{n+1}"}
+{"input": "i в степени n+1 + j в степени n+1", "output": "i^{n+1} + j^{n+1}"}
+{"input": "i to the n plus one plus j to the n plus one", "output": "i^{n+1} + j^{n+1}"}
+{"input": "I^(N+1)+J^(N+1)", "output": "i^{n+1} + j^{n+1}"}
+{"input": "k^(n+1) + l^(n+1)", "output": "k^{n+1} + l^{n+1}"}
+{"input": "k^(n+1)+l^(n+1)", "output": "k^{n+1} + l^{n+1}"}
+{"input": "k в степени n+1 + l в степени n+1", "output": "k^{n+1} + l^{n+1}"}
+{"input": "k to the n plus one plus l to the n plus one", "output": "k^{n+1} + l^{n+1}"}
+{"input": "K^(N+1)+L^(N+1)", "output": "k^{n+1} + l^{n+1}"}
+{"input": "m^(n+1) + n^(n+1)", "output": "m^{n+1} + n^{n+1}"}
+{"input": "m^(n+1)+n^(n+1)", "output": "m^{n+1} + n^{n+1}"}
+{"input": "m в степени n+1 + n в степени n+1", "output": "m^{n+1} + n^{n+1}"}
+{"input": "m to the n plus one plus n to the n plus one", "output": "m^{n+1} + n^{n+1}"}
+{"input": "M^(N+1)+N^(N+1)", "output": "m^{n+1} + n^{n+1}"}
+{"input": "o^(n+1) + p^(n+1)", "output": "o^{n+1} + p^{n+1}"}
+{"input": "o^(n+1)+p^(n+1)", "output": "o^{n+1} + p^{n+1}"}
+{"input": "o в степени n+1 + p в степени n+1", "output": "o^{n+1} + p^{n+1}"}
+{"input": "o to the n plus one plus p to the n plus one", "output": "o^{n+1} + p^{n+1}"}
+{"input": "O^(N+1)+P^(N+1)", "output": "o^{n+1} + p^{n+1}"}
+{"input": "q^(n+1) + r^(n+1)", "output": "q^{n+1} + r^{n+1}"}
+{"input": "q^(n+1)+r^(n+1)", "output": "q^{n+1} + r^{n+1}"}
+{"input": "q в степени n+1 + r в степени n+1", "output": "q^{n+1} + r^{n+1}"}
+{"input": "q to the n plus one plus r to the n plus one", "output": "q^{n+1} + r^{n+1}"}
+{"input": "Q^(N+1)+R^(N+1)", "output": "q^{n+1} + r^{n+1}"}
+{"input": "s^(n+1) + t^(n+1)", "output": "s^{n+1} + t^{n+1}"}
+{"input": "s^(n+1)+t^(n+1)", "output": "s^{n+1} + t^{n+1}"}
+{"input": "s в степени n+1 + t в степени n+1", "output": "s^{n+1} + t^{n+1}"}
+{"input": "s to the n plus one plus t to the n plus one", "output": "s^{n+1} + t^{n+1}"}
+{"input": "S^(N+1)+T^(N+1)", "output": "s^{n+1} + t^{n+1}"}
+{"input": "u^(n+1) + v^(n+1)", "output": "u^{n+1} + v^{n+1}"}
+{"input": "u^(n+1)+v^(n+1)", "output": "u^{n+1} + v^{n+1}"}
+{"input": "u в степени n+1 + v в степени n+1", "output": "u^{n+1} + v^{n+1}"}
+{"input": "u to the n plus one plus v to the n plus one", "output": "u^{n+1} + v^{n+1}"}
+{"input": "U^(N+1)+V^(N+1)", "output": "u^{n+1} + v^{n+1}"}
+{"input": "w^(n+1) + x^(n+1)", "output": "w^{n+1} + x^{n+1}"}
+{"input": "w^(n+1)+x^(n+1)", "output": "w^{n+1} + x^{n+1}"}
+{"input": "w в степени n+1 + x в степени n+1", "output": "w^{n+1} + x^{n+1}"}
+{"input": "w to the n plus one plus x to the n plus one", "output": "w^{n+1} + x^{n+1}"}
+{"input": "W^(N+1)+X^(N+1)", "output": "w^{n+1} + x^{n+1}"}
+{"input": "y^(n+1) + z^(n+1)", "output": "y^{n+1} + z^{n+1}"}
+{"input": "y^(n+1)+z^(n+1)", "output": "y^{n+1} + z^{n+1}"}
+{"input": "y в степени n+1 + z в степени n+1", "output": "y^{n+1} + z^{n+1}"}
+{"input": "y to the n plus one plus z to the n plus one", "output": "y^{n+1} + z^{n+1}"}
+{"input": "Y^(N+1)+Z^(N+1)", "output": "y^{n+1} + z^{n+1}"}
+{"input": "a^(2n) + b^(2n)", "output": "a^{2n} + b^{2n}"}
+{"input": "a^(2n)+b^(2n)", "output": "a^{2n} + b^{2n}"}
+{"input": "a в степени 2n + b в степени 2n", "output": "a^{2n} + b^{2n}"}
+{"input": "a to the 2n plus b to the 2n", "output": "a^{2n} + b^{2n}"}
+{"input": "A^(2N)+B^(2N)", "output": "a^{2n} + b^{2n}"}
+{"input": "c^(2n) + d^(2n)", "output": "c^{2n} + d^{2n}"}
+{"input": "c^(2n)+d^(2n)", "output": "c^{2n} + d^{2n}"}
+{"input": "c в степени 2n + d в степени 2n", "output": "c^{2n} + d^{2n}"}
+{"input": "c to the 2n plus d to the 2n", "output": "c^{2n} + d^{2n}"}
+{"input": "C^(2N)+D^(2N)", "output": "c^{2n} + d^{2n}"}
+{"input": "e^(2n) + f^(2n)", "output": "e^{2n} + f^{2n}"}
+{"input": "e^(2n)+f^(2n)", "output": "e^{2n} + f^{2n}"}
+{"input": "e в степени 2n + f в степени 2n", "output": "e^{2n} + f^{2n}"}
+{"input": "e to the 2n plus f to the 2n", "output": "e^{2n} + f^{2n}"}
+{"input": "E^(2N)+F^(2N)", "output": "e^{2n} + f^{2n}"}
+{"input": "g^(2n) + h^(2n)", "output": "g^{2n} + h^{2n}"}
+{"input": "g^(2n)+h^(2n)", "output": "g^{2n} + h^{2n}"}
+{"input": "g в степени 2n + h в степени 2n", "output": "g^{2n} + h^{2n}"}
+{"input": "g to the 2n plus h to the 2n", "output": "g^{2n} + h^{2n}"}
+{"input": "G^(2N)+H^(2N)", "output": "g^{2n} + h^{2n}"}
+{"input": "i^(2n) + j^(2n)", "output": "i^{2n} + j^{2n}"}
+{"input": "i^(2n)+j^(2n)", "output": "i^{2n} + j^{2n}"}
+{"input": "i в степени 2n + j в степени 2n", "output": "i^{2n} + j^{2n}"}
+{"input": "i to the 2n plus j to the 2n", "output": "i^{2n} + j^{2n}"}
+{"input": "I^(2N)+J^(2N)", "output": "i^{2n} + j^{2n}"}
+{"input": "k^(2n) + l^(2n)", "output": "k^{2n} + l^{2n}"}
+{"input": "k^(2n)+l^(2n)", "output": "k^{2n} + l^{2n}"}
+{"input": "k в степени 2n + l в степени 2n", "output": "k^{2n} + l^{2n}"}
+{"input": "k to the 2n plus l to the 2n", "output": "k^{2n} + l^{2n}"}
+{"input": "K^(2N)+L^(2N)", "output": "k^{2n} + l^{2n}"}
+{"input": "m^(2n) + n^(2n)", "output": "m^{2n} + n^{2n}"}
+{"input": "m^(2n)+n^(2n)", "output": "m^{2n} + n^{2n}"}
+{"input": "m в степени 2n + n в степени 2n", "output": "m^{2n} + n^{2n}"}
+{"input": "m to the 2n plus n to the 2n", "output": "m^{2n} + n^{2n}"}
+{"input": "M^(2N)+N^(2N)", "output": "m^{2n} + n^{2n}"}
+{"input": "o^(2n) + p^(2n)", "output": "o^{2n} + p^{2n}"}
+{"input": "o^(2n)+p^(2n)", "output": "o^{2n} + p^{2n}"}
+{"input": "o в степени 2n + p в степени 2n", "output": "o^{2n} + p^{2n}"}
+{"input": "o to the 2n plus p to the 2n", "output": "o^{2n} + p^{2n}"}
+{"input": "O^(2N)+P^(2N)", "output": "o^{2n} + p^{2n}"}
+{"input": "q^(2n) + r^(2n)", "output": "q^{2n} + r^{2n}"}
+{"input": "q^(2n)+r^(2n)", "output": "q^{2n} + r^{2n}"}
+{"input": "q в степени 2n + r в степени 2n", "output": "q^{2n} + r^{2n}"}
+{"input": "q to the 2n plus r to the 2n", "output": "q^{2n} + r^{2n}"}
+{"input": "Q^(2N)+R^(2N)", "output": "q^{2n} + r^{2n}"}
+{"input": "s^(2n) + t^(2n)", "output": "s^{2n} + t^{2n}"}
+{"input": "s^(2n)+t^(2n)", "output": "s^{2n} + t^{2n}"}
+{"input": "s в степени 2n + t в степени 2n", "output": "s^{2n} + t^{2n}"}
+{"input": "s to the 2n plus t to the 2n", "output": "s^{2n} + t^{2n}"}
+{"input": "S^(2N)+T^(2N)", "output": "s^{2n} + t^{2n}"}
+{"input": "u^(2n) + v^(2n)", "output": "u^{2n} + v^{2n}"}
+{"input": "u^(2n)+v^(2n)", "output": "u^{2n} + v^{2n}"}
+{"input": "u в степени 2n + v в степени 2n", "output": "u^{2n} + v^{2n}"}
+{"input": "u to the 2n plus v to the 2n", "output": "u^{2n} + v^{2n}"}
+{"input": "U^(2N)+V^(2N)", "output": "u^{2n} + v^{2n}"}
+{"input": "w^(2n) + x^(2n)", "output": "w^{2n} + x^{2n}"}
+{"input": "w^(2n)+x^(2n)", "output": "w^{2n} + x^{2n}"}
+{"input": "w в степени 2n + x в степени 2n", "output": "w^{2n} + x^{2n}"}
+{"input": "w to the 2n plus x to the 2n", "output": "w^{2n} + x^{2n}"}
+{"input": "W^(2N)+X^(2N)", "output": "w^{2n} + x^{2n}"}
+{"input": "y^(2n) + z^(2n)", "output": "y^{2n} + z^{2n}"}
+{"input": "y^(2n)+z^(2n)", "output": "y^{2n} + z^{2n}"}
+{"input": "y в степени 2n + z в степени 2n", "output": "y^{2n} + z^{2n}"}
+{"input": "y to the 2n plus z to the 2n", "output": "y^{2n} + z^{2n}"}
+{"input": "Y^(2N)+Z^(2N)", "output": "y^{2n} + z^{2n}"}
+{"input": "a^(-1) + b^(-1) + c^(-1)", "output": "a^{-1} + b^{-1} + c^{-1}"}
+{"input": "a^(-1)+b^(-1)+c^(-1)", "output": "a^{-1} + b^{-1} + c^{-1}"}
+{"input": "a в минус первой + b в минус первой + c в минус первой", "output": "a^{-1} + b^{-1} + c^{-1}"}
+{"input": "a to the minus one plus b to the minus one plus c to the minus one", "output": "a^{-1} + b^{-1} + c^{-1}"}
+{"input": "A^(-1)+B^(-1)+C^(-1)", "output": "a^{-1} + b^{-1} + c^{-1}"}
+{"input": "d^(-1) + e^(-1) + f^(-1)", "output": "d^{-1} + e^{-1} + f^{-1}"}
+{"input": "d^(-1)+e^(-1)+f^(-1)", "output": "d^{-1} + e^{-1} + f^{-1}"}
+{"input": "d в минус первой + e в минус первой + f в минус первой", "output": "d^{-1} + e^{-1} + f^{-1}"}
+{"input": "d to the minus one plus e to the minus one plus f to the minus one", "output": "d^{-1} + e^{-1} + f^{-1}"}
+{"input": "D^(-1)+E^(-1)+F^(-1)", "output": "d^{-1} + e^{-1} + f^{-1}"}
+{"input": "g^(-1) + h^(-1) + i^(-1)", "output": "g^{-1} + h^{-1} + i^{-1}"}
+{"input": "g^(-1)+h^(-1)+i^(-1)", "output": "g^{-1} + h^{-1} + i^{-1}"}
+{"input": "g в минус первой + h в минус первой + i в минус первой", "output": "g^{-1} + h^{-1} + i^{-1}"}
+{"input": "g to the minus one plus h to the minus one plus i to the minus one", "output": "g^{-1} + h^{-1} + i^{-1}"}
+{"input": "G^(-1)+H^(-1)+I^(-1)", "output": "g^{-1} + h^{-1} + i^{-1}"}
+{"input": "j^(-1) + k^(-1) + l^(-1)", "output": "j^{-1} + k^{-1} + l^{-1}"}
+{"input": "j^(-1)+k^(-1)+l^(-1)", "output": "j^{-1} + k^{-1} + l^{-1}"}
+{"input": "j в минус первой + k в минус первой + l в минус первой", "output": "j^{-1} + k^{-1} + l^{-1}"}
+{"input": "j to the minus one plus k to the minus one plus l to the minus one", "output": "j^{-1} + k^{-1} + l^{-1}"}
+{"input": "J^(-1)+K^(-1)+L^(-1)", "output": "j^{-1} + k^{-1} + l^{-1}"}
+{"input": "m^(-1) + n^(-1) + o^(-1)", "output": "m^{-1} + n^{-1} + o^{-1}"}
+{"input": "m^(-1)+n^(-1)+o^(-1)", "output": "m^{-1} + n^{-1} + o^{-1}"}
+{"input": "m в минус первой + n в минус первой + o в минус первой", "output": "m^{-1} + n^{-1} + o^{-1}"}
+{"input": "m to the minus one plus n to the minus one plus o to the minus one", "output": "m^{-1} + n^{-1} + o^{-1}"}
+{"input": "M^(-1)+N^(-1)+O^(-1)", "output": "m^{-1} + n^{-1} + o^{-1}"}
+{"input": "p^(-1) + q^(-1) + r^(-1)", "output": "p^{-1} + q^{-1} + r^{-1}"}
+{"input": "p^(-1)+q^(-1)+r^(-1)", "output": "p^{-1} + q^{-1} + r^{-1}"}
+{"input": "p в минус первой + q в минус первой + r в минус первой", "output": "p^{-1} + q^{-1} + r^{-1}"}
+{"input": "p to the minus one plus q to the minus one plus r to the minus one", "output": "p^{-1} + q^{-1} + r^{-1}"}
+{"input": "P^(-1)+Q^(-1)+R^(-1)", "output": "p^{-1} + q^{-1} + r^{-1}"}
+{"input": "s^(-1) + t^(-1) + u^(-1)", "output": "s^{-1} + t^{-1} + u^{-1}"}
+{"input": "s^(-1)+t^(-1)+u^(-1)", "output": "s^{-1} + t^{-1} + u^{-1}"}
+{"input": "s в минус первой + t в минус первой + u в минус первой", "output": "s^{-1} + t^{-1} + u^{-1}"}
+{"input": "s to the minus one plus t to the minus one plus u to the minus one", "output": "s^{-1} + t^{-1} + u^{-1}"}
+{"input": "S^(-1)+T^(-1)+U^(-1)", "output": "s^{-1} + t^{-1} + u^{-1}"}
+{"input": "v^(-1) + w^(-1) + x^(-1)", "output": "v^{-1} + w^{-1} + x^{-1}"}
+{"input": "v^(-1)+w^(-1)+x^(-1)", "output": "v^{-1} + w^{-1} + x^{-1}"}
+{"input": "v в минус первой + w в минус первой + x в минус первой", "output": "v^{-1} + w^{-1} + x^{-1}"}
+{"input": "v to the minus one plus w to the minus one plus x to the minus one", "output": "v^{-1} + w^{-1} + x^{-1}"}
+{"input": "V^(-1)+W^(-1)+X^(-1)", "output": "v^{-1} + w^{-1} + x^{-1}"}
+{"input": "y^(-1) + z^(-1) + a^(-1)", "output": "y^{-1} + z^{-1} + a^{-1}"}
+{"input": "y^(-1)+z^(-1)+a^(-1)", "output": "y^{-1} + z^{-1} + a^{-1}"}
+{"input": "y в минус первой + z в минус первой + a в минус первой", "output": "y^{-1} + z^{-1} + a^{-1}"}
+{"input": "y to the minus one plus z to the minus one plus a to the minus one", "output": "y^{-1} + z^{-1} + a^{-1}"}
+{"input": "Y^(-1)+Z^(-1)+A^(-1)", "output": "y^{-1} + z^{-1} + a^{-1}"}
+{"input": "a^(-2) + b^(-2)", "output": "a^{-2} + b^{-2}"}
+{"input": "a^(-2)+b^(-2)", "output": "a^{-2} + b^{-2}"}
+{"input": "a в минус второй + b в минус второй", "output": "a^{-2} + b^{-2}"}
+{"input": "a to the minus two plus b to the minus two", "output": "a^{-2} + b^{-2}"}
+{"input": "A^(-2)+B^(-2)", "output": "a^{-2} + b^{-2}"}
+{"input": "c^(-2) + d^(-2)", "output": "c^{-2} + d^{-2}"}
+{"input": "c^(-2)+d^(-2)", "output": "c^{-2} + d^{-2}"}
+{"input": "c в минус второй + d в минус второй", "output": "c^{-2} + d^{-2}"}
+{"input": "c to the minus two plus d to the minus two", "output": "c^{-2} + d^{-2}"}
+{"input": "C^(-2)+D^(-2)", "output": "c^{-2} + d^{-2}"}
+{"input": "e^(-2) + f^(-2)", "output": "e^{-2} + f^{-2}"}
+{"input": "e^(-2)+f^(-2)", "output": "e^{-2} + f^{-2}"}
+{"input": "e в минус второй + f в минус второй", "output": "e^{-2} + f^{-2}"}
+{"input": "e to the minus two plus f to the minus two", "output": "e^{-2} + f^{-2}"}
+{"input": "E^(-2)+F^(-2)", "output": "e^{-2} + f^{-2}"}
+{"input": "g^(-2) + h^(-2)", "output": "g^{-2} + h^{-2}"}
+{"input": "g^(-2)+h^(-2)", "output": "g^{-2} + h^{-2}"}
+{"input": "g в минус второй + h в минус второй", "output": "g^{-2} + h^{-2}"}
+{"input": "g to the minus two plus h to the minus two", "output": "g^{-2} + h^{-2}"}
+{"input": "G^(-2)+H^(-2)", "output": "g^{-2} + h^{-2}"}
+{"input": "i^(-2) + j^(-2)", "output": "i^{-2} + j^{-2}"}
+{"input": "i^(-2)+j^(-2)", "output": "i^{-2} + j^{-2}"}
+{"input": "i в минус второй + j в минус второй", "output": "i^{-2} + j^{-2}"}
+{"input": "i to the minus two plus j to the minus two", "output": "i^{-2} + j^{-2}"}
+{"input": "I^(-2)+J^(-2)", "output": "i^{-2} + j^{-2}"}
+{"input": "k^(-2) + l^(-2)", "output": "k^{-2} + l^{-2}"}
+{"input": "k^(-2)+l^(-2)", "output": "k^{-2} + l^{-2}"}
+{"input": "k в минус второй + l в минус второй", "output": "k^{-2} + l^{-2}"}
+{"input": "k to the minus two plus l to the minus two", "output": "k^{-2} + l^{-2}"}
+{"input": "K^(-2)+L^(-2)", "output": "k^{-2} + l^{-2}"}
+{"input": "m^(-2) + n^(-2)", "output": "m^{-2} + n^{-2}"}
+{"input": "m^(-2)+n^(-2)", "output": "m^{-2} + n^{-2}"}
+{"input": "m в минус второй + n в минус второй", "output": "m^{-2} + n^{-2}"}
+{"input": "m to the minus two plus n to the minus two", "output": "m^{-2} + n^{-2}"}
+{"input": "M^(-2)+N^(-2)", "output": "m^{-2} + n^{-2}"}
+{"input": "o^(-2) + p^(-2)", "output": "o^{-2} + p^{-2}"}
+{"input": "o^(-2)+p^(-2)", "output": "o^{-2} + p^{-2}"}
+{"input": "o в минус второй + p в минус второй", "output": "o^{-2} + p^{-2}"}
+{"input": "o to the minus two plus p to the minus two", "output": "o^{-2} + p^{-2}"}
+{"input": "O^(-2)+P^(-2)", "output": "o^{-2} + p^{-2}"}
+{"input": "q^(-2) + r^(-2)", "output": "q^{-2} + r^{-2}"}
+{"input": "q^(-2)+r^(-2)", "output": "q^{-2} + r^{-2}"}
+{"input": "q в минус второй + r в минус второй", "output": "q^{-2} + r^{-2}"}
+{"input": "q to the minus two plus r to the minus two", "output": "q^{-2} + r^{-2}"}
+{"input": "Q^(-2)+R^(-2)", "output": "q^{-2} + r^{-2}"}
+{"input": "s^(-2) + t^(-2)", "output": "s^{-2} + t^{-2}"}
+{"input": "s^(-2)+t^(-2)", "output": "s^{-2} + t^{-2}"}
+{"input": "s в минус второй + t в минус второй", "output": "s^{-2} + t^{-2}"}
+{"input": "s to the minus two plus t to the minus two", "output": "s^{-2} + t^{-2}"}
+{"input": "S^(-2)+T^(-2)", "output": "s^{-2} + t^{-2}"}
+{"input": "u^(-2) + v^(-2)", "output": "u^{-2} + v^{-2}"}
+{"input": "u^(-2)+v^(-2)", "output": "u^{-2} + v^{-2}"}
+{"input": "u в минус второй + v в минус второй", "output": "u^{-2} + v^{-2}"}
+{"input": "u to the minus two plus v to the minus two", "output": "u^{-2} + v^{-2}"}
+{"input": "U^(-2)+V^(-2)", "output": "u^{-2} + v^{-2}"}
+{"input": "w^(-2) + x^(-2)", "output": "w^{-2} + x^{-2}"}
+{"input": "w^(-2)+x^(-2)", "output": "w^{-2} + x^{-2}"}
+{"input": "w в минус второй + x в минус второй", "output": "w^{-2} + x^{-2}"}
+{"input": "w to the minus two plus x to the minus two", "output": "w^{-2} + x^{-2}"}
+{"input": "W^(-2)+X^(-2)", "output": "w^{-2} + x^{-2}"}
+{"input": "y^(-2) + z^(-2)", "output": "y^{-2} + z^{-2}"}
+{"input": "y^(-2)+z^(-2)", "output": "y^{-2} + z^{-2}"}
+{"input": "y в минус второй + z в минус второй", "output": "y^{-2} + z^{-2}"}
+{"input": "y to the minus two plus z to the minus two", "output": "y^{-2} + z^{-2}"}
+{"input": "Y^(-2)+Z^(-2)", "output": "y^{-2} + z^{-2}"}

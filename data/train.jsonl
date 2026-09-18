@@ -8300,3 +8300,1770 @@
 {"input": "1 делить на (k+1)", "output": "\\frac{1}{k+1}"}
 {"input": "one over k plus one", "output": "\\frac{1}{k+1}"}
 {"input": "1/(K+1)", "output": "\\frac{1}{k+1}"}
+{"input": "deriv(x^3 - 3x^2 + 2x - 1)", "output": "\\frac{d}{dx}(x^{3} - 3x^{2} + 2x - 1)"}
+{"input": "d/dx (x^3 - 3x^2 + 2x - 1)", "output": "\\frac{d}{dx}(x^{3} - 3x^{2} + 2x - 1)"}
+{"input": "производная x^3 - 3x^2 + 2x - 1", "output": "\\frac{d}{dx}(x^{3} - 3x^{2} + 2x - 1)"}
+{"input": "derivative of x cubed minus three x squared plus two x minus one", "output": "\\frac{d}{dx}(x^{3} - 3x^{2} + 2x - 1)"}
+{"input": "DERIV(X^3-3X^2+2X-1)", "output": "\\frac{d}{dx}(x^{3} - 3x^{2} + 2x - 1)"}
+{"input": "deriv(x^4 + 2x^2 - 5x + 3)", "output": "\\frac{d}{dx}(x^{4} + 2x^{2} - 5x + 3)"}
+{"input": "d/dx (x^4 + 2x^2 - 5x + 3)", "output": "\\frac{d}{dx}(x^{4} + 2x^{2} - 5x + 3)"}
+{"input": "производная x^4 + 2x^2 - 5x + 3", "output": "\\frac{d}{dx}(x^{4} + 2x^{2} - 5x + 3)"}
+{"input": "derivative of x to the 4th plus two x squared minus five x plus three", "output": "\\frac{d}{dx}(x^{4} + 2x^{2} - 5x + 3)"}
+{"input": "DERIV(X^4+2X^2-5X+3)", "output": "\\frac{d}{dx}(x^{4} + 2x^{2} - 5x + 3)"}
+{"input": "deriv(x^5 - 5x^4 + 10x^3 - 10x^2 + 5x - 1)", "output": "\\frac{d}{dx}(x^{5} - 5x^{4} + 10x^{3} - 10x^{2} + 5x - 1)"}
+{"input": "d/dx (x^5 - 5x^4 + 10x^3 - 10x^2 + 5x - 1)", "output": "\\frac{d}{dx}(x^{5} - 5x^{4} + 10x^{3} - 10x^{2} + 5x - 1)"}
+{"input": "производная x^5 - 5x^4 + 10x^3 - 10x^2 + 5x - 1", "output": "\\frac{d}{dx}(x^{5} - 5x^{4} + 10x^{3} - 10x^{2} + 5x - 1)"}
+{"input": "derivative of x to the 5th minus five x to the 4th plus ten x cubed minus ten x squared plus five x minus one", "output": "\\frac{d}{dx}(x^{5} - 5x^{4} + 10x^{3} - 10x^{2} + 5x - 1)"}
+{"input": "DERIV(X^5-5X^4+10X^3-10X^2+5X-1)", "output": "\\frac{d}{dx}(x^{5} - 5x^{4} + 10x^{3} - 10x^{2} + 5x - 1)"}
+{"input": "deriv(y^3 - 3y^2 + 2y - 1)", "output": "\\frac{d}{dy}(y^{3} - 3y^{2} + 2y - 1)"}
+{"input": "d/dy (y^3 - 3y^2 + 2y - 1)", "output": "\\frac{d}{dy}(y^{3} - 3y^{2} + 2y - 1)"}
+{"input": "производная y^3 - 3y^2 + 2y - 1", "output": "\\frac{d}{dy}(y^{3} - 3y^{2} + 2y - 1)"}
+{"input": "derivative of y cubed minus three y squared plus two y minus one", "output": "\\frac{d}{dy}(y^{3} - 3y^{2} + 2y - 1)"}
+{"input": "DERIV(Y^3-3Y^2+2Y-1)", "output": "\\frac{d}{dy}(y^{3} - 3y^{2} + 2y - 1)"}
+{"input": "deriv(z^4 + 2z^2 - 5z + 3)", "output": "\\frac{d}{dz}(z^{4} + 2z^{2} - 5z + 3)"}
+{"input": "d/dz (z^4 + 2z^2 - 5z + 3)", "output": "\\frac{d}{dz}(z^{4} + 2z^{2} - 5z + 3)"}
+{"input": "производная z^4 + 2z^2 - 5z + 3", "output": "\\frac{d}{dz}(z^{4} + 2z^{2} - 5z + 3)"}
+{"input": "derivative of z to the 4th plus two z squared minus five z plus three", "output": "\\frac{d}{dz}(z^{4} + 2z^{2} - 5z + 3)"}
+{"input": "DERIV(Z^4+2Z^2-5Z+3)", "output": "\\frac{d}{dz}(z^{4} + 2z^{2} - 5z + 3)"}
+{"input": "deriv(a^5 - 5a^4 + 10a^3 - 10a^2 + 5a - 1)", "output": "\\frac{d}{da}(a^{5} - 5a^{4} + 10a^{3} - 10a^{2} + 5a - 1)"}
+{"input": "d/da (a^5 - 5a^4 + 10a^3 - 10a^2 + 5a - 1)", "output": "\\frac{d}{da}(a^{5} - 5a^{4} + 10a^{3} - 10a^{2} + 5a - 1)"}
+{"input": "производная a^5 - 5a^4 + 10a^3 - 10a^2 + 5a - 1", "output": "\\frac{d}{da}(a^{5} - 5a^{4} + 10a^{3} - 10a^{2} + 5a - 1)"}
+{"input": "derivative of a to the 5th minus five a to the 4th plus ten a cubed minus ten a squared plus five a minus one", "output": "\\frac{d}{da}(a^{5} - 5a^{4} + 10a^{3} - 10a^{2} + 5a - 1)"}
+{"input": "DERIV(A^5-5A^4+10A^3-10A^2+5A-1)", "output": "\\frac{d}{da}(a^{5} - 5a^{4} + 10a^{3} - 10a^{2} + 5a - 1)"}
+{"input": "deriv(b^3 - 3b^2 + 2b - 1)", "output": "\\frac{d}{db}(b^{3} - 3b^{2} + 2b - 1)"}
+{"input": "d/db (b^3 - 3b^2 + 2b - 1)", "output": "\\frac{d}{db}(b^{3} - 3b^{2} + 2b - 1)"}
+{"input": "производная b^3 - 3b^2 + 2b - 1", "output": "\\frac{d}{db}(b^{3} - 3b^{2} + 2b - 1)"}
+{"input": "derivative of b cubed minus three b squared plus two b minus one", "output": "\\frac{d}{db}(b^{3} - 3b^{2} + 2b - 1)"}
+{"input": "DERIV(B^3-3B^2+2B-1)", "output": "\\frac{d}{db}(b^{3} - 3b^{2} + 2b - 1)"}
+{"input": "deriv(c^4 + 2c^2 - 5c + 3)", "output": "\\frac{d}{dc}(c^{4} + 2c^{2} - 5c + 3)"}
+{"input": "d/dc (c^4 + 2c^2 - 5c + 3)", "output": "\\frac{d}{dc}(c^{4} + 2c^{2} - 5c + 3)"}
+{"input": "производная c^4 + 2c^2 - 5c + 3", "output": "\\frac{d}{dc}(c^{4} + 2c^{2} - 5c + 3)"}
+{"input": "derivative of c to the 4th plus two c squared minus five c plus three", "output": "\\frac{d}{dc}(c^{4} + 2c^{2} - 5c + 3)"}
+{"input": "DERIV(C^4+2C^2-5C+3)", "output": "\\frac{d}{dc}(c^{4} + 2c^{2} - 5c + 3)"}
+{"input": "deriv(n^3 - 3n^2 + 2n - 1)", "output": "\\frac{d}{dn}(n^{3} - 3n^{2} + 2n - 1)"}
+{"input": "d/dn (n^3 - 3n^2 + 2n - 1)", "output": "\\frac{d}{dn}(n^{3} - 3n^{2} + 2n - 1)"}
+{"input": "производная n^3 - 3n^2 + 2n - 1", "output": "\\frac{d}{dn}(n^{3} - 3n^{2} + 2n - 1)"}
+{"input": "derivative of n cubed minus three n squared plus two n minus one", "output": "\\frac{d}{dn}(n^{3} - 3n^{2} + 2n - 1)"}
+{"input": "DERIV(N^3-3N^2+2N-1)", "output": "\\frac{d}{dn}(n^{3} - 3n^{2} + 2n - 1)"}
+{"input": "deriv(m^5 - 5m^4 + 10m^3 - 10m^2 + 5m - 1)", "output": "\\frac{d}{dm}(m^{5} - 5m^{4} + 10m^{3} - 10m^{2} + 5m - 1)"}
+{"input": "d/dm (m^5 - 5m^4 + 10m^3 - 10m^2 + 5m - 1)", "output": "\\frac{d}{dm}(m^{5} - 5m^{4} + 10m^{3} - 10m^{2} + 5m - 1)"}
+{"input": "производная m^5 - 5m^4 + 10m^3 - 10m^2 + 5m - 1", "output": "\\frac{d}{dm}(m^{5} - 5m^{4} + 10m^{3} - 10m^{2} + 5m - 1)"}
+{"input": "derivative of m to the 5th minus five m to the 4th plus ten m cubed minus ten m squared plus five m minus one", "output": "\\frac{d}{dm}(m^{5} - 5m^{4} + 10m^{3} - 10m^{2} + 5m - 1)"}
+{"input": "DERIV(M^5-5M^4+10M^3-10M^2+5M-1)", "output": "\\frac{d}{dm}(m^{5} - 5m^{4} + 10m^{3} - 10m^{2} + 5m - 1)"}
+{"input": "deriv(k^3 - 3k^2 + 2k - 1)", "output": "\\frac{d}{dk}(k^{3} - 3k^{2} + 2k - 1)"}
+{"input": "d/dk (k^3 - 3k^2 + 2k - 1)", "output": "\\frac{d}{dk}(k^{3} - 3k^{2} + 2k - 1)"}
+{"input": "производная k^3 - 3k^2 + 2k - 1", "output": "\\frac{d}{dk}(k^{3} - 3k^{2} + 2k - 1)"}
+{"input": "derivative of k cubed minus three k squared plus two k minus one", "output": "\\frac{d}{dk}(k^{3} - 3k^{2} + 2k - 1)"}
+{"input": "DERIV(K^3-3K^2+2K-1)", "output": "\\frac{d}{dk}(k^{3} - 3k^{2} + 2k - 1)"}
+{"input": "deriv(p^4 + 2p^2 - 5p + 3)", "output": "\\frac{d}{dp}(p^{4} + 2p^{2} - 5p + 3)"}
+{"input": "d/dp (p^4 + 2p^2 - 5p + 3)", "output": "\\frac{d}{dp}(p^{4} + 2p^{2} - 5p + 3)"}
+{"input": "производная p^4 + 2p^2 - 5p + 3", "output": "\\frac{d}{dp}(p^{4} + 2p^{2} - 5p + 3)"}
+{"input": "derivative of p to the 4th plus two p squared minus five p plus three", "output": "\\frac{d}{dp}(p^{4} + 2p^{2} - 5p + 3)"}
+{"input": "DERIV(P^4+2P^2-5P+3)", "output": "\\frac{d}{dp}(p^{4} + 2p^{2} - 5p + 3)"}
+{"input": "deriv(q^3 - 3q^2 + 2q - 1)", "output": "\\frac{d}{dq}(q^{3} - 3q^{2} + 2q - 1)"}
+{"input": "d/dq (q^3 - 3q^2 + 2q - 1)", "output": "\\frac{d}{dq}(q^{3} - 3q^{2} + 2q - 1)"}
+{"input": "производная q^3 - 3q^2 + 2q - 1", "output": "\\frac{d}{dq}(q^{3} - 3q^{2} + 2q - 1)"}
+{"input": "derivative of q cubed minus three q squared plus two q minus one", "output": "\\frac{d}{dq}(q^{3} - 3q^{2} + 2q - 1)"}
+{"input": "DERIV(Q^3-3Q^2+2Q-1)", "output": "\\frac{d}{dq}(q^{3} - 3q^{2} + 2q - 1)"}
+{"input": "deriv(u^5 - 5u^4 + 10u^3 - 10u^2 + 5u - 1)", "output": "\\frac{d}{du}(u^{5} - 5u^{4} + 10u^{3} - 10u^{2} + 5u - 1)"}
+{"input": "d/du (u^5 - 5u^4 + 10u^3 - 10u^2 + 5u - 1)", "output": "\\frac{d}{du}(u^{5} - 5u^{4} + 10u^{3} - 10u^{2} + 5u - 1)"}
+{"input": "производная u^5 - 5u^4 + 10u^3 - 10u^2 + 5u - 1", "output": "\\frac{d}{du}(u^{5} - 5u^{4} + 10u^{3} - 10u^{2} + 5u - 1)"}
+{"input": "derivative of u to the 5th minus five u to the 4th plus ten u cubed minus ten u squared plus five u minus one", "output": "\\frac{d}{du}(u^{5} - 5u^{4} + 10u^{3} - 10u^{2} + 5u - 1)"}
+{"input": "DERIV(U^5-5U^4+10U^3-10U^2+5U-1)", "output": "\\frac{d}{du}(u^{5} - 5u^{4} + 10u^{3} - 10u^{2} + 5u - 1)"}
+{"input": "deriv(v^3 - 3v^2 + 2v - 1)", "output": "\\frac{d}{dv}(v^{3} - 3v^{2} + 2v - 1)"}
+{"input": "d/dv (v^3 - 3v^2 + 2v - 1)", "output": "\\frac{d}{dv}(v^{3} - 3v^{2} + 2v - 1)"}
+{"input": "производная v^3 - 3v^2 + 2v - 1", "output": "\\frac{d}{dv}(v^{3} - 3v^{2} + 2v - 1)"}
+{"input": "derivative of v cubed minus three v squared plus two v minus one", "output": "\\frac{d}{dv}(v^{3} - 3v^{2} + 2v - 1)"}
+{"input": "DERIV(V^3-3V^2+2V-1)", "output": "\\frac{d}{dv}(v^{3} - 3v^{2} + 2v - 1)"}
+{"input": "deriv(w^4 + 2w^2 - 5w + 3)", "output": "\\frac{d}{dw}(w^{4} + 2w^{2} - 5w + 3)"}
+{"input": "d/dw (w^4 + 2w^2 - 5w + 3)", "output": "\\frac{d}{dw}(w^{4} + 2w^{2} - 5w + 3)"}
+{"input": "производная w^4 + 2w^2 - 5w + 3", "output": "\\frac{d}{dw}(w^{4} + 2w^{2} - 5w + 3)"}
+{"input": "derivative of w to the 4th plus two w squared minus five w plus three", "output": "\\frac{d}{dw}(w^{4} + 2w^{2} - 5w + 3)"}
+{"input": "DERIV(W^4+2W^2-5W+3)", "output": "\\frac{d}{dw}(w^{4} + 2w^{2} - 5w + 3)"}
+{"input": "deriv(sin(x) + cos(x) - tan(x))", "output": "\\frac{d}{dx}(\\sin(x) + \\cos(x) - \\tan(x))"}
+{"input": "d/dx (sin(x) + cos(x) - tan(x))", "output": "\\frac{d}{dx}(\\sin(x) + \\cos(x) - \\tan(x))"}
+{"input": "производная sin(x) + cos(x) - tan(x)", "output": "\\frac{d}{dx}(\\sin(x) + \\cos(x) - \\tan(x))"}
+{"input": "derivative of sin x plus cos x minus tan x", "output": "\\frac{d}{dx}(\\sin(x) + \\cos(x) - \\tan(x))"}
+{"input": "DERIV(SIN(X)+COS(X)-TAN(X))", "output": "\\frac{d}{dx}(\\sin(x) + \\cos(x) - \\tan(x))"}
+{"input": "deriv(sin(x) * cos(x))", "output": "\\frac{d}{dx}(\\sin(x) \\cos(x))"}
+{"input": "d/dx (sin(x) * cos(x))", "output": "\\frac{d}{dx}(\\sin(x) \\cos(x))"}
+{"input": "производная sin(x) * cos(x)", "output": "\\frac{d}{dx}(\\sin(x) \\cos(x))"}
+{"input": "derivative of sin x times cos x", "output": "\\frac{d}{dx}(\\sin(x) \\cos(x))"}
+{"input": "DERIV(SIN(X)*COS(X))", "output": "\\frac{d}{dx}(\\sin(x) \\cos(x))"}
+{"input": "deriv(sin(x) / cos(x))", "output": "\\frac{d}{dx}(\\frac{\\sin(x)}{\\cos(x)})"}
+{"input": "d/dx (sin(x) / cos(x))", "output": "\\frac{d}{dx}(\\frac{\\sin(x)}{\\cos(x)})"}
+{"input": "производная sin(x) / cos(x)", "output": "\\frac{d}{dx}(\\frac{\\sin(x)}{\\cos(x)})"}
+{"input": "derivative of sin x over cos x", "output": "\\frac{d}{dx}(\\frac{\\sin(x)}{\\cos(x)})"}
+{"input": "DERIV(SIN(X)/COS(X))", "output": "\\frac{d}{dx}(\\frac{\\sin(x)}{\\cos(x)})"}
+{"input": "deriv(e^x * x^2)", "output": "\\frac{d}{dx}(e^{x} \\cdot x^{2})"}
+{"input": "d/dx (e^x * x^2)", "output": "\\frac{d}{dx}(e^{x} \\cdot x^{2})"}
+{"input": "производная e^x * x^2", "output": "\\frac{d}{dx}(e^{x} \\cdot x^{2})"}
+{"input": "derivative of e to the x times x squared", "output": "\\frac{d}{dx}(e^{x} \\cdot x^{2})"}
+{"input": "DERIV(E^X*X^2)", "output": "\\frac{d}{dx}(e^{x} \\cdot x^{2})"}
+{"input": "deriv(e^x / x)", "output": "\\frac{d}{dx}(\\frac{e^{x}}{x})"}
+{"input": "d/dx (e^x / x)", "output": "\\frac{d}{dx}(\\frac{e^{x}}{x})"}
+{"input": "производная e^x / x", "output": "\\frac{d}{dx}(\\frac{e^{x}}{x})"}
+{"input": "derivative of e to the x over x", "output": "\\frac{d}{dx}(\\frac{e^{x}}{x})"}
+{"input": "DERIV(E^X/X)", "output": "\\frac{d}{dx}(\\frac{e^{x}}{x})"}
+{"input": "deriv(ln(x) + sqrt(x))", "output": "\\frac{d}{dx}(\\ln(x) + \\sqrt{x})"}
+{"input": "d/dx (ln(x) + sqrt(x))", "output": "\\frac{d}{dx}(\\ln(x) + \\sqrt{x})"}
+{"input": "производная ln(x) + sqrt(x)", "output": "\\frac{d}{dx}(\\ln(x) + \\sqrt{x})"}
+{"input": "derivative of ln x plus square root of x", "output": "\\frac{d}{dx}(\\ln(x) + \\sqrt{x})"}
+{"input": "DERIV(LN(X)+SQRT(X))", "output": "\\frac{d}{dx}(\\ln(x) + \\sqrt{x})"}
+{"input": "deriv(ln(x) * sqrt(x))", "output": "\\frac{d}{dx}(\\ln(x) \\sqrt{x})"}
+{"input": "d/dx (ln(x) * sqrt(x))", "output": "\\frac{d}{dx}(\\ln(x) \\sqrt{x})"}
+{"input": "производная ln(x) * sqrt(x)", "output": "\\frac{d}{dx}(\\ln(x) \\sqrt{x})"}
+{"input": "derivative of ln x times square root of x", "output": "\\frac{d}{dx}(\\ln(x) \\sqrt{x})"}
+{"input": "DERIV(LN(X)*SQRT(X))", "output": "\\frac{d}{dx}(\\ln(x) \\sqrt{x})"}
+{"input": "deriv(ln(x) / x)", "output": "\\frac{d}{dx}(\\frac{\\ln(x)}{x})"}
+{"input": "d/dx (ln(x) / x)", "output": "\\frac{d}{dx}(\\frac{\\ln(x)}{x})"}
+{"input": "производная ln(x) / x", "output": "\\frac{d}{dx}(\\frac{\\ln(x)}{x})"}
+{"input": "derivative of ln x over x", "output": "\\frac{d}{dx}(\\frac{\\ln(x)}{x})"}
+{"input": "DERIV(LN(X)/X)", "output": "\\frac{d}{dx}(\\frac{\\ln(x)}{x})"}
+{"input": "deriv(sqrt(x) + 1/x)", "output": "\\frac{d}{dx}(\\sqrt{x} + \\frac{1}{x})"}
+{"input": "d/dx (sqrt(x) + 1/x)", "output": "\\frac{d}{dx}(\\sqrt{x} + \\frac{1}{x})"}
+{"input": "производная sqrt(x) + 1/x", "output": "\\frac{d}{dx}(\\sqrt{x} + \\frac{1}{x})"}
+{"input": "derivative of square root of x plus one over x", "output": "\\frac{d}{dx}(\\sqrt{x} + \\frac{1}{x})"}
+{"input": "DERIV(SQRT(X)+1/X)", "output": "\\frac{d}{dx}(\\sqrt{x} + \\frac{1}{x})"}
+{"input": "deriv(x^2 + sin(x) + cos(x))", "output": "\\frac{d}{dx}(x^{2} + \\sin(x) + \\cos(x))"}
+{"input": "d/dx (x^2 + sin(x) + cos(x))", "output": "\\frac{d}{dx}(x^{2} + \\sin(x) + \\cos(x))"}
+{"input": "производная x^2 + sin(x) + cos(x)", "output": "\\frac{d}{dx}(x^{2} + \\sin(x) + \\cos(x))"}
+{"input": "derivative of x squared plus sin x plus cos x", "output": "\\frac{d}{dx}(x^{2} + \\sin(x) + \\cos(x))"}
+{"input": "DERIV(X^2+SIN(X)+COS(X))", "output": "\\frac{d}{dx}(x^{2} + \\sin(x) + \\cos(x))"}
+{"input": "deriv(x^3 + e^x + ln(x))", "output": "\\frac{d}{dx}(x^{3} + e^{x} + \\ln(x))"}
+{"input": "d/dx (x^3 + e^x + ln(x))", "output": "\\frac{d}{dx}(x^{3} + e^{x} + \\ln(x))"}
+{"input": "производная x^3 + e^x + ln(x)", "output": "\\frac{d}{dx}(x^{3} + e^{x} + \\ln(x))"}
+{"input": "derivative of x cubed plus e to the x plus ln x", "output": "\\frac{d}{dx}(x^{3} + e^{x} + \\ln(x))"}
+{"input": "DERIV(X^3+E^X+LN(X))", "output": "\\frac{d}{dx}(x^{3} + e^{x} + \\ln(x))"}
+{"input": "deriv(x^4 - 2x^3 + 3x^2 - 4x + 5)", "output": "\\frac{d}{dx}(x^{4} - 2x^{3} + 3x^{2} - 4x + 5)"}
+{"input": "d/dx (x^4 - 2x^3 + 3x^2 - 4x + 5)", "output": "\\frac{d}{dx}(x^{4} - 2x^{3} + 3x^{2} - 4x + 5)"}
+{"input": "производная x^4 - 2x^3 + 3x^2 - 4x + 5", "output": "\\frac{d}{dx}(x^{4} - 2x^{3} + 3x^{2} - 4x + 5)"}
+{"input": "derivative of x to the 4th minus two x cubed plus three x squared minus four x plus five", "output": "\\frac{d}{dx}(x^{4} - 2x^{3} + 3x^{2} - 4x + 5)"}
+{"input": "DERIV(X^4-2X^3+3X^2-4X+5)", "output": "\\frac{d}{dx}(x^{4} - 2x^{3} + 3x^{2} - 4x + 5)"}
+{"input": "deriv(x^5 - 4x^3 + 2x)", "output": "\\frac{d}{dx}(x^{5} - 4x^{3} + 2x)"}
+{"input": "d/dx (x^5 - 4x^3 + 2x)", "output": "\\frac{d}{dx}(x^{5} - 4x^{3} + 2x)"}
+{"input": "производная x^5 - 4x^3 + 2x", "output": "\\frac{d}{dx}(x^{5} - 4x^{3} + 2x)"}
+{"input": "derivative of x to the 5th minus four x cubed plus two x", "output": "\\frac{d}{dx}(x^{5} - 4x^{3} + 2x)"}
+{"input": "DERIV(X^5-4X^3+2X)", "output": "\\frac{d}{dx}(x^{5} - 4x^{3} + 2x)"}
+{"input": "deriv(2x^3 + 3x^2 + 4x + 5)", "output": "\\frac{d}{dx}(2x^{3} + 3x^{2} + 4x + 5)"}
+{"input": "d/dx (2x^3 + 3x^2 + 4x + 5)", "output": "\\frac{d}{dx}(2x^{3} + 3x^{2} + 4x + 5)"}
+{"input": "производная 2x^3 + 3x^2 + 4x + 5", "output": "\\frac{d}{dx}(2x^{3} + 3x^{2} + 4x + 5)"}
+{"input": "derivative of two x cubed plus three x squared plus four x plus five", "output": "\\frac{d}{dx}(2x^{3} + 3x^{2} + 4x + 5)"}
+{"input": "DERIV(2X^3+3X^2+4X+5)", "output": "\\frac{d}{dx}(2x^{3} + 3x^{2} + 4x + 5)"}
+{"input": "deriv(3x^4 - 2x^2 + 7)", "output": "\\frac{d}{dx}(3x^{4} - 2x^{2} + 7)"}
+{"input": "d/dx (3x^4 - 2x^2 + 7)", "output": "\\frac{d}{dx}(3x^{4} - 2x^{2} + 7)"}
+{"input": "производная 3x^4 - 2x^2 + 7", "output": "\\frac{d}{dx}(3x^{4} - 2x^{2} + 7)"}
+{"input": "derivative of three x to the 4th minus two x squared plus seven", "output": "\\frac{d}{dx}(3x^{4} - 2x^{2} + 7)"}
+{"input": "DERIV(3X^4-2X^2+7)", "output": "\\frac{d}{dx}(3x^{4} - 2x^{2} + 7)"}
+{"input": "deriv(sin(x^2))", "output": "\\frac{d}{dx}(\\sin(x^{2}))"}
+{"input": "d/dx (sin(x^2))", "output": "\\frac{d}{dx}(\\sin(x^{2}))"}
+{"input": "производная sin(x^2)", "output": "\\frac{d}{dx}(\\sin(x^{2}))"}
+{"input": "derivative of sin of x squared", "output": "\\frac{d}{dx}(\\sin(x^{2}))"}
+{"input": "DERIV(SIN(X^2))", "output": "\\frac{d}{dx}(\\sin(x^{2}))"}
+{"input": "deriv(cos(x^3))", "output": "\\frac{d}{dx}(\\cos(x^{3}))"}
+{"input": "d/dx (cos(x^3))", "output": "\\frac{d}{dx}(\\cos(x^{3}))"}
+{"input": "производная cos(x^3)", "output": "\\frac{d}{dx}(\\cos(x^{3}))"}
+{"input": "derivative of cos of x cubed", "output": "\\frac{d}{dx}(\\cos(x^{3}))"}
+{"input": "DERIV(COS(X^3))", "output": "\\frac{d}{dx}(\\cos(x^{3}))"}
+{"input": "deriv(tan(x^2))", "output": "\\frac{d}{dx}(\\tan(x^{2}))"}
+{"input": "d/dx (tan(x^2))", "output": "\\frac{d}{dx}(\\tan(x^{2}))"}
+{"input": "производная tan(x^2)", "output": "\\frac{d}{dx}(\\tan(x^{2}))"}
+{"input": "derivative of tan of x squared", "output": "\\frac{d}{dx}(\\tan(x^{2}))"}
+{"input": "DERIV(TAN(X^2))", "output": "\\frac{d}{dx}(\\tan(x^{2}))"}
+{"input": "deriv(ln(x^3))", "output": "\\frac{d}{dx}(\\ln(x^{3}))"}
+{"input": "d/dx (ln(x^3))", "output": "\\frac{d}{dx}(\\ln(x^{3}))"}
+{"input": "производная ln(x^3)", "output": "\\frac{d}{dx}(\\ln(x^{3}))"}
+{"input": "derivative of ln of x cubed", "output": "\\frac{d}{dx}(\\ln(x^{3}))"}
+{"input": "DERIV(LN(X^3))", "output": "\\frac{d}{dx}(\\ln(x^{3}))"}
+{"input": "deriv(e^(2x))", "output": "\\frac{d}{dx}(e^{2x})"}
+{"input": "d/dx (e^(2x))", "output": "\\frac{d}{dx}(e^{2x})"}
+{"input": "производная e^(2x)", "output": "\\frac{d}{dx}(e^{2x})"}
+{"input": "derivative of e to the 2x", "output": "\\frac{d}{dx}(e^{2x})"}
+{"input": "DERIV(E^(2X))", "output": "\\frac{d}{dx}(e^{2x})"}
+{"input": "deriv(e^(x^2))", "output": "\\frac{d}{dx}(e^{x^{2}})"}
+{"input": "d/dx (e^(x^2))", "output": "\\frac{d}{dx}(e^{x^{2}})"}
+{"input": "производная e^(x^2)", "output": "\\frac{d}{dx}(e^{x^{2}})"}
+{"input": "derivative of e to the x squared", "output": "\\frac{d}{dx}(e^{x^{2}})"}
+{"input": "DERIV(E^(X^2))", "output": "\\frac{d}{dx}(e^{x^{2}})"}
+{"input": "deriv(sqrt(x^2 + 1))", "output": "\\frac{d}{dx}(\\sqrt{x^{2} + 1})"}
+{"input": "d/dx (sqrt(x^2 + 1))", "output": "\\frac{d}{dx}(\\sqrt{x^{2} + 1})"}
+{"input": "производная sqrt(x^2 + 1)", "output": "\\frac{d}{dx}(\\sqrt{x^{2} + 1})"}
+{"input": "derivative of square root of x squared plus one", "output": "\\frac{d}{dx}(\\sqrt{x^{2} + 1})"}
+{"input": "DERIV(SQRT(X^2+1))", "output": "\\frac{d}{dx}(\\sqrt{x^{2} + 1})"}
+{"input": "deriv((x+1)/(x-1))", "output": "\\frac{d}{dx}(\\frac{x+1}{x-1})"}
+{"input": "d/dx ((x+1)/(x-1))", "output": "\\frac{d}{dx}(\\frac{x+1}{x-1})"}
+{"input": "производная (x+1)/(x-1)", "output": "\\frac{d}{dx}(\\frac{x+1}{x-1})"}
+{"input": "derivative of x plus one over x minus one", "output": "\\frac{d}{dx}(\\frac{x+1}{x-1})"}
+{"input": "DERIV((X+1)/(X-1))", "output": "\\frac{d}{dx}(\\frac{x+1}{x-1})"}
+{"input": "deriv((x^2+1)/(x^2-1))", "output": "\\frac{d}{dx}(\\frac{x^{2}+1}{x^{2}-1})"}
+{"input": "d/dx ((x^2+1)/(x^2-1))", "output": "\\frac{d}{dx}(\\frac{x^{2}+1}{x^{2}-1})"}
+{"input": "производная (x^2+1)/(x^2-1)", "output": "\\frac{d}{dx}(\\frac{x^{2}+1}{x^{2}-1})"}
+{"input": "derivative of x squared plus one over x squared minus one", "output": "\\frac{d}{dx}(\\frac{x^{2}+1}{x^{2}-1})"}
+{"input": "DERIV((X^2+1)/(X^2-1))", "output": "\\frac{d}{dx}(\\frac{x^{2}+1}{x^{2}-1})"}
+{"input": "deriv(x^3 * e^x)", "output": "\\frac{d}{dx}(x^{3} e^{x})"}
+{"input": "d/dx (x^3 * e^x)", "output": "\\frac{d}{dx}(x^{3} e^{x})"}
+{"input": "производная x^3 * e^x", "output": "\\frac{d}{dx}(x^{3} e^{x})"}
+{"input": "derivative of x cubed times e to the x", "output": "\\frac{d}{dx}(x^{3} e^{x})"}
+{"input": "DERIV(X^3*E^X)", "output": "\\frac{d}{dx}(x^{3} e^{x})"}
+{"input": "deriv(x^2 * ln(x))", "output": "\\frac{d}{dx}(x^{2} \\ln(x))"}
+{"input": "d/dx (x^2 * ln(x))", "output": "\\frac{d}{dx}(x^{2} \\ln(x))"}
+{"input": "производная x^2 * ln(x)", "output": "\\frac{d}{dx}(x^{2} \\ln(x))"}
+{"input": "derivative of x squared times ln x", "output": "\\frac{d}{dx}(x^{2} \\ln(x))"}
+{"input": "DERIV(X^2*LN(X))", "output": "\\frac{d}{dx}(x^{2} \\ln(x))"}
+{"input": "deriv(x * sin(x))", "output": "\\frac{d}{dx}(x \\sin(x))"}
+{"input": "d/dx (x * sin(x))", "output": "\\frac{d}{dx}(x \\sin(x))"}
+{"input": "производная x * sin(x)", "output": "\\frac{d}{dx}(x \\sin(x))"}
+{"input": "derivative of x times sin x", "output": "\\frac{d}{dx}(x \\sin(x))"}
+{"input": "DERIV(X*SIN(X))", "output": "\\frac{d}{dx}(x \\sin(x))"}
+{"input": "deriv(x * cos(x))", "output": "\\frac{d}{dx}(x \\cos(x))"}
+{"input": "d/dx (x * cos(x))", "output": "\\frac{d}{dx}(x \\cos(x))"}
+{"input": "производная x * cos(x)", "output": "\\frac{d}{dx}(x \\cos(x))"}
+{"input": "derivative of x times cos x", "output": "\\frac{d}{dx}(x \\cos(x))"}
+{"input": "DERIV(X*COS(X))", "output": "\\frac{d}{dx}(x \\cos(x))"}
+{"input": "deriv(x^2 * e^x * ln(x))", "output": "\\frac{d}{dx}(x^{2} e^{x} \\ln(x))"}
+{"input": "d/dx (x^2 * e^x * ln(x))", "output": "\\frac{d}{dx}(x^{2} e^{x} \\ln(x))"}
+{"input": "производная x^2 * e^x * ln(x)", "output": "\\frac{d}{dx}(x^{2} e^{x} \\ln(x))"}
+{"input": "derivative of x squared times e to the x times ln x", "output": "\\frac{d}{dx}(x^{2} e^{x} \\ln(x))"}
+{"input": "DERIV(X^2*E^X*LN(X))", "output": "\\frac{d}{dx}(x^{2} e^{x} \\ln(x))"}
+{"input": "deriv(sin(x) * cos(x) * tan(x))", "output": "\\frac{d}{dx}(\\sin(x) \\cos(x) \\tan(x))"}
+{"input": "d/dx (sin(x) * cos(x) * tan(x))", "output": "\\frac{d}{dx}(\\sin(x) \\cos(x) \\tan(x))"}
+{"input": "производная sin(x) * cos(x) * tan(x)", "output": "\\frac{d}{dx}(\\sin(x) \\cos(x) \\tan(x))"}
+{"input": "derivative of sin x times cos x times tan x", "output": "\\frac{d}{dx}(\\sin(x) \\cos(x) \\tan(x))"}
+{"input": "DERIV(SIN(X)*COS(X)*TAN(X))", "output": "\\frac{d}{dx}(\\sin(x) \\cos(x) \\tan(x))"}
+{"input": "deriv(sqrt(x) * ln(x) * e^x)", "output": "\\frac{d}{dx}(\\sqrt{x} \\ln(x) e^{x})"}
+{"input": "d/dx (sqrt(x) * ln(x) * e^x)", "output": "\\frac{d}{dx}(\\sqrt{x} \\ln(x) e^{x})"}
+{"input": "производная sqrt(x) * ln(x) * e^x", "output": "\\frac{d}{dx}(\\sqrt{x} \\ln(x) e^{x})"}
+{"input": "derivative of square root of x times ln x times e to the x", "output": "\\frac{d}{dx}(\\sqrt{x} \\ln(x) e^{x})"}
+{"input": "DERIV(SQRT(X)*LN(X)*E^X)", "output": "\\frac{d}{dx}(\\sqrt{x} \\ln(x) e^{x})"}
+{"input": "deriv(x^3 / (x^2 + 1))", "output": "\\frac{d}{dx}(\\frac{x^{3}}{x^{2}+1})"}
+{"input": "d/dx (x^3 / (x^2 + 1))", "output": "\\frac{d}{dx}(\\frac{x^{3}}{x^{2}+1})"}
+{"input": "производная x^3 / (x^2 + 1)", "output": "\\frac{d}{dx}(\\frac{x^{3}}{x^{2}+1})"}
+{"input": "derivative of x cubed over x squared plus one", "output": "\\frac{d}{dx}(\\frac{x^{3}}{x^{2}+1})"}
+{"input": "DERIV(X^3/(X^2+1))", "output": "\\frac{d}{dx}(\\frac{x^{3}}{x^{2}+1})"}
+{"input": "deriv(sin(x) / (1 + cos(x)))", "output": "\\frac{d}{dx}(\\frac{\\sin(x)}{1+\\cos(x)})"}
+{"input": "d/dx (sin(x) / (1 + cos(x)))", "output": "\\frac{d}{dx}(\\frac{\\sin(x)}{1+\\cos(x)})"}
+{"input": "производная sin(x) / (1 + cos(x))", "output": "\\frac{d}{dx}(\\frac{\\sin(x)}{1+\\cos(x)})"}
+{"input": "derivative of sin x over one plus cos x", "output": "\\frac{d}{dx}(\\frac{\\sin(x)}{1+\\cos(x)})"}
+{"input": "DERIV(SIN(X)/(1+COS(X)))", "output": "\\frac{d}{dx}(\\frac{\\sin(x)}{1+\\cos(x)})"}
+{"input": "deriv(ln(x) / (x^2 + 1))", "output": "\\frac{d}{dx}(\\frac{\\ln(x)}{x^{2}+1})"}
+{"input": "d/dx (ln(x) / (x^2 + 1))", "output": "\\frac{d}{dx}(\\frac{\\ln(x)}{x^{2}+1})"}
+{"input": "производная ln(x) / (x^2 + 1)", "output": "\\frac{d}{dx}(\\frac{\\ln(x)}{x^{2}+1})"}
+{"input": "derivative of ln x over x squared plus one", "output": "\\frac{d}{dx}(\\frac{\\ln(x)}{x^{2}+1})"}
+{"input": "DERIV(LN(X)/(X^2+1))", "output": "\\frac{d}{dx}(\\frac{\\ln(x)}{x^{2}+1})"}
+{"input": "deriv(e^x / (x^2 + 1))", "output": "\\frac{d}{dx}(\\frac{e^{x}}{x^{2}+1})"}
+{"input": "d/dx (e^x / (x^2 + 1))", "output": "\\frac{d}{dx}(\\frac{e^{x}}{x^{2}+1})"}
+{"input": "производная e^x / (x^2 + 1)", "output": "\\frac{d}{dx}(\\frac{e^{x}}{x^{2}+1})"}
+{"input": "derivative of e to the x over x squared plus one", "output": "\\frac{d}{dx}(\\frac{e^{x}}{x^{2}+1})"}
+{"input": "DERIV(E^X/(X^2+1))", "output": "\\frac{d}{dx}(\\frac{e^{x}}{x^{2}+1})"}
+{"input": "deriv(x^4 + 3x^3 - 2x^2 + 7x - 5)", "output": "\\frac{d}{dx}(x^{4} + 3x^{3} - 2x^{2} + 7x - 5)"}
+{"input": "d/dx (x^4 + 3x^3 - 2x^2 + 7x - 5)", "output": "\\frac{d}{dx}(x^{4} + 3x^{3} - 2x^{2} + 7x - 5)"}
+{"input": "производная x^4 + 3x^3 - 2x^2 + 7x - 5", "output": "\\frac{d}{dx}(x^{4} + 3x^{3} - 2x^{2} + 7x - 5)"}
+{"input": "derivative of x to the 4th plus three x cubed minus two x squared plus seven x minus five", "output": "\\frac{d}{dx}(x^{4} + 3x^{3} - 2x^{2} + 7x - 5)"}
+{"input": "DERIV(X^4+3X^3-2X^2+7X-5)", "output": "\\frac{d}{dx}(x^{4} + 3x^{3} - 2x^{2} + 7x - 5)"}
+{"input": "deriv(2x^5 - 3x^4 + 4x^3 - 5x^2 + 6x - 7)", "output": "\\frac{d}{dx}(2x^{5} - 3x^{4} + 4x^{3} - 5x^{2} + 6x - 7)"}
+{"input": "d/dx (2x^5 - 3x^4 + 4x^3 - 5x^2 + 6x - 7)", "output": "\\frac{d}{dx}(2x^{5} - 3x^{4} + 4x^{3} - 5x^{2} + 6x - 7)"}
+{"input": "производная 2x^5 - 3x^4 + 4x^3 - 5x^2 + 6x - 7", "output": "\\frac{d}{dx}(2x^{5} - 3x^{4} + 4x^{3} - 5x^{2} + 6x - 7)"}
+{"input": "derivative of two x to the 5th minus three x to the 4th plus four x cubed minus five x squared plus six x minus seven", "output": "\\frac{d}{dx}(2x^{5} - 3x^{4} + 4x^{3} - 5x^{2} + 6x - 7)"}
+{"input": "DERIV(2X^5-3X^4+4X^3-5X^2+6X-7)", "output": "\\frac{d}{dx}(2x^{5} - 3x^{4} + 4x^{3} - 5x^{2} + 6x - 7)"}
+{"input": "deriv(x^3 + 2x^2 + 3x + 4 + 5/x)", "output": "\\frac{d}{dx}(x^{3} + 2x^{2} + 3x + 4 + \\frac{5}{x})"}
+{"input": "d/dx (x^3 + 2x^2 + 3x + 4 + 5/x)", "output": "\\frac{d}{dx}(x^{3} + 2x^{2} + 3x + 4 + \\frac{5}{x})"}
+{"input": "производная x^3 + 2x^2 + 3x + 4 + 5/x", "output": "\\frac{d}{dx}(x^{3} + 2x^{2} + 3x + 4 + \\frac{5}{x})"}
+{"input": "derivative of x cubed plus two x squared plus three x plus four plus five over x", "output": "\\frac{d}{dx}(x^{3} + 2x^{2} + 3x + 4 + \\frac{5}{x})"}
+{"input": "DERIV(X^3+2X^2+3X+4+5/X)", "output": "\\frac{d}{dx}(x^{3} + 2x^{2} + 3x + 4 + \\frac{5}{x})"}
+{"input": "deriv(sqrt(x) + 1/sqrt(x))", "output": "\\frac{d}{dx}(\\sqrt{x} + \\frac{1}{\\sqrt{x}})"}
+{"input": "d/dx (sqrt(x) + 1/sqrt(x))", "output": "\\frac{d}{dx}(\\sqrt{x} + \\frac{1}{\\sqrt{x}})"}
+{"input": "производная sqrt(x) + 1/sqrt(x)", "output": "\\frac{d}{dx}(\\sqrt{x} + \\frac{1}{\\sqrt{x}})"}
+{"input": "derivative of square root of x plus one over square root of x", "output": "\\frac{d}{dx}(\\sqrt{x} + \\frac{1}{\\sqrt{x}})"}
+{"input": "DERIV(SQRT(X)+1/SQRT(X))", "output": "\\frac{d}{dx}(\\sqrt{x} + \\frac{1}{\\sqrt{x}})"}
+{"input": "deriv(e^x + e^(-x))", "output": "\\frac{d}{dx}(e^{x} + e^{-x})"}
+{"input": "d/dx (e^x + e^(-x))", "output": "\\frac{d}{dx}(e^{x} + e^{-x})"}
+{"input": "производная e^x + e^(-x)", "output": "\\frac{d}{dx}(e^{x} + e^{-x})"}
+{"input": "derivative of e to the x plus e to the minus x", "output": "\\frac{d}{dx}(e^{x} + e^{-x})"}
+{"input": "DERIV(E^X+E^(-X))", "output": "\\frac{d}{dx}(e^{x} + e^{-x})"}
+{"input": "deriv(sin(x) + 2cos(x) - 3tan(x))", "output": "\\frac{d}{dx}(\\sin(x) + 2\\cos(x) - 3\\tan(x))"}
+{"input": "d/dx (sin(x) + 2cos(x) - 3tan(x))", "output": "\\frac{d}{dx}(\\sin(x) + 2\\cos(x) - 3\\tan(x))"}
+{"input": "производная sin(x) + 2cos(x) - 3tan(x)", "output": "\\frac{d}{dx}(\\sin(x) + 2\\cos(x) - 3\\tan(x))"}
+{"input": "derivative of sin x plus two cos x minus three tan x", "output": "\\frac{d}{dx}(\\sin(x) + 2\\cos(x) - 3\\tan(x))"}
+{"input": "DERIV(SIN(X)+2COS(X)-3TAN(X))", "output": "\\frac{d}{dx}(\\sin(x) + 2\\cos(x) - 3\\tan(x))"}
+{"input": "deriv(ln(x^2 + 1))", "output": "\\frac{d}{dx}(\\ln(x^{2} + 1))"}
+{"input": "d/dx (ln(x^2 + 1))", "output": "\\frac{d}{dx}(\\ln(x^{2} + 1))"}
+{"input": "производная ln(x^2 + 1)", "output": "\\frac{d}{dx}(\\ln(x^{2} + 1))"}
+{"input": "derivative of ln of x squared plus one", "output": "\\frac{d}{dx}(\\ln(x^{2} + 1))"}
+{"input": "DERIV(LN(X^2+1))", "output": "\\frac{d}{dx}(\\ln(x^{2} + 1))"}
+{"input": "deriv(sqrt(1 - x^2))", "output": "\\frac{d}{dx}(\\sqrt{1 - x^{2}})"}
+{"input": "d/dx (sqrt(1 - x^2))", "output": "\\frac{d}{dx}(\\sqrt{1 - x^{2}})"}
+{"input": "производная sqrt(1 - x^2)", "output": "\\frac{d}{dx}(\\sqrt{1 - x^{2}})"}
+{"input": "derivative of square root of one minus x squared", "output": "\\frac{d}{dx}(\\sqrt{1 - x^{2}})"}
+{"input": "DERIV(SQRT(1-X^2))", "output": "\\frac{d}{dx}(\\sqrt{1 - x^{2}})"}
+{"input": "deriv(1 / (x^2 + 1))", "output": "\\frac{d}{dx}(\\frac{1}{x^{2} + 1})"}
+{"input": "d/dx (1 / (x^2 + 1))", "output": "\\frac{d}{dx}(\\frac{1}{x^{2} + 1})"}
+{"input": "производная 1 / (x^2 + 1)", "output": "\\frac{d}{dx}(\\frac{1}{x^{2} + 1})"}
+{"input": "derivative of one over x squared plus one", "output": "\\frac{d}{dx}(\\frac{1}{x^{2} + 1})"}
+{"input": "DERIV(1/(X^2+1))", "output": "\\frac{d}{dx}(\\frac{1}{x^{2} + 1})"}
+{"input": "deriv(1 / (x^2 - 1))", "output": "\\frac{d}{dx}(\\frac{1}{x^{2} - 1})"}
+{"input": "d/dx (1 / (x^2 - 1))", "output": "\\frac{d}{dx}(\\frac{1}{x^{2} - 1})"}
+{"input": "производная 1 / (x^2 - 1)", "output": "\\frac{d}{dx}(\\frac{1}{x^{2} - 1})"}
+{"input": "derivative of one over x squared minus one", "output": "\\frac{d}{dx}(\\frac{1}{x^{2} - 1})"}
+{"input": "DERIV(1/(X^2-1))", "output": "\\frac{d}{dx}(\\frac{1}{x^{2} - 1})"}
+{"input": "deriv(x / (x^2 + 1))", "output": "\\frac{d}{dx}(\\frac{x}{x^{2} + 1})"}
+{"input": "d/dx (x / (x^2 + 1))", "output": "\\frac{d}{dx}(\\frac{x}{x^{2} + 1})"}
+{"input": "производная x / (x^2 + 1)", "output": "\\frac{d}{dx}(\\frac{x}{x^{2} + 1})"}
+{"input": "derivative of x over x squared plus one", "output": "\\frac{d}{dx}(\\frac{x}{x^{2} + 1})"}
+{"input": "DERIV(X/(X^2+1))", "output": "\\frac{d}{dx}(\\frac{x}{x^{2} + 1})"}
+{"input": "deriv(x^2 / (x + 1))", "output": "\\frac{d}{dx}(\\frac{x^{2}}{x + 1})"}
+{"input": "d/dx (x^2 / (x + 1))", "output": "\\frac{d}{dx}(\\frac{x^{2}}{x + 1})"}
+{"input": "производная x^2 / (x + 1)", "output": "\\frac{d}{dx}(\\frac{x^{2}}{x + 1})"}
+{"input": "derivative of x squared over x plus one", "output": "\\frac{d}{dx}(\\frac{x^{2}}{x + 1})"}
+{"input": "DERIV(X^2/(X+1))", "output": "\\frac{d}{dx}(\\frac{x^{2}}{x + 1})"}
+{"input": "deriv(sin(x) * ln(x))", "output": "\\frac{d}{dx}(\\sin(x) \\ln(x))"}
+{"input": "d/dx (sin(x) * ln(x))", "output": "\\frac{d}{dx}(\\sin(x) \\ln(x))"}
+{"input": "производная sin(x) * ln(x)", "output": "\\frac{d}{dx}(\\sin(x) \\ln(x))"}
+{"input": "derivative of sin x times ln x", "output": "\\frac{d}{dx}(\\sin(x) \\ln(x))"}
+{"input": "DERIV(SIN(X)*LN(X))", "output": "\\frac{d}{dx}(\\sin(x) \\ln(x))"}
+{"input": "deriv(cos(x) * e^x)", "output": "\\frac{d}{dx}(\\cos(x) e^{x})"}
+{"input": "d/dx (cos(x) * e^x)", "output": "\\frac{d}{dx}(\\cos(x) e^{x})"}
+{"input": "производная cos(x) * e^x", "output": "\\frac{d}{dx}(\\cos(x) e^{x})"}
+{"input": "derivative of cos x times e to the x", "output": "\\frac{d}{dx}(\\cos(x) e^{x})"}
+{"input": "DERIV(COS(X)*E^X)", "output": "\\frac{d}{dx}(\\cos(x) e^{x})"}
+{"input": "deriv(tan(x) * sqrt(x))", "output": "\\frac{d}{dx}(\\tan(x) \\sqrt{x})"}
+{"input": "d/dx (tan(x) * sqrt(x))", "output": "\\frac{d}{dx}(\\tan(x) \\sqrt{x})"}
+{"input": "производная tan(x) * sqrt(x)", "output": "\\frac{d}{dx}(\\tan(x) \\sqrt{x})"}
+{"input": "derivative of tan x times square root of x", "output": "\\frac{d}{dx}(\\tan(x) \\sqrt{x})"}
+{"input": "DERIV(TAN(X)*SQRT(X))", "output": "\\frac{d}{dx}(\\tan(x) \\sqrt{x})"}
+{"input": "deriv(x^2 * sin(x) * cos(x))", "output": "\\frac{d}{dx}(x^{2} \\sin(x) \\cos(x))"}
+{"input": "d/dx (x^2 * sin(x) * cos(x))", "output": "\\frac{d}{dx}(x^{2} \\sin(x) \\cos(x))"}
+{"input": "производная x^2 * sin(x) * cos(x)", "output": "\\frac{d}{dx}(x^{2} \\sin(x) \\cos(x))"}
+{"input": "derivative of x squared times sin x times cos x", "output": "\\frac{d}{dx}(x^{2} \\sin(x) \\cos(x))"}
+{"input": "DERIV(X^2*SIN(X)*COS(X))", "output": "\\frac{d}{dx}(x^{2} \\sin(x) \\cos(x))"}
+{"input": "deriv(e^x * ln(x) * sqrt(x))", "output": "\\frac{d}{dx}(e^{x} \\ln(x) \\sqrt{x})"}
+{"input": "d/dx (e^x * ln(x) * sqrt(x))", "output": "\\frac{d}{dx}(e^{x} \\ln(x) \\sqrt{x})"}
+{"input": "производная e^x * ln(x) * sqrt(x)", "output": "\\frac{d}{dx}(e^{x} \\ln(x) \\sqrt{x})"}
+{"input": "derivative of e to the x times ln x times square root of x", "output": "\\frac{d}{dx}(e^{x} \\ln(x) \\sqrt{x})"}
+{"input": "DERIV(E^X*LN(X)*SQRT(X))", "output": "\\frac{d}{dx}(e^{x} \\ln(x) \\sqrt{x})"}
+{"input": "deriv(sin(x) + cos(x) + tan(x) + cot(x))", "output": "\\frac{d}{dx}(\\sin(x) + \\cos(x) + \\tan(x) + \\cot(x))"}
+{"input": "d/dx (sin(x) + cos(x) + tan(x) + cot(x))", "output": "\\frac{d}{dx}(\\sin(x) + \\cos(x) + \\tan(x) + \\cot(x))"}
+{"input": "производная sin(x) + cos(x) + tan(x) + cot(x)", "output": "\\frac{d}{dx}(\\sin(x) + \\cos(x) + \\tan(x) + \\cot(x))"}
+{"input": "derivative of sin x plus cos x plus tan x plus cot x", "output": "\\frac{d}{dx}(\\sin(x) + \\cos(x) + \\tan(x) + \\cot(x))"}
+{"input": "DERIV(SIN(X)+COS(X)+TAN(X)+COT(X))", "output": "\\frac{d}{dx}(\\sin(x) + \\cos(x) + \\tan(x) + \\cot(x))"}
+{"input": "deriv(arcsin(x) + arccos(x))", "output": "\\frac{d}{dx}(\\arcsin(x) + \\arccos(x))"}
+{"input": "d/dx (arcsin(x) + arccos(x))", "output": "\\frac{d}{dx}(\\arcsin(x) + \\arccos(x))"}
+{"input": "производная arcsin(x) + arccos(x)", "output": "\\frac{d}{dx}(\\arcsin(x) + \\arccos(x))"}
+{"input": "derivative of arcsin x plus arccos x", "output": "\\frac{d}{dx}(\\arcsin(x) + \\arccos(x))"}
+{"input": "DERIV(ARCSIN(X)+ARCCOS(X))", "output": "\\frac{d}{dx}(\\arcsin(x) + \\arccos(x))"}
+{"input": "deriv(arctan(x) + arccot(x))", "output": "\\frac{d}{dx}(\\arctan(x) + \\operatorname{arccot}(x))"}
+{"input": "d/dx (arctan(x) + arccot(x))", "output": "\\frac{d}{dx}(\\arctan(x) + \\operatorname{arccot}(x))"}
+{"input": "производная arctan(x) + arccot(x)", "output": "\\frac{d}{dx}(\\arctan(x) + \\operatorname{arccot}(x))"}
+{"input": "derivative of arctan x plus arccot x", "output": "\\frac{d}{dx}(\\arctan(x) + \\operatorname{arccot}(x))"}
+{"input": "DERIV(ARCTAN(X)+ARCCOT(X))", "output": "\\frac{d}{dx}(\\arctan(x) + \\operatorname{arccot}(x))"}
+{"input": "deriv(x^6 - 6x^5 + 15x^4 - 20x^3 + 15x^2 - 6x + 1)", "output": "\\frac{d}{dx}(x^{6} - 6x^{5} + 15x^{4} - 20x^{3} + 15x^{2} - 6x + 1)"}
+{"input": "d/dx (x^6 - 6x^5 + 15x^4 - 20x^3 + 15x^2 - 6x + 1)", "output": "\\frac{d}{dx}(x^{6} - 6x^{5} + 15x^{4} - 20x^{3} + 15x^{2} - 6x + 1)"}
+{"input": "производная x^6 - 6x^5 + 15x^4 - 20x^3 + 15x^2 - 6x + 1", "output": "\\frac{d}{dx}(x^{6} - 6x^{5} + 15x^{4} - 20x^{3} + 15x^{2} - 6x + 1)"}
+{"input": "derivative of x to the 6th minus six x to the 5th plus fifteen x to the 4th minus twenty x cubed plus fifteen x squared minus six x plus one", "output": "\\frac{d}{dx}(x^{6} - 6x^{5} + 15x^{4} - 20x^{3} + 15x^{2} - 6x + 1)"}
+{"input": "DERIV(X^6-6X^5+15X^4-20X^3+15X^2-6X+1)", "output": "\\frac{d}{dx}(x^{6} - 6x^{5} + 15x^{4} - 20x^{3} + 15x^{2} - 6x + 1)"}
+{"input": "deriv(x^7 - 7x^6 + 21x^5 - 35x^4 + 35x^3 - 21x^2 + 7x - 1)", "output": "\\frac{d}{dx}(x^{7} - 7x^{6} + 21x^{5} - 35x^{4} + 35x^{3} - 21x^{2} + 7x - 1)"}
+{"input": "d/dx (x^7 - 7x^6 + 21x^5 - 35x^4 + 35x^3 - 21x^2 + 7x - 1)", "output": "\\frac{d}{dx}(x^{7} - 7x^{6} + 21x^{5} - 35x^{4} + 35x^{3} - 21x^{2} + 7x - 1)"}
+{"input": "производная x^7 - 7x^6 + 21x^5 - 35x^4 + 35x^3 - 21x^2 + 7x - 1", "output": "\\frac{d}{dx}(x^{7} - 7x^{6} + 21x^{5} - 35x^{4} + 35x^{3} - 21x^{2} + 7x - 1)"}
+{"input": "derivative of x to the 7th minus seven x to the 6th plus twenty one x to the 5th minus thirty five x to the 4th plus thirty five x cubed minus twenty one x squared plus seven x minus one", "output": "\\frac{d}{dx}(x^{7} - 7x^{6} + 21x^{5} - 35x^{4} + 35x^{3} - 21x^{2} + 7x - 1)"}
+{"input": "DERIV(X^7-7X^6+21X^5-35X^4+35X^3-21X^2+7X-1)", "output": "\\frac{d}{dx}(x^{7} - 7x^{6} + 21x^{5} - 35x^{4} + 35x^{3} - 21x^{2} + 7x - 1)"}
+{"input": "deriv(x^3 * sin(x) + x^2 * cos(x))", "output": "\\frac{d}{dx}(x^{3} \\sin(x) + x^{2} \\cos(x))"}
+{"input": "d/dx (x^3 * sin(x) + x^2 * cos(x))", "output": "\\frac{d}{dx}(x^{3} \\sin(x) + x^{2} \\cos(x))"}
+{"input": "производная x^3 * sin(x) + x^2 * cos(x)", "output": "\\frac{d}{dx}(x^{3} \\sin(x) + x^{2} \\cos(x))"}
+{"input": "derivative of x cubed times sin x plus x squared times cos x", "output": "\\frac{d}{dx}(x^{3} \\sin(x) + x^{2} \\cos(x))"}
+{"input": "DERIV(X^3*SIN(X)+X^2*COS(X))", "output": "\\frac{d}{dx}(x^{3} \\sin(x) + x^{2} \\cos(x))"}
+{"input": "deriv(e^x * sin(x) + e^x * cos(x))", "output": "\\frac{d}{dx}(e^{x} \\sin(x) + e^{x} \\cos(x))"}
+{"input": "d/dx (e^x * sin(x) + e^x * cos(x))", "output": "\\frac{d}{dx}(e^{x} \\sin(x) + e^{x} \\cos(x))"}
+{"input": "производная e^x * sin(x) + e^x * cos(x)", "output": "\\frac{d}{dx}(e^{x} \\sin(x) + e^{x} \\cos(x))"}
+{"input": "derivative of e to the x times sin x plus e to the x times cos x", "output": "\\frac{d}{dx}(e^{x} \\sin(x) + e^{x} \\cos(x))"}
+{"input": "DERIV(E^X*SIN(X)+E^X*COS(X))", "output": "\\frac{d}{dx}(e^{x} \\sin(x) + e^{x} \\cos(x))"}
+{"input": "deriv(ln(x) * sin(x) + ln(x) * cos(x))", "output": "\\frac{d}{dx}(\\ln(x) \\sin(x) + \\ln(x) \\cos(x))"}
+{"input": "d/dx (ln(x) * sin(x) + ln(x) * cos(x))", "output": "\\frac{d}{dx}(\\ln(x) \\sin(x) + \\ln(x) \\cos(x))"}
+{"input": "производная ln(x) * sin(x) + ln(x) * cos(x)", "output": "\\frac{d}{dx}(\\ln(x) \\sin(x) + \\ln(x) \\cos(x))"}
+{"input": "derivative of ln x times sin x plus ln x times cos x", "output": "\\frac{d}{dx}(\\ln(x) \\sin(x) + \\ln(x) \\cos(x))"}
+{"input": "DERIV(LN(X)*SIN(X)+LN(X)*COS(X))", "output": "\\frac{d}{dx}(\\ln(x) \\sin(x) + \\ln(x) \\cos(x))"}
+{"input": "deriv(sqrt(x) * sin(x) + sqrt(x) * cos(x))", "output": "\\frac{d}{dx}(\\sqrt{x} \\sin(x) + \\sqrt{x} \\cos(x))"}
+{"input": "d/dx (sqrt(x) * sin(x) + sqrt(x) * cos(x))", "output": "\\frac{d}{dx}(\\sqrt{x} \\sin(x) + \\sqrt{x} \\cos(x))"}
+{"input": "производная sqrt(x) * sin(x) + sqrt(x) * cos(x)", "output": "\\frac{d}{dx}(\\sqrt{x} \\sin(x) + \\sqrt{x} \\cos(x))"}
+{"input": "derivative of square root of x times sin x plus square root of x times cos x", "output": "\\frac{d}{dx}(\\sqrt{x} \\sin(x) + \\sqrt{x} \\cos(x))"}
+{"input": "DERIV(SQRT(X)*SIN(X)+SQRT(X)*COS(X))", "output": "\\frac{d}{dx}(\\sqrt{x} \\sin(x) + \\sqrt{x} \\cos(x))"}
+{"input": "deriv(x^4 * e^x * ln(x) * sqrt(x))", "output": "\\frac{d}{dx}(x^{4} e^{x} \\ln(x) \\sqrt{x})"}
+{"input": "d/dx (x^4 * e^x * ln(x) * sqrt(x))", "output": "\\frac{d}{dx}(x^{4} e^{x} \\ln(x) \\sqrt{x})"}
+{"input": "производная x^4 * e^x * ln(x) * sqrt(x)", "output": "\\frac{d}{dx}(x^{4} e^{x} \\ln(x) \\sqrt{x})"}
+{"input": "derivative of x to the 4th times e to the x times ln x times square root of x", "output": "\\frac{d}{dx}(x^{4} e^{x} \\ln(x) \\sqrt{x})"}
+{"input": "DERIV(X^4*E^X*LN(X)*SQRT(X))", "output": "\\frac{d}{dx}(x^{4} e^{x} \\ln(x) \\sqrt{x})"}
+{"input": "deriv(sin(x) * cos(x) * tan(x) * cot(x))", "output": "\\frac{d}{dx}(\\sin(x) \\cos(x) \\tan(x) \\cot(x))"}
+{"input": "d/dx (sin(x) * cos(x) * tan(x) * cot(x))", "output": "\\frac{d}{dx}(\\sin(x) \\cos(x) \\tan(x) \\cot(x))"}
+{"input": "производная sin(x) * cos(x) * tan(x) * cot(x)", "output": "\\frac{d}{dx}(\\sin(x) \\cos(x) \\tan(x) \\cot(x))"}
+{"input": "derivative of sin x times cos x times tan x times cot x", "output": "\\frac{d}{dx}(\\sin(x) \\cos(x) \\tan(x) \\cot(x))"}
+{"input": "DERIV(SIN(X)*COS(X)*TAN(X)*COT(X))", "output": "\\frac{d}{dx}(\\sin(x) \\cos(x) \\tan(x) \\cot(x))"}
+{"input": "deriv(arcsin(x) * arccos(x) * arctan(x))", "output": "\\frac{d}{dx}(\\arcsin(x) \\arccos(x) \\arctan(x))"}
+{"input": "d/dx (arcsin(x) * arccos(x) * arctan(x))", "output": "\\frac{d}{dx}(\\arcsin(x) \\arccos(x) \\arctan(x))"}
+{"input": "производная arcsin(x) * arccos(x) * arctan(x)", "output": "\\frac{d}{dx}(\\arcsin(x) \\arccos(x) \\arctan(x))"}
+{"input": "derivative of arcsin x times arccos x times arctan x", "output": "\\frac{d}{dx}(\\arcsin(x) \\arccos(x) \\arctan(x))"}
+{"input": "DERIV(ARCSIN(X)*ARCCOS(X)*ARCTAN(X))", "output": "\\frac{d}{dx}(\\arcsin(x) \\arccos(x) \\arctan(x))"}
+{"input": "deriv(x^2 + y^2)", "output": "\\frac{d}{dx}(x^{2} + y^{2})"}
+{"input": "d/dx (x^2 + y^2)", "output": "\\frac{d}{dx}(x^{2} + y^{2})"}
+{"input": "производная x^2 + y^2", "output": "\\frac{d}{dx}(x^{2} + y^{2})"}
+{"input": "derivative of x squared plus y squared", "output": "\\frac{d}{dx}(x^{2} + y^{2})"}
+{"input": "DERIV(X^2+Y^2)", "output": "\\frac{d}{dx}(x^{2} + y^{2})"}
+{"input": "deriv(y^3 - 2y^2 + y)", "output": "\\frac{d}{dy}(y^{3} - 2y^{2} + y)"}
+{"input": "d/dy (y^3 - 2y^2 + y)", "output": "\\frac{d}{dy}(y^{3} - 2y^{2} + y)"}
+{"input": "производная y^3 - 2y^2 + y", "output": "\\frac{d}{dy}(y^{3} - 2y^{2} + y)"}
+{"input": "derivative of y cubed minus two y squared plus y", "output": "\\frac{d}{dy}(y^{3} - 2y^{2} + y)"}
+{"input": "DERIV(Y^3-2Y^2+Y)", "output": "\\frac{d}{dy}(y^{3} - 2y^{2} + y)"}
+{"input": "deriv(z^4 + 3z^3 - 2z^2 + z)", "output": "\\frac{d}{dz}(z^{4} + 3z^{3} - 2z^{2} + z)"}
+{"input": "d/dz (z^4 + 3z^3 - 2z^2 + z)", "output": "\\frac{d}{dz}(z^{4} + 3z^{3} - 2z^{2} + z)"}
+{"input": "производная z^4 + 3z^3 - 2z^2 + z", "output": "\\frac{d}{dz}(z^{4} + 3z^{3} - 2z^{2} + z)"}
+{"input": "derivative of z to the 4th plus three z cubed minus two z squared plus z", "output": "\\frac{d}{dz}(z^{4} + 3z^{3} - 2z^{2} + z)"}
+{"input": "DERIV(Z^4+3Z^3-2Z^2+Z)", "output": "\\frac{d}{dz}(z^{4} + 3z^{3} - 2z^{2} + z)"}
+{"input": "deriv(a^3 + b^3)", "output": "\\frac{d}{da}(a^{3} + b^{3})"}
+{"input": "d/da (a^3 + b^3)", "output": "\\frac{d}{da}(a^{3} + b^{3})"}
+{"input": "производная a^3 + b^3", "output": "\\frac{d}{da}(a^{3} + b^{3})"}
+{"input": "derivative of a cubed plus b cubed", "output": "\\frac{d}{da}(a^{3} + b^{3})"}
+{"input": "DERIV(A^3+B^3)", "output": "\\frac{d}{da}(a^{3} + b^{3})"}
+{"input": "deriv(b^4 - c^4)", "output": "\\frac{d}{db}(b^{4} - c^{4})"}
+{"input": "d/db (b^4 - c^4)", "output": "\\frac{d}{db}(b^{4} - c^{4})"}
+{"input": "производная b^4 - c^4", "output": "\\frac{d}{db}(b^{4} - c^{4})"}
+{"input": "derivative of b to the 4th minus c to the 4th", "output": "\\frac{d}{db}(b^{4} - c^{4})"}
+{"input": "DERIV(B^4-C^4)", "output": "\\frac{d}{db}(b^{4} - c^{4})"}
+{"input": "deriv(c^5 + d^5)", "output": "\\frac{d}{dc}(c^{5} + d^{5})"}
+{"input": "d/dc (c^5 + d^5)", "output": "\\frac{d}{dc}(c^{5} + d^{5})"}
+{"input": "производная c^5 + d^5", "output": "\\frac{d}{dc}(c^{5} + d^{5})"}
+{"input": "derivative of c to the 5th plus d to the 5th", "output": "\\frac{d}{dc}(c^{5} + d^{5})"}
+{"input": "DERIV(C^5+D^5)", "output": "\\frac{d}{dc}(c^{5} + d^{5})"}
+{"input": "deriv(n^2 + m^2)", "output": "\\frac{d}{dn}(n^{2} + m^{2})"}
+{"input": "d/dn (n^2 + m^2)", "output": "\\frac{d}{dn}(n^{2} + m^{2})"}
+{"input": "производная n^2 + m^2", "output": "\\frac{d}{dn}(n^{2} + m^{2})"}
+{"input": "derivative of n squared plus m squared", "output": "\\frac{d}{dn}(n^{2} + m^{2})"}
+{"input": "DERIV(N^2+M^2)", "output": "\\frac{d}{dn}(n^{2} + m^{2})"}
+{"input": "deriv(k^3 - p^3)", "output": "\\frac{d}{dk}(k^{3} - p^{3})"}
+{"input": "d/dk (k^3 - p^3)", "output": "\\frac{d}{dk}(k^{3} - p^{3})"}
+{"input": "производная k^3 - p^3", "output": "\\frac{d}{dk}(k^{3} - p^{3})"}
+{"input": "derivative of k cubed minus p cubed", "output": "\\frac{d}{dk}(k^{3} - p^{3})"}
+{"input": "DERIV(K^3-P^3)", "output": "\\frac{d}{dk}(k^{3} - p^{3})"}
+{"input": "deriv(q^4 + r^4)", "output": "\\frac{d}{dq}(q^{4} + r^{4})"}
+{"input": "d/dq (q^4 + r^4)", "output": "\\frac{d}{dq}(q^{4} + r^{4})"}
+{"input": "производная q^4 + r^4", "output": "\\frac{d}{dq}(q^{4} + r^{4})"}
+{"input": "derivative of q to the 4th plus r to the 4th", "output": "\\frac{d}{dq}(q^{4} + r^{4})"}
+{"input": "DERIV(Q^4+R^4)", "output": "\\frac{d}{dq}(q^{4} + r^{4})"}
+{"input": "deriv(u^5 - v^5)", "output": "\\frac{d}{du}(u^{5} - v^{5})"}
+{"input": "d/du (u^5 - v^5)", "output": "\\frac{d}{du}(u^{5} - v^{5})"}
+{"input": "производная u^5 - v^5", "output": "\\frac{d}{du}(u^{5} - v^{5})"}
+{"input": "derivative of u to the 5th minus v to the 5th", "output": "\\frac{d}{du}(u^{5} - v^{5})"}
+{"input": "DERIV(U^5-V^5)", "output": "\\frac{d}{du}(u^{5} - v^{5})"}
+{"input": "deriv(w^3 + x^3)", "output": "\\frac{d}{dw}(w^{3} + x^{3})"}
+{"input": "d/dw (w^3 + x^3)", "output": "\\frac{d}{dw}(w^{3} + x^{3})"}
+{"input": "производная w^3 + x^3", "output": "\\frac{d}{dw}(w^{3} + x^{3})"}
+{"input": "derivative of w cubed plus x cubed", "output": "\\frac{d}{dw}(w^{3} + x^{3})"}
+{"input": "DERIV(W^3+X^3)", "output": "\\frac{d}{dw}(w^{3} + x^{3})"}
+{"input": "sum n=1 inf 1/n^2 = pi^2/6", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{2}} = \\frac{\\pi^{2}}{6}"}
+{"input": "Σ_{n=1}^∞ 1/n^2 = π^2/6", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{2}} = \\frac{\\pi^{2}}{6}"}
+{"input": "сумма от n=1 до бесконечности 1/n^2 = пи^2/6", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{2}} = \\frac{\\pi^{2}}{6}"}
+{"input": "sum from n=1 to infinity of 1 over n squared equals pi squared over 6", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{2}} = \\frac{\\pi^{2}}{6}"}
+{"input": "SUM N=1 INF 1/N^2 = PI^2/6", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{2}} = \\frac{\\pi^{2}}{6}"}
+{"input": "sum n=1 inf 1/n^4 = pi^4/90", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{4}} = \\frac{\\pi^{4}}{90}"}
+{"input": "Σ_{n=1}^∞ 1/n^4 = π^4/90", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{4}} = \\frac{\\pi^{4}}{90}"}
+{"input": "сумма от n=1 до бесконечности 1/n^4 = пи^4/90", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{4}} = \\frac{\\pi^{4}}{90}"}
+{"input": "sum from n=1 to infinity of 1 over n to the 4th equals pi to the 4th over 90", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{4}} = \\frac{\\pi^{4}}{90}"}
+{"input": "SUM N=1 INF 1/N^4 = PI^4/90", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{4}} = \\frac{\\pi^{4}}{90}"}
+{"input": "sum n=1 inf 1/n^6 = pi^6/945", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{6}} = \\frac{\\pi^{6}}{945}"}
+{"input": "Σ_{n=1}^∞ 1/n^6 = π^6/945", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{6}} = \\frac{\\pi^{6}}{945}"}
+{"input": "сумма от n=1 до бесконечности 1/n^6 = пи^6/945", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{6}} = \\frac{\\pi^{6}}{945}"}
+{"input": "sum from n=1 to infinity of 1 over n to the 6th equals pi to the 6th over 945", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{6}} = \\frac{\\pi^{6}}{945}"}
+{"input": "SUM N=1 INF 1/N^6 = PI^6/945", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{6}} = \\frac{\\pi^{6}}{945}"}
+{"input": "sum n=1 inf 1/n^8 = pi^8/9450", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{8}} = \\frac{\\pi^{8}}{9450}"}
+{"input": "Σ_{n=1}^∞ 1/n^8 = π^8/9450", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{8}} = \\frac{\\pi^{8}}{9450}"}
+{"input": "сумма от n=1 до бесконечности 1/n^8 = пи^8/9450", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{8}} = \\frac{\\pi^{8}}{9450}"}
+{"input": "sum from n=1 to infinity of 1 over n to the 8th equals pi to the 8th over 9450", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{8}} = \\frac{\\pi^{8}}{9450}"}
+{"input": "SUM N=1 INF 1/N^8 = PI^8/9450", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{8}} = \\frac{\\pi^{8}}{9450}"}
+{"input": "sum n=1 inf 1/n^3 = zeta(3)", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{3}} = \\zeta(3)"}
+{"input": "Σ_{n=1}^∞ 1/n^3 = ζ(3)", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{3}} = \\zeta(3)"}
+{"input": "сумма от n=1 до бесконечности 1/n^3 = дзета(3)", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{3}} = \\zeta(3)"}
+{"input": "sum from n=1 to infinity of 1 over n cubed equals zeta of 3", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{3}} = \\zeta(3)"}
+{"input": "SUM N=1 INF 1/N^3 = ZETA(3)", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{3}} = \\zeta(3)"}
+{"input": "sum n=1 inf 1/n = diverges", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n} = \\infty"}
+{"input": "Σ_{n=1}^∞ 1/n = ∞", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n} = \\infty"}
+{"input": "сумма от n=1 до бесконечности 1/n = бесконечность", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n} = \\infty"}
+{"input": "sum from n=1 to infinity of 1 over n equals infinity", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n} = \\infty"}
+{"input": "SUM N=1 INF 1/N = INF", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n} = \\infty"}
+{"input": "sum n=0 inf x^n = 1/(1-x)", "output": "\\sum_{n=0}^{\\infty} x^{n} = \\frac{1}{1-x}"}
+{"input": "Σ_{n=0}^∞ x^n = 1/(1-x)", "output": "\\sum_{n=0}^{\\infty} x^{n} = \\frac{1}{1-x}"}
+{"input": "сумма от n=0 до бесконечности x^n = 1/(1-x)", "output": "\\sum_{n=0}^{\\infty} x^{n} = \\frac{1}{1-x}"}
+{"input": "sum from n=0 to infinity of x to the n equals 1 over 1 minus x", "output": "\\sum_{n=0}^{\\infty} x^{n} = \\frac{1}{1-x}"}
+{"input": "SUM N=0 INF X^N = 1/(1-X)", "output": "\\sum_{n=0}^{\\infty} x^{n} = \\frac{1}{1-x}"}
+{"input": "sum n=0 inf x^n/n! = e^x", "output": "\\sum_{n=0}^{\\infty} \\frac{x^{n}}{n!} = e^{x}"}
+{"input": "Σ_{n=0}^∞ x^n/n! = e^x", "output": "\\sum_{n=0}^{\\infty} \\frac{x^{n}}{n!} = e^{x}"}
+{"input": "сумма от n=0 до бесконечности x^n/n! = e^x", "output": "\\sum_{n=0}^{\\infty} \\frac{x^{n}}{n!} = e^{x}"}
+{"input": "sum from n=0 to infinity of x to the n over n factorial equals e to the x", "output": "\\sum_{n=0}^{\\infty} \\frac{x^{n}}{n!} = e^{x}"}
+{"input": "SUM N=0 INF X^N/N! = E^X", "output": "\\sum_{n=0}^{\\infty} \\frac{x^{n}}{n!} = e^{x}"}
+{"input": "sum n=0 inf (-1)^n x^(2n+1)/(2n+1)! = sin(x)", "output": "\\sum_{n=0}^{\\infty} \\frac{(-1)^{n} x^{2n+1}}{(2n+1)!} = \\sin(x)"}
+{"input": "Σ_{n=0}^∞ (-1)^n x^(2n+1)/(2n+1)! = sin(x)", "output": "\\sum_{n=0}^{\\infty} \\frac{(-1)^{n} x^{2n+1}}{(2n+1)!} = \\sin(x)"}
+{"input": "сумма от n=0 до бесконечности (-1)^n x^(2n+1)/(2n+1)! = sin(x)", "output": "\\sum_{n=0}^{\\infty} \\frac{(-1)^{n} x^{2n+1}}{(2n+1)!} = \\sin(x)"}
+{"input": "sum from n=0 to infinity of (-1)^n x^(2n+1) over (2n+1) factorial equals sin x", "output": "\\sum_{n=0}^{\\infty} \\frac{(-1)^{n} x^{2n+1}}{(2n+1)!} = \\sin(x)"}
+{"input": "SUM N=0 INF (-1)^N X^(2N+1)/(2N+1)! = SIN(X)", "output": "\\sum_{n=0}^{\\infty} \\frac{(-1)^{n} x^{2n+1}}{(2n+1)!} = \\sin(x)"}
+{"input": "sum n=0 inf (-1)^n x^(2n)/(2n)! = cos(x)", "output": "\\sum_{n=0}^{\\infty} \\frac{(-1)^{n} x^{2n}}{(2n)!} = \\cos(x)"}
+{"input": "Σ_{n=0}^∞ (-1)^n x^(2n)/(2n)! = cos(x)", "output": "\\sum_{n=0}^{\\infty} \\frac{(-1)^{n} x^{2n}}{(2n)!} = \\cos(x)"}
+{"input": "сумма от n=0 до бесконечности (-1)^n x^(2n)/(2n)! = cos(x)", "output": "\\sum_{n=0}^{\\infty} \\frac{(-1)^{n} x^{2n}}{(2n)!} = \\cos(x)"}
+{"input": "sum from n=0 to infinity of (-1)^n x^(2n) over (2n) factorial equals cos x", "output": "\\sum_{n=0}^{\\infty} \\frac{(-1)^{n} x^{2n}}{(2n)!} = \\cos(x)"}
+{"input": "SUM N=0 INF (-1)^N X^(2N)/(2N)! = COS(X)", "output": "\\sum_{n=0}^{\\infty} \\frac{(-1)^{n} x^{2n}}{(2n)!} = \\cos(x)"}
+{"input": "sum n=1 inf (-1)^(n+1) x^n/n = ln(1+x)", "output": "\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1} x^{n}}{n} = \\ln(1+x)"}
+{"input": "Σ_{n=1}^∞ (-1)^(n+1) x^n/n = ln(1+x)", "output": "\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1} x^{n}}{n} = \\ln(1+x)"}
+{"input": "сумма от n=1 до бесконечности (-1)^(n+1) x^n/n = ln(1+x)", "output": "\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1} x^{n}}{n} = \\ln(1+x)"}
+{"input": "sum from n=1 to infinity of (-1)^(n+1) x^n over n equals ln 1 plus x", "output": "\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1} x^{n}}{n} = \\ln(1+x)"}
+{"input": "SUM N=1 INF (-1)^(N+1) X^N/N = LN(1+X)", "output": "\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1} x^{n}}{n} = \\ln(1+x)"}
+{"input": "sum n=0 inf x^(2n+1)/(2n+1) = arctanh(x)", "output": "\\sum_{n=0}^{\\infty} \\frac{x^{2n+1}}{2n+1} = \\operatorname{arctanh}(x)"}
+{"input": "Σ_{n=0}^∞ x^(2n+1)/(2n+1) = artanh(x)", "output": "\\sum_{n=0}^{\\infty} \\frac{x^{2n+1}}{2n+1} = \\operatorname{arctanh}(x)"}
+{"input": "сумма от n=0 до бесконечности x^(2n+1)/(2n+1) = арктангенс гиперболический x", "output": "\\sum_{n=0}^{\\infty} \\frac{x^{2n+1}}{2n+1} = \\operatorname{arctanh}(x)"}
+{"input": "sum from n=0 to infinity of x^(2n+1) over 2n+1 equals arctanh x", "output": "\\sum_{n=0}^{\\infty} \\frac{x^{2n+1}}{2n+1} = \\operatorname{arctanh}(x)"}
+{"input": "SUM N=0 INF X^(2N+1)/(2N+1) = ARCTANH(X)", "output": "\\sum_{n=0}^{\\infty} \\frac{x^{2n+1}}{2n+1} = \\operatorname{arctanh}(x)"}
+{"input": "sum n=0 inf (-1)^n x^(2n+1)/(2n+1) = arctan(x)", "output": "\\sum_{n=0}^{\\infty} \\frac{(-1)^{n} x^{2n+1}}{2n+1} = \\arctan(x)"}
+{"input": "Σ_{n=0}^∞ (-1)^n x^(2n+1)/(2n+1) = arctan(x)", "output": "\\sum_{n=0}^{\\infty} \\frac{(-1)^{n} x^{2n+1}}{2n+1} = \\arctan(x)"}
+{"input": "сумма от n=0 до бесконечности (-1)^n x^(2n+1)/(2n+1) = arctan(x)", "output": "\\sum_{n=0}^{\\infty} \\frac{(-1)^{n} x^{2n+1}}{2n+1} = \\arctan(x)"}
+{"input": "sum from n=0 to infinity of (-1)^n x^(2n+1) over 2n+1 equals arctan x", "output": "\\sum_{n=0}^{\\infty} \\frac{(-1)^{n} x^{2n+1}}{2n+1} = \\arctan(x)"}
+{"input": "SUM N=0 INF (-1)^N X^(2N+1)/(2N+1) = ARCTAN(X)", "output": "\\sum_{n=0}^{\\infty} \\frac{(-1)^{n} x^{2n+1}}{2n+1} = \\arctan(x)"}
+{"input": "sum n=1 inf 1/n^2 = pi^2/6", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{2}} = \\frac{\\pi^{2}}{6}"}
+{"input": "sum n=1 inf 1/n^2 = pi^2/6", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{2}} = \\frac{\\pi^{2}}{6}"}
+{"input": "Σ_{n=1}^∞ 1/n^2 = π^2/6", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{2}} = \\frac{\\pi^{2}}{6}"}
+{"input": "сумма от n=1 до бесконечности 1/n^2 = пи^2/6", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{2}} = \\frac{\\pi^{2}}{6}"}
+{"input": "sum from n=1 to infinity of 1 over n squared equals pi squared over 6", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{2}} = \\frac{\\pi^{2}}{6}"}
+{"input": "SUM N=1 INF 1/N^2 = PI^2/6", "output": "\\sum_{n=1}^{\\infty} \\frac{1}{n^{2}} = \\frac{\\pi^{2}}{6}"}
+{"input": "integral from 0 to inf of e^(-x^2) dx = sqrt(pi)/2", "output": "\\int_{0}^{\\infty} e^{-x^{2}} \\, dx = \\frac{\\sqrt{\\pi}}{2}"}
+{"input": "∫_0^∞ e^(-x^2) dx = sqrt(π)/2", "output": "\\int_{0}^{\\infty} e^{-x^{2}} \\, dx = \\frac{\\sqrt{\\pi}}{2}"}
+{"input": "интеграл от 0 до бесконечности e^(-x^2) dx = sqrt(пи)/2", "output": "\\int_{0}^{\\infty} e^{-x^{2}} \\, dx = \\frac{\\sqrt{\\pi}}{2}"}
+{"input": "integral 0 to infinity of e to the minus x squared dx equals square root of pi over 2", "output": "\\int_{0}^{\\infty} e^{-x^{2}} \\, dx = \\frac{\\sqrt{\\pi}}{2}"}
+{"input": "INTEGRAL 0 INF E^(-X^2) DX = SQRT(PI)/2", "output": "\\int_{0}^{\\infty} e^{-x^{2}} \\, dx = \\frac{\\sqrt{\\pi}}{2}"}
+{"input": "integral from -inf to inf of e^(-x^2) dx = sqrt(pi)", "output": "\\int_{-\\infty}^{\\infty} e^{-x^{2}} \\, dx = \\sqrt{\\pi}"}
+{"input": "∫_{-∞}^∞ e^(-x^2) dx = sqrt(π)", "output": "\\int_{-\\infty}^{\\infty} e^{-x^{2}} \\, dx = \\sqrt{\\pi}"}
+{"input": "интеграл от минус бесконечности до бесконечности e^(-x^2) dx = sqrt(пи)", "output": "\\int_{-\\infty}^{\\infty} e^{-x^{2}} \\, dx = \\sqrt{\\pi}"}
+{"input": "integral minus infinity to infinity of e to the minus x squared dx equals square root of pi", "output": "\\int_{-\\infty}^{\\infty} e^{-x^{2}} \\, dx = \\sqrt{\\pi}"}
+{"input": "INTEGRAL -INF INF E^(-X^2) DX = SQRT(PI)", "output": "\\int_{-\\infty}^{\\infty} e^{-x^{2}} \\, dx = \\sqrt{\\pi}"}
+{"input": "integral from 0 to inf of e^(-x) dx = 1", "output": "\\int_{0}^{\\infty} e^{-x} \\, dx = 1"}
+{"input": "∫_0^∞ e^(-x) dx = 1", "output": "\\int_{0}^{\\infty} e^{-x} \\, dx = 1"}
+{"input": "интеграл от 0 до бесконечности e^(-x) dx = 1", "output": "\\int_{0}^{\\infty} e^{-x} \\, dx = 1"}
+{"input": "integral 0 to infinity of e to the minus x dx equals 1", "output": "\\int_{0}^{\\infty} e^{-x} \\, dx = 1"}
+{"input": "INTEGRAL 0 INF E^(-X) DX = 1", "output": "\\int_{0}^{\\infty} e^{-x} \\, dx = 1"}
+{"input": "integral from 0 to inf of x^n e^(-x) dx = n!", "output": "\\int_{0}^{\\infty} x^{n} e^{-x} \\, dx = n!"}
+{"input": "∫_0^∞ x^n e^(-x) dx = n!", "output": "\\int_{0}^{\\infty} x^{n} e^{-x} \\, dx = n!"}
+{"input": "интеграл от 0 до бесконечности x^n e^(-x) dx = n!", "output": "\\int_{0}^{\\infty} x^{n} e^{-x} \\, dx = n!"}
+{"input": "integral 0 to infinity of x to the n e to the minus x dx equals n factorial", "output": "\\int_{0}^{\\infty} x^{n} e^{-x} \\, dx = n!"}
+{"input": "INTEGRAL 0 INF X^N E^(-X) DX = N!", "output": "\\int_{0}^{\\infty} x^{n} e^{-x} \\, dx = n!"}
+{"input": "integral from 0 to 1 of x^n dx = 1/(n+1)", "output": "\\int_{0}^{1} x^{n} \\, dx = \\frac{1}{n+1}"}
+{"input": "∫_0^1 x^n dx = 1/(n+1)", "output": "\\int_{0}^{1} x^{n} \\, dx = \\frac{1}{n+1}"}
+{"input": "интеграл от 0 до 1 x^n dx = 1/(n+1)", "output": "\\int_{0}^{1} x^{n} \\, dx = \\frac{1}{n+1}"}
+{"input": "integral 0 to 1 of x to the n dx equals 1 over n plus 1", "output": "\\int_{0}^{1} x^{n} \\, dx = \\frac{1}{n+1}"}
+{"input": "INTEGRAL 0 1 X^N DX = 1/(N+1)", "output": "\\int_{0}^{1} x^{n} \\, dx = \\frac{1}{n+1}"}
+{"input": "integral from 0 to pi of sin(x) dx = 2", "output": "\\int_{0}^{\\pi} \\sin(x) \\, dx = 2"}
+{"input": "∫_0^π sin(x) dx = 2", "output": "\\int_{0}^{\\pi} \\sin(x) \\, dx = 2"}
+{"input": "интеграл от 0 до пи sin(x) dx = 2", "output": "\\int_{0}^{\\pi} \\sin(x) \\, dx = 2"}
+{"input": "integral 0 to pi of sin x dx equals 2", "output": "\\int_{0}^{\\pi} \\sin(x) \\, dx = 2"}
+{"input": "INTEGRAL 0 PI SIN(X) DX = 2", "output": "\\int_{0}^{\\pi} \\sin(x) \\, dx = 2"}
+{"input": "integral from 0 to pi of cos(x) dx = 0", "output": "\\int_{0}^{\\pi} \\cos(x) \\, dx = 0"}
+{"input": "∫_0^π cos(x) dx = 0", "output": "\\int_{0}^{\\pi} \\cos(x) \\, dx = 0"}
+{"input": "интеграл от 0 до пи cos(x) dx = 0", "output": "\\int_{0}^{\\pi} \\cos(x) \\, dx = 0"}
+{"input": "integral 0 to pi of cos x dx equals 0", "output": "\\int_{0}^{\\pi} \\cos(x) \\, dx = 0"}
+{"input": "INTEGRAL 0 PI COS(X) DX = 0", "output": "\\int_{0}^{\\pi} \\cos(x) \\, dx = 0"}
+{"input": "integral from 0 to pi/2 of sin(x) dx = 1", "output": "\\int_{0}^{\\pi/2} \\sin(x) \\, dx = 1"}
+{"input": "∫_0^(π/2) sin(x) dx = 1", "output": "\\int_{0}^{\\pi/2} \\sin(x) \\, dx = 1"}
+{"input": "интеграл от 0 до пи/2 sin(x) dx = 1", "output": "\\int_{0}^{\\pi/2} \\sin(x) \\, dx = 1"}
+{"input": "integral 0 to pi over 2 of sin x dx equals 1", "output": "\\int_{0}^{\\pi/2} \\sin(x) \\, dx = 1"}
+{"input": "INTEGRAL 0 PI/2 SIN(X) DX = 1", "output": "\\int_{0}^{\\pi/2} \\sin(x) \\, dx = 1"}
+{"input": "integral from 0 to pi/2 of cos(x) dx = 1", "output": "\\int_{0}^{\\pi/2} \\cos(x) \\, dx = 1"}
+{"input": "∫_0^(π/2) cos(x) dx = 1", "output": "\\int_{0}^{\\pi/2} \\cos(x) \\, dx = 1"}
+{"input": "интеграл от 0 до пи/2 cos(x) dx = 1", "output": "\\int_{0}^{\\pi/2} \\cos(x) \\, dx = 1"}
+{"input": "integral 0 to pi over 2 of cos x dx equals 1", "output": "\\int_{0}^{\\pi/2} \\cos(x) \\, dx = 1"}
+{"input": "INTEGRAL 0 PI/2 COS(X) DX = 1", "output": "\\int_{0}^{\\pi/2} \\cos(x) \\, dx = 1"}
+{"input": "integral from 0 to 1 of 1/(1+x^2) dx = pi/4", "output": "\\int_{0}^{1} \\frac{1}{1+x^{2}} \\, dx = \\frac{\\pi}{4}"}
+{"input": "∫_0^1 1/(1+x^2) dx = π/4", "output": "\\int_{0}^{1} \\frac{1}{1+x^{2}} \\, dx = \\frac{\\pi}{4}"}
+{"input": "интеграл от 0 до 1 1/(1+x^2) dx = пи/4", "output": "\\int_{0}^{1} \\frac{1}{1+x^{2}} \\, dx = \\frac{\\pi}{4}"}
+{"input": "integral 0 to 1 of 1 over 1 plus x squared dx equals pi over 4", "output": "\\int_{0}^{1} \\frac{1}{1+x^{2}} \\, dx = \\frac{\\pi}{4}"}
+{"input": "INTEGRAL 0 1 1/(1+X^2) DX = PI/4", "output": "\\int_{0}^{1} \\frac{1}{1+x^{2}} \\, dx = \\frac{\\pi}{4}"}
+{"input": "integral from 0 to 1 of 1/sqrt(1-x^2) dx = pi/2", "output": "\\int_{0}^{1} \\frac{1}{\\sqrt{1-x^{2}}} \\, dx = \\frac{\\pi}{2}"}
+{"input": "∫_0^1 1/sqrt(1-x^2) dx = π/2", "output": "\\int_{0}^{1} \\frac{1}{\\sqrt{1-x^{2}}} \\, dx = \\frac{\\pi}{2}"}
+{"input": "интеграл от 0 до 1 1/sqrt(1-x^2) dx = пи/2", "output": "\\int_{0}^{1} \\frac{1}{\\sqrt{1-x^{2}}} \\, dx = \\frac{\\pi}{2}"}
+{"input": "integral 0 to 1 of 1 over square root of 1 minus x squared dx equals pi over 2", "output": "\\int_{0}^{1} \\frac{1}{\\sqrt{1-x^{2}}} \\, dx = \\frac{\\pi}{2}"}
+{"input": "INTEGRAL 0 1 1/SQRT(1-X^2) DX = PI/2", "output": "\\int_{0}^{1} \\frac{1}{\\sqrt{1-x^{2}}} \\, dx = \\frac{\\pi}{2}"}
+{"input": "integral from 0 to 1 of ln(x) dx = -1", "output": "\\int_{0}^{1} \\ln(x) \\, dx = -1"}
+{"input": "∫_0^1 ln(x) dx = -1", "output": "\\int_{0}^{1} \\ln(x) \\, dx = -1"}
+{"input": "интеграл от 0 до 1 ln(x) dx = -1", "output": "\\int_{0}^{1} \\ln(x) \\, dx = -1"}
+{"input": "integral 0 to 1 of ln x dx equals minus 1", "output": "\\int_{0}^{1} \\ln(x) \\, dx = -1"}
+{"input": "INTEGRAL 0 1 LN(X) DX = -1", "output": "\\int_{0}^{1} \\ln(x) \\, dx = -1"}
+{"input": "integral from 0 to 1 of x*ln(x) dx = -1/4", "output": "\\int_{0}^{1} x \\ln(x) \\, dx = -\\frac{1}{4}"}
+{"input": "∫_0^1 x*ln(x) dx = -1/4", "output": "\\int_{0}^{1} x \\ln(x) \\, dx = -\\frac{1}{4}"}
+{"input": "интеграл от 0 до 1 x*ln(x) dx = -1/4", "output": "\\int_{0}^{1} x \\ln(x) \\, dx = -\\frac{1}{4}"}
+{"input": "integral 0 to 1 of x ln x dx equals minus 1 over 4", "output": "\\int_{0}^{1} x \\ln(x) \\, dx = -\\frac{1}{4}"}
+{"input": "INTEGRAL 0 1 X*LN(X) DX = -1/4", "output": "\\int_{0}^{1} x \\ln(x) \\, dx = -\\frac{1}{4}"}
+{"input": "integral from 0 to inf of x*e^(-x) dx = 1", "output": "\\int_{0}^{\\infty} x e^{-x} \\, dx = 1"}
+{"input": "∫_0^∞ x*e^(-x) dx = 1", "output": "\\int_{0}^{\\infty} x e^{-x} \\, dx = 1"}
+{"input": "интеграл от 0 до бесконечности x*e^(-x) dx = 1", "output": "\\int_{0}^{\\infty} x e^{-x} \\, dx = 1"}
+{"input": "integral 0 to infinity of x e to the minus x dx equals 1", "output": "\\int_{0}^{\\infty} x e^{-x} \\, dx = 1"}
+{"input": "INTEGRAL 0 INF X*E^(-X) DX = 1", "output": "\\int_{0}^{\\infty} x e^{-x} \\, dx = 1"}
+{"input": "integral from 0 to inf of x^2 e^(-x) dx = 2", "output": "\\int_{0}^{\\infty} x^{2} e^{-x} \\, dx = 2"}
+{"input": "∫_0^∞ x^2 e^(-x) dx = 2", "output": "\\int_{0}^{\\infty} x^{2} e^{-x} \\, dx = 2"}
+{"input": "интеграл от 0 до бесконечности x^2 e^(-x) dx = 2", "output": "\\int_{0}^{\\infty} x^{2} e^{-x} \\, dx = 2"}
+{"input": "integral 0 to infinity of x squared e to the minus x dx equals 2", "output": "\\int_{0}^{\\infty} x^{2} e^{-x} \\, dx = 2"}
+{"input": "INTEGRAL 0 INF X^2*E^(-X) DX = 2", "output": "\\int_{0}^{\\infty} x^{2} e^{-x} \\, dx = 2"}
+{"input": "integral from 0 to inf of x^3 e^(-x) dx = 6", "output": "\\int_{0}^{\\infty} x^{3} e^{-x} \\, dx = 6"}
+{"input": "∫_0^∞ x^3 e^(-x) dx = 6", "output": "\\int_{0}^{\\infty} x^{3} e^{-x} \\, dx = 6"}
+{"input": "интеграл от 0 до бесконечности x^3 e^(-x) dx = 6", "output": "\\int_{0}^{\\infty} x^{3} e^{-x} \\, dx = 6"}
+{"input": "integral 0 to infinity of x cubed e to the minus x dx equals 6", "output": "\\int_{0}^{\\infty} x^{3} e^{-x} \\, dx = 6"}
+{"input": "INTEGRAL 0 INF X^3*E^(-X) DX = 6", "output": "\\int_{0}^{\\infty} x^{3} e^{-x} \\, dx = 6"}
+{"input": "e^(i*pi) + 1 = 0", "output": "e^{i\\pi} + 1 = 0"}
+{"input": "e^(iπ) + 1 = 0", "output": "e^{i\\pi} + 1 = 0"}
+{"input": "e в степени i пи плюс 1 равно 0", "output": "e^{i\\pi} + 1 = 0"}
+{"input": "e to the i pi plus 1 equals 0", "output": "e^{i\\pi} + 1 = 0"}
+{"input": "E^(I*PI)+1=0", "output": "e^{i\\pi} + 1 = 0"}
+{"input": "e^(i*theta) = cos(theta) + i*sin(theta)", "output": "e^{i\\theta} = \\cos(\\theta) + i\\sin(\\theta)"}
+{"input": "e^(iθ) = cos θ + i sin θ", "output": "e^{i\\theta} = \\cos(\\theta) + i\\sin(\\theta)"}
+{"input": "e в степени i тета = косинус тета + i синус тета", "output": "e^{i\\theta} = \\cos(\\theta) + i\\sin(\\theta)"}
+{"input": "e to the i theta equals cos theta plus i sin theta", "output": "e^{i\\theta} = \\cos(\\theta) + i\\sin(\\theta)"}
+{"input": "E^(I*THETA)=COS(THETA)+I*SIN(THETA)", "output": "e^{i\\theta} = \\cos(\\theta) + i\\sin(\\theta)"}
+{"input": "e^(i*pi) = -1", "output": "e^{i\\pi} = -1"}
+{"input": "e^(iπ) = -1", "output": "e^{i\\pi} = -1"}
+{"input": "e в степени i пи = -1", "output": "e^{i\\pi} = -1"}
+{"input": "e to the i pi equals minus 1", "output": "e^{i\\pi} = -1"}
+{"input": "E^(I*PI) = -1", "output": "e^{i\\pi} = -1"}
+{"input": "e^(i*pi/2) = i", "output": "e^{i\\pi/2} = i"}
+{"input": "e^(iπ/2) = i", "output": "e^{i\\pi/2} = i"}
+{"input": "e в степени i пи/2 = i", "output": "e^{i\\pi/2} = i"}
+{"input": "e to the i pi over 2 equals i", "output": "e^{i\\pi/2} = i"}
+{"input": "E^(I*PI/2) = I", "output": "e^{i\\pi/2} = i"}
+{"input": "cos(x) = (e^(ix) + e^(-ix))/2", "output": "\\cos(x) = \\frac{e^{ix} + e^{-ix}}{2}"}
+{"input": "cos x = (e^(ix) + e^(-ix))/2", "output": "\\cos(x) = \\frac{e^{ix} + e^{-ix}}{2}"}
+{"input": "косинус x = (e^(ix) + e^(-ix))/2", "output": "\\cos(x) = \\frac{e^{ix} + e^{-ix}}{2}"}
+{"input": "cos x equals e to the ix plus e to the minus ix over 2", "output": "\\cos(x) = \\frac{e^{ix} + e^{-ix}}{2}"}
+{"input": "COS(X) = (E^(IX)+E^(-IX))/2", "output": "\\cos(x) = \\frac{e^{ix} + e^{-ix}}{2}"}
+{"input": "sin(x) = (e^(ix) - e^(-ix))/(2i)", "output": "\\sin(x) = \\frac{e^{ix} - e^{-ix}}{2i}"}
+{"input": "sin x = (e^(ix) - e^(-ix))/(2i)", "output": "\\sin(x) = \\frac{e^{ix} - e^{-ix}}{2i}"}
+{"input": "синус x = (e^(ix) - e^(-ix))/(2i)", "output": "\\sin(x) = \\frac{e^{ix} - e^{-ix}}{2i}"}
+{"input": "sin x equals e to the ix minus e to the minus ix over 2i", "output": "\\sin(x) = \\frac{e^{ix} - e^{-ix}}{2i}"}
+{"input": "SIN(X) = (E^(IX)-E^(-IX))/(2I)", "output": "\\sin(x) = \\frac{e^{ix} - e^{-ix}}{2i}"}
+{"input": "a^2 + b^2 = c^2", "output": "a^{2} + b^{2} = c^{2}"}
+{"input": "a^2 + b^2 = c^2", "output": "a^{2} + b^{2} = c^{2}"}
+{"input": "а^2 + б^2 = с^2", "output": "a^{2} + b^{2} = c^{2}"}
+{"input": "a squared plus b squared equals c squared", "output": "a^{2} + b^{2} = c^{2}"}
+{"input": "A^2+B^2=C^2", "output": "a^{2} + b^{2} = c^{2}"}
+{"input": "x^2 + y^2 = z^2", "output": "x^{2} + y^{2} = z^{2}"}
+{"input": "x^2 + y^2 = z^2", "output": "x^{2} + y^{2} = z^{2}"}
+{"input": "х^2 + у^2 = з^2", "output": "x^{2} + y^{2} = z^{2}"}
+{"input": "x squared plus y squared equals z squared", "output": "x^{2} + y^{2} = z^{2}"}
+{"input": "X^2+Y^2=Z^2", "output": "x^{2} + y^{2} = z^{2}"}
+{"input": "a^2 + b^2 + c^2 = d^2", "output": "a^{2} + b^{2} + c^{2} = d^{2}"}
+{"input": "a^2 + b^2 + c^2 = d^2", "output": "a^{2} + b^{2} + c^{2} = d^{2}"}
+{"input": "а^2 + б^2 + с^2 = д^2", "output": "a^{2} + b^{2} + c^{2} = d^{2}"}
+{"input": "a squared plus b squared plus c squared equals d squared", "output": "a^{2} + b^{2} + c^{2} = d^{2}"}
+{"input": "A^2+B^2+C^2=D^2", "output": "a^{2} + b^{2} + c^{2} = d^{2}"}
+{"input": "x^2 + y^2 + z^2 = w^2", "output": "x^{2} + y^{2} + z^{2} = w^{2}"}
+{"input": "x^2 + y^2 + z^2 = w^2", "output": "x^{2} + y^{2} + z^{2} = w^{2}"}
+{"input": "х^2 + у^2 + з^2 = в^2", "output": "x^{2} + y^{2} + z^{2} = w^{2}"}
+{"input": "x squared plus y squared plus z squared equals w squared", "output": "x^{2} + y^{2} + z^{2} = w^{2}"}
+{"input": "X^2+Y^2+Z^2=W^2", "output": "x^{2} + y^{2} + z^{2} = w^{2}"}
+{"input": "a^3 + b^3 = c^3", "output": "a^{3} + b^{3} = c^{3}"}
+{"input": "a^3 + b^3 = c^3", "output": "a^{3} + b^{3} = c^{3}"}
+{"input": "а^3 + б^3 = с^3", "output": "a^{3} + b^{3} = c^{3}"}
+{"input": "a cubed plus b cubed equals c cubed", "output": "a^{3} + b^{3} = c^{3}"}
+{"input": "A^3+B^3=C^3", "output": "a^{3} + b^{3} = c^{3}"}
+{"input": "a^4 + b^4 = c^4", "output": "a^{4} + b^{4} = c^{4}"}
+{"input": "a^4 + b^4 = c^4", "output": "a^{4} + b^{4} = c^{4}"}
+{"input": "а^4 + б^4 = с^4", "output": "a^{4} + b^{4} = c^{4}"}
+{"input": "a to the 4th plus b to the 4th equals c to the 4th", "output": "a^{4} + b^{4} = c^{4}"}
+{"input": "A^4+B^4=C^4", "output": "a^{4} + b^{4} = c^{4}"}
+{"input": "a^n + b^n = c^n", "output": "a^{n} + b^{n} = c^{n}"}
+{"input": "a^n + b^n = c^n", "output": "a^{n} + b^{n} = c^{n}"}
+{"input": "а^n + б^n = с^n", "output": "a^{n} + b^{n} = c^{n}"}
+{"input": "a to the n plus b to the n equals c to the n", "output": "a^{n} + b^{n} = c^{n}"}
+{"input": "A^N+B^N=C^N", "output": "a^{n} + b^{n} = c^{n}"}
+{"input": "E = mc^2", "output": "E = mc^{2}"}
+{"input": "E = mc^2", "output": "E = mc^{2}"}
+{"input": "Е = мс^2", "output": "E = mc^{2}"}
+{"input": "E equals m c squared", "output": "E = mc^{2}"}
+{"input": "E=MC^2", "output": "E = mc^{2}"}
+{"input": "F = ma", "output": "F = ma"}
+{"input": "F = ma", "output": "F = ma"}
+{"input": "F равно ma", "output": "F = ma"}
+{"input": "F equals m a", "output": "F = ma"}
+{"input": "F=MA", "output": "F = ma"}
+{"input": "p = mv", "output": "p = mv"}
+{"input": "p = mv", "output": "p = mv"}
+{"input": "p равно mv", "output": "p = mv"}
+{"input": "p equals m v", "output": "p = mv"}
+{"input": "P=MV", "output": "p = mv"}
+{"input": "E = 1/2 mv^2", "output": "E = \\frac{1}{2} mv^{2}"}
+{"input": "E = 1/2 mv^2", "output": "E = \\frac{1}{2} mv^{2}"}
+{"input": "E равно 1/2 mv^2", "output": "E = \\frac{1}{2} mv^{2}"}
+{"input": "E equals one half m v squared", "output": "E = \\frac{1}{2} mv^{2}"}
+{"input": "E=1/2*M*V^2", "output": "E = \\frac{1}{2} mv^{2}"}
+{"input": "PV = nRT", "output": "PV = nRT"}
+{"input": "PV = nRT", "output": "PV = nRT"}
+{"input": "PV равно nRT", "output": "PV = nRT"}
+{"input": "P V equals n R T", "output": "PV = nRT"}
+{"input": "PV=NRT", "output": "PV = nRT"}
+{"input": "F = G*m1*m2/r^2", "output": "F = \\frac{G m_1 m_2}{r^{2}}"}
+{"input": "F = G*m1*m2/r^2", "output": "F = \\frac{G m_1 m_2}{r^{2}}"}
+{"input": "F равно G m1 m2 делить на r^2", "output": "F = \\frac{G m_1 m_2}{r^{2}}"}
+{"input": "F equals G m one m two over r squared", "output": "F = \\frac{G m_1 m_2}{r^{2}}"}
+{"input": "F=G*M1*M2/R^2", "output": "F = \\frac{G m_1 m_2}{r^{2}}"}
+{"input": "E = h*nu", "output": "E = h\\nu"}
+{"input": "E = h*nu", "output": "E = h\\nu"}
+{"input": "E равно h ню", "output": "E = h\\nu"}
+{"input": "E equals h nu", "output": "E = h\\nu"}
+{"input": "E=H*NU", "output": "E = h\\nu"}
+{"input": "lambda = h/p", "output": "\\lambda = \\frac{h}{p}"}
+{"input": "lambda = h/p", "output": "\\lambda = \\frac{h}{p}"}
+{"input": "лямбда равно h делить на p", "output": "\\lambda = \\frac{h}{p}"}
+{"input": "lambda equals h over p", "output": "\\lambda = \\frac{h}{p}"}
+{"input": "LAMBDA=H/P", "output": "\\lambda = \\frac{h}{p}"}
+{"input": "E = h*f", "output": "E = hf"}
+{"input": "E = h*f", "output": "E = hf"}
+{"input": "E равно h умножить на f", "output": "E = hf"}
+{"input": "E equals h f", "output": "E = hf"}
+{"input": "E=H*F", "output": "E = hf"}
+{"input": "sin^2(x) + cos^2(x) = 1", "output": "\\sin^{2}(x) + \\cos^{2}(x) = 1"}
+{"input": "sin^2(x) + cos^2(x) = 1", "output": "\\sin^{2}(x) + \\cos^{2}(x) = 1"}
+{"input": "синус квадрат x + косинус квадрат x = 1", "output": "\\sin^{2}(x) + \\cos^{2}(x) = 1"}
+{"input": "sin squared x plus cos squared x equals 1", "output": "\\sin^{2}(x) + \\cos^{2}(x) = 1"}
+{"input": "SIN^2(X)+COS^2(X)=1", "output": "\\sin^{2}(x) + \\cos^{2}(x) = 1"}
+{"input": "1 + tan^2(x) = sec^2(x)", "output": "1 + \\tan^{2}(x) = \\sec^{2}(x)"}
+{"input": "1 + tan^2(x) = sec^2(x)", "output": "1 + \\tan^{2}(x) = \\sec^{2}(x)"}
+{"input": "1 + тангенс квадрат x = секанс квадрат x", "output": "1 + \\tan^{2}(x) = \\sec^{2}(x)"}
+{"input": "1 plus tan squared x equals sec squared x", "output": "1 + \\tan^{2}(x) = \\sec^{2}(x)"}
+{"input": "1+TAN^2(X)=SEC^2(X)", "output": "1 + \\tan^{2}(x) = \\sec^{2}(x)"}
+{"input": "1 + cot^2(x) = csc^2(x)", "output": "1 + \\cot^{2}(x) = \\csc^{2}(x)"}
+{"input": "1 + cot^2(x) = csc^2(x)", "output": "1 + \\cot^{2}(x) = \\csc^{2}(x)"}
+{"input": "1 + котангенс квадрат x = косеканс квадрат x", "output": "1 + \\cot^{2}(x) = \\csc^{2}(x)"}
+{"input": "1 plus cot squared x equals csc squared x", "output": "1 + \\cot^{2}(x) = \\csc^{2}(x)"}
+{"input": "1+COT^2(X)=CSC^2(X)", "output": "1 + \\cot^{2}(x) = \\csc^{2}(x)"}
+{"input": "sin(alpha + beta) = sin(alpha)cos(beta) + cos(alpha)sin(beta)", "output": "\\sin(\\alpha + \\beta) = \\sin(\\alpha)\\cos(\\beta) + \\cos(\\alpha)\\sin(\\beta)"}
+{"input": "sin(α+β) = sin α cos β + cos α sin β", "output": "\\sin(\\alpha + \\beta) = \\sin(\\alpha)\\cos(\\beta) + \\cos(\\alpha)\\sin(\\beta)"}
+{"input": "синус (альфа + бета) = синус альфа косинус бета + косинус альфа синус бета", "output": "\\sin(\\alpha + \\beta) = \\sin(\\alpha)\\cos(\\beta) + \\cos(\\alpha)\\sin(\\beta)"}
+{"input": "sin of alpha plus beta equals sin alpha cos beta plus cos alpha sin beta", "output": "\\sin(\\alpha + \\beta) = \\sin(\\alpha)\\cos(\\beta) + \\cos(\\alpha)\\sin(\\beta)"}
+{"input": "SIN(ALPHA+BETA)=SIN(ALPHA)COS(BETA)+COS(ALPHA)SIN(BETA)", "output": "\\sin(\\alpha + \\beta) = \\sin(\\alpha)\\cos(\\beta) + \\cos(\\alpha)\\sin(\\beta)"}
+{"input": "cos(alpha + beta) = cos(alpha)cos(beta) - sin(alpha)sin(beta)", "output": "\\cos(\\alpha + \\beta) = \\cos(\\alpha)\\cos(\\beta) - \\sin(\\alpha)\\sin(\\beta)"}
+{"input": "cos(α+β) = cos α cos β - sin α sin β", "output": "\\cos(\\alpha + \\beta) = \\cos(\\alpha)\\cos(\\beta) - \\sin(\\alpha)\\sin(\\beta)"}
+{"input": "косинус (альфа + бета) = косинус альфа косинус бета - синус альфа синус бета", "output": "\\cos(\\alpha + \\beta) = \\cos(\\alpha)\\cos(\\beta) - \\sin(\\alpha)\\sin(\\beta)"}
+{"input": "cos of alpha plus beta equals cos alpha cos beta minus sin alpha sin beta", "output": "\\cos(\\alpha + \\beta) = \\cos(\\alpha)\\cos(\\beta) - \\sin(\\alpha)\\sin(\\beta)"}
+{"input": "COS(ALPHA+BETA)=COS(ALPHA)COS(BETA)-SIN(ALPHA)SIN(BETA)", "output": "\\cos(\\alpha + \\beta) = \\cos(\\alpha)\\cos(\\beta) - \\sin(\\alpha)\\sin(\\beta)"}
+{"input": "tan(alpha + beta) = (tan(alpha) + tan(beta))/(1 - tan(alpha)tan(beta))", "output": "\\tan(\\alpha + \\beta) = \\frac{\\tan(\\alpha) + \\tan(\\beta)}{1 - \\tan(\\alpha)\\tan(\\beta)}"}
+{"input": "tan(α+β) = (tan α + tan β)/(1 - tan α tan β)", "output": "\\tan(\\alpha + \\beta) = \\frac{\\tan(\\alpha) + \\tan(\\beta)}{1 - \\tan(\\alpha)\\tan(\\beta)}"}
+{"input": "тангенс (альфа + бета) = (тангенс альфа + тангенс бета)/(1 - тангенс альфа тангенс бета)", "output": "\\tan(\\alpha + \\beta) = \\frac{\\tan(\\alpha) + \\tan(\\beta)}{1 - \\tan(\\alpha)\\tan(\\beta)}"}
+{"input": "tan of alpha plus beta equals tan alpha plus tan beta over 1 minus tan alpha tan beta", "output": "\\tan(\\alpha + \\beta) = \\frac{\\tan(\\alpha) + \\tan(\\beta)}{1 - \\tan(\\alpha)\\tan(\\beta)}"}
+{"input": "TAN(ALPHA+BETA)=(TAN(ALPHA)+TAN(BETA))/(1-TAN(ALPHA)TAN(BETA))", "output": "\\tan(\\alpha + \\beta) = \\frac{\\tan(\\alpha) + \\tan(\\beta)}{1 - \\tan(\\alpha)\\tan(\\beta)}"}
+{"input": "sin(2x) = 2sin(x)cos(x)", "output": "\\sin(2x) = 2\\sin(x)\\cos(x)"}
+{"input": "sin(2x) = 2sin x cos x", "output": "\\sin(2x) = 2\\sin(x)\\cos(x)"}
+{"input": "синус 2x = 2 синус x косинус x", "output": "\\sin(2x) = 2\\sin(x)\\cos(x)"}
+{"input": "sin two x equals two sin x cos x", "output": "\\sin(2x) = 2\\sin(x)\\cos(x)"}
+{"input": "SIN(2X)=2SIN(X)COS(X)", "output": "\\sin(2x) = 2\\sin(x)\\cos(x)"}
+{"input": "cos(2x) = cos^2(x) - sin^2(x)", "output": "\\cos(2x) = \\cos^{2}(x) - \\sin^{2}(x)"}
+{"input": "cos(2x) = cos^2 x - sin^2 x", "output": "\\cos(2x) = \\cos^{2}(x) - \\sin^{2}(x)"}
+{"input": "косинус 2x = косинус квадрат x - синус квадрат x", "output": "\\cos(2x) = \\cos^{2}(x) - \\sin^{2}(x)"}
+{"input": "cos two x equals cos squared x minus sin squared x", "output": "\\cos(2x) = \\cos^{2}(x) - \\sin^{2}(x)"}
+{"input": "COS(2X)=COS^2(X)-SIN^2(X)", "output": "\\cos(2x) = \\cos^{2}(x) - \\sin^{2}(x)"}
+{"input": "cos(2x) = 1 - 2sin^2(x)", "output": "\\cos(2x) = 1 - 2\\sin^{2}(x)"}
+{"input": "cos(2x) = 1 - 2sin^2 x", "output": "\\cos(2x) = 1 - 2\\sin^{2}(x)"}
+{"input": "косинус 2x = 1 - 2 синус квадрат x", "output": "\\cos(2x) = 1 - 2\\sin^{2}(x)"}
+{"input": "cos two x equals 1 minus two sin squared x", "output": "\\cos(2x) = 1 - 2\\sin^{2}(x)"}
+{"input": "COS(2X)=1-2SIN^2(X)", "output": "\\cos(2x) = 1 - 2\\sin^{2}(x)"}
+{"input": "cos(2x) = 2cos^2(x) - 1", "output": "\\cos(2x) = 2\\cos^{2}(x) - 1"}
+{"input": "cos(2x) = 2cos^2 x - 1", "output": "\\cos(2x) = 2\\cos^{2}(x) - 1"}
+{"input": "косинус 2x = 2 косинус квадрат x - 1", "output": "\\cos(2x) = 2\\cos^{2}(x) - 1"}
+{"input": "cos two x equals two cos squared x minus 1", "output": "\\cos(2x) = 2\\cos^{2}(x) - 1"}
+{"input": "COS(2X)=2COS^2(X)-1", "output": "\\cos(2x) = 2\\cos^{2}(x) - 1"}
+{"input": "tan(2x) = 2tan(x)/(1 - tan^2(x))", "output": "\\tan(2x) = \\frac{2\\tan(x)}{1 - \\tan^{2}(x)}"}
+{"input": "tan(2x) = 2tan x / (1 - tan^2 x)", "output": "\\tan(2x) = \\frac{2\\tan(x)}{1 - \\tan^{2}(x)}"}
+{"input": "тангенс 2x = 2 тангенс x / (1 - тангенс квадрат x)", "output": "\\tan(2x) = \\frac{2\\tan(x)}{1 - \\tan^{2}(x)}"}
+{"input": "tan two x equals two tan x over 1 minus tan squared x", "output": "\\tan(2x) = \\frac{2\\tan(x)}{1 - \\tan^{2}(x)}"}
+{"input": "TAN(2X)=2TAN(X)/(1-TAN^2(X))", "output": "\\tan(2x) = \\frac{2\\tan(x)}{1 - \\tan^{2}(x)}"}
+{"input": "x^2 - 5x + 6 = 0", "output": "x^{2} - 5x + 6 = 0"}
+{"input": "x^2 - 5x + 6 = 0", "output": "x^{2} - 5x + 6 = 0"}
+{"input": "x в квадрате минус 5x плюс 6 = 0", "output": "x^{2} - 5x + 6 = 0"}
+{"input": "x squared minus five x plus six equals zero", "output": "x^{2} - 5x + 6 = 0"}
+{"input": "X^2-5X+6=0", "output": "x^{2} - 5x + 6 = 0"}
+{"input": "x^2 + 5x + 6 = 0", "output": "x^{2} + 5x + 6 = 0"}
+{"input": "x^2 + 5x + 6 = 0", "output": "x^{2} + 5x + 6 = 0"}
+{"input": "x в квадрате плюс 5x плюс 6 = 0", "output": "x^{2} + 5x + 6 = 0"}
+{"input": "x squared plus five x plus six equals zero", "output": "x^{2} + 5x + 6 = 0"}
+{"input": "X^2+5X+6=0", "output": "x^{2} + 5x + 6 = 0"}
+{"input": "x^2 - 4x + 4 = 0", "output": "x^{2} - 4x + 4 = 0"}
+{"input": "x^2 - 4x + 4 = 0", "output": "x^{2} - 4x + 4 = 0"}
+{"input": "x в квадрате минус 4x плюс 4 = 0", "output": "x^{2} - 4x + 4 = 0"}
+{"input": "x squared minus four x plus four equals zero", "output": "x^{2} - 4x + 4 = 0"}
+{"input": "X^2-4X+4=0", "output": "x^{2} - 4x + 4 = 0"}
+{"input": "x^2 + 2x + 1 = 0", "output": "x^{2} + 2x + 1 = 0"}
+{"input": "x^2 + 2x + 1 = 0", "output": "x^{2} + 2x + 1 = 0"}
+{"input": "x в квадрате плюс 2x плюс 1 = 0", "output": "x^{2} + 2x + 1 = 0"}
+{"input": "x squared plus two x plus one equals zero", "output": "x^{2} + 2x + 1 = 0"}
+{"input": "X^2+2X+1=0", "output": "x^{2} + 2x + 1 = 0"}
+{"input": "x^2 - 6x + 9 = 0", "output": "x^{2} - 6x + 9 = 0"}
+{"input": "x^2 - 6x + 9 = 0", "output": "x^{2} - 6x + 9 = 0"}
+{"input": "x в квадрате минус 6x плюс 9 = 0", "output": "x^{2} - 6x + 9 = 0"}
+{"input": "x squared minus six x plus nine equals zero", "output": "x^{2} - 6x + 9 = 0"}
+{"input": "X^2-6X+9=0", "output": "x^{2} - 6x + 9 = 0"}
+{"input": "2x + 3 = 7", "output": "2x + 3 = 7"}
+{"input": "2x + 3 = 7", "output": "2x + 3 = 7"}
+{"input": "2x плюс 3 = 7", "output": "2x + 3 = 7"}
+{"input": "two x plus three equals seven", "output": "2x + 3 = 7"}
+{"input": "2X+3=7", "output": "2x + 3 = 7"}
+{"input": "3x + 4 = 10", "output": "3x + 4 = 10"}
+{"input": "3x + 4 = 10", "output": "3x + 4 = 10"}
+{"input": "3x плюс 4 = 10", "output": "3x + 4 = 10"}
+{"input": "three x plus four equals ten", "output": "3x + 4 = 10"}
+{"input": "3X+4=10", "output": "3x + 4 = 10"}
+{"input": "4x + 5 = 13", "output": "4x + 5 = 13"}
+{"input": "4x + 5 = 13", "output": "4x + 5 = 13"}
+{"input": "4x плюс 5 = 13", "output": "4x + 5 = 13"}
+{"input": "four x plus five equals thirteen", "output": "4x + 5 = 13"}
+{"input": "4X+5=13", "output": "4x + 5 = 13"}
+{"input": "5x + 6 = 16", "output": "5x + 6 = 16"}
+{"input": "5x + 6 = 16", "output": "5x + 6 = 16"}
+{"input": "5x плюс 6 = 16", "output": "5x + 6 = 16"}
+{"input": "five x plus six equals sixteen", "output": "5x + 6 = 16"}
+{"input": "5X+6=16", "output": "5x + 6 = 16"}
+{"input": "6x + 7 = 19", "output": "6x + 7 = 19"}
+{"input": "6x + 7 = 19", "output": "6x + 7 = 19"}
+{"input": "6x плюс 7 = 19", "output": "6x + 7 = 19"}
+{"input": "six x plus seven equals nineteen", "output": "6x + 7 = 19"}
+{"input": "6X+7=19", "output": "6x + 7 = 19"}
+{"input": "7x + 8 = 22", "output": "7x + 8 = 22"}
+{"input": "7x + 8 = 22", "output": "7x + 8 = 22"}
+{"input": "7x плюс 8 = 22", "output": "7x + 8 = 22"}
+{"input": "seven x plus eight equals twenty two", "output": "7x + 8 = 22"}
+{"input": "7X+8=22", "output": "7x + 8 = 22"}
+{"input": "8x + 9 = 25", "output": "8x + 9 = 25"}
+{"input": "8x + 9 = 25", "output": "8x + 9 = 25"}
+{"input": "8x плюс 9 = 25", "output": "8x + 9 = 25"}
+{"input": "eight x plus nine equals twenty five", "output": "8x + 9 = 25"}
+{"input": "8X+9=25", "output": "8x + 9 = 25"}
+{"input": "9x + 10 = 28", "output": "9x + 10 = 28"}
+{"input": "9x + 10 = 28", "output": "9x + 10 = 28"}
+{"input": "9x плюс 10 = 28", "output": "9x + 10 = 28"}
+{"input": "nine x plus ten equals twenty eight", "output": "9x + 10 = 28"}
+{"input": "9X+10=28", "output": "9x + 10 = 28"}
+{"input": "10x + 1 = 21", "output": "10x + 1 = 21"}
+{"input": "10x + 1 = 21", "output": "10x + 1 = 21"}
+{"input": "10x плюс 1 = 21", "output": "10x + 1 = 21"}
+{"input": "ten x plus one equals twenty one", "output": "10x + 1 = 21"}
+{"input": "10X+1=21", "output": "10x + 1 = 21"}
+{"input": "2x + 3y = 7", "output": "2x + 3y = 7"}
+{"input": "2x + 3y = 7", "output": "2x + 3y = 7"}
+{"input": "2x плюс 3y = 7", "output": "2x + 3y = 7"}
+{"input": "two x plus three y equals seven", "output": "2x + 3y = 7"}
+{"input": "2X+3Y=7", "output": "2x + 3y = 7"}
+{"input": "3x + 4y = 10", "output": "3x + 4y = 10"}
+{"input": "3x + 4y = 10", "output": "3x + 4y = 10"}
+{"input": "3x плюс 4y = 10", "output": "3x + 4y = 10"}
+{"input": "three x plus four y equals ten", "output": "3x + 4y = 10"}
+{"input": "3X+4Y=10", "output": "3x + 4y = 10"}
+{"input": "4x + 5y = 13", "output": "4x + 5y = 13"}
+{"input": "4x + 5y = 13", "output": "4x + 5y = 13"}
+{"input": "4x плюс 5y = 13", "output": "4x + 5y = 13"}
+{"input": "four x plus five y equals thirteen", "output": "4x + 5y = 13"}
+{"input": "4X+5Y=13", "output": "4x + 5y = 13"}
+{"input": "5x + 6y = 16", "output": "5x + 6y = 16"}
+{"input": "5x + 6y = 16", "output": "5x + 6y = 16"}
+{"input": "5x плюс 6y = 16", "output": "5x + 6y = 16"}
+{"input": "five x plus six y equals sixteen", "output": "5x + 6y = 16"}
+{"input": "5X+6Y=16", "output": "5x + 6y = 16"}
+{"input": "6x + 7y = 19", "output": "6x + 7y = 19"}
+{"input": "6x + 7y = 19", "output": "6x + 7y = 19"}
+{"input": "6x плюс 7y = 19", "output": "6x + 7y = 19"}
+{"input": "six x plus seven y equals nineteen", "output": "6x + 7y = 19"}
+{"input": "6X+7Y=19", "output": "6x + 7y = 19"}
+{"input": "7x + 8y = 22", "output": "7x + 8y = 22"}
+{"input": "7x + 8y = 22", "output": "7x + 8y = 22"}
+{"input": "7x плюс 8y = 22", "output": "7x + 8y = 22"}
+{"input": "seven x plus eight y equals twenty two", "output": "7x + 8y = 22"}
+{"input": "7X+8Y=22", "output": "7x + 8y = 22"}
+{"input": "8x + 9y = 25", "output": "8x + 9y = 25"}
+{"input": "8x + 9y = 25", "output": "8x + 9y = 25"}
+{"input": "8x плюс 9y = 25", "output": "8x + 9y = 25"}
+{"input": "eight x plus nine y equals twenty five", "output": "8x + 9y = 25"}
+{"input": "8X+9Y=25", "output": "8x + 9y = 25"}
+{"input": "x/2 = 5", "output": "\\frac{x}{2} = 5"}
+{"input": "x/2 = 5", "output": "\\frac{x}{2} = 5"}
+{"input": "x делить на 2 = 5", "output": "\\frac{x}{2} = 5"}
+{"input": "x over two equals five", "output": "\\frac{x}{2} = 5"}
+{"input": "X/2=5", "output": "\\frac{x}{2} = 5"}
+{"input": "x/3 = 4", "output": "\\frac{x}{3} = 4"}
+{"input": "x/3 = 4", "output": "\\frac{x}{3} = 4"}
+{"input": "x делить на 3 = 4", "output": "\\frac{x}{3} = 4"}
+{"input": "x over three equals four", "output": "\\frac{x}{3} = 4"}
+{"input": "X/3=4", "output": "\\frac{x}{3} = 4"}
+{"input": "x/4 = 3", "output": "\\frac{x}{4} = 3"}
+{"input": "x/4 = 3", "output": "\\frac{x}{4} = 3"}
+{"input": "x делить на 4 = 3", "output": "\\frac{x}{4} = 3"}
+{"input": "x over four equals three", "output": "\\frac{x}{4} = 3"}
+{"input": "X/4=3", "output": "\\frac{x}{4} = 3"}
+{"input": "x/5 = 2", "output": "\\frac{x}{5} = 2"}
+{"input": "x/5 = 2", "output": "\\frac{x}{5} = 2"}
+{"input": "x делить на 5 = 2", "output": "\\frac{x}{5} = 2"}
+{"input": "x over five equals two", "output": "\\frac{x}{5} = 2"}
+{"input": "X/5=2", "output": "\\frac{x}{5} = 2"}
+{"input": "x/10 = 1", "output": "\\frac{x}{10} = 1"}
+{"input": "x/10 = 1", "output": "\\frac{x}{10} = 1"}
+{"input": "x делить на 10 = 1", "output": "\\frac{x}{10} = 1"}
+{"input": "x over ten equals one", "output": "\\frac{x}{10} = 1"}
+{"input": "X/10=1", "output": "\\frac{x}{10} = 1"}
+{"input": "x/100 = 1", "output": "\\frac{x}{100} = 1"}
+{"input": "x/100 = 1", "output": "\\frac{x}{100} = 1"}
+{"input": "x делить на 100 = 1", "output": "\\frac{x}{100} = 1"}
+{"input": "x over one hundred equals one", "output": "\\frac{x}{100} = 1"}
+{"input": "X/100=1", "output": "\\frac{x}{100} = 1"}
+{"input": "1/x = 2", "output": "\\frac{1}{x} = 2"}
+{"input": "1/x = 2", "output": "\\frac{1}{x} = 2"}
+{"input": "1 делить на x = 2", "output": "\\frac{1}{x} = 2"}
+{"input": "one over x equals two", "output": "\\frac{1}{x} = 2"}
+{"input": "1/X=2", "output": "\\frac{1}{x} = 2"}
+{"input": "1/x = 3", "output": "\\frac{1}{x} = 3"}
+{"input": "1/x = 3", "output": "\\frac{1}{x} = 3"}
+{"input": "1 делить на x = 3", "output": "\\frac{1}{x} = 3"}
+{"input": "one over x equals three", "output": "\\frac{1}{x} = 3"}
+{"input": "1/X=3", "output": "\\frac{1}{x} = 3"}
+{"input": "1/x = 4", "output": "\\frac{1}{x} = 4"}
+{"input": "1/x = 4", "output": "\\frac{1}{x} = 4"}
+{"input": "1 делить на x = 4", "output": "\\frac{1}{x} = 4"}
+{"input": "one over x equals four", "output": "\\frac{1}{x} = 4"}
+{"input": "1/X=4", "output": "\\frac{1}{x} = 4"}
+{"input": "1/x = 5", "output": "\\frac{1}{x} = 5"}
+{"input": "1/x = 5", "output": "\\frac{1}{x} = 5"}
+{"input": "1 делить на x = 5", "output": "\\frac{1}{x} = 5"}
+{"input": "one over x equals five", "output": "\\frac{1}{x} = 5"}
+{"input": "1/X=5", "output": "\\frac{1}{x} = 5"}
+{"input": "1/x = 10", "output": "\\frac{1}{x} = 10"}
+{"input": "1/x = 10", "output": "\\frac{1}{x} = 10"}
+{"input": "1 делить на x = 10", "output": "\\frac{1}{x} = 10"}
+{"input": "one over x equals ten", "output": "\\frac{1}{x} = 10"}
+{"input": "1/X=10", "output": "\\frac{1}{x} = 10"}
+{"input": "1/x = 100", "output": "\\frac{1}{x} = 100"}
+{"input": "1/x = 100", "output": "\\frac{1}{x} = 100"}
+{"input": "1 делить на x = 100", "output": "\\frac{1}{x} = 100"}
+{"input": "one over x equals one hundred", "output": "\\frac{1}{x} = 100"}
+{"input": "1/X=100", "output": "\\frac{1}{x} = 100"}
+{"input": "x^2 + y^2 = 1", "output": "x^{2} + y^{2} = 1"}
+{"input": "x^2 + y^2 = 1", "output": "x^{2} + y^{2} = 1"}
+{"input": "x в квадрате + y в квадрате = 1", "output": "x^{2} + y^{2} = 1"}
+{"input": "x squared plus y squared equals one", "output": "x^{2} + y^{2} = 1"}
+{"input": "X^2+Y^2=1", "output": "x^{2} + y^{2} = 1"}
+{"input": "x^2 + y^2 = 4", "output": "x^{2} + y^{2} = 4"}
+{"input": "x^2 + y^2 = 4", "output": "x^{2} + y^{2} = 4"}
+{"input": "x в квадрате + y в квадрате = 4", "output": "x^{2} + y^{2} = 4"}
+{"input": "x squared plus y squared equals four", "output": "x^{2} + y^{2} = 4"}
+{"input": "X^2+Y^2=4", "output": "x^{2} + y^{2} = 4"}
+{"input": "x^2 + y^2 = 9", "output": "x^{2} + y^{2} = 9"}
+{"input": "x^2 + y^2 = 9", "output": "x^{2} + y^{2} = 9"}
+{"input": "x в квадрате + y в квадрате = 9", "output": "x^{2} + y^{2} = 9"}
+{"input": "x squared plus y squared equals nine", "output": "x^{2} + y^{2} = 9"}
+{"input": "X^2+Y^2=9", "output": "x^{2} + y^{2} = 9"}
+{"input": "x^2 + y^2 = 16", "output": "x^{2} + y^{2} = 16"}
+{"input": "x^2 + y^2 = 16", "output": "x^{2} + y^{2} = 16"}
+{"input": "x в квадрате + y в квадрате = 16", "output": "x^{2} + y^{2} = 16"}
+{"input": "x squared plus y squared equals sixteen", "output": "x^{2} + y^{2} = 16"}
+{"input": "X^2+Y^2=16", "output": "x^{2} + y^{2} = 16"}
+{"input": "x^2 + y^2 = 25", "output": "x^{2} + y^{2} = 25"}
+{"input": "x^2 + y^2 = 25", "output": "x^{2} + y^{2} = 25"}
+{"input": "x в квадрате + y в квадрате = 25", "output": "x^{2} + y^{2} = 25"}
+{"input": "x squared plus y squared equals twenty five", "output": "x^{2} + y^{2} = 25"}
+{"input": "X^2+Y^2=25", "output": "x^{2} + y^{2} = 25"}
+{"input": "x^2 + y^2 = 36", "output": "x^{2} + y^{2} = 36"}
+{"input": "x^2 + y^2 = 36", "output": "x^{2} + y^{2} = 36"}
+{"input": "x в квадрате + y в квадрате = 36", "output": "x^{2} + y^{2} = 36"}
+{"input": "x squared plus y squared equals thirty six", "output": "x^{2} + y^{2} = 36"}
+{"input": "X^2+Y^2=36", "output": "x^{2} + y^{2} = 36"}
+{"input": "x^2 + y^2 = 49", "output": "x^{2} + y^{2} = 49"}
+{"input": "x^2 + y^2 = 49", "output": "x^{2} + y^{2} = 49"}
+{"input": "x в квадрате + y в квадрате = 49", "output": "x^{2} + y^{2} = 49"}
+{"input": "x squared plus y squared equals forty nine", "output": "x^{2} + y^{2} = 49"}
+{"input": "X^2+Y^2=49", "output": "x^{2} + y^{2} = 49"}
+{"input": "x^2 + y^2 = 64", "output": "x^{2} + y^{2} = 64"}
+{"input": "x^2 + y^2 = 64", "output": "x^{2} + y^{2} = 64"}
+{"input": "x в квадрате + y в квадрате = 64", "output": "x^{2} + y^{2} = 64"}
+{"input": "x squared plus y squared equals sixty four", "output": "x^{2} + y^{2} = 64"}
+{"input": "X^2+Y^2=64", "output": "x^{2} + y^{2} = 64"}
+{"input": "x^2 + y^2 = 81", "output": "x^{2} + y^{2} = 81"}
+{"input": "x^2 + y^2 = 81", "output": "x^{2} + y^{2} = 81"}
+{"input": "x в квадрате + y в квадрате = 81", "output": "x^{2} + y^{2} = 81"}
+{"input": "x squared plus y squared equals eighty one", "output": "x^{2} + y^{2} = 81"}
+{"input": "X^2+Y^2=81", "output": "x^{2} + y^{2} = 81"}
+{"input": "x^2 + y^2 = 100", "output": "x^{2} + y^{2} = 100"}
+{"input": "x^2 + y^2 = 100", "output": "x^{2} + y^{2} = 100"}
+{"input": "x в квадрате + y в квадрате = 100", "output": "x^{2} + y^{2} = 100"}
+{"input": "x squared plus y squared equals one hundred", "output": "x^{2} + y^{2} = 100"}
+{"input": "X^2+Y^2=100", "output": "x^{2} + y^{2} = 100"}
+{"input": "x^2 = a", "output": "x^{2} = a"}
+{"input": "x^2 = a", "output": "x^{2} = a"}
+{"input": "x в квадрате = a", "output": "x^{2} = a"}
+{"input": "x squared equals a", "output": "x^{2} = a"}
+{"input": "X^2=A", "output": "x^{2} = a"}
+{"input": "x^3 = a", "output": "x^{3} = a"}
+{"input": "x^3 = a", "output": "x^{3} = a"}
+{"input": "x в кубе = a", "output": "x^{3} = a"}
+{"input": "x cubed equals a", "output": "x^{3} = a"}
+{"input": "X^3=A", "output": "x^{3} = a"}
+{"input": "x^n = a", "output": "x^{n} = a"}
+{"input": "x^n = a", "output": "x^{n} = a"}
+{"input": "x в степени n = a", "output": "x^{n} = a"}
+{"input": "x to the n equals a", "output": "x^{n} = a"}
+{"input": "X^N=A", "output": "x^{n} = a"}
+{"input": "2^x = 8", "output": "2^{x} = 8"}
+{"input": "2^x = 8", "output": "2^{x} = 8"}
+{"input": "2 в степени x = 8", "output": "2^{x} = 8"}
+{"input": "two to the x equals eight", "output": "2^{x} = 8"}
+{"input": "2^X=8", "output": "2^{x} = 8"}
+{"input": "3^x = 9", "output": "3^{x} = 9"}
+{"input": "3^x = 9", "output": "3^{x} = 9"}
+{"input": "3 в степени x = 9", "output": "3^{x} = 9"}
+{"input": "three to the x equals nine", "output": "3^{x} = 9"}
+{"input": "3^X=9", "output": "3^{x} = 9"}
+{"input": "4^x = 16", "output": "4^{x} = 16"}
+{"input": "4^x = 16", "output": "4^{x} = 16"}
+{"input": "4 в степени x = 16", "output": "4^{x} = 16"}
+{"input": "four to the x equals sixteen", "output": "4^{x} = 16"}
+{"input": "4^X=16", "output": "4^{x} = 16"}
+{"input": "5^x = 25", "output": "5^{x} = 25"}
+{"input": "5^x = 25", "output": "5^{x} = 25"}
+{"input": "5 в степени x = 25", "output": "5^{x} = 25"}
+{"input": "five to the x equals twenty five", "output": "5^{x} = 25"}
+{"input": "5^X=25", "output": "5^{x} = 25"}
+{"input": "10^x = 100", "output": "10^{x} = 100"}
+{"input": "10^x = 100", "output": "10^{x} = 100"}
+{"input": "10 в степени x = 100", "output": "10^{x} = 100"}
+{"input": "ten to the x equals one hundred", "output": "10^{x} = 100"}
+{"input": "10^X=100", "output": "10^{x} = 100"}
+{"input": "e^x = y", "output": "e^{x} = y"}
+{"input": "e^x = y", "output": "e^{x} = y"}
+{"input": "e в степени x = y", "output": "e^{x} = y"}
+{"input": "e to the x equals y", "output": "e^{x} = y"}
+{"input": "E^X=Y", "output": "e^{x} = y"}
+{"input": "ln(x) = y", "output": "\\ln(x) = y"}
+{"input": "ln(x) = y", "output": "\\ln(x) = y"}
+{"input": "ln x = y", "output": "\\ln(x) = y"}
+{"input": "ln of x equals y", "output": "\\ln(x) = y"}
+{"input": "LN(X)=Y", "output": "\\ln(x) = y"}
+{"input": "log(x) = y", "output": "\\log(x) = y"}
+{"input": "log(x) = y", "output": "\\log(x) = y"}
+{"input": "log x = y", "output": "\\log(x) = y"}
+{"input": "log of x equals y", "output": "\\log(x) = y"}
+{"input": "LOG(X)=Y", "output": "\\log(x) = y"}
+{"input": "sin(x) = 0", "output": "\\sin(x) = 0"}
+{"input": "sin(x) = 0", "output": "\\sin(x) = 0"}
+{"input": "синус x = 0", "output": "\\sin(x) = 0"}
+{"input": "sin x equals zero", "output": "\\sin(x) = 0"}
+{"input": "SIN(X)=0", "output": "\\sin(x) = 0"}
+{"input": "cos(x) = 0", "output": "\\cos(x) = 0"}
+{"input": "cos(x) = 0", "output": "\\cos(x) = 0"}
+{"input": "косинус x = 0", "output": "\\cos(x) = 0"}
+{"input": "cos x equals zero", "output": "\\cos(x) = 0"}
+{"input": "COS(X)=0", "output": "\\cos(x) = 0"}
+{"input": "tan(x) = 0", "output": "\\tan(x) = 0"}
+{"input": "tan(x) = 0", "output": "\\tan(x) = 0"}
+{"input": "тангенс x = 0", "output": "\\tan(x) = 0"}
+{"input": "tan x equals zero", "output": "\\tan(x) = 0"}
+{"input": "TAN(X)=0", "output": "\\tan(x) = 0"}
+{"input": "sin(x) = 1", "output": "\\sin(x) = 1"}
+{"input": "sin(x) = 1", "output": "\\sin(x) = 1"}
+{"input": "синус x = 1", "output": "\\sin(x) = 1"}
+{"input": "sin x equals one", "output": "\\sin(x) = 1"}
+{"input": "SIN(X)=1", "output": "\\sin(x) = 1"}
+{"input": "cos(x) = 1", "output": "\\cos(x) = 1"}
+{"input": "cos(x) = 1", "output": "\\cos(x) = 1"}
+{"input": "косинус x = 1", "output": "\\cos(x) = 1"}
+{"input": "cos x equals one", "output": "\\cos(x) = 1"}
+{"input": "COS(X)=1", "output": "\\cos(x) = 1"}
+{"input": "sin(x) = -1", "output": "\\sin(x) = -1"}
+{"input": "sin(x) = -1", "output": "\\sin(x) = -1"}
+{"input": "синус x = -1", "output": "\\sin(x) = -1"}
+{"input": "sin x equals minus one", "output": "\\sin(x) = -1"}
+{"input": "SIN(X)=-1", "output": "\\sin(x) = -1"}
+{"input": "cos(x) = -1", "output": "\\cos(x) = -1"}
+{"input": "cos(x) = -1", "output": "\\cos(x) = -1"}
+{"input": "косинус x = -1", "output": "\\cos(x) = -1"}
+{"input": "cos x equals minus one", "output": "\\cos(x) = -1"}
+{"input": "COS(X)=-1", "output": "\\cos(x) = -1"}
+{"input": "f(x) = x^3 - 3x^2 + 2x - 1", "output": "f(x) = x^{3} - 3x^{2} + 2x - 1"}
+{"input": "f(x) = x^3 - 3x^2 + 2x - 1", "output": "f(x) = x^{3} - 3x^{2} + 2x - 1"}
+{"input": "f от x = x^3 - 3x^2 + 2x - 1", "output": "f(x) = x^{3} - 3x^{2} + 2x - 1"}
+{"input": "f of x equals x cubed minus three x squared plus two x minus one", "output": "f(x) = x^{3} - 3x^{2} + 2x - 1"}
+{"input": "F(X)=X^3-3X^2+2X-1", "output": "f(x) = x^{3} - 3x^{2} + 2x - 1"}
+{"input": "f(x) = x^4 - 4x^3 + 6x^2 - 4x + 1", "output": "f(x) = x^{4} - 4x^{3} + 6x^{2} - 4x + 1"}
+{"input": "f(x) = x^4 - 4x^3 + 6x^2 - 4x + 1", "output": "f(x) = x^{4} - 4x^{3} + 6x^{2} - 4x + 1"}
+{"input": "f от x = x^4 - 4x^3 + 6x^2 - 4x + 1", "output": "f(x) = x^{4} - 4x^{3} + 6x^{2} - 4x + 1"}
+{"input": "f of x equals x to the 4th minus four x cubed plus six x squared minus four x plus one", "output": "f(x) = x^{4} - 4x^{3} + 6x^{2} - 4x + 1"}
+{"input": "F(X)=X^4-4X^3+6X^2-4X+1", "output": "f(x) = x^{4} - 4x^{3} + 6x^{2} - 4x + 1"}
+{"input": "f(x) = x^5 - 5x^4 + 10x^3 - 10x^2 + 5x - 1", "output": "f(x) = x^{5} - 5x^{4} + 10x^{3} - 10x^{2} + 5x - 1"}
+{"input": "f(x) = x^5 - 5x^4 + 10x^3 - 10x^2 + 5x - 1", "output": "f(x) = x^{5} - 5x^{4} + 10x^{3} - 10x^{2} + 5x - 1"}
+{"input": "f от x = x^5 - 5x^4 + 10x^3 - 10x^2 + 5x - 1", "output": "f(x) = x^{5} - 5x^{4} + 10x^{3} - 10x^{2} + 5x - 1"}
+{"input": "f of x equals x to the 5th minus five x to the 4th plus ten x cubed minus ten x squared plus five x minus one", "output": "f(x) = x^{5} - 5x^{4} + 10x^{3} - 10x^{2} + 5x - 1"}
+{"input": "F(X)=X^5-5X^4+10X^3-10X^2+5X-1", "output": "f(x) = x^{5} - 5x^{4} + 10x^{3} - 10x^{2} + 5x - 1"}
+{"input": "g(x) = x^2 + 2x + 1", "output": "g(x) = x^{2} + 2x + 1"}
+{"input": "g(x) = x^2 + 2x + 1", "output": "g(x) = x^{2} + 2x + 1"}
+{"input": "g от x = x^2 + 2x + 1", "output": "g(x) = x^{2} + 2x + 1"}
+{"input": "g of x equals x squared plus two x plus one", "output": "g(x) = x^{2} + 2x + 1"}
+{"input": "G(X)=X^2+2X+1", "output": "g(x) = x^{2} + 2x + 1"}
+{"input": "h(x) = x^2 - 2x + 1", "output": "h(x) = x^{2} - 2x + 1"}
+{"input": "h(x) = x^2 - 2x + 1", "output": "h(x) = x^{2} - 2x + 1"}
+{"input": "h от x = x^2 - 2x + 1", "output": "h(x) = x^{2} - 2x + 1"}
+{"input": "h of x equals x squared minus two x plus one", "output": "h(x) = x^{2} - 2x + 1"}
+{"input": "H(X)=X^2-2X+1", "output": "h(x) = x^{2} - 2x + 1"}
+{"input": "f(x) = sin(x) + cos(x)", "output": "f(x) = \\sin(x) + \\cos(x)"}
+{"input": "f(x) = sin(x) + cos(x)", "output": "f(x) = \\sin(x) + \\cos(x)"}
+{"input": "f от x = sin(x) + cos(x)", "output": "f(x) = \\sin(x) + \\cos(x)"}
+{"input": "f of x equals sin x plus cos x", "output": "f(x) = \\sin(x) + \\cos(x)"}
+{"input": "F(X)=SIN(X)+COS(X)", "output": "f(x) = \\sin(x) + \\cos(x)"}
+{"input": "f(x) = e^x + 1", "output": "f(x) = e^{x} + 1"}
+{"input": "f(x) = e^x + 1", "output": "f(x) = e^{x} + 1"}
+{"input": "f от x = e^x + 1", "output": "f(x) = e^{x} + 1"}
+{"input": "f of x equals e to the x plus one", "output": "f(x) = e^{x} + 1"}
+{"input": "F(X)=E^X+1", "output": "f(x) = e^{x} + 1"}
+{"input": "f(x) = ln(x) + 1", "output": "f(x) = \\ln(x) + 1"}
+{"input": "f(x) = ln(x) + 1", "output": "f(x) = \\ln(x) + 1"}
+{"input": "f от x = ln(x) + 1", "output": "f(x) = \\ln(x) + 1"}
+{"input": "f of x equals ln x plus one", "output": "f(x) = \\ln(x) + 1"}
+{"input": "F(X)=LN(X)+1", "output": "f(x) = \\ln(x) + 1"}
+{"input": "f(x) = sqrt(x) + 1", "output": "f(x) = \\sqrt{x} + 1"}
+{"input": "f(x) = sqrt(x) + 1", "output": "f(x) = \\sqrt{x} + 1"}
+{"input": "f от x = sqrt(x) + 1", "output": "f(x) = \\sqrt{x} + 1"}
+{"input": "f of x equals square root of x plus one", "output": "f(x) = \\sqrt{x} + 1"}
+{"input": "F(X)=SQRT(X)+1", "output": "f(x) = \\sqrt{x} + 1"}
+{"input": "f(x) = 1/(x+1)", "output": "f(x) = \\frac{1}{x+1}"}
+{"input": "f(x) = 1/(x+1)", "output": "f(x) = \\frac{1}{x+1}"}
+{"input": "f от x = 1/(x+1)", "output": "f(x) = \\frac{1}{x+1}"}
+{"input": "f of x equals one over x plus one", "output": "f(x) = \\frac{1}{x+1}"}
+{"input": "F(X)=1/(X+1)", "output": "f(x) = \\frac{1}{x+1}"}
+{"input": "f(x) = 1/(x^2+1)", "output": "f(x) = \\frac{1}{x^{2}+1}"}
+{"input": "f(x) = 1/(x^2+1)", "output": "f(x) = \\frac{1}{x^{2}+1}"}
+{"input": "f от x = 1/(x^2+1)", "output": "f(x) = \\frac{1}{x^{2}+1}"}
+{"input": "f of x equals one over x squared plus one", "output": "f(x) = \\frac{1}{x^{2}+1}"}
+{"input": "F(X)=1/(X^2+1)", "output": "f(x) = \\frac{1}{x^{2}+1}"}
+{"input": "f(x) = (x+1)/(x-1)", "output": "f(x) = \\frac{x+1}{x-1}"}
+{"input": "f(x) = (x+1)/(x-1)", "output": "f(x) = \\frac{x+1}{x-1}"}
+{"input": "f от x = (x+1)/(x-1)", "output": "f(x) = \\frac{x+1}{x-1}"}
+{"input": "f of x equals x plus one over x minus one", "output": "f(x) = \\frac{x+1}{x-1}"}
+{"input": "F(X)=(X+1)/(X-1)", "output": "f(x) = \\frac{x+1}{x-1}"}
+{"input": "f(x) = (x^2+1)/(x^2-1)", "output": "f(x) = \\frac{x^{2}+1}{x^{2}-1}"}
+{"input": "f(x) = (x^2+1)/(x^2-1)", "output": "f(x) = \\frac{x^{2}+1}{x^{2}-1}"}
+{"input": "f от x = (x^2+1)/(x^2-1)", "output": "f(x) = \\frac{x^{2}+1}{x^{2}-1}"}
+{"input": "f of x equals x squared plus one over x squared minus one", "output": "f(x) = \\frac{x^{2}+1}{x^{2}-1}"}
+{"input": "F(X)=(X^2+1)/(X^2-1)", "output": "f(x) = \\frac{x^{2}+1}{x^{2}-1}"}
+{"input": "f(x) = x^2 + y^2 + z^2", "output": "f(x) = x^{2} + y^{2} + z^{2}"}
+{"input": "f(x) = x^2 + y^2 + z^2", "output": "f(x) = x^{2} + y^{2} + z^{2}"}
+{"input": "f от x = x^2 + y^2 + z^2", "output": "f(x) = x^{2} + y^{2} + z^{2}"}
+{"input": "f of x equals x squared plus y squared plus z squared", "output": "f(x) = x^{2} + y^{2} + z^{2}"}
+{"input": "F(X)=X^2+Y^2+Z^2", "output": "f(x) = x^{2} + y^{2} + z^{2}"}
+{"input": "f(x,y) = x^2 + y^2", "output": "f(x,y) = x^{2} + y^{2}"}
+{"input": "f(x,y) = x^2 + y^2", "output": "f(x,y) = x^{2} + y^{2}"}
+{"input": "f от x,y = x^2 + y^2", "output": "f(x,y) = x^{2} + y^{2}"}
+{"input": "f of x and y equals x squared plus y squared", "output": "f(x,y) = x^{2} + y^{2}"}
+{"input": "F(X,Y)=X^2+Y^2", "output": "f(x,y) = x^{2} + y^{2}"}
+{"input": "g(x,y) = x^2 - y^2", "output": "g(x,y) = x^{2} - y^{2}"}
+{"input": "g(x,y) = x^2 - y^2", "output": "g(x,y) = x^{2} - y^{2}"}
+{"input": "g от x,y = x^2 - y^2", "output": "g(x,y) = x^{2} - y^{2}"}
+{"input": "g of x and y equals x squared minus y squared", "output": "g(x,y) = x^{2} - y^{2}"}
+{"input": "G(X,Y)=X^2-Y^2", "output": "g(x,y) = x^{2} - y^{2}"}
+{"input": "f(x,y,z) = x^2 + y^2 + z^2", "output": "f(x,y,z) = x^{2} + y^{2} + z^{2}"}
+{"input": "f(x,y,z) = x^2 + y^2 + z^2", "output": "f(x,y,z) = x^{2} + y^{2} + z^{2}"}
+{"input": "f от x,y,z = x^2 + y^2 + z^2", "output": "f(x,y,z) = x^{2} + y^{2} + z^{2}"}
+{"input": "f of x and y and z equals x squared plus y squared plus z squared", "output": "f(x,y,z) = x^{2} + y^{2} + z^{2}"}
+{"input": "F(X,Y,Z)=X^2+Y^2+Z^2", "output": "f(x,y,z) = x^{2} + y^{2} + z^{2}"}
+{"input": "f(x,y,z) = x^2 + y^2 + z^2 - 1", "output": "f(x,y,z) = x^{2} + y^{2} + z^{2} - 1"}
+{"input": "f(x,y,z) = x^2 + y^2 + z^2 - 1", "output": "f(x,y,z) = x^{2} + y^{2} + z^{2} - 1"}
+{"input": "f от x,y,z = x^2 + y^2 + z^2 - 1", "output": "f(x,y,z) = x^{2} + y^{2} + z^{2} - 1"}
+{"input": "f of x and y and z equals x squared plus y squared plus z squared minus one", "output": "f(x,y,z) = x^{2} + y^{2} + z^{2} - 1"}
+{"input": "F(X,Y,Z)=X^2+Y^2+Z^2-1", "output": "f(x,y,z) = x^{2} + y^{2} + z^{2} - 1"}
+{"input": "f(x,y,z) = x^2/a^2 + y^2/b^2 + z^2/c^2 - 1", "output": "f(x,y,z) = \\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} + \\frac{z^{2}}{c^{2}} - 1"}
+{"input": "f(x,y,z) = x^2/a^2 + y^2/b^2 + z^2/c^2 - 1", "output": "f(x,y,z) = \\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} + \\frac{z^{2}}{c^{2}} - 1"}
+{"input": "f от x,y,z = x^2/a^2 + y^2/b^2 + z^2/c^2 - 1", "output": "f(x,y,z) = \\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} + \\frac{z^{2}}{c^{2}} - 1"}
+{"input": "f of x and y and z equals x squared over a squared plus y squared over b squared plus z squared over c squared minus one", "output": "f(x,y,z) = \\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} + \\frac{z^{2}}{c^{2}} - 1"}
+{"input": "F(X,Y,Z)=X^2/A^2+Y^2/B^2+Z^2/C^2-1", "output": "f(x,y,z) = \\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} + \\frac{z^{2}}{c^{2}} - 1"}
+{"input": "f(x) = x^2/a^2 + y^2/b^2 - 1", "output": "f(x) = \\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} - 1"}
+{"input": "f(x) = x^2/a^2 + y^2/b^2 - 1", "output": "f(x) = \\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} - 1"}
+{"input": "f от x = x^2/a^2 + y^2/b^2 - 1", "output": "f(x) = \\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} - 1"}
+{"input": "f of x equals x squared over a squared plus y squared over b squared minus one", "output": "f(x) = \\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} - 1"}
+{"input": "F(X)=X^2/A^2+Y^2/B^2-1", "output": "f(x) = \\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} - 1"}
+{"input": "x^2/a^2 + y^2/b^2 = 1", "output": "\\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} = 1"}
+{"input": "x^2/a^2 + y^2/b^2 = 1", "output": "\\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} = 1"}
+{"input": "x^2 делить на a^2 + y^2 делить на b^2 = 1", "output": "\\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} = 1"}
+{"input": "x squared over a squared plus y squared over b squared equals 1", "output": "\\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} = 1"}
+{"input": "X^2/A^2+Y^2/B^2=1", "output": "\\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} = 1"}
+{"input": "x^2/a^2 - y^2/b^2 = 1", "output": "\\frac{x^{2}}{a^{2}} - \\frac{y^{2}}{b^{2}} = 1"}
+{"input": "x^2/a^2 - y^2/b^2 = 1", "output": "\\frac{x^{2}}{a^{2}} - \\frac{y^{2}}{b^{2}} = 1"}
+{"input": "x^2 делить на a^2 - y^2 делить на b^2 = 1", "output": "\\frac{x^{2}}{a^{2}} - \\frac{y^{2}}{b^{2}} = 1"}
+{"input": "x squared over a squared minus y squared over b squared equals 1", "output": "\\frac{x^{2}}{a^{2}} - \\frac{y^{2}}{b^{2}} = 1"}
+{"input": "X^2/A^2-Y^2/B^2=1", "output": "\\frac{x^{2}}{a^{2}} - \\frac{y^{2}}{b^{2}} = 1"}
+{"input": "x^2/a^2 + y^2/b^2 + z^2/c^2 = 1", "output": "\\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} + \\frac{z^{2}}{c^{2}} = 1"}
+{"input": "x^2/a^2 + y^2/b^2 + z^2/c^2 = 1", "output": "\\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} + \\frac{z^{2}}{c^{2}} = 1"}
+{"input": "x^2 делить на a^2 + y^2 делить на b^2 + z^2 делить на c^2 = 1", "output": "\\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} + \\frac{z^{2}}{c^{2}} = 1"}
+{"input": "x squared over a squared plus y squared over b squared plus z squared over c squared equals 1", "output": "\\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} + \\frac{z^{2}}{c^{2}} = 1"}
+{"input": "X^2/A^2+Y^2/B^2+Z^2/C^2=1", "output": "\\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} + \\frac{z^{2}}{c^{2}} = 1"}
+{"input": "x^2/a^2 - y^2/b^2 - z^2/c^2 = 1", "output": "\\frac{x^{2}}{a^{2}} - \\frac{y^{2}}{b^{2}} - \\frac{z^{2}}{c^{2}} = 1"}
+{"input": "x^2/a^2 - y^2/b^2 - z^2/c^2 = 1", "output": "\\frac{x^{2}}{a^{2}} - \\frac{y^{2}}{b^{2}} - \\frac{z^{2}}{c^{2}} = 1"}
+{"input": "x^2 делить на a^2 - y^2 делить на b^2 - z^2 делить на c^2 = 1", "output": "\\frac{x^{2}}{a^{2}} - \\frac{y^{2}}{b^{2}} - \\frac{z^{2}}{c^{2}} = 1"}
+{"input": "x squared over a squared minus y squared over b squared minus z squared over c squared equals 1", "output": "\\frac{x^{2}}{a^{2}} - \\frac{y^{2}}{b^{2}} - \\frac{z^{2}}{c^{2}} = 1"}
+{"input": "X^2/A^2-Y^2/B^2-Z^2/C^2=1", "output": "\\frac{x^{2}}{a^{2}} - \\frac{y^{2}}{b^{2}} - \\frac{z^{2}}{c^{2}} = 1"}
+{"input": "y = x^2", "output": "y = x^{2}"}
+{"input": "y = x^2", "output": "y = x^{2}"}
+{"input": "y = x в квадрате", "output": "y = x^{2}"}
+{"input": "y equals x squared", "output": "y = x^{2}"}
+{"input": "Y=X^2", "output": "y = x^{2}"}
+{"input": "y = x^3", "output": "y = x^{3}"}
+{"input": "y = x^3", "output": "y = x^{3}"}
+{"input": "y = x в кубе", "output": "y = x^{3}"}
+{"input": "y equals x cubed", "output": "y = x^{3}"}
+{"input": "Y=X^3", "output": "y = x^{3}"}
+{"input": "y = 1/x", "output": "y = \\frac{1}{x}"}
+{"input": "y = 1/x", "output": "y = \\frac{1}{x}"}
+{"input": "y = 1 делить на x", "output": "y = \\frac{1}{x}"}
+{"input": "y equals one over x", "output": "y = \\frac{1}{x}"}
+{"input": "Y=1/X", "output": "y = \\frac{1}{x}"}
+{"input": "y = sqrt(x)", "output": "y = \\sqrt{x}"}
+{"input": "y = sqrt(x)", "output": "y = \\sqrt{x}"}
+{"input": "y = корень из x", "output": "y = \\sqrt{x}"}
+{"input": "y equals square root of x", "output": "y = \\sqrt{x}"}
+{"input": "Y=SQRT(X)", "output": "y = \\sqrt{x}"}
+{"input": "y = ln(x)", "output": "y = \\ln(x)"}
+{"input": "y = ln(x)", "output": "y = \\ln(x)"}
+{"input": "y = ln x", "output": "y = \\ln(x)"}
+{"input": "y equals ln x", "output": "y = \\ln(x)"}
+{"input": "Y=LN(X)", "output": "y = \\ln(x)"}
+{"input": "y = e^x", "output": "y = e^{x}"}
+{"input": "y = e^x", "output": "y = e^{x}"}
+{"input": "y = e в степени x", "output": "y = e^{x}"}
+{"input": "y equals e to the x", "output": "y = e^{x}"}
+{"input": "Y=E^X", "output": "y = e^{x}"}
+{"input": "y = sin(x)", "output": "y = \\sin(x)"}
+{"input": "y = sin(x)", "output": "y = \\sin(x)"}
+{"input": "y = sin x", "output": "y = \\sin(x)"}
+{"input": "y equals sin x", "output": "y = \\sin(x)"}
+{"input": "Y=SIN(X)", "output": "y = \\sin(x)"}
+{"input": "y = cos(x)", "output": "y = \\cos(x)"}
+{"input": "y = cos(x)", "output": "y = \\cos(x)"}
+{"input": "y = cos x", "output": "y = \\cos(x)"}
+{"input": "y equals cos x", "output": "y = \\cos(x)"}
+{"input": "Y=COS(X)", "output": "y = \\cos(x)"}
+{"input": "y = tan(x)", "output": "y = \\tan(x)"}
+{"input": "y = tan(x)", "output": "y = \\tan(x)"}
+{"input": "y = tan x", "output": "y = \\tan(x)"}
+{"input": "y equals tan x", "output": "y = \\tan(x)"}
+{"input": "Y=TAN(X)", "output": "y = \\tan(x)"}
+{"input": "y = arcsin(x)", "output": "y = \\arcsin(x)"}
+{"input": "y = arcsin(x)", "output": "y = \\arcsin(x)"}
+{"input": "y = arcsin x", "output": "y = \\arcsin(x)"}
+{"input": "y equals arcsin x", "output": "y = \\arcsin(x)"}
+{"input": "Y=ARCSIN(X)", "output": "y = \\arcsin(x)"}
+{"input": "y = arccos(x)", "output": "y = \\arccos(x)"}
+{"input": "y = arccos(x)", "output": "y = \\arccos(x)"}
+{"input": "y = arccos x", "output": "y = \\arccos(x)"}
+{"input": "y equals arccos x", "output": "y = \\arccos(x)"}
+{"input": "Y=ARCCOS(X)", "output": "y = \\arccos(x)"}
+{"input": "y = arctan(x)", "output": "y = \\arctan(x)"}
+{"input": "y = arctan(x)", "output": "y = \\arctan(x)"}
+{"input": "y = arctan x", "output": "y = \\arctan(x)"}
+{"input": "y equals arctan x", "output": "y = \\arctan(x)"}
+{"input": "Y=ARCTAN(X)", "output": "y = \\arctan(x)"}
+{"input": "y = x^2 + 1", "output": "y = x^{2} + 1"}
+{"input": "y = x^2 + 1", "output": "y = x^{2} + 1"}
+{"input": "y = x в квадрате + 1", "output": "y = x^{2} + 1"}
+{"input": "y equals x squared plus one", "output": "y = x^{2} + 1"}
+{"input": "Y=X^2+1", "output": "y = x^{2} + 1"}
+{"input": "y = x^2 - 1", "output": "y = x^{2} - 1"}
+{"input": "y = x^2 - 1", "output": "y = x^{2} - 1"}
+{"input": "y = x в квадрате - 1", "output": "y = x^{2} - 1"}
+{"input": "y equals x squared minus one", "output": "y = x^{2} - 1"}
+{"input": "Y=X^2-1", "output": "y = x^{2} - 1"}
+{"input": "y = x^3 + x", "output": "y = x^{3} + x"}
+{"input": "y = x^3 + x", "output": "y = x^{3} + x"}
+{"input": "y = x в кубе + x", "output": "y = x^{3} + x"}
+{"input": "y equals x cubed plus x", "output": "y = x^{3} + x"}
+{"input": "Y=X^3+X", "output": "y = x^{3} + x"}
+{"input": "y = x^3 - x", "output": "y = x^{3} - x"}
+{"input": "y = x^3 - x", "output": "y = x^{3} - x"}
+{"input": "y = x в кубе - x", "output": "y = x^{3} - x"}
+{"input": "y equals x cubed minus x", "output": "y = x^{3} - x"}
+{"input": "Y=X^3-X", "output": "y = x^{3} - x"}
+{"input": "y = e^(-x^2)", "output": "y = e^{-x^{2}}"}
+{"input": "y = e^(-x^2)", "output": "y = e^{-x^{2}}"}
+{"input": "y = e в степени -x^2", "output": "y = e^{-x^{2}}"}
+{"input": "y equals e to the minus x squared", "output": "y = e^{-x^{2}}"}
+{"input": "Y=E^(-X^2)", "output": "y = e^{-x^{2}}"}
+{"input": "y = 1/(1 + e^(-x))", "output": "y = \\frac{1}{1 + e^{-x}}"}
+{"input": "y = 1/(1 + e^(-x))", "output": "y = \\frac{1}{1 + e^{-x}}"}
+{"input": "y = 1/(1 + e в степени -x)", "output": "y = \\frac{1}{1 + e^{-x}}"}
+{"input": "y equals one over one plus e to the minus x", "output": "y = \\frac{1}{1 + e^{-x}}"}
+{"input": "Y=1/(1+E^(-X))", "output": "y = \\frac{1}{1 + e^{-x}}"}
+{"input": "y = ln(1 + x)", "output": "y = \\ln(1 + x)"}
+{"input": "y = ln(1 + x)", "output": "y = \\ln(1 + x)"}
+{"input": "y = ln(1 + x)", "output": "y = \\ln(1 + x)"}
+{"input": "y equals ln one plus x", "output": "y = \\ln(1 + x)"}
+{"input": "Y=LN(1+X)", "output": "y = \\ln(1 + x)"}
+{"input": "y = sqrt(1 - x^2)", "output": "y = \\sqrt{1 - x^{2}}"}
+{"input": "y = sqrt(1 - x^2)", "output": "y = \\sqrt{1 - x^{2}}"}
+{"input": "y = корень из 1 - x^2", "output": "y = \\sqrt{1 - x^{2}}"}
+{"input": "y equals square root of one minus x squared", "output": "y = \\sqrt{1 - x^{2}}"}
+{"input": "Y=SQRT(1-X^2)", "output": "y = \\sqrt{1 - x^{2}}"}
+{"input": "y = sqrt(x^2 + 1)", "output": "y = \\sqrt{x^{2} + 1}"}
+{"input": "y = sqrt(x^2 + 1)", "output": "y = \\sqrt{x^{2} + 1}"}
+{"input": "y = корень из x^2 + 1", "output": "y = \\sqrt{x^{2} + 1}"}
+{"input": "y equals square root of x squared plus one", "output": "y = \\sqrt{x^{2} + 1}"}
+{"input": "Y=SQRT(X^2+1)", "output": "y = \\sqrt{x^{2} + 1}"}
+{"input": "y = sin(x) + cos(x)", "output": "y = \\sin(x) + \\cos(x)"}
+{"input": "y = sin(x) + cos(x)", "output": "y = \\sin(x) + \\cos(x)"}
+{"input": "y = sin x + cos x", "output": "y = \\sin(x) + \\cos(x)"}
+{"input": "y equals sin x plus cos x", "output": "y = \\sin(x) + \\cos(x)"}
+{"input": "Y=SIN(X)+COS(X)", "output": "y = \\sin(x) + \\cos(x)"}
+{"input": "y = sin(x) * cos(x)", "output": "y = \\sin(x) \\cos(x)"}
+{"input": "y = sin(x) * cos(x)", "output": "y = \\sin(x) \\cos(x)"}
+{"input": "y = sin x cos x", "output": "y = \\sin(x) \\cos(x)"}
+{"input": "y equals sin x times cos x", "output": "y = \\sin(x) \\cos(x)"}
+{"input": "Y=SIN(X)*COS(X)", "output": "y = \\sin(x) \\cos(x)"}
+{"input": "y = x * e^x", "output": "y = x e^{x}"}
+{"input": "y = x * e^x", "output": "y = x e^{x}"}
+{"input": "y = x умножить на e^x", "output": "y = x e^{x}"}
+{"input": "y equals x times e to the x", "output": "y = x e^{x}"}
+{"input": "Y=X*E^X", "output": "y = x e^{x}"}
+{"input": "y = x * ln(x)", "output": "y = x \\ln(x)"}
+{"input": "y = x * ln(x)", "output": "y = x \\ln(x)"}
+{"input": "y = x умножить на ln(x)", "output": "y = x \\ln(x)"}
+{"input": "y equals x times ln x", "output": "y = x \\ln(x)"}
+{"input": "Y=X*LN(X)", "output": "y = x \\ln(x)"}
+{"input": "y = x * sin(x)", "output": "y = x \\sin(x)"}
+{"input": "y = x * sin(x)", "output": "y = x \\sin(x)"}
+{"input": "y = x умножить на sin(x)", "output": "y = x \\sin(x)"}
+{"input": "y equals x times sin x", "output": "y = x \\sin(x)"}
+{"input": "Y=X*SIN(X)", "output": "y = x \\sin(x)"}
+{"input": "y = x / (x^2 + 1)", "output": "y = \\frac{x}{x^{2} + 1}"}
+{"input": "y = x / (x^2 + 1)", "output": "y = \\frac{x}{x^{2} + 1}"}
+{"input": "y = x делить на (x^2 + 1)", "output": "y = \\frac{x}{x^{2} + 1}"}
+{"input": "y equals x over x squared plus one", "output": "y = \\frac{x}{x^{2} + 1}"}
+{"input": "Y=X/(X^2+1)", "output": "y = \\frac{x}{x^{2} + 1}"}
+{"input": "y = (x+1)/(x-1)", "output": "y = \\frac{x+1}{x-1}"}
+{"input": "y = (x+1)/(x-1)", "output": "y = \\frac{x+1}{x-1}"}
+{"input": "y = (x+1) делить на (x-1)", "output": "y = \\frac{x+1}{x-1}"}
+{"input": "y equals x plus one over x minus one", "output": "y = \\frac{x+1}{x-1}"}
+{"input": "Y=(X+1)/(X-1)", "output": "y = \\frac{x+1}{x-1}"}
+{"input": "y = (x^2+1)/(x^2-1)", "output": "y = \\frac{x^{2}+1}{x^{2}-1}"}
+{"input": "y = (x^2+1)/(x^2-1)", "output": "y = \\frac{x^{2}+1}{x^{2}-1}"}
+{"input": "y = (x^2+1) делить на (x^2-1)", "output": "y = \\frac{x^{2}+1}{x^{2}-1}"}
+{"input": "y equals x squared plus one over x squared minus one", "output": "y = \\frac{x^{2}+1}{x^{2}-1}"}
+{"input": "Y=(X^2+1)/(X^2-1)", "output": "y = \\frac{x^{2}+1}{x^{2}-1}"}
+{"input": "y = 1/(x^2+1)", "output": "y = \\frac{1}{x^{2}+1}"}
+{"input": "y = 1/(x^2+1)", "output": "y = \\frac{1}{x^{2}+1}"}
+{"input": "y = 1 делить на (x^2+1)", "output": "y = \\frac{1}{x^{2}+1}"}
+{"input": "y equals one over x squared plus one", "output": "y = \\frac{1}{x^{2}+1}"}
+{"input": "Y=1/(X^2+1)", "output": "y = \\frac{1}{x^{2}+1}"}
+{"input": "y = 1/(x^2-1)", "output": "y = \\frac{1}{x^{2}-1}"}
+{"input": "y = 1/(x^2-1)", "output": "y = \\frac{1}{x^{2}-1}"}
+{"input": "y = 1 делить на (x^2-1)", "output": "y = \\frac{1}{x^{2}-1}"}
+{"input": "y equals one over x squared minus one", "output": "y = \\frac{1}{x^{2}-1}"}
+{"input": "Y=1/(X^2-1)", "output": "y = \\frac{1}{x^{2}-1}"}
+{"input": "y = 1/sqrt(x)", "output": "y = \\frac{1}{\\sqrt{x}}"}
+{"input": "y = 1/sqrt(x)", "output": "y = \\frac{1}{\\sqrt{x}}"}
+{"input": "y = 1 делить на sqrt(x)", "output": "y = \\frac{1}{\\sqrt{x}}"}
+{"input": "y equals one over square root of x", "output": "y = \\frac{1}{\\sqrt{x}}"}
+{"input": "Y=1/SQRT(X)", "output": "y = \\frac{1}{\\sqrt{x}}"}
+{"input": "y = sqrt(x)/x", "output": "y = \\frac{\\sqrt{x}}{x}"}
+{"input": "y = sqrt(x)/x", "output": "y = \\frac{\\sqrt{x}}{x}"}
+{"input": "y = sqrt(x) делить на x", "output": "y = \\frac{\\sqrt{x}}{x}"}
+{"input": "y equals square root of x over x", "output": "y = \\frac{\\sqrt{x}}{x}"}
+{"input": "Y=SQRT(X)/X", "output": "y = \\frac{\\sqrt{x}}{x}"}
+{"input": "y = ln(x)/x", "output": "y = \\frac{\\ln(x)}{x}"}
+{"input": "y = ln(x)/x", "output": "y = \\frac{\\ln(x)}{x}"}
+{"input": "y = ln(x) делить на x", "output": "y = \\frac{\\ln(x)}{x}"}
+{"input": "y equals ln x over x", "output": "y = \\frac{\\ln(x)}{x}"}
+{"input": "Y=LN(X)/X", "output": "y = \\frac{\\ln(x)}{x}"}
+{"input": "y = e^x/x", "output": "y = \\frac{e^{x}}{x}"}
+{"input": "y = e^x/x", "output": "y = \\frac{e^{x}}{x}"}
+{"input": "y = e^x делить на x", "output": "y = \\frac{e^{x}}{x}"}
+{"input": "y equals e to the x over x", "output": "y = \\frac{e^{x}}{x}"}
+{"input": "Y=E^X/X", "output": "y = \\frac{e^{x}}{x}"}
+{"input": "y = sin(x)/x", "output": "y = \\frac{\\sin(x)}{x}"}
+{"input": "y = sin(x)/x", "output": "y = \\frac{\\sin(x)}{x}"}
+{"input": "y = sin(x) делить на x", "output": "y = \\frac{\\sin(x)}{x}"}
+{"input": "y equals sin x over x", "output": "y = \\frac{\\sin(x)}{x}"}
+{"input": "Y=SIN(X)/X", "output": "y = \\frac{\\sin(x)}{x}"}
+{"input": "y = cos(x)/x", "output": "y = \\frac{\\cos(x)}{x}"}
+{"input": "y = cos(x)/x", "output": "y = \\frac{\\cos(x)}{x}"}
+{"input": "y = cos(x) делить на x", "output": "y = \\frac{\\cos(x)}{x}"}
+{"input": "y equals cos x over x", "output": "y = \\frac{\\cos(x)}{x}"}
+{"input": "Y=COS(X)/X", "output": "y = \\frac{\\cos(x)}{x}"}
+{"input": "y = tan(x)/x", "output": "y = \\frac{\\tan(x)}{x}"}
+{"input": "y = tan(x)/x", "output": "y = \\frac{\\tan(x)}{x}"}
+{"input": "y = tan(x) делить на x", "output": "y = \\frac{\\tan(x)}{x}"}
+{"input": "y equals tan x over x", "output": "y = \\frac{\\tan(x)}{x}"}
+{"input": "Y=TAN(X)/X", "output": "y = \\frac{\\tan(x)}{x}"}
+{"input": "y = (1+x)^(1/x)", "output": "y = (1+x)^{1/x}"}
+{"input": "y = (1+x)^(1/x)", "output": "y = (1+x)^{1/x}"}
+{"input": "y = (1+x) в степени 1/x", "output": "y = (1+x)^{1/x}"}
+{"input": "y equals one plus x to the one over x", "output": "y = (1+x)^{1/x}"}
+{"input": "Y=(1+X)^(1/X)", "output": "y = (1+x)^{1/x}"}
+{"input": "y = (1+1/x)^x", "output": "y = (1+\\frac{1}{x})^{x}"}
+{"input": "y = (1+1/x)^x", "output": "y = (1+\\frac{1}{x})^{x}"}
+{"input": "y = (1+1/x) в степени x", "output": "y = (1+\\frac{1}{x})^{x}"}
+{"input": "y equals one plus one over x to the x", "output": "y = (1+\\frac{1}{x})^{x}"}
+{"input": "Y=(1+1/X)^X", "output": "y = (1+\\frac{1}{x})^{x}"}
+{"input": "y = (1+1/n)^n", "output": "y = (1+\\frac{1}{n})^{n}"}
+{"input": "y = (1+1/n)^n", "output": "y = (1+\\frac{1}{n})^{n}"}
+{"input": "y = (1+1/n) в степени n", "output": "y = (1+\\frac{1}{n})^{n}"}
+{"input": "y equals one plus one over n to the n", "output": "y = (1+\\frac{1}{n})^{n}"}
+{"input": "Y=(1+1/N)^N", "output": "y = (1+\\frac{1}{n})^{n}"}
+{"input": "y = (1+a/x)^x", "output": "y = (1+\\frac{a}{x})^{x}"}
+{"input": "y = (1+a/x)^x", "output": "y = (1+\\frac{a}{x})^{x}"}
+{"input": "y = (1+a/x) в степени x", "output": "y = (1+\\frac{a}{x})^{x}"}
+{"input": "y equals one plus a over x to the x", "output": "y = (1+\\frac{a}{x})^{x}"}
+{"input": "Y=(1+A/X)^X", "output": "y = (1+\\frac{a}{x})^{x}"}
+{"input": "y = (1+1/n)^(n+1)", "output": "y = (1+\\frac{1}{n})^{n+1}"}
+{"input": "y = (1+1/n)^(n+1)", "output": "y = (1+\\frac{1}{n})^{n+1}"}
+{"input": "y = (1+1/n) в степени n+1", "output": "y = (1+\\frac{1}{n})^{n+1}"}
+{"input": "y equals one plus one over n to the n plus one", "output": "y = (1+\\frac{1}{n})^{n+1}"}
+{"input": "Y=(1+1/N)^(N+1)", "output": "y = (1+\\frac{1}{n})^{n+1}"}
+{"input": "y = (1+1/x)^(x^2)", "output": "y = (1+\\frac{1}{x})^{x^{2}}"}
+{"input": "y = (1+1/x)^(x^2)", "output": "y = (1+\\frac{1}{x})^{x^{2}}"}
+{"input": "y = (1+1/x) в степени x^2", "output": "y = (1+\\frac{1}{x})^{x^{2}}"}
+{"input": "y equals one plus one over x to the x squared", "output": "y = (1+\\frac{1}{x})^{x^{2}}"}
+{"input": "Y=(1+1/X)^(X^2)", "output": "y = (1+\\frac{1}{x})^{x^{2}}"}
+{"input": "y = (1+ax)^(1/x)", "output": "y = (1+ax)^{1/x}"}
+{"input": "y = (1+ax)^(1/x)", "output": "y = (1+ax)^{1/x}"}
+{"input": "y = (1+ax) в степени 1/x", "output": "y = (1+ax)^{1/x}"}
+{"input": "y equals one plus a x to the one over x", "output": "y = (1+ax)^{1/x}"}
+{"input": "Y=(1+AX)^(1/X)", "output": "y = (1+ax)^{1/x}"}
+{"input": "y = (1+x)^(a/x)", "output": "y = (1+x)^{a/x}"}
+{"input": "y = (1+x)^(a/x)", "output": "y = (1+x)^{a/x}"}
+{"input": "y = (1+x) в степени a/x", "output": "y = (1+x)^{a/x}"}
+{"input": "y equals one plus x to the a over x", "output": "y = (1+x)^{a/x}"}
+{"input": "Y=(1+X)^(A/X)", "output": "y = (1+x)^{a/x}"}
+{"input": "y = e^(i*pi)", "output": "y = e^{i\\pi}"}
+{"input": "y = e^(i*pi)", "output": "y = e^{i\\pi}"}
+{"input": "y = e в степени i пи", "output": "y = e^{i\\pi}"}
+{"input": "y equals e to the i pi", "output": "y = e^{i\\pi}"}
+{"input": "Y=E^(I*PI)", "output": "y = e^{i\\pi}"}
+{"input": "y = e^(i*theta)", "output": "y = e^{i\\theta}"}
+{"input": "y = e^(i*theta)", "output": "y = e^{i\\theta}"}
+{"input": "y = e в степени i тета", "output": "y = e^{i\\theta}"}
+{"input": "y equals e to the i theta", "output": "y = e^{i\\theta}"}
+{"input": "Y=E^(I*THETA)", "output": "y = e^{i\\theta}"}
+{"input": "MSE = 1/n sum i=1 n (y_i - y_hat_i)^2", "output": "\\text{MSE} = \\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^{2}"}
+{"input": "MSE = (1/n) * Σ_{i=1}^n (y_i - ŷ_i)^2", "output": "\\text{MSE} = \\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^{2}"}
+{"input": "mean squared error = 1/n sum from i=1 to n of (y_i - y_hat_i)^2", "output": "\\text{MSE} = \\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^{2}"}
+{"input": "MSE = 1/n Σ (y_i - ŷ_i)^2", "output": "\\text{MSE} = \\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^{2}"}
+{"input": "MSE=1/N*SUM(Y_I-Y_HAT_I)^2", "output": "\\text{MSE} = \\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^{2}"}
+{"input": "RMSE = sqrt(1/n sum i=1 n (y_i - y_hat_i)^2)", "output": "\\text{RMSE} = \\sqrt{\\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^{2}}"}
+{"input": "RMSE = sqrt((1/n) * Σ_{i=1}^n (y_i - ŷ_i)^2)", "output": "\\text{RMSE} = \\sqrt{\\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^{2}}"}
+{"input": "root mean squared error = sqrt(1/n sum from i=1 to n of (y_i - y_hat_i)^2)", "output": "\\text{RMSE} = \\sqrt{\\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^{2}}"}
+{"input": "RMSE = sqrt(1/n Σ (y_i - ŷ_i)^2)", "output": "\\text{RMSE} = \\sqrt{\\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^{2}}"}
+{"input": "RMSE=SQRT(1/N*SUM(Y_I-Y_HAT_I)^2)", "output": "\\text{RMSE} = \\sqrt{\\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^{2}}"}
+{"input": "MAE = 1/n sum i=1 n |y_i - y_hat_i|", "output": "\\text{MAE} = \\frac{1}{n} \\sum_{i=1}^{n} |y_i - \\hat{y}_i|"}
+{"input": "MAE = (1/n) * Σ_{i=1}^n |y_i - ŷ_i|", "output": "\\text{MAE} = \\frac{1}{n} \\sum_{i=1}^{n} |y_i - \\hat{y}_i|"}
+{"input": "mean absolute error = 1/n sum from i=1 to n of |y_i - y_hat_i|", "output": "\\text{MAE} = \\frac{1}{n} \\sum_{i=1}^{n} |y_i - \\hat{y}_i|"}
+{"input": "MAE = 1/n Σ |y_i - ŷ_i|", "output": "\\text{MAE} = \\frac{1}{n} \\sum_{i=1}^{n} |y_i - \\hat{y}_i|"}
+{"input": "MAE=1/N*SUM|Y_I-Y_HAT_I|", "output": "\\text{MAE} = \\frac{1}{n} \\sum_{i=1}^{n} |y_i - \\hat{y}_i|"}
+{"input": "f_hat(x) = sum i=1 n K((x-x_i)/h) y_i / sum i=1 n K((x-x_i)/h)", "output": "\\hat{f}(x) = \\frac{\\sum_{i=1}^{n} K\\left(\\frac{x-x_i}{h}\\right) y_i}{\\sum_{i=1}^{n} K\\left(\\frac{x-x_i}{h}\\right)}"}
+{"input": "f_hat(x) = Σ_{i=1}^n K((x-x_i)/h) y_i / Σ_{i=1}^n K((x-x_i)/h)", "output": "\\hat{f}(x) = \\frac{\\sum_{i=1}^{n} K\\left(\\frac{x-x_i}{h}\\right) y_i}{\\sum_{i=1}^{n} K\\left(\\frac{x-x_i}{h}\\right)}"}
+{"input": "Nadaraya-Watson: f_hat(x) = sum K((x-x_i)/h) y_i / sum K((x-x_i)/h)", "output": "\\hat{f}(x) = \\frac{\\sum_{i=1}^{n} K\\left(\\frac{x-x_i}{h}\\right) y_i}{\\sum_{i=1}^{n} K\\left(\\frac{x-x_i}{h}\\right)}"}
+{"input": "f hat x = sum from i=1 to n of K of x minus x i over h times y i divided by sum from i=1 to n of K of x minus x i over h", "output": "\\hat{f}(x) = \\frac{\\sum_{i=1}^{n} K\\left(\\frac{x-x_i}{h}\\right) y_i}{\\sum_{i=1}^{n} K\\left(\\frac{x-x_i}{h}\\right)}"}
+{"input": "F_HAT(X)=SUM_{I=1}^N K((X-X_I)/H)Y_I/SUM_{I=1}^N K((X-X_I)/H)", "output": "\\hat{f}(x) = \\frac{\\sum_{i=1}^{n} K\\left(\\frac{x-x_i}{h}\\right) y_i}{\\sum_{i=1}^{n} K\\left(\\frac{x-x_i}{h}\\right)}"}
+{"input": "LogLoss = -(1/n) sum i=1 n [y_i log(p_i) + (1-y_i) log(1-p_i)]", "output": "\\text{LogLoss} = -\\frac{1}{n} \\sum_{i=1}^{n} \\left[ y_i \\log(p_i) + (1-y_i) \\log(1-p_i) \\right]"}
+{"input": "LogLoss = -(1/n) * Σ_{i=1}^n [y_i log(p_i) + (1-y_i) log(1-p_i)]", "output": "\\text{LogLoss} = -\\frac{1}{n} \\sum_{i=1}^{n} \\left[ y_i \\log(p_i) + (1-y_i) \\log(1-p_i) \\right]"}
+{"input": "log loss = -1/n sum from i=1 to n of y_i log p_i + (1-y_i) log(1-p_i)", "output": "\\text{LogLoss} = -\\frac{1}{n} \\sum_{i=1}^{n} \\left[ y_i \\log(p_i) + (1-y_i) \\log(1-p_i) \\right]"}
+{"input": "LogLoss = -1/n Σ [y_i log(p_i) + (1-y_i) log(1-p_i)]", "output": "\\text{LogLoss} = -\\frac{1}{n} \\sum_{i=1}^{n} \\left[ y_i \\log(p_i) + (1-y_i) \\log(1-p_i) \\right]"}
+{"input": "LOGLOSS=-(1/N)*SUM(Y_I*LOG(P_I)+(1-Y_I)*LOG(1-P_I))", "output": "\\text{LogLoss} = -\\frac{1}{n} \\sum_{i=1}^{n} \\left[ y_i \\log(p_i) + (1-y_i) \\log(1-p_i) \\right]"}
+{"input": "R^2 = 1 - SS_res / SS_tot", "output": "R^{2} = 1 - \\frac{\\text{SS}_{\\text{res}}}{\\text{SS}_{\\text{tot}}}"}
+{"input": "R^2 = 1 - SS_res/SS_tot", "output": "R^{2} = 1 - \\frac{\\text{SS}_{\\text{res}}}{\\text{SS}_{\\text{tot}}}"}
+{"input": "R squared = 1 - SS_res over SS_tot", "output": "R^{2} = 1 - \\frac{\\text{SS}_{\\text{res}}}{\\text{SS}_{\\text{tot}}}"}
+{"input": "R² = 1 - SS_res / SS_tot", "output": "R^{2} = 1 - \\frac{\\text{SS}_{\\text{res}}}{\\text{SS}_{\\text{tot}}}"}
+{"input": "R^2=1-SS_RES/SS_TOT", "output": "R^{2} = 1 - \\frac{\\text{SS}_{\\text{res}}}{\\text{SS}_{\\text{tot}}}"}
+{"input": "variance = 1/n sum i=1 n (x_i - x_bar)^2", "output": "\\text{Var} = \\frac{1}{n} \\sum_{i=1}^{n} (x_i - \\bar{x})^{2}"}
+{"input": "variance = (1/n) * Σ_{i=1}^n (x_i - x̄)^2", "output": "\\text{Var} = \\frac{1}{n} \\sum_{i=1}^{n} (x_i - \\bar{x})^{2}"}
+{"input": "var = 1/n sum from i=1 to n of (x_i - x_bar)^2", "output": "\\text{Var} = \\frac{1}{n} \\sum_{i=1}^{n} (x_i - \\bar{x})^{2}"}
+{"input": "variance = 1/n Σ (x_i - x̄)^2", "output": "\\text{Var} = \\frac{1}{n} \\sum_{i=1}^{n} (x_i - \\bar{x})^{2}"}
+{"input": "VARIANCE=1/N*SUM(X_I-X_BAR)^2", "output": "\\text{Var} = \\frac{1}{n} \\sum_{i=1}^{n} (x_i - \\bar{x})^{2}"}
+{"input": "std = sqrt(1/n sum i=1 n (x_i - x_bar)^2)", "output": "\\sigma = \\sqrt{\\frac{1}{n} \\sum_{i=1}^{n} (x_i - \\bar{x})^{2}}"}
+{"input": "std = sqrt((1/n) * Σ_{i=1}^n (x_i - x̄)^2)", "output": "\\sigma = \\sqrt{\\frac{1}{n} \\sum_{i=1}^{n} (x_i - \\bar{x})^{2}}"}
+{"input": "standard deviation = sqrt(1/n sum from i=1 to n of (x_i - x_bar)^2)", "output": "\\sigma = \\sqrt{\\frac{1}{n} \\sum_{i=1}^{n} (x_i - \\bar{x})^{2}}"}
+{"input": "std = sqrt(1/n Σ (x_i - x̄)^2)", "output": "\\sigma = \\sqrt{\\frac{1}{n} \\sum_{i=1}^{n} (x_i - \\bar{x})^{2}}"}
+{"input": "STD=SQRT(1/N*SUM(X_I-X_BAR)^2)", "output": "\\sigma = \\sqrt{\\frac{1}{n} \\sum_{i=1}^{n} (x_i - \\bar{x})^{2}}"}
+{"input": "cov(X,Y) = 1/n sum i=1 n (x_i - x_bar)(y_i - y_bar)", "output": "\\text{Cov}(X, Y) = \\frac{1}{n} \\sum_{i=1}^{n} (x_i - \\bar{x})(y_i - \\bar{y})"}
+{"input": "cov(X,Y) = (1/n) * Σ_{i=1}^n (x_i - x̄)(y_i - ȳ)", "output": "\\text{Cov}(X, Y) = \\frac{1}{n} \\sum_{i=1}^{n} (x_i - \\bar{x})(y_i - \\bar{y})"}
+{"input": "covariance = 1/n sum from i=1 to n of (x_i - x_bar)(y_i - y_bar)", "output": "\\text{Cov}(X, Y) = \\frac{1}{n} \\sum_{i=1}^{n} (x_i - \\bar{x})(y_i - \\bar{y})"}
+{"input": "cov(X,Y) = 1/n Σ (x_i - x̄)(y_i - ȳ)", "output": "\\text{Cov}(X, Y) = \\frac{1}{n} \\sum_{i=1}^{n} (x_i - \\bar{x})(y_i - \\bar{y})"}
+{"input": "COV(X,Y)=1/N*SUM(X_I-X_BAR)(Y_I-Y_BAR)", "output": "\\text{Cov}(X, Y) = \\frac{1}{n} \\sum_{i=1}^{n} (x_i - \\bar{x})(y_i - \\bar{y})"}
+{"input": "corr(X,Y) = cov(X,Y) / (sigma_X sigma_Y)", "output": "\\rho_{XY} = \\frac{\\text{Cov}(X, Y)}{\\sigma_X \\sigma_Y}"}
+{"input": "corr(X,Y) = cov(X,Y)/(sigma_X * sigma_Y)", "output": "\\rho_{XY} = \\frac{\\text{Cov}(X, Y)}{\\sigma_X \\sigma_Y}"}
+{"input": "correlation = cov(X,Y) over sigma_X sigma_Y", "output": "\\rho_{XY} = \\frac{\\text{Cov}(X, Y)}{\\sigma_X \\sigma_Y}"}
+{"input": "corr(X,Y) = cov(X,Y) / (σ_X σ_Y)", "output": "\\rho_{XY} = \\frac{\\text{Cov}(X, Y)}{\\sigma_X \\sigma_Y}"}
+{"input": "CORR(X,Y)=COV(X,Y)/(SIGMA_X*SIGMA_Y)", "output": "\\rho_{XY} = \\frac{\\text{Cov}(X, Y)}{\\sigma_X \\sigma_Y}"}
+{"input": "P(A|B) = P(B|A) P(A) / P(B)", "output": "P(A|B) = \\frac{P(B|A) P(A)}{P(B)}"}
+{"input": "P(A|B) = P(B|A)*P(A)/P(B)", "output": "P(A|B) = \\frac{P(B|A) P(A)}{P(B)}"}
+{"input": "Bayes: P(A|B) = P(B|A) P(A) / P(B)", "output": "P(A|B) = \\frac{P(B|A) P(A)}{P(B)}"}
+{"input": "P(A|B) = P(B|A)P(A)/P(B)", "output": "P(A|B) = \\frac{P(B|A) P(A)}{P(B)}"}
+{"input": "P(A|B)=P(B|A)*P(A)/P(B)", "output": "P(A|B) = \\frac{P(B|A) P(A)}{P(B)}"}
+{"input": "normal pdf = 1/(sigma sqrt(2pi)) exp(-(x-mu)^2/(2sigma^2))", "output": "\\mathcal{N}(x | \\mu, \\sigma) = \\frac{1}{\\sigma \\sqrt{2\\pi}} \\exp\\left(-\\frac{(x-\\mu)^{2}}{2\\sigma^{2}}\\right)"}
+{"input": "normal pdf = 1/(σ sqrt(2π)) exp(-(x-μ)^2/(2σ^2))", "output": "\\mathcal{N}(x | \\mu, \\sigma) = \\frac{1}{\\sigma \\sqrt{2\\pi}} \\exp\\left(-\\frac{(x-\\mu)^{2}}{2\\sigma^{2}}\\right)"}
+{"input": "Gaussian pdf = 1/(sigma sqrt(2pi)) * exp(-(x-mu)^2/(2sigma^2))", "output": "\\mathcal{N}(x | \\mu, \\sigma) = \\frac{1}{\\sigma \\sqrt{2\\pi}} \\exp\\left(-\\frac{(x-\\mu)^{2}}{2\\sigma^{2}}\\right)"}
+{"input": "normal density = 1/(sigma sqrt(2pi)) exp(-(x-mu)^2/(2sigma^2))", "output": "\\mathcal{N}(x | \\mu, \\sigma) = \\frac{1}{\\sigma \\sqrt{2\\pi}} \\exp\\left(-\\frac{(x-\\mu)^{2}}{2\\sigma^{2}}\\right)"}
+{"input": "NORMAL PDF = 1/(SIGMA*SQRT(2*PI))*EXP(-(X-MU)^2/(2*SIGMA^2))", "output": "\\mathcal{N}(x | \\mu, \\sigma) = \\frac{1}{\\sigma \\sqrt{2\\pi}} \\exp\\left(-\\frac{(x-\\mu)^{2}}{2\\sigma^{2}}\\right)"}
+{"input": "precision = TP / (TP + FP)", "output": "\\text{Precision} = \\frac{TP}{TP + FP}"}
+{"input": "precision = TP/(TP+FP)", "output": "\\text{Precision} = \\frac{TP}{TP + FP}"}
+{"input": "Precision = true positives over true positives plus false positives", "output": "\\text{Precision} = \\frac{TP}{TP + FP}"}
+{"input": "precision = TP / (TP + FP)", "output": "\\text{Precision} = \\frac{TP}{TP + FP}"}
+{"input": "PRECISION=TP/(TP+FP)", "output": "\\text{Precision} = \\frac{TP}{TP + FP}"}
+{"input": "recall = TP / (TP + FN)", "output": "\\text{Recall} = \\frac{TP}{TP + FN}"}
+{"input": "recall = TP/(TP+FN)", "output": "\\text{Recall} = \\frac{TP}{TP + FN}"}
+{"input": "Recall = true positives over true positives plus false negatives", "output": "\\text{Recall} = \\frac{TP}{TP + FN}"}
+{"input": "recall = TP / (TP + FN)", "output": "\\text{Recall} = \\frac{TP}{TP + FN}"}
+{"input": "RECALL=TP/(TP+FN)", "output": "\\text{Recall} = \\frac{TP}{TP + FN}"}
+{"input": "F1 = 2 * precision * recall / (precision + recall)", "output": "F_1 = \\frac{2 \\cdot \\text{Precision} \\cdot \\text{Recall}}{\\text{Precision} + \\text{Recall}}"}
+{"input": "F1 = 2*precision*recall/(precision+recall)", "output": "F_1 = \\frac{2 \\cdot \\text{Precision} \\cdot \\text{Recall}}{\\text{Precision} + \\text{Recall}}"}
+{"input": "F1 score = 2 precision recall over precision plus recall", "output": "F_1 = \\frac{2 \\cdot \\text{Precision} \\cdot \\text{Recall}}{\\text{Precision} + \\text{Recall}}"}
+{"input": "F1 = 2 * P * R / (P + R)", "output": "F_1 = \\frac{2 \\cdot \\text{Precision} \\cdot \\text{Recall}}{\\text{Precision} + \\text{Recall}}"}
+{"input": "F1=2*PRECISION*RECALL/(PRECISION+RECALL)", "output": "F_1 = \\frac{2 \\cdot \\text{Precision} \\cdot \\text{Recall}}{\\text{Precision} + \\text{Recall}}"}
+{"input": "accuracy = (TP + TN) / (TP + TN + FP + FN)", "output": "\\text{Accuracy} = \\frac{TP + TN}{TP + TN + FP + FN}"}
+{"input": "accuracy = (TP+TN)/(TP+TN+FP+FN)", "output": "\\text{Accuracy} = \\frac{TP + TN}{TP + TN + FP + FN}"}
+{"input": "Accuracy = TP plus TN over TP plus TN plus FP plus FN", "output": "\\text{Accuracy} = \\frac{TP + TN}{TP + TN + FP + FN}"}
+{"input": "accuracy = (TP + TN) / (TP + TN + FP + FN)", "output": "\\text{Accuracy} = \\frac{TP + TN}{TP + TN + FP + FN}"}
+{"input": "ACCURACY=(TP+TN)/(TP+TN+FP+FN)", "output": "\\text{Accuracy} = \\frac{TP + TN}{TP + TN + FP + FN}"}
+{"input": "specificity = TN / (TN + FP)", "output": "\\text{Specificity} = \\frac{TN}{TN + FP}"}
+{"input": "specificity = TN/(TN+FP)", "output": "\\text{Specificity} = \\frac{TN}{TN + FP}"}
+{"input": "Specificity = TN over TN plus FP", "output": "\\text{Specificity} = \\frac{TN}{TN + FP}"}
+{"input": "specificity = TN / (TN + FP)", "output": "\\text{Specificity} = \\frac{TN}{TN + FP}"}
+{"input": "SPECIFICITY=TN/(TN+FP)", "output": "\\text{Specificity} = \\frac{TN}{TN + FP}"}
+{"input": "deriv(loss) = deriv(1/n sum i=1 n (y_i - y_hat_i)^2)", "output": "\\frac{\\partial}{\\partial w} \\left( \\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^{2} \\right)"}
+{"input": "dL/dw = d/dw (1/n sum i=1 n (y_i - y_hat_i)^2)", "output": "\\frac{\\partial L}{\\partial w} = \\frac{\\partial}{\\partial w} \\left( \\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^{2} \\right)"}
+{"input": "gradient of MSE = partial/partial w (1/n sum i=1 n (y_i - y_hat_i)^2)", "output": "\\frac{\\partial}{\\partial w} \\left( \\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^{2} \\right)"}
+{"input": "dL/dw = ∂/∂w (1/n Σ_{i=1}^n (y_i - ŷ_i)^2)", "output": "\\frac{\\partial L}{\\partial w} = \\frac{\\partial}{\\partial w} \\left( \\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^{2} \\right)"}
+{"input": "DL/DW=PARTIAL/PARTIAL W (1/N*SUM(Y_I-Y_HAT_I)^2)", "output": "\\frac{\\partial L}{\\partial w} = \\frac{\\partial}{\\partial w} \\left( \\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^{2} \\right)"}
+{"input": "partial deriv of loss wrt w = partial/partial w (1/n sum (y_i - y_hat_i)^2)", "output": "\\frac{\\partial L}{\\partial w} = \\frac{\\partial}{\\partial w} \\left( \\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^{2} \\right)"}
+{"input": "dL/db = partial/partial b (1/n sum i=1 n (y_i - y_hat_i)^2)", "output": "\\frac{\\partial L}{\\partial b} = \\frac{\\partial}{\\partial b} \\left( \\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^{2} \\right)"}
+{"input": "dL/db = ∂/∂b (1/n Σ_{i=1}^n (y_i - ŷ_i)^2)", "output": "\\frac{\\partial L}{\\partial b} = \\frac{\\partial}{\\partial b} \\left( \\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^{2} \\right)"}
+{"input": "gradient of MSE wrt b = partial/partial b (1/n sum (y_i - y_hat_i)^2)", "output": "\\frac{\\partial L}{\\partial b} = \\frac{\\partial}{\\partial b} \\left( \\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^{2} \\right)"}
+{"input": "dL/db = partial/partial b (1/n sum i=1 n (y_i - y_hat_i)^2)", "output": "\\frac{\\partial L}{\\partial b} = \\frac{\\partial}{\\partial b} \\left( \\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^{2} \\right)"}
+{"input": "DL/DB=PARTIAL/PARTIAL B (1/N*SUM(Y_I-Y_HAT_I)^2)", "output": "\\frac{\\partial L}{\\partial b} = \\frac{\\partial}{\\partial b} \\left( \\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^{2} \\right)"}
+{"input": "grad of LogLoss wrt p_i = partial/partial p_i [y_i log(p_i) + (1-y_i) log(1-p_i)]", "output": "\\frac{\\partial}{\\partial p_i} \\left[ y_i \\log(p_i) + (1-y_i) \\log(1-p_i) \\right]"}
+{"input": "dLogLoss/dp_i = ∂/∂p_i [y_i log(p_i) + (1-y_i) log(1-p_i)]", "output": "\\frac{\\partial}{\\partial p_i} \\left[ y_i \\log(p_i) + (1-y_i) \\log(1-p_i) \\right]"}
+{"input": "gradient of log loss = partial/partial p_i (y_i log p_i + (1-y_i) log(1-p_i))", "output": "\\frac{\\partial}{\\partial p_i} \\left[ y_i \\log(p_i) + (1-y_i) \\log(1-p_i) \\right]"}
+{"input": "dLogLoss/dp_i = partial/partial p_i [y_i log(p_i) + (1-y_i) log(1-p_i)]", "output": "\\frac{\\partial}{\\partial p_i} \\left[ y_i \\log(p_i) + (1-y_i) \\log(1-p_i) \\right]"}
+{"input": "DLOGLOSS/DP_I=PARTIAL/PARTIAL P_I [Y_I*LOG(P_I)+(1-Y_I)*LOG(1-P_I)]", "output": "\\frac{\\partial}{\\partial p_i} \\left[ y_i \\log(p_i) + (1-y_i) \\log(1-p_i) \\right]"}
+{"input": "A^T", "output": "A^{T}"}
+{"input": "A transpose", "output": "A^{T}"}
+{"input": "A транспонированная", "output": "A^{T}"}
+{"input": "transpose of A", "output": "A^{T}"}
+{"input": "A^T", "output": "A^{T}"}
+{"input": "det(A)", "output": "\\det(A)"}
+{"input": "determinant of A", "output": "\\det(A)"}
+{"input": "определитель A", "output": "\\det(A)"}
+{"input": "det A", "output": "\\det(A)"}
+{"input": "DET(A)", "output": "\\det(A)"}
+{"input": "trace(A)", "output": "\\operatorname{tr}(A)"}
+{"input": "tr(A)", "output": "\\operatorname{tr}(A)"}
+{"input": "trace of A", "output": "\\operatorname{tr}(A)"}
+{"input": "след A", "output": "\\operatorname{tr}(A)"}
+{"input": "TRACE(A)", "output": "\\operatorname{tr}(A)"}
+{"input": "norm(v)", "output": "\\|v\\|"}
+{"input": "||v||", "output": "\\|v\\|"}
+{"input": "norm of v", "output": "\\|v\\|"}
+{"input": "модуль вектора v", "output": "\\|v\\|"}
+{"input": "NORM(V)", "output": "\\|v\\|"}
+{"input": "norm(u-v)", "output": "\\|u - v\\|"}
+{"input": "||u-v||", "output": "\\|u - v\\|"}
+{"input": "norm of u minus v", "output": "\\|u - v\\|"}
+{"input": "модуль u-v", "output": "\\|u - v\\|"}
+{"input": "NORM(U-V)", "output": "\\|u - v\\|"}
+{"input": "dot(u,v)", "output": "u \\cdot v"}
+{"input": "u . v", "output": "u \\cdot v"}
+{"input": "dot product of u and v", "output": "u \\cdot v"}
+{"input": "скалярное произведение u и v", "output": "u \\cdot v"}
+{"input": "DOT(U,V)", "output": "u \\cdot v"}
+{"input": "dot(x,y)", "output": "x \\cdot y"}
+{"input": "x . y", "output": "x \\cdot y"}
+{"input": "dot product of x and y", "output": "x \\cdot y"}
+{"input": "скалярное произведение x и y", "output": "x \\cdot y"}
+{"input": "DOT(X,Y)", "output": "x \\cdot y"}
+{"input": "integral from 0 to inf of e^(-x^2) dx", "output": "\\int_{0}^{\\infty} e^{-x^{2}} \\, dx"}
+{"input": "∫_0^∞ e^(-x^2) dx", "output": "\\int_{0}^{\\infty} e^{-x^{2}} \\, dx"}
+{"input": "интеграл от 0 до бесконечности e^(-x^2) dx", "output": "\\int_{0}^{\\infty} e^{-x^{2}} \\, dx"}
+{"input": "integral 0 to infinity of e to the minus x squared dx", "output": "\\int_{0}^{\\infty} e^{-x^{2}} \\, dx"}
+{"input": "INTEGRAL 0 INF E^(-X^2) DX", "output": "\\int_{0}^{\\infty} e^{-x^{2}} \\, dx"}
+{"input": "integral from -inf to inf of e^(-x^2) dx", "output": "\\int_{-\\infty}^{\\infty} e^{-x^{2}} \\, dx"}
+{"input": "∫_{-∞}^∞ e^(-x^2) dx", "output": "\\int_{-\\infty}^{\\infty} e^{-x^{2}} \\, dx"}
+{"input": "интеграл от минус бесконечности до бесконечности e^(-x^2) dx", "output": "\\int_{-\\infty}^{\\infty} e^{-x^{2}} \\, dx"}
+{"input": "integral minus infinity to infinity of e to the minus x squared dx", "output": "\\int_{-\\infty}^{\\infty} e^{-x^{2}} \\, dx"}
+{"input": "INTEGRAL -INF INF E^(-X^2) DX", "output": "\\int_{-\\infty}^{\\infty} e^{-x^{2}} \\, dx"}
+{"input": "integral from 0 to 1 of x^n dx", "output": "\\int_{0}^{1} x^{n} \\, dx"}
+{"input": "∫_0^1 x^n dx", "output": "\\int_{0}^{1} x^{n} \\, dx"}
+{"input": "интеграл от 0 до 1 x^n dx", "output": "\\int_{0}^{1} x^{n} \\, dx"}
+{"input": "integral 0 to 1 of x to the n dx", "output": "\\int_{0}^{1} x^{n} \\, dx"}
+{"input": "INTEGRAL 0 1 X^N DX", "output": "\\int_{0}^{1} x^{n} \\, dx"}
+{"input": "integral from 0 to inf of x^n e^(-x) dx", "output": "\\int_{0}^{\\infty} x^{n} e^{-x} \\, dx"}
+{"input": "∫_0^∞ x^n e^(-x) dx", "output": "\\int_{0}^{\\infty} x^{n} e^{-x} \\, dx"}
+{"input": "интеграл от 0 до бесконечности x^n e^(-x) dx", "output": "\\int_{0}^{\\infty} x^{n} e^{-x} \\, dx"}
+{"input": "integral 0 to infinity of x to the n e to the minus x dx", "output": "\\int_{0}^{\\infty} x^{n} e^{-x} \\, dx"}
+{"input": "INTEGRAL 0 INF X^N E^(-X) DX", "output": "\\int_{0}^{\\infty} x^{n} e^{-x} \\, dx"}
+{"input": "lim x->0 sin(x)/x", "output": "\\lim_{x \\to 0} \\frac{\\sin(x)}{x}"}
+{"input": "lim x->0 sin x / x", "output": "\\lim_{x \\to 0} \\frac{\\sin(x)}{x}"}
+{"input": "предел x->0 sin(x)/x", "output": "\\lim_{x \\to 0} \\frac{\\sin(x)}{x}"}
+{"input": "limit as x approaches 0 of sin x over x", "output": "\\lim_{x \\to 0} \\frac{\\sin(x)}{x}"}
+{"input": "LIM X->0 SIN(X)/X", "output": "\\lim_{x \\to 0} \\frac{\\sin(x)}{x}"}
+{"input": "lim x->inf (1+1/x)^x", "output": "\\lim_{x \\to \\infty} (1+\\frac{1}{x})^{x}"}
+{"input": "lim x->inf (1 + 1/x)^x", "output": "\\lim_{x \\to \\infty} (1+\\frac{1}{x})^{x}"}
+{"input": "предел x->inf (1+1/x)^x", "output": "\\lim_{x \\to \\infty} (1+\\frac{1}{x})^{x}"}
+{"input": "limit as x approaches infinity of one plus one over x to the x", "output": "\\lim_{x \\to \\infty} (1+\\frac{1}{x})^{x}"}
+{"input": "LIM X->INF (1+1/X)^X", "output": "\\lim_{x \\to \\infty} (1+\\frac{1}{x})^{x}"}
+{"input": "lim x->0 (e^x - 1)/x", "output": "\\lim_{x \\to 0} \\frac{e^{x}-1}{x}"}
+{"input": "lim x->0 (e^x-1)/x", "output": "\\lim_{x \\to 0} \\frac{e^{x}-1}{x}"}
+{"input": "предел x->0 (e^x - 1)/x", "output": "\\lim_{x \\to 0} \\frac{e^{x}-1}{x}"}
+{"input": "limit as x approaches 0 of e to the x minus one over x", "output": "\\lim_{x \\to 0} \\frac{e^{x}-1}{x}"}
+{"input": "LIM X->0 (E^X-1)/X", "output": "\\lim_{x \\to 0} \\frac{e^{x}-1}{x}"}
+{"input": "lim x->0 (1 - cos(x))/x^2", "output": "\\lim_{x \\to 0} \\frac{1-\\cos(x)}{x^{2}}"}
+{"input": "lim x->0 (1-cos(x))/x^2", "output": "\\lim_{x \\to 0} \\frac{1-\\cos(x)}{x^{2}}"}
+{"input": "предел x->0 (1 - cos(x))/x^2", "output": "\\lim_{x \\to 0} \\frac{1-\\cos(x)}{x^{2}}"}
+{"input": "limit as x approaches 0 of 1 minus cos x over x squared", "output": "\\lim_{x \\to 0} \\frac{1-\\cos(x)}{x^{2}}"}
+{"input": "LIM X->0 (1-COS(X))/X^2", "output": "\\lim_{x \\to 0} \\frac{1-\\cos(x)}{x^{2}}"}
+{"input": "lim x->0 (ln(1+x))/x", "output": "\\lim_{x \\to 0} \\frac{\\ln(1+x)}{x}"}
+{"input": "lim x->0 ln(1+x)/x", "output": "\\lim_{x \\to 0} \\frac{\\ln(1+x)}{x}"}
+{"input": "предел x->0 ln(1+x)/x", "output": "\\lim_{x \\to 0} \\frac{\\ln(1+x)}{x}"}
+{"input": "limit as x approaches 0 of ln 1 plus x over x", "output": "\\lim_{x \\to 0} \\frac{\\ln(1+x)}{x}"}
+{"input": "LIM X->0 LN(1+X)/X", "output": "\\lim_{x \\to 0} \\frac{\\ln(1+x)}{x}"}
+{"input": "lim x->inf (x^n)/(e^x)", "output": "\\lim_{x \\to \\infty} \\frac{x^{n}}{e^{x}}"}
+{"input": "lim x->inf x^n / e^x", "output": "\\lim_{x \\to \\infty} \\frac{x^{n}}{e^{x}}"}
+{"input": "предел x->inf (x^n)/(e^x)", "output": "\\lim_{x \\to \\infty} \\frac{x^{n}}{e^{x}}"}
+{"input": "limit as x approaches infinity of x to the n over e to the x", "output": "\\lim_{x \\to \\infty} \\frac{x^{n}}{e^{x}}"}
+{"input": "LIM X->INF (X^N)/(E^X)", "output": "\\lim_{x \\to \\infty} \\frac{x^{n}}{e^{x}}"}
+{"input": "lim x->inf (ln(x))/(x^a)", "output": "\\lim_{x \\to \\infty} \\frac{\\ln(x)}{x^{a}}"}
+{"input": "lim x->inf ln(x) / x^a", "output": "\\lim_{x \\to \\infty} \\frac{\\ln(x)}{x^{a}}"}
+{"input": "предел x->inf (ln(x))/(x^a)", "output": "\\lim_{x \\to \\infty} \\frac{\\ln(x)}{x^{a}}"}
+{"input": "limit as x approaches infinity of ln x over x to the a", "output": "\\lim_{x \\to \\infty} \\frac{\\ln(x)}{x^{a}}"}
+{"input": "LIM X->INF (LN(X))/(X^A)", "output": "\\lim_{x \\to \\infty} \\frac{\\ln(x)}{x^{a}}"}
+{"input": "lim n->inf (1 + 1/n)^n", "output": "\\lim_{n \\to \\infty} (1+\\frac{1}{n})^{n}"}
+{"input": "lim n->inf (1+1/n)^n", "output": "\\lim_{n \\to \\infty} (1+\\frac{1}{n})^{n}"}
+{"input": "предел n->inf (1+1/n)^n", "output": "\\lim_{n \\to \\infty} (1+\\frac{1}{n})^{n}"}
+{"input": "limit as n approaches infinity of one plus one over n to the n", "output": "\\lim_{n \\to \\infty} (1+\\frac{1}{n})^{n}"}
+{"input": "LIM N->INF (1+1/N)^N", "output": "\\lim_{n \\to \\infty} (1+\\frac{1}{n})^{n}"}
+{"input": "lim n->inf (1 + a/n)^n", "output": "\\lim_{n \\to \\infty} (1+\\frac{a}{n})^{n}"}
+{"input": "lim n->inf (1+a/n)^n", "output": "\\lim_{n \\to \\infty} (1+\\frac{a}{n})^{n}"}
+{"input": "предел n->inf (1+a/n)^n", "output": "\\lim_{n \\to \\infty} (1+\\frac{a}{n})^{n}"}
+{"input": "limit as n approaches infinity of one plus a over n to the n", "output": "\\lim_{n \\to \\infty} (1+\\frac{a}{n})^{n}"}
+{"input": "LIM N->INF (1+A/N)^N", "output": "\\lim_{n \\to \\infty} (1+\\frac{a}{n})^{n}"}
+{"input": "lim x->0 (sin(x) - x)/x^3", "output": "\\lim_{x \\to 0} \\frac{\\sin(x)-x}{x^{3}}"}
+{"input": "lim x->0 (sin x - x)/x^3", "output": "\\lim_{x \\to 0} \\frac{\\sin(x)-x}{x^{3}}"}
+{"input": "предел x->0 (sin(x) - x)/x^3", "output": "\\lim_{x \\to 0} \\frac{\\sin(x)-x}{x^{3}}"}
+{"input": "limit as x approaches 0 of sin x minus x over x cubed", "output": "\\lim_{x \\to 0} \\frac{\\sin(x)-x}{x^{3}}"}
+{"input": "LIM X->0 (SIN(X)-X)/X^3", "output": "\\lim_{x \\to 0} \\frac{\\sin(x)-x}{x^{3}}"}
+{"input": "lim x->0 (tan(x) - x)/x^3", "output": "\\lim_{x \\to 0} \\frac{\\tan(x)-x}{x^{3}}"}
+{"input": "lim x->0 (tan x - x)/x^3", "output": "\\lim_{x \\to 0} \\frac{\\tan(x)-x}{x^{3}}"}
+{"input": "предел x->0 (tan(x) - x)/x^3", "output": "\\lim_{x \\to 0} \\frac{\\tan(x)-x}{x^{3}}"}
+{"input": "limit as x approaches 0 of tan x minus x over x cubed", "output": "\\lim_{x \\to 0} \\frac{\\tan(x)-x}{x^{3}}"}
+{"input": "LIM X->0 (TAN(X)-X)/X^3", "output": "\\lim_{x \\to 0} \\frac{\\tan(x)-x}{x^{3}}"}
+{"input": "lim x->0 (e^x - 1 - x)/x^2", "output": "\\lim_{x \\to 0} \\frac{e^{x}-1-x}{x^{2}}"}
+{"input": "lim x->0 (e^x - 1 - x)/x^2", "output": "\\lim_{x \\to 0} \\frac{e^{x}-1-x}{x^{2}}"}
+{"input": "предел x->0 (e^x - 1 - x)/x^2", "output": "\\lim_{x \\to 0} \\frac{e^{x}-1-x}{x^{2}}"}
+{"input": "limit as x approaches 0 of e to the x minus one minus x over x squared", "output": "\\lim_{x \\to 0} \\frac{e^{x}-1-x}{x^{2}}"}
+{"input": "LIM X->0 (E^X-1-X)/X^2", "output": "\\lim_{x \\to 0} \\frac{e^{x}-1-x}{x^{2}}"}
+{"input": "lim x->0 (ln(1+x) - x)/x^2", "output": "\\lim_{x \\to 0} \\frac{\\ln(1+x)-x}{x^{2}}"}
+{"input": "lim x->0 (ln(1+x) - x)/x^2", "output": "\\lim_{x \\to 0} \\frac{\\ln(1+x)-x}{x^{2}}"}
+{"input": "предел x->0 (ln(1+x) - x)/x^2", "output": "\\lim_{x \\to 0} \\frac{\\ln(1+x)-x}{x^{2}}"}
+{"input": "limit as x approaches 0 of ln 1 plus x minus x over x squared", "output": "\\lim_{x \\to 0} \\frac{\\ln(1+x)-x}{x^{2}}"}
+{"input": "LIM X->0 (LN(1+X)-X)/X^2", "output": "\\lim_{x \\to 0} \\frac{\\ln(1+x)-x}{x^{2}}"}
+{"input": "lim x->1 (x^n - 1)/(x - 1)", "output": "\\lim_{x \\to 1} \\frac{x^{n}-1}{x-1}"}
+{"input": "lim x->1 (x^n - 1)/(x-1)", "output": "\\lim_{x \\to 1} \\frac{x^{n}-1}{x-1}"}
+{"input": "предел x->1 (x^n - 1)/(x-1)", "output": "\\lim_{x \\to 1} \\frac{x^{n}-1}{x-1}"}
+{"input": "limit as x approaches 1 of x to the n minus 1 over x minus 1", "output": "\\lim_{x \\to 1} \\frac{x^{n}-1}{x-1}"}
+{"input": "LIM X->1 (X^N-1)/(X-1)", "output": "\\lim_{x \\to 1} \\frac{x^{n}-1}{x-1}"}
+{"input": "lim x->a (x^n - a^n)/(x - a)", "output": "\\lim_{x \\to a} \\frac{x^{n}-a^{n}}{x-a}"}
+{"input": "lim x->a (x^n - a^n)/(x-a)", "output": "\\lim_{x \\to a} \\frac{x^{n}-a^{n}}{x-a}"}
+{"input": "предел x->a (x^n - a^n)/(x-a)", "output": "\\lim_{x \\to a} \\frac{x^{n}-a^{n}}{x-a}"}
+{"input": "limit as x approaches a of x to the n minus a to the n over x minus a", "output": "\\lim_{x \\to a} \\frac{x^{n}-a^{n}}{x-a}"}
+{"input": "LIM X->A (X^N-A^N)/(X-A)", "output": "\\lim_{x \\to a} \\frac{x^{n}-a^{n}}{x-a}"}
+{"input": "lim x->0 (a^x - 1)/x", "output": "\\lim_{x \\to 0} \\frac{a^{x}-1}{x}"}
+{"input": "lim x->0 (a^x - 1)/x", "output": "\\lim_{x \\to 0} \\frac{a^{x}-1}{x}"}
+{"input": "предел x->0 (a^x - 1)/x", "output": "\\lim_{x \\to 0} \\frac{a^{x}-1}{x}"}
+{"input": "limit as x approaches 0 of a to the x minus one over x", "output": "\\lim_{x \\to 0} \\frac{a^{x}-1}{x}"}
+{"input": "LIM X->0 (A^X-1)/X", "output": "\\lim_{x \\to 0} \\frac{a^{x}-1}{x}"}
+{"input": "lim x->0 (e^(ax) - 1)/x", "output": "\\lim_{x \\to 0} \\frac{e^{ax}-1}{x}"}
+{"input": "lim x->0 (e^(ax) - 1)/x", "output": "\\lim_{x \\to 0} \\frac{e^{ax}-1}{x}"}
+{"input": "предел x->0 (e^(ax) - 1)/x", "output": "\\lim_{x \\to 0} \\frac{e^{ax}-1}{x}"}
+{"input": "limit as x approaches 0 of e to the a x minus one over x", "output": "\\lim_{x \\to 0} \\frac{e^{ax}-1}{x}"}
+{"input": "LIM X->0 (E^(AX)-1)/X", "output": "\\lim_{x \\to 0} \\frac{e^{ax}-1}{x}"}
+{"input": "lim x->0 (sin(ax))/x", "output": "\\lim_{x \\to 0} \\frac{\\sin(ax)}{x}"}
+{"input": "lim x->0 sin(ax)/x", "output": "\\lim_{x \\to 0} \\frac{\\sin(ax)}{x}"}
+{"input": "предел x->0 (sin(ax))/x", "output": "\\lim_{x \\to 0} \\frac{\\sin(ax)}{x}"}
+{"input": "limit as x approaches 0 of sin a x over x", "output": "\\lim_{x \\to 0} \\frac{\\sin(ax)}{x}"}
+{"input": "LIM X->0 (SIN(AX))/X", "output": "\\lim_{x \\to 0} \\frac{\\sin(ax)}{x}"}
+{"input": "lim x->0 (tan(ax))/x", "output": "\\lim_{x \\to 0} \\frac{\\tan(ax)}{x}"}
+{"input": "lim x->0 tan(ax)/x", "output": "\\lim_{x \\to 0} \\frac{\\tan(ax)}{x}"}
+{"input": "предел x->0 (tan(ax))/x", "output": "\\lim_{x \\to 0} \\frac{\\tan(ax)}{x}"}
+{"input": "limit as x approaches 0 of tan a x over x", "output": "\\lim_{x \\to 0} \\frac{\\tan(ax)}{x}"}
+{"input": "LIM X->0 (TAN(AX))/X", "output": "\\lim_{x \\to 0} \\frac{\\tan(ax)}{x}"}
+{"input": "lim x->0 (ln(1+ax))/x", "output": "\\lim_{x \\to 0} \\frac{\\ln(1+ax)}{x}"}
+{"input": "lim x->0 ln(1+ax)/x", "output": "\\lim_{x \\to 0} \\frac{\\ln(1+ax)}{x}"}
+{"input": "предел x->0 (ln(1+ax))/x", "output": "\\lim_{x \\to 0} \\frac{\\ln(1+ax)}{x}"}
+{"input": "limit as x approaches 0 of ln 1 plus a x over x", "output": "\\lim_{x \\to 0} \\frac{\\ln(1+ax)}{x}"}
+{"input": "LIM X->0 (LN(1+AX))/X", "output": "\\lim_{x \\to 0} \\frac{\\ln(1+ax)}{x}"}
+{"input": "lim x->0 (1 - cos(ax))/x^2", "output": "\\lim_{x \\to 0} \\frac{1-\\cos(ax)}{x^{2}}"}
+{"input": "lim x->0 (1 - cos(ax))/x^2", "output": "\\lim_{x \\to 0} \\frac{1-\\cos(ax)}{x^{2}}"}
+{"input": "предел x->0 (1 - cos(ax))/x^2", "output": "\\lim_{x \\to 0} \\frac{1-\\cos(ax)}{x^{2}}"}
+{"input": "limit as x approaches 0 of one minus cos a x over x squared", "output": "\\lim_{x \\to 0} \\frac{1-\\cos(ax)}{x^{2}}"}
+{"input": "LIM X->0 (1-COS(AX))/X^2", "output": "\\lim_{x \\to 0} \\frac{1-\\cos(ax)}{x^{2}}"}
+{"input": "lim x->0 (1 + x)^(1/x)", "output": "\\lim_{x \\to 0} (1+x)^{1/x}"}
+{"input": "lim x->0 (1+x)^(1/x)", "output": "\\lim_{x \\to 0} (1+x)^{1/x}"}
+{"input": "предел x->0 (1+x)^(1/x)", "output": "\\lim_{x \\to 0} (1+x)^{1/x}"}
+{"input": "limit as x approaches 0 of one plus x to the one over x", "output": "\\lim_{x \\to 0} (1+x)^{1/x}"}
+{"input": "LIM X->0 (1+X)^(1/X)", "output": "\\lim_{x \\to 0} (1+x)^{1/x}"}
+{"input": "lim x->0 (1 + ax)^(1/x)", "output": "\\lim_{x \\to 0} (1+ax)^{1/x}"}
+{"input": "lim x->0 (1+ax)^(1/x)", "output": "\\lim_{x \\to 0} (1+ax)^{1/x}"}
+{"input": "предел x->0 (1+ax)^(1/x)", "output": "\\lim_{x \\to 0} (1+ax)^{1/x}"}
+{"input": "limit as x approaches 0 of one plus a x to the one over x", "output": "\\lim_{x \\to 0} (1+ax)^{1/x}"}
+{"input": "LIM X->0 (1+AX)^(1/X)", "output": "\\lim_{x \\to 0} (1+ax)^{1/x}"}
+{"input": "lim x->inf (1 + a/x)^(bx)", "output": "\\lim_{x \\to \\infty} (1+\\frac{a}{x})^{bx}"}
+{"input": "lim x->inf (1+a/x)^(bx)", "output": "\\lim_{x \\to \\infty} (1+\\frac{a}{x})^{bx}"}
+{"input": "предел x->inf (1+a/x)^(bx)", "output": "\\lim_{x \\to \\infty} (1+\\frac{a}{x})^{bx}"}
+{"input": "limit as x approaches infinity of one plus a over x to the b x", "output": "\\lim_{x \\to \\infty} (1+\\frac{a}{x})^{bx}"}
+{"input": "LIM X->INF (1+A/X)^(BX)", "output": "\\lim_{x \\to \\infty} (1+\\frac{a}{x})^{bx}"}
+{"input": "lim x->0 (1 + x)^(a/x)", "output": "\\lim_{x \\to 0} (1+x)^{a/x}"}
+{"input": "lim x->0 (1+x)^(a/x)", "output": "\\lim_{x \\to 0} (1+x)^{a/x}"}
+{"input": "предел x->0 (1+x)^(a/x)", "output": "\\lim_{x \\to 0} (1+x)^{a/x}"}
+{"input": "limit as x approaches 0 of one plus x to the a over x", "output": "\\lim_{x \\to 0} (1+x)^{a/x}"}
+{"input": "LIM X->0 (1+X)^(A/X)", "output": "\\lim_{x \\to 0} (1+x)^{a/x}"}
+{"input": "lim n->inf (1 + 1/n)^(n+1)", "output": "\\lim_{n \\to \\infty} (1+\\frac{1}{n})^{n+1}"}
+{"input": "lim n->inf (1+1/n)^(n+1)", "output": "\\lim_{n \\to \\infty} (1+\\frac{1}{n})^{n+1}"}
+{"input": "предел n->inf (1+1/n)^(n+1)", "output": "\\lim_{n \\to \\infty} (1+\\frac{1}{n})^{n+1}"}
+{"input": "limit as n approaches infinity of one plus one over n to the n plus one", "output": "\\lim_{n \\to \\infty} (1+\\frac{1}{n})^{n+1}"}
+{"input": "LIM N->INF (1+1/N)^(N+1)", "output": "\\lim_{n \\to \\infty} (1+\\frac{1}{n})^{n+1}"}
+{"input": "lim x->0 (e^(ax) - e^(bx))/x", "output": "\\lim_{x \\to 0} \\frac{e^{ax}-e^{bx}}{x}"}
+{"input": "lim x->0 (e^(ax) - e^(bx))/x", "output": "\\lim_{x \\to 0} \\frac{e^{ax}-e^{bx}}{x}"}
+{"input": "предел x->0 (e^(ax) - e^(bx))/x", "output": "\\lim_{x \\to 0} \\frac{e^{ax}-e^{bx}}{x}"}
+{"input": "limit as x approaches 0 of e to the a x minus e to the b x over x", "output": "\\lim_{x \\to 0} \\frac{e^{ax}-e^{bx}}{x}"}
+{"input": "LIM X->0 (E^(AX)-E^(BX))/X", "output": "\\lim_{x \\to 0} \\frac{e^{ax}-e^{bx}}{x}"}
+{"input": "lim x->0 (a^x - b^x)/x", "output": "\\lim_{x \\to 0} \\frac{a^{x}-b^{x}}{x}"}
+{"input": "lim x->0 (a^x - b^x)/x", "output": "\\lim_{x \\to 0} \\frac{a^{x}-b^{x}}{x}"}
+{"input": "предел x->0 (a^x - b^x)/x", "output": "\\lim_{x \\to 0} \\frac{a^{x}-b^{x}}{x}"}
+{"input": "limit as x approaches 0 of a to the x minus b to the x over x", "output": "\\lim_{x \\to 0} \\frac{a^{x}-b^{x}}{x}"}
+{"input": "LIM X->0 (A^X-B^X)/X", "output": "\\lim_{x \\to 0} \\frac{a^{x}-b^{x}}{x}"}
+{"input": "lim x->0 (sin(ax))/(bx)", "output": "\\lim_{x \\to 0} \\frac{\\sin(ax)}{bx}"}
+{"input": "lim x->0 sin(ax)/(bx)", "output": "\\lim_{x \\to 0} \\frac{\\sin(ax)}{bx}"}
+{"input": "предел x->0 (sin(ax))/(bx)", "output": "\\lim_{x \\to 0} \\frac{\\sin(ax)}{bx}"}
+{"input": "limit as x approaches 0 of sin a x over b x", "output": "\\lim_{x \\to 0} \\frac{\\sin(ax)}{bx}"}
+{"input": "LIM X->0 (SIN(AX))/(BX)", "output": "\\lim_{x \\to 0} \\frac{\\sin(ax)}{bx}"}
+{"input": "lim x->0 (tan(ax))/(bx)", "output": "\\lim_{x \\to 0} \\frac{\\tan(ax)}{bx}"}
+{"input": "lim x->0 tan(ax)/(bx)", "output": "\\lim_{x \\to 0} \\frac{\\tan(ax)}{bx}"}
+{"input": "предел x->0 (tan(ax))/(bx)", "output": "\\lim_{x \\to 0} \\frac{\\tan(ax)}{bx}"}
+{"input": "limit as x approaches 0 of tan a x over b x", "output": "\\lim_{x \\to 0} \\frac{\\tan(ax)}{bx}"}
+{"input": "LIM X->0 (TAN(AX))/(BX)", "output": "\\lim_{x \\to 0} \\frac{\\tan(ax)}{bx}"}
+{"input": "lim x->0 (ln(1+ax))/(bx)", "output": "\\lim_{x \\to 0} \\frac{\\ln(1+ax)}{bx}"}
+{"input": "lim x->0 ln(1+ax)/(bx)", "output": "\\lim_{x \\to 0} \\frac{\\ln(1+ax)}{bx}"}
+{"input": "предел x->0 (ln(1+ax))/(bx)", "output": "\\lim_{x \\to 0} \\frac{\\ln(1+ax)}{bx}"}
+{"input": "limit as x approaches 0 of ln 1 plus a x over b x", "output": "\\lim_{x \\to 0} \\frac{\\ln(1+ax)}{bx}"}
+{"input": "LIM X->0 (LN(1+AX))/(BX)", "output": "\\lim_{x \\to 0} \\frac{\\ln(1+ax)}{bx}"}
+{"input": "lim x->0 (1 - cos(ax))/(bx^2)", "output": "\\lim_{x \\to 0} \\frac{1-\\cos(ax)}{bx^{2}}"}
+{"input": "lim x->0 (1 - cos(ax))/(bx^2)", "output": "\\lim_{x \\to 0} \\frac{1-\\cos(ax)}{bx^{2}}"}
+{"input": "предел x->0 (1 - cos(ax))/(bx^2)", "output": "\\lim_{x \\to 0} \\frac{1-\\cos(ax)}{bx^{2}}"}
+{"input": "limit as x approaches 0 of one minus cos a x over b x squared", "output": "\\lim_{x \\to 0} \\frac{1-\\cos(ax)}{bx^{2}}"}
+{"input": "LIM X->0 (1-COS(AX))/(BX^2)", "output": "\\lim_{x \\to 0} \\frac{1-\\cos(ax)}{bx^{2}}"}
+{"input": "lim x->inf (x^2 + 1)/(x^2 - 1)", "output": "\\lim_{x \\to \\infty} \\frac{x^{2}+1}{x^{2}-1}"}
+{"input": "lim x->inf (x^2 + 1)/(x^2 - 1)", "output": "\\lim_{x \\to \\infty} \\frac{x^{2}+1}{x^{2}-1}"}
+{"input": "предел x->inf (x^2 + 1)/(x^2 - 1)", "output": "\\lim_{x \\to \\infty} \\frac{x^{2}+1}{x^{2}-1}"}
+{"input": "limit as x approaches infinity of x squared plus one over x squared minus one", "output": "\\lim_{x \\to \\infty} \\frac{x^{2}+1}{x^{2}-1}"}
+{"input": "LIM X->INF (X^2+1)/(X^2-1)", "output": "\\lim_{x \\to \\infty} \\frac{x^{2}+1}{x^{2}-1}"}
+{"input": "lim x->inf (x^3 + 2x)/(2x^3 - x)", "output": "\\lim_{x \\to \\infty} \\frac{x^{3}+2x}{2x^{3}-x}"}
+{"input": "lim x->inf (x^3 + 2x)/(2x^3 - x)", "output": "\\lim_{x \\to \\infty} \\frac{x^{3}+2x}{2x^{3}-x}"}
+{"input": "предел x->inf (x^3 + 2x)/(2x^3 - x)", "output": "\\lim_{x \\to \\infty} \\frac{x^{3}+2x}{2x^{3}-x}"}
+{"input": "limit as x approaches infinity of x cubed plus two x over two x cubed minus x", "output": "\\lim_{x \\to \\infty} \\frac{x^{3}+2x}{2x^{3}-x}"}
+{"input": "LIM X->INF (X^3+2X)/(2X^3-X)", "output": "\\lim_{x \\to \\infty} \\frac{x^{3}+2x}{2x^{3}-x}"}
+{"input": "lim n->inf (n^2 + 2n + 1)/(n^2 + 1)", "output": "\\lim_{n \\to \\infty} \\frac{n^{2}+2n+1}{n^{2}+1}"}
+{"input": "lim n->inf (n^2 + 2n + 1)/(n^2 + 1)", "output": "\\lim_{n \\to \\infty} \\frac{n^{2}+2n+1}{n^{2}+1}"}
+{"input": "предел n->inf (n^2 + 2n + 1)/(n^2 + 1)", "output": "\\lim_{n \\to \\infty} \\frac{n^{2}+2n+1}{n^{2}+1}"}
+{"input": "limit as n approaches infinity of n squared plus two n plus one over n squared plus one", "output": "\\lim_{n \\to \\infty} \\frac{n^{2}+2n+1}{n^{2}+1}"}
+{"input": "LIM N->INF (N^2+2N+1)/(N^2+1)", "output": "\\lim_{n \\to \\infty} \\frac{n^{2}+2n+1}{n^{2}+1}"}

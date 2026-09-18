@@ -1,4 +1,3 @@
-import src
 import torch
 import torch.nn as nn
 from .transformer import Transformer
@@ -36,15 +35,26 @@ class SRFTM(nn.Module):
         self.d_model = d_model
 
     def forward(self, src, tgt, src_mask=None, tgt_mask=None):
-        # Только embedding + scale. Позиции добавятся внутри encoder/decoder.
         src_emb = self.src_embedding(src) * (self.d_model ** 0.5)
         tgt_emb = self.tgt_embedding(tgt) * (self.d_model ** 0.5)
 
         out = self.transformer(src_emb, tgt_emb, src_mask, tgt_mask)
         return self.output_projection(out)
 
+    # =========================================================
+    # Greedy decode
+    # =========================================================
+
     @torch.no_grad()
-    def greedy_decode(self, src, sos_id, eos_id, max_len=128, repetition_penalty=1.2):
+    def greedy_decode(
+        self,
+        src,
+        sos_id,
+        eos_id,
+        max_len=128,
+        repetition_penalty=1.2,
+        length_penalty=0.0,
+    ):
         self.eval()
         batch_size = src.size(0)
         device = src.device
@@ -54,7 +64,7 @@ class SRFTM(nn.Module):
 
         tgt = torch.full((batch_size, 1), sos_id, dtype=torch.long, device=device)
 
-        for _ in range(max_len):
+        for step in range(max_len):
             tgt_emb = self.tgt_embedding(tgt) * (self.d_model ** 0.5)
             mask = generate_mask(tgt.size(1)).to(device)
 
@@ -71,6 +81,10 @@ class SRFTM(nn.Module):
                     else:
                         logits[b, prev_token] *= repetition_penalty
 
+            # Length penalty (штраф за длину)
+            if length_penalty > 0:
+                logits = logits / (1.0 + length_penalty * step)
+
             next_token = logits.argmax(dim=-1, keepdim=True)
             tgt = torch.cat([tgt, next_token], dim=1)
 
@@ -78,3 +92,81 @@ class SRFTM(nn.Module):
                 break
 
         return tgt
+
+    # =========================================================
+    # Beam search
+    # =========================================================
+
+    @torch.no_grad()
+    def beam_search(
+        self,
+        src,
+        sos_id,
+        eos_id,
+        max_len=128,
+        beam_width=5,
+        length_penalty=0.6,
+    ):
+        """
+        Beam search для батча размера 1.
+        Для батча >1 — вызывать в цикле.
+        """
+        self.eval()
+        device = src.device
+
+        # Encoder
+        src_emb = self.src_embedding(src) * (self.d_model ** 0.5)
+        encoder_output = self.transformer.encoder(src_emb)
+
+        # Beam: list of (tokens_tensor [1, L], log_prob)
+        beams = [(torch.tensor([[sos_id]], dtype=torch.long, device=device), 0.0)]
+        completed = []
+
+        for step in range(max_len):
+            candidates = []
+
+            for tokens, log_prob in beams:
+                # Если уже <eos> — в completed
+                if tokens[0, -1].item() == eos_id:
+                    completed.append((tokens, log_prob))
+                    continue
+
+                # Forward
+                tgt_emb = self.tgt_embedding(tokens) * (self.d_model ** 0.5)
+                mask = generate_mask(tokens.size(1)).to(device)
+                out = self.transformer.decoder(tgt_emb, mask, encoder_output)
+                logits = self.output_projection(out[:, -1, :])
+                log_probs = torch.log_softmax(logits, dim=-1)
+
+                # Top-k
+                top_k_log_probs, top_k_ids = log_probs.topk(beam_width, dim=-1)
+
+                for k in range(beam_width):
+                    new_tokens = torch.cat(
+                        [tokens, top_k_ids[:, k:k + 1]], dim=1
+                    )
+                    new_log_prob = log_prob + top_k_log_probs[0, k].item()
+                    candidates.append((new_tokens, new_log_prob))
+
+            if not candidates:
+                break
+
+            # Сортировка по длине нормализованной
+            def score(item):
+                tokens, log_prob = item
+                length = tokens.size(1)
+                return log_prob / (length ** length_penalty)
+
+            candidates.sort(key=score, reverse=True)
+            beams = candidates[:beam_width]
+
+            # Если все лучи завершились <eos>
+            if all(t[0, -1].item() == eos_id for t, _ in beams):
+                break
+
+        # Лучший из completed или beams
+        all_results = completed + beams
+        all_results.sort(key=score, reverse=True)
+        best_tokens = all_results[0][0]
+
+        return best_tokens

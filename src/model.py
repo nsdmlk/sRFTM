@@ -81,7 +81,7 @@ class SRFTM(nn.Module):
                     else:
                         logits[b, prev_token] *= repetition_penalty
 
-            # Length penalty (штраф за длину)
+            # Length penalty
             if length_penalty > 0:
                 logits = logits / (1.0 + length_penalty * step)
 
@@ -106,10 +106,11 @@ class SRFTM(nn.Module):
         max_len=128,
         beam_width=5,
         length_penalty=0.6,
+        repetition_penalty=1.3,
     ):
         """
-        Beam search для батча размера 1.
-        Для батча >1 — вызывать в цикле.
+        Beam search с GNMT length penalty + repetition penalty.
+        Для батча размера 1.
         """
         self.eval()
         device = src.device
@@ -126,7 +127,6 @@ class SRFTM(nn.Module):
             candidates = []
 
             for tokens, log_prob in beams:
-                # Если уже <eos> — в completed
                 if tokens[0, -1].item() == eos_id:
                     completed.append((tokens, log_prob))
                     continue
@@ -137,6 +137,15 @@ class SRFTM(nn.Module):
                 out = self.transformer.decoder(tgt_emb, mask, encoder_output)
                 logits = self.output_projection(out[:, -1, :])
                 log_probs = torch.log_softmax(logits, dim=-1)
+
+                # Repetition penalty
+                for prev_token in set(tokens[0].tolist()):
+                    if prev_token in (sos_id, eos_id):
+                        continue
+                    if log_probs[0, prev_token] < 0:
+                        log_probs[0, prev_token] *= repetition_penalty
+                    else:
+                        log_probs[0, prev_token] /= repetition_penalty
 
                 # Top-k
                 top_k_log_probs, top_k_ids = log_probs.topk(beam_width, dim=-1)
@@ -151,22 +160,22 @@ class SRFTM(nn.Module):
             if not candidates:
                 break
 
-            # Сортировка по длине нормализованной
+            # GNMT length penalty
             def score(item):
                 tokens, log_prob = item
                 length = tokens.size(1)
-                return log_prob / (length ** length_penalty)
+                lp = ((5 + length) / 6) ** length_penalty
+                return log_prob / lp
 
             candidates.sort(key=score, reverse=True)
             beams = candidates[:beam_width]
 
-            # Если все лучи завершились <eos>
             if all(t[0, -1].item() == eos_id for t, _ in beams):
                 break
 
-        # Лучший из completed или beams
+        # Best
         all_results = completed + beams
         all_results.sort(key=score, reverse=True)
         best_tokens = all_results[0][0]
 
-        return best_tokens
+        return best_tokens.squeeze(0)

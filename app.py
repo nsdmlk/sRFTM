@@ -3,14 +3,13 @@ from pathlib import Path
 from flask import Flask, request, jsonify
 import torch
 
-from src.templates import build_template
-
 app = Flask(__name__)
 
 with open('models/srftm.pkl', 'rb') as f:
     _data = pickle.load(f)
     _model = _data['model']
     _tok = _data['tokenizer']
+    _build_template = _data['build_template']
 _model.eval()
 
 
@@ -20,7 +19,7 @@ def convert():
     if not text:
         return jsonify({'error': 'empty'}), 400
 
-    template = build_template(text)
+    template = _build_template(text)
     if template:
         return jsonify({'latex': template, 'source': 'template'})
 

@@ -1,11 +1,11 @@
 import pickle
 import torch
-from pathlib import Path
 import sys
-sys.path.insert(0, str(Path(__file__).parent.parent))
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent))
 
-from src.model import SRFTM
-from src.math_tokenizer import MathTokenizer
+import srftm_models
+from srftm_models import SRFTM, MathTokenizer, build_template
 
 tokenizer = MathTokenizer()
 model = SRFTM(
@@ -17,6 +17,10 @@ model.load_state_dict(torch.load('models/srftm_v4_best.pt', map_location='cpu'))
 model.eval()
 
 with open('models/srftm.pkl', 'wb') as f:
-    pickle.dump({'model': model, 'tokenizer': tokenizer}, f)
+    pickle.dump({
+        'model': model,
+        'tokenizer': tokenizer,
+        'build_template': build_template,
+    }, f, protocol=4)
 
-print("Saved models/srftm.pkl")
+print("Saved")
